@@ -6,7 +6,8 @@ import PageBanner from '../components/PageBanner';
 import ServiceDetails from '../components/ServiceDetails';
 import ServiceSidebar from '../components/ServiceSidebar';
 
-function ServicesDetails() {
+function ServicesDetails(type) {
+    console.log(type)
     return (
         <>
             <Header1 />

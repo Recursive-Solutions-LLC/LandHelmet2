@@ -43,8 +43,17 @@ function App() {
                     <Route exact path="/services">
                         <Services />
                     </Route>
-                    <Route exact path="/services-details">
-                        <ServicesDetails />
+                    <Route exact path="/services-details-quality">
+                        <ServicesDetails type={1} />
+                    </Route>
+                    <Route exact path="/services-details-rd">
+                        <ServicesDetails type={2} />
+                    </Route>
+                    <Route exact path="/services-details-distributor">
+                        <ServicesDetails type={3} />
+                    </Route>
+                    <Route exact path="/services-details-production">
+                        <ServicesDetails type={4} />
                     </Route>
                     <Route exact path="/project-details">
                         <ProjectDetails />

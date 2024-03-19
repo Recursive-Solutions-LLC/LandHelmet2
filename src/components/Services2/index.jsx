@@ -9,6 +9,7 @@ function Services2() {
                 <div className="row">
                     {servicesTwoData.map((data) => (
                         <ServicesTwoCard
+                            link={data.link}
                             key={data.id}
                             thumbnail={data.thumbnail}
                             icon={data.icon}

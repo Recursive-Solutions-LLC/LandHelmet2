@@ -2,7 +2,7 @@ import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-function SevicesTwoCard({ thumbnail, icon, heading, text }) {
+function SevicesTwoCard({link, thumbnail, icon, heading, text }) {
     return (
         <div className="col-md-4 col-xl-3 col-12">
             <div className="single-service-card">
@@ -14,13 +14,13 @@ function SevicesTwoCard({ thumbnail, icon, heading, text }) {
                 />
                 <div className="content">
                     <div className="case-cat">
-                        <Link to="/services-details">{icon}</Link>
+                        <Link to={ `/${link}`}>{icon}</Link>
                     </div>
                     <h3>
-                        <Link to="/services-details">{heading}</Link>
+                        <Link to={ `/${link}`}>{heading}</Link>
                     </h3>
                     <p>{text}</p>
-                    <Link to="/services-details" className="read-btn">
+                    <Link to={ `/${link}`} className="read-btn">
                         Read More <BsArrowRight />
                     </Link>
                 </div>
