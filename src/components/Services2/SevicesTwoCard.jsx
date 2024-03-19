@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function SevicesTwoCard({ thumbnail, icon, heading, text }) {
     return (
-        <div className="col-md-6 col-xl-4 col-12">
+        <div className="col-md-4 col-xl-3 col-12">
             <div className="single-service-card">
                 <div
                     className="card-thumb bg-cover"
