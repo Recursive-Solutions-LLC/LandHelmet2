@@ -13,12 +13,11 @@ function ServiceSidebar() {
                     <h3>Service Category</h3>
                 </div>
                 <ul>
-                    <ServiceCategory link="/service-details" category="General Contracting" />
-                    <ServiceCategory link="/service-details" category="Appartment Design" />
-                    <ServiceCategory link="/service-details" category="Building Construction " />
-                    <ServiceCategory link="/service-details" category="Building Renovation" />
-                    <ServiceCategory link="/service-details" category="Building Construction " />
-                    <ServiceCategory link="/service-details" category="Building Renovation" />
+                    <ServiceCategory link="/services-details-quality" category="Quality Control" />
+                    <ServiceCategory link="/services-details-rd" category="R&D" />
+                    <ServiceCategory link="/services-details-distributor" category="Global Distributor " />
+                    <ServiceCategory link="/services-details-production" category="House Production" />
+
                 </ul>
             </div>
             <div className="single-service-sidebar">
