@@ -9,7 +9,7 @@ import img3 from '../../assets/img/gallery/3.jpg';
 SwiperCore.use([Navigation]);
 SwiperCore.use([Pagination]);
 
-function DetailsCarousel() {
+function DetailsCarousel({type}) {
     return (
         <div>
             <Swiper navigation pagination className="service-gallery">

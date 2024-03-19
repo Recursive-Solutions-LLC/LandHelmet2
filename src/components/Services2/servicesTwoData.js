@@ -12,38 +12,40 @@ import thumb5 from "../../assets/img/service5.jpg";
 import thumb6 from "../../assets/img/service6.jpg";
 
 const servicesTwoData = [
-  
   {
     link:"services-details-quality",
     id: uuidv4(),
     thumbnail: thumb1,
     icon: <FaDraftingCompass />,
     heading: "Quality Control",
-    text: "At Land Helmets, our commitment to quality is at the forefront of everything we do...",
-  },
+    text: "At Land Helmets, our commitment to quality is at the forefront of everything...",
+  }
+  ,
   {
     link:"services-details-rd",
     id: uuidv4(),
     thumbnail: thumb6,
     icon: <FaHardHat />,
-    heading: "Architecture & Building",
-    text: "Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.",
-  },
-  {link:"services-details-distributor",
+    heading: "R&D",
+    text: "At Land Helmets, our Research and Development (R&D) process is ....",
+  }
+  ,
+  {
+    link:"services-details-distributor",
     id: uuidv4(),
     thumbnail: thumb5,
     icon: <FaCity />,
-    heading: "Apartment Design",
-    text: "Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.",
-  },
-
+    heading: "Global Distributor",
+    text: "At Land Helmets, our global reach is specifically designed to support...",
+  }
+  ,
   {
     link:"services-details-production",
     id: uuidv4(),
     thumbnail: thumb4,
     icon: <FaRegBuilding />,
-    heading: "Construction Management",
-    text: "Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod.",
+    heading: "House Production",
+    text: "At Land Helmets, our state-of-the-art in-house production facility...",
   }
 ];
 
