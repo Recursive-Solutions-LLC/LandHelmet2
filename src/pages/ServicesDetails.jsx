@@ -13,7 +13,7 @@ function ServicesDetails({ type }) {
             <Header1 />
             <PageBanner
                 bannerBg={bannerBg}
-                heading={text[type].title}
+                heading={text[type-1].title}
                 currentPage="Service Details"
             />
             <section className="service-details-wrapper section-padding">
