@@ -35,7 +35,10 @@ function MainMenu3() {
                                             <Link to="/faq">faq</Link>
                                         </li>
                                         <li>
-                                            <Link to="/products-details">projects</Link>
+                                            <Link to="/product-details-1">product 1</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/product-details-2">product 2</Link>
                                         </li>
                                     </ul>
                                 </li>
