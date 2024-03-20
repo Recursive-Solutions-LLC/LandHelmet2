@@ -16,7 +16,7 @@ function ServiceSidebar() {
                     <ServiceCategory link="/services-details-quality" category="Quality Control" />
                     <ServiceCategory link="/services-details-rd" category="R&D" />
                     <ServiceCategory link="/services-details-distributor" category="Global Distributor " />
-                    <ServiceCategory link="/services-details-production" category="House Production" />
+                    <ServiceCategory link="/services-details-production" category="In House Production" />
 
                 </ul>
             </div>
