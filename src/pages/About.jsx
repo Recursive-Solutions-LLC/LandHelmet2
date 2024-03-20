@@ -1,25 +1,28 @@
 import React from 'react';
-import bannerBg from '../assets/img/page-banner.jpg';
-import AboutFeatured from '../components/AboutFeatured';
-import Approch from '../components/Approch';
-import Footer1 from '../components/Footer1';
-import Header1 from '../components/Header1';
-import PageBanner from '../components/PageBanner';
-import SkillSet from '../components/SkillSet';
-import Sponsors from '../components/Sponsors';
-import Timeline from '../components/Timeline';
+import Footer3 from '../components/Footer3';
+import Header3 from '../components/Header3';
+import About2 from '../components/About2';
+
+// import bannerBg from '../assets/img/page-banner.jpg';
+// import AboutFeatured from '../components/AboutFeatured';
+// import Approch from '../components/Approch';
+// import PageBanner from '../components/PageBanner';
+// import SkillSet from '../components/SkillSet';
+// import Sponsors from '../components/Sponsors';
+// import Timeline from '../components/Timeline';
 
 function About() {
     return (
         <>
-            <Header1 />
-            <PageBanner bannerBg={bannerBg} currentPage="About Us" heading="About Us" />
+            <Header3 />
+            <About2                                                                                                           />
+            {/* <PageBanner bannerBg={bannerBg} currentPage="About Us" heading="About Us" />
             <AboutFeatured />
             <Approch />
             <SkillSet />
             <Sponsors />
-            <Timeline />
-            <Footer1 />
+            <Timeline /> */}
+            <Footer3 />
         </>
     );
 }
