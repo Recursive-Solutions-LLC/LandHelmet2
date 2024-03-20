@@ -18,6 +18,7 @@ function Porfolio1() {
                                 <PortfolioOneSlide
                                     image={data.image}
                                     imgLink={data.imgLink}
+                                    link={data.link}
                                     category={data.category}
                                     client={data.client}
                                     title={data.heading}
