@@ -36,11 +36,11 @@ function Header1() {
                         <div className="col-12 d-none d-md-block col-lg-9">
                             <div className="header-contact-info text-lg-right">
                                 <div className="single-element">
-                                    <a href="/">(+1) 555 234-8765</a>
+                                    <a href="/">+1 (657) 319-5842</a>
                                     <span>Call Us Now</span>
                                 </div>
                                 <div className="single-element">
-                                    <a href="/">info@webexample.com</a>
+                                    <a href="/">info@landhelmets.com</a>
                                     <span>Mail Us Now</span>
                                 </div>
                                 <div className="header-btn d-inline">

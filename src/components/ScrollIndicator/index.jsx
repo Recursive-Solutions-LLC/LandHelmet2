@@ -14,7 +14,7 @@ const ScrollTopWrapper = styled.div`
         border: none;
         width: 40px;
         height: 40px;
-        background-color: #ffc54f;
+        background-color: #80BB2A;
         color: #fff;
         border-radius: 50%;
         transition: all 0.3s;

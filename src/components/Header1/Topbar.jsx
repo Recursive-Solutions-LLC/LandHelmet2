@@ -6,10 +6,10 @@ function Topbar() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-9 col-12">
-                        <a href="/" className="top-left">
-                            Working hours: <span>Mon - Sat 8.00 - 18.00</span>
+                        <a href='mailto:info@landhelmets.com' className="top-left">
+                            Working hours: <span>Mon - Fri 9 AM - 6 PM</span>
                         </a>
-                        <a href="/" className="top-left">
+                        <a  className="top-left">
                             Terms &#38; Conditions
                         </a>
                     </div>

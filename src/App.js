@@ -68,7 +68,7 @@ function App() {
                         <Contact />
                     </Route>
                     <Route exact path="/">
-                        <Home1 />
+                        <Home3 />
                     </Route>
                 </Switch>
             </Router>

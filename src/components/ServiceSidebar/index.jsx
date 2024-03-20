@@ -52,17 +52,17 @@ function ServiceSidebar() {
                 <div className="contact-us">
                     <ServiceContact
                         title="Phone Number"
-                        text="908 9098 987 98"
+                        text="+1 (657) 319-5842"
                         icon={<AiOutlinePhone />}
                     />
                     <ServiceContact
                         title="Email Address"
-                        text="info@supportexam.com"
+                        text="info@landhelmets.com"
                         icon={<AiOutlineMail />}
                     />
                     <ServiceContact
                         title="Office Address"
-                        text="14/A, Ping Tower, NYC"
+                        text="6101 Ball Rd #201, Cypress, CA 90630"
                         icon={<FaMapMarkerAlt />}
                     />
                     {/* <div className="single-contact-info">
@@ -71,7 +71,7 @@ function ServiceSidebar() {
                         </div>
                         <div className="contact-info">
                             <span>Phone Number</span>
-                            <p>908 9098 987 98</p>
+                            <p>+1 (657) 319-5842</p>
                         </div>
                     </div>
                     <div className="single-contact-info">
@@ -80,7 +80,7 @@ function ServiceSidebar() {
                         </div>
                         <div className="contact-info">
                             <span>Email Address</span>
-                            <p>info@supportexam.com</p>
+                            <p>info@landhelmets.com</p>
                         </div>
                     </div>
                     <div className="single-contact-info">
@@ -89,7 +89,7 @@ function ServiceSidebar() {
                         </div>
                         <div className="contact-info">
                             <span>Office Address</span>
-                            <p>14/A, Ping Tower, NYC</p>
+                            <p>6101 Ball Rd #201, Cypress, CA 90630</p>
                         </div>
                     </div> */}
                 </div>
