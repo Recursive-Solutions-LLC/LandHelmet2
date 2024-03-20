@@ -26,7 +26,7 @@ function MainMenu3() {
                                     <Link to="/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link to="//">Product</Link>
+                                    <Link to="/products">Product</Link>
                                     <ul className="sub-menu">
                                         <li>
                                             <Link to="/team">team</Link>
@@ -35,7 +35,7 @@ function MainMenu3() {
                                             <Link to="/faq">faq</Link>
                                         </li>
                                         <li>
-                                            <Link to="/projects">projects</Link>
+                                            <Link to="/products-details">projects</Link>
                                         </li>
                                     </ul>
                                 </li>

@@ -41,10 +41,13 @@ function App() {
                     <Route exact path="/products">
                         <Projects />
                     </Route>
-                    <Route exact path="/product-details">
-                        <ProjectDetails />
+                    <Route exact path="/product-details-1">
+                        <ProjectDetails type={1} />
                     </Route>
-                    {/* y este */}
+                    <Route exact path="/product-details-2">
+                        <ProjectDetails type={2} />
+                    </Route>
+                  
                     <Route exact path="/services">
                         <Services />
                     </Route>
