@@ -12,8 +12,8 @@ function Hero3() {
                         <div className="row align-items-center text-center text-xl-start">
                             <div className="col-12 col-lg-8 offset-lg-2 offset-xl-0 col-xl-7">
                                 <div className="hero-contents">
-                                    <p>Welcome To Our Industry Website</p>
-                                    <h1>We help make vision tangible.</h1>
+                                    <p>Create Your Own Brand of Advanced Safety Helmets</p>
+                                    <h1>Custom Safety Solutions</h1>
                                     <Link to="/services" className="theme-btn theme-3">
                                         Our Services <BsArrowRight />
                                     </Link>

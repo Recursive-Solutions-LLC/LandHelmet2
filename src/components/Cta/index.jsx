@@ -22,7 +22,7 @@ function Cta() {
                                     <AiOutlinePhone />
                                 </div>
                                 <div className="contact-number">
-                                    <a href="/">(+1) 555 234-8765</a>
+                                    <a href="/">+1 (657) 319-5842</a>
                                     <span>Call Us Now</span>
                                 </div>
                             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
-import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaFacebook, FaGoogle, FaInstagram, FaLinkedinIn, FaMap, FaMapMarkerAlt } from 'react-icons/fa';
 
 function Topbar3() {
     return (
@@ -19,7 +19,7 @@ function Topbar3() {
                                             marginRight: '5px',
                                         }}
                                     />{' '}
-                                    info@webexample.com
+                                    info@landhelmets.com
                                 </li>
                                 <li>
                                     <AiOutlinePhone
@@ -30,7 +30,7 @@ function Topbar3() {
                                             marginRight: '5px',
                                         }}
                                     />{' '}
-                                    987 878 787 87
+                                    +1 (657) 319-5842
                                 </li>
                                 <li>
                                     <FaMapMarkerAlt
@@ -41,22 +41,27 @@ function Topbar3() {
                                             marginRight: '5px',
                                         }}
                                     />{' '}
-                                    12/A, New Street, NYC
+                                    6101 Ball Rd #201, Cypress, CA 90630
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-4 d-none d-md-block">
-                        <div className="lan-select">
-                            <form>
-                                <select id="lan">
-                                    <option>English</option>
-                                    <option>France</option>
-                                    <option>Bangla</option>
-                                    <option>Hindi</option>
-                                </select>
-                            </form>
+                    <div className="col-lg-4 pl-lg-0 col-12 justify-content-between justify-content-lg-end d-flex align-items-center">
+                        <div className="social_link mr-20">
+                            <a href="https://maps.app.goo.gl/RP5YftAwkf4wGeNk6">
+                                <FaGoogle />
+                            </a>
+                            <a href="https://www.instagram.com/landhelmetsca/">
+                                <FaInstagram />
+                            </a>
+                            <a href="https://www.linkedin.com/company/landhelmets/">
+                                <FaLinkedinIn />
+                            </a>
+                         
+                       
                         </div>
+
+                    
                     </div>
                 </div>
             </div>

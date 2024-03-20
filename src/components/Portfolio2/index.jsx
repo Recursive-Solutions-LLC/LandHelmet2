@@ -32,8 +32,8 @@ function Portfolio2() {
                     },
                 }}
             >
-                {portfolioTwoData.map((data) => (
-                    <SwiperSlide>
+                {portfolioTwoData.map((data,index) => (
+                    <SwiperSlide key={index}>
                         <PortfolioTwoItem
                             key={data.id}
                             img={data.image}

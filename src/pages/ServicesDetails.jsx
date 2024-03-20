@@ -7,7 +7,7 @@ import ServiceDetails from '../components/ServiceDetails';
 import ServiceSidebar from '../components/ServiceSidebar';
 
 function ServicesDetails({ type }) {
-    const text =[{title: "Quality Control",},{title: "R&D",},{title: "Global Distributor",},{title: "In House production",},]
+    const text =[{title: "Quality Control"},{title: "R&D"},{title: "Global Distributor"},{title: "In House production"}]
     return (
         <>
             <Header1 />

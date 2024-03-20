@@ -20,7 +20,7 @@ function Cta3() {
                                     <AiOutlinePhone style={{ color: '#f86048' }} />
                                 </div>
                                 <div className="contact-number">
-                                    <a href="/home-2">(+1) 555 234-8765</a>
+                                    <a href="/home-2">+1 (657) 319-5842</a>
                                     <span>Call Us Now</span>
                                 </div>
                             </div>

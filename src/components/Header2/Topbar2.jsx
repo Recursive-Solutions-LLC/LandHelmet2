@@ -26,7 +26,7 @@ function Topbar2() {
                                             marginRight: '5px',
                                         }}
                                     />
-                                    info@webexample.com
+                                    info@landhelmets.com
                                 </li>
                                 <li>
                                     <AiOutlinePhone
@@ -37,7 +37,7 @@ function Topbar2() {
                                             marginRight: '5px',
                                         }}
                                     />{' '}
-                                    987 878 787 87
+                                    +1 (657) 319-5842
                                 </li>
                                 <li>
                                     <FaMapMarkerAlt
@@ -48,7 +48,7 @@ function Topbar2() {
                                             marginRight: '5px',
                                         }}
                                     />{' '}
-                                    12/A, New Street, NYC
+                                    6101 Ball Rd #201, Cypress, CA 90630
                                 </li>
                             </ul>
                         </div>

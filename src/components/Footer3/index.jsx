@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import iconCall from '../../assets/img/icon/call-icon.png';
 import iconMap from '../../assets/img/icon/map-icon.png';
-import logo from '../../assets/img/logo-3.png';
+import logo from '../../assets/img/logo2.svg';
 import WidExplore from './WidExplore';
 import WidNewsletter from './WidNewsletter';
 import WidQuestions from './WidQuestions';
@@ -30,17 +30,17 @@ function Footer3() {
                                     <WidQuestions
                                         icon={iconCall}
                                         title="Phone"
-                                        text="908 9098 987 98"
+                                        text="+1 (657) 319-5842"
                                     />
                                     <WidQuestions
                                         icon={iconMap}
                                         title="Address"
-                                        text="14/A, Ping Tower, NYC"
+                                        text="6101 Ball Rd #201, Cypress, CA 90630"
                                     />
                                     <WidQuestions
                                         icon={iconCall}
                                         title="Email"
-                                        text="info@supportexam.com"
+                                        text="info@landhelmets.com"
                                     />
                                 </div>
                             </div>
