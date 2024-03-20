@@ -11,6 +11,7 @@ import Services3 from '../components/Services3';
 import Services1 from '../components/Services1';
 import Sponsors2 from '../components/Sponsors2';
 import VideoFeatrued from '../components/VideoFeatured';
+import Cta from '../components/Cta3';
 
 function Home3() {
     return (
@@ -19,15 +20,16 @@ function Home3() {
             <Hero3 />
             <Process2 />
             <Portfolio2 />
+          
             <Services1 />
-            <VideoFeatrued />
-            <Services3 />
+            
+         
        
             <Faq2 />
             <Appointment />
           
             <Sponsors2 />
-            <Blog3 />
+      
             <Footer3 />
         </>
     );
