@@ -5,10 +5,16 @@ import img2 from '../../assets/img/gallery/6.jpg';
 import { FiCheck } from 'react-icons/fi';
 import ReactHtmlParser from 'react-html-parser'
 import PagesContent from './PagesContent';
+import SwiperCore, { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import PortfolioOneSlide from '../Portfolio1/PortfolioOneSlide';
+import 'swiper/swiper-bundle.min.css';
+
+SwiperCore.use([Navigation]);
 
 function DetailsContent({ type }) {
-    
-    const page = PagesContent[parseInt(type)-1]
+
+    const page = PagesContent[parseInt(type) - 1]
 
     return (
         <>
@@ -27,49 +33,69 @@ function DetailsContent({ type }) {
 
                     {element.type == 'title+text' && (
                         <>
-                            <h2>{ReactHtmlParser(element.elements.title)}</h2>
-                            <p>
-                                {ReactHtmlParser(element.elements.text)}
-                            </p>
+                            <section className="portfolio-section section-padding pt-0">
+                                <div className="container">
+                                    <div className="project-wrapper bg-gray-500 ">
+                                    <Swiper className="portfolio-carousel-active owl-carousel ">
+                                        <SwiperSlide>
+                                            <PortfolioOneSlide
+                                                image={element.elements.img}
+                                                imgLink={''}
+                                                link={'/contact'}
+                                                category={''}
+                                                client={''}
+                                                title={element.elements.title}
+                                                desc={element.elements.text}
+                                                btnText={'Contact'}
+                                                type={"service"}
+                                            />
+                                        </SwiperSlide>
+                                    </Swiper>
+                                    </div>
+                                </div>
+                            </section>
                         </>
-                    )}
+                    )
+                    }
 
-                    {element.type == 'title+text+list(textOrImg)' && (
-                        <>
-                            <h2>{ReactHtmlParser(element.elements.title)}</h2>
-                            <p>
-                                {ReactHtmlParser(element.elements.text)}
-                            </p>
-                            <ul className='mb-4'>
-                                {element.elements.list.map((listElement, listIndex) => (
-                                    <li key={listIndex} className='flex items-center my-2'>
-                                        {listElement.img && (
-                                            <>
-                                                <SRLWrapper>
-                                                    <div className="row">
-                                                        <div className="col-12">
-                                                            <img src={img1} alt="" />
+                    {
+                        element.type == 'title+text+list(textOrImg)' && (
+                            <>
+                                <h2>{ReactHtmlParser(element.elements.title)}</h2>
+                                <p>
+                                    {ReactHtmlParser(element.elements.text)}
+                                </p>
+                                <ul className='mb-4'>
+                                    {element.elements.list.map((listElement, listIndex) => (
+                                        <li key={listIndex} className='flex items-center my-2'>
+                                            {listElement.img && (
+                                                <>
+                                                    <SRLWrapper>
+                                                        <div className="row">
+                                                            <div className="col-12">
+                                                                <img src={img1} alt="" />
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </SRLWrapper>
-                                            </>
-                                        )}
-                                        {!listElement.img && (
-                                            <>
-                                                <h3>{listElement.title}</h3>  <p>{listElement.text}</p>
-                                            </>
-                                        )}
-                                    </li>
-                                ))}
-                            </ul>
-                        </>
-                    )}
-                </div>
+                                                    </SRLWrapper>
+                                                </>
+                                            )}
+                                            {!listElement.img && (
+                                                <>
+                                                    <h3>{listElement.title}</h3>  <p>{listElement.text}</p>
+                                                </>
+                                            )}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </>
+                        )
+                    }
+                </div >
             ))
 
             }
             <blockquote>
-            Safety, Fashion and comfort combined for your ultimate head protection.
+                Safety, Fashion and comfort combined for your ultimate head protection.
             </blockquote>
         </>
     );

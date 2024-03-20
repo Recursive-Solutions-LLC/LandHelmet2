@@ -1,3 +1,8 @@
+import thumb1 from "../../assets/img/gallery/r&d-01.jpg";
+import thumb4 from "../../assets/img/service4.jpg";
+import thumb5 from "../../assets/img/service5.jpg";
+import thumb6 from "../../assets/img/service6.jpg";
+
 const PagesContent = [
     //-------------------------------------Quality Control------------------------------------//
     [
@@ -6,6 +11,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Quality Control",
+                img:thumb1,
                 text: "At Land Helmets, our commitment to quality is at the forefront of everything we do. We understand that the safety and satisfaction of your workforce are paramount. That's why we've established a comprehensive quality control process that guarantees each helmet we produce meets the highest standards of safety, durability, and comfort.",
             }
         }
@@ -40,6 +46,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Continuous Improvement Through Innovation",
+                img:thumb1,
                 text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
             }
         }
@@ -70,6 +77,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Certified for Your Peace of Mind",
+                img:thumb1,
                 text: "Our manufacturing facilities are ISO certified, and our helmets are certified by recognized standards bodies, providing you with the assurance that our products are manufactured to the highest quality and safety standards.",
             }
         }
@@ -78,6 +86,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Partner with Us for Quality You Can Trust",
+                img:thumb1,
                 text: "Choosing Land Helmets means partnering with a company that places quality and safety above all. Our meticulous approach to quality control ensures that you can trust our helmets to protect your most valuable asset—your people.",
             }
         }
@@ -90,6 +99,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "R&D",
+                img:thumb1,
                 text: "At Land Helmets, our Research and Development (R&D) process is designed around collaboration, innovation, and efficiency. We involve you, our partner, at every stage of the process, ensuring that the final product not only meets but exceeds your expectations. Here's how our comprehensive R&D process works:",
             }
         }
@@ -169,6 +179,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Continuous Improvement Through Innovation",
+                img:thumb1,
                 text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
             }
         }
@@ -177,6 +188,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Your Participation: The Key to Success",
+                img:thumb1,
                 text: "Our R&D process is uniquely structured to involve you closely, ensuring that each development phase meets your specifications. This collaboration not only minimizes errors but also saves time and costs, making the development journey as efficient as possible.",
             }
         }
@@ -185,6 +197,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Let's Innovate Together",
+                img:thumb1,
                 text: "We believe in the power of partnership to create outstanding helmet solutions. By joining forces with Land Helmets, you're not just getting a supplier; you're gaining a dedicated R&D partner committed to bringing your vision to life.<br/><br/>We look forward to embarking on this innovative journey with you and developing products that set new standards in safety, design, and comfort.",
             }
         }
@@ -197,6 +210,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Global Distributor",
+                img:thumb1,
                 text: "At Land Helmets, our global reach is specifically designed to support our clients and partners in the US, Canada, Europe, and Latin America. Our tailored distribution services in these key regions ensure that our high-quality helmets are always within reach, providing safety and protection to workers across diverse industries.",
             }
         }
@@ -234,6 +248,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Seamless Logistics for Every Region",
+                img:thumb1,
                 text: "Our logistics team expertly manages the complexities of international shipping, customs clearance, and regional compliance, ensuring your orders are delivered on time and in perfect condition. We leverage advanced technology and local expertise to optimize shipping routes, reduce delivery times, and minimize costs.",
             }
         }
@@ -242,6 +257,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Tailored Services for Diverse Needs",
+                img:thumb1,
                 text: "Understanding the specific needs of each region enables us to offer tailored services, including bulk orders, expedited shipping, and specialized packaging, ensuring our helmets meet the local and industry-specific requirements of our clients.",
             }
         }
@@ -250,6 +266,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Partner with Confidence",
+                img:thumb1,
                 text: "Our commitment to quality and customer satisfaction drives our global distribution strategy. By partnering with Land Helmets, you gain more than a supplier; you gain a partner dedicated to your success, offering unparalleled support, from product selection to after-sales service.",
             }
         }
@@ -258,6 +275,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Join Our Global Network",
+                img:thumb1,
                 text: "Land Helmets is actively expanding our presence in the US, Canada, Europe, and Latin America. We welcome new partners who share our commitment to providing high-quality, reliable safety equipment. Contact us to explore how we can work together to protect workers and grow your business in these strategic markets.",
             }
         }
@@ -269,6 +287,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Tailored Solutions from Concept to Completion",
+                img:thumb1,
                 text: "At Land Helmets, our state-of-the-art in-house production facility is the backbone of our operations, enabling us to deliver high-quality, customized helmet solutions. By managing the entire production process under one roof, we ensure that every helmet we produce meets our stringent standards for safety, quality, and performance.",
             }
         }
@@ -299,6 +318,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Quality at the Forefront",
+                img:thumb1,
                 text: "Our in-house production not only facilitates flexibility and customization but also allows us to maintain rigorous quality control at every stage of the manufacturing process. Each helmet is carefully inspected to ensure it meets our high-quality standards and your specific requirements.",
             }
         }
@@ -307,6 +327,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Efficient and Scalable Solutions",
+                img:thumb1,
                 text: "With our entire production process located in one facility, we can offer shorter lead times and more flexible production schedules. This efficiency ensures that we can scale our operations up or down to meet your demands, providing reliable delivery times regardless of order size.",
             }
         }
@@ -337,6 +358,7 @@ const PagesContent = [
             type: "title+text",
             elements: {
                 title: "Partner with Us",
+                img:thumb1,
                 text: "At Land Helmets, we're more than just a supplier; we're a partner in your success. Contact us today to learn how our in-house production services can provide customized, high-quality helmet solutions for your business.",
             }
         }
