@@ -8,7 +8,7 @@ import PortfolioDetailsCard from './PortfolioDetailsCard';
 import PortfolioGallery from './PortfolioGallery';
 
 function PortfolioDetails(data) {
-    console.log(data)
+
     return (
         <section className="project-details-wrapper section-padding">
             <div className="container">

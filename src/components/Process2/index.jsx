@@ -16,18 +16,15 @@ function Process2() {
                     <div className="col-xl-7 col-12 mt-5 mt-xl-0">
                         <div className="block-contents ml-xl-5 ml-50">
                             <div className="section-title-3">
-                                <p className="pl-50 pr-50">Company Insights</p>
-                                <h1>Our Company Work Process.</h1>
+                                <p className="pl-50 pr-50">Bespoke R&D</p>
+                                <h1>From Concept to Your Branded Product</h1>
                             </div>
                             <ProcessContent
-                                heading=" Capitalise on low hanging fruit to identify a ballpark value added
-                                activity to beta test."
-                                text=" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris"
+                                heading=" Empowering brands, our R&D tailors helmets with unique designs and safety at the forefront."
+                                text="Our methodology allows us to beta test concepts in real-world scenarios, ensuring each helmet not only meets stringent safety standards but also adds significant value to our clients. Through this process, we offer the chance to create a helmet line distinctively aligned with the client’s brand, incorporating custom features, designs, and packaging."
                             />
-                            <a href="contact.html" className="theme-btn theme-3">
-                                Learn More
+                            <a href="/services-details-rd" className="theme-btn theme-3">
+                            Discover Custom R&D Services
                             </a>
                         </div>
                     </div>
