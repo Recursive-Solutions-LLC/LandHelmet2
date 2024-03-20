@@ -69,8 +69,7 @@ function DetailsContent({ type }) {
 
             }
             <blockquote>
-                Viral dreamcatcher keytar typewriter, aest hetic offal umami. Aesthetic polaroid pug
-                pitchfork post-ironic.
+            Safety, Fashion and comfort combined for your ultimate head protection.
             </blockquote>
         </>
     );
