@@ -14,7 +14,7 @@ const PagesContent = [
             type: "title+text+list",
             elements: {
                 title: "Rigorous Testing for Uncompromised Safety",
-                text: "Our helmets undergo stringent testing to ensure they meet and exceed industry standards, including ANSI Z89.1&#8226;2014(R2019) for Type 1 and Type 2 helmets. Our testing protocols include:",
+                text: "Our helmets undergo stringent testing to ensure they meet and exceed industry standards, including ANSI Z89.1-2014(R2019) for Type 1 and Type 2 helmets. Our testing protocols include:",
                 list: [
                     {
                         title: "Impact Absorption:",
