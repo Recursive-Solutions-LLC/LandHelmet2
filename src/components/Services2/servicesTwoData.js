@@ -44,7 +44,7 @@ const servicesTwoData = [
     id: uuidv4(),
     thumbnail: thumb4,
     icon: <FaRegBuilding />,
-    heading: "House Production",
+    heading: "In House Production",
     text: "At Land Helmets, our state-of-the-art in-house production facility...",
   }
 ];
