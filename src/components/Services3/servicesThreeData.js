@@ -34,6 +34,13 @@ const servicesThreeData = [
         heading: 'Our History',
         text: 'Enim ut tellus elementum sagittis vitae et leo id uisu ut. Amet dictum sit amet justo donec eni um diames vulputate. Arcu felis bibendum',
     },
+    {
+        id: uuidv4(),
+        thumbnail: thumb3,
+        index: '05',
+        heading: 'Our History',
+        text: 'Enim ut tellus elementum sagittis vitae et leo id uisu ut. Amet dictum sit amet justo donec eni um diames vulputate. Arcu felis bibendum',
+    },
 ];
 
 export default servicesThreeData;

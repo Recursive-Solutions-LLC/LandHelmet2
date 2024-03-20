@@ -7,8 +7,8 @@ import Header3 from '../components/Header3';
 import Hero3 from '../components/Hero3';
 import Portfolio2 from '../components/Portfolio2';
 import Process2 from '../components/Process2';
-import Process from '../components/Process';
 import Services3 from '../components/Services3';
+import Services1 from '../components/Services1';
 import Sponsors2 from '../components/Sponsors2';
 import VideoFeatrued from '../components/VideoFeatured';
 
@@ -17,13 +17,15 @@ function Home3() {
         <>
             <Header3 />
             <Hero3 />
-            <Process />
             <Process2 />
-            <Services3 />
+            <Portfolio2 />
+            <Services1 />
             <VideoFeatrued />
+            <Services3 />
+       
             <Faq2 />
             <Appointment />
-            <Portfolio2 />
+          
             <Sponsors2 />
             <Blog3 />
             <Footer3 />

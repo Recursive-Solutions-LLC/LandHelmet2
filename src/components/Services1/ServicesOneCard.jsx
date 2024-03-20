@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function ServicesOneCard({ bgImg, icon, heading, btnText }) {
     return (
-        <div className="col-md-6 col-xl-3 col-12">
+        <div className="col-md-6 col-xl-4 col-12">
             <div className="single-service-item service-1">
                 <div
                     className="service-bg bg-cover"
