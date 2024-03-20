@@ -9,22 +9,16 @@ function WidServices() {
             </div>
             <ul>
                 <li>
-                    <Link to="/services">Energy and Utilities</Link>
+                    <Link to="/services">Quality Control</Link>
                 </li>
                 <li>
-                    <Link to="/services">Communication Services</Link>
+                    <Link to="/services">R&D</Link>
                 </li>
                 <li>
-                    <Link to="/services">Internet of Things</Link>
+                    <Link to="/services">Global Distributor</Link>
                 </li>
                 <li>
-                    <Link to="/services">Product Development</Link>
-                </li>
-                <li>
-                    <Link to="/services">Industrial Automation</Link>
-                </li>
-                <li>
-                    <Link to="/services">Artificial Intelligence</Link>
+                    <Link to="/services">In House Production</Link>
                 </li>
             </ul>
         </div>
