@@ -27,9 +27,9 @@ function App() {
                     </Route>
 
                     {/* Between this */}
-                    <Route exact path="/products">
+                    {/* <Route exact path="/products">
                         <Projects />
-                    </Route>
+                    </Route> */}
                     <Route exact path="/product-details-1">
                         <ProjectDetails type={1} />
                     </Route>
