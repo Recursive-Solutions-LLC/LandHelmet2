@@ -2,11 +2,11 @@ import img1 from '../../assets/img/kappa.jpg';
 
 const aboutTwoData = {
     img: img1,
-    heading: 'Dustrix is always interested for doing awesome work.',
-    quote: 'Capitalise on low hanging fruit to identify a ballpark value added activity to beta test with a new way in new situation.',
-    author: 'Miranda H.',
+    heading: 'Land Helmets: Where Quality Leads the Way',
+    quote: ' Our commitment to quality and innovation is unparalleled, ensuring that each helmet meets rigorous safety standards and exceeds customer expectations.',
+    author: 'Lisa C.',
     position: '- Founder',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. fruit to identify a ballpark value added',
+    text: 'With over 25 years of experience, we have established ourselves as a prominent producer of helmets, catering to wholesalers, branded helmet companies, and manufacturers worldwide.',
 };
 
 export default aboutTwoData;
