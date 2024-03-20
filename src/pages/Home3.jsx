@@ -26,9 +26,10 @@ function Home3() {
          
        
             <Faq2 />
+            <Sponsors2 />
             <Appointment />
           
-            <Sponsors2 />
+           
       
             <Footer3 />
         </>
