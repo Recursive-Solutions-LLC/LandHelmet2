@@ -10,11 +10,13 @@ import ProductAccesoriesCard from './ProductAccesoriesCard';
 import galleryImg1 from '../../assets/img/lh-01/image6.jpeg';
 import galleryImg2 from '../../assets/img/lh-01/image7.jpeg';
 import galleryImg3 from '../../assets/img/lh-01/image17.jpeg';
-import thumb from '../../assets/img/lh-01/image34.jpeg';
-import mainFeatureImg1 from '../../assets/img/lh-01/image9.png';
+import thumb from '../../assets/img/LHD-1/2.png';
+// import mainFeatureImg1 from '../../assets/img/lh-01/image9.png';
+import mainFeatureImg1 from '../../assets/img/LHD-1/3.png';
 import detachablePatentImg from '../../assets/img/lh-01/image19.png';
 import detachabeAdjustmentImg from '../../assets/img/lh-01/image18.png';
 import plasticInjectionMoldingImg from '../../assets/img/lh-01/image20.png';
+import accesoriesImg01 from '../../assets/img/LHD-1/4.png';
 import eppsInMoldImg1 from '../../assets/img/lh-01/image21.jpeg';
 import eppsInMoldImg2 from '../../assets/img/lh-01/image22.png';
 import solProviderStep1Img from '../../assets/img/lh-01/image23.png';
@@ -98,7 +100,7 @@ function PortfolioDetails() {
                             <h3 className='text-center'>Main Features</h3>
                             <div className="row">
                                 <div className="col">
-                                    <img src={mainFeatureImg1} className='' />
+                                    <img src={mainFeatureImg1} className='mx-auto d-block' />
                                 </div>
                             </div>
                             <p>
@@ -111,13 +113,14 @@ function PortfolioDetails() {
                                 Due to its unique double-pivot design, the up-n-down adjustment system gives any helmet the most precise and comfortable fitting.
                             </p>
 
-                            <h3 className='text-center'>Accessories</h3>
+                            {/* <h3 className='text-center'>Accessories</h3> */}
                             <div className="row">
-                                {productAccesoriesCardData.map(data => (
+                                {/* {productAccesoriesCardData.map(data => (
                                     <ProductAccesoriesCard image={data.image}
                                         key={data.id}
                                         title={data.title} />
-                                ))}
+                                ))} */}
+                                <img src={accesoriesImg01} className='' />
                             </div>
                             <div className="row">
                                 <div className="col">
