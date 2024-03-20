@@ -2448,7 +2448,7 @@ a img.aligncenter {
   clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
   border-radius: 0px;
   padding: 22px 50px;
-  color: #fff
+  color: #fff !important;
 }
 
 @media (max-width: 580px) {
@@ -4322,7 +4322,7 @@ header.header-3 .mobile-menu-bar {
 }
 
 .section-padding {
-  padding: 120px 0px;
+  padding: 90px 0px;
 }
 
 @media (max-width: 991px) {
@@ -7396,7 +7396,7 @@ header.header-3 .mobile-menu-bar {
   font-weight: 600;
   padding: 5px 28px;
   margin-bottom: 30px;
-  border-left: 4px solid #ffc54f;
+  border-left: 4px solid #80BB2A;
 }
 
 @media (max-width: 767px) {

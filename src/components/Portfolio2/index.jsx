@@ -6,13 +6,13 @@ import PortfolioTwoItem from './PortfolioTwoItem';
 
 function Portfolio2() {
     return (
-        <section className="portfolio-wrapper cases-carousel-wrapper section-padding section-bg mbm-30">
+        <section className="portfolio-wrapper cases-carousel-wrapper section-padding section-bg ">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-12 col-12 text-center mb-30">
+                    <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-3">
-                            <p>Portfolio</p>
-                            <h1>Some Case Study</h1>
+                            <p>Helmet Offerings</p>
+                            <h1>Advanced Helmet Solutions</h1>
                         </div>
                     </div>
                 </div>
@@ -21,14 +21,14 @@ function Portfolio2() {
             <Swiper
                 spaceBetween={40}
                 autoplay
-                className="portfolio-carousel-wrapper owl-carousel"
+                className="portfolio-carousel-wrapper owl-carousel mx-20"
                 breakpoints={{
                     0: {
                         slidesPerView: 1,
                     },
 
                     992: {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                     },
                 }}
             >

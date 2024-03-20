@@ -317,6 +317,8 @@
 .portfolio-carousel-wrapper {
     &.owl-carousel {
         z-index: 0;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .center {
@@ -332,7 +334,7 @@
     .single-project-item {
         padding-bottom: 30px;
         margin-top: 30px;
-
+      
         &:hover {
             .project-details {
                 transform: translateY(0);
