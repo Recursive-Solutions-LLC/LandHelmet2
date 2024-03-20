@@ -6,40 +6,35 @@ import Bg2 from '../../assets/img/home1/power.jpg';
 import Icon1 from '../../assets/img/icon/s1.png';
 import Icon2 from '../../assets/img/icon/s2.png';
 import Icon3 from '../../assets/img/icon/s3.png';
-import Icon4 from '../../assets/img/icon/s4.png';
+
 
 const servicesOneData = [
     {
         id: uuidv4(),
-        bgImg: Bg1,
-        icon: Icon1,
-        heading: 'Quick Coordinate E-business',
-        btnText: 'Learn More',
-    },
-
-    {
-        id: uuidv4(),
         bgImg: Bg2,
+        icon: Icon1,
+        heading: 'Specific Environments',
+        btnText: 'Learn More',
+    },
+    {
+        id: uuidv4(),
+        bgImg: Bg1,
         icon: Icon2,
-        heading: 'Quick Coordinate E-business',
+        heading: 'High-Voltage Protection',
         btnText: 'Learn More',
     },
 
-    {
-        id: uuidv4(),
-        bgImg: Bg3,
-        icon: Icon3,
-        heading: 'Quick Coordinate E-business',
-        btnText: 'Learn More',
-    },
+
 
     {
         id: uuidv4(),
         bgImg: Bg4,
-        icon: Icon4,
-        heading: 'Quick Coordinate E-business',
+        icon: Icon3,
+        heading: ' Various Environments',
         btnText: 'Learn More',
     },
+
+
 ];
 
 export default servicesOneData;

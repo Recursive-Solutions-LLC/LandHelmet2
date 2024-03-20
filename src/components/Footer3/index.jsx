@@ -15,13 +15,13 @@ function Footer3() {
             <div className="footer-widgets">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-xl-3 col-12 pr-90">
+                        <div className="col-md-6 col-xl-4 col-12 pr-90">
                             <WidExplore />
                         </div>
-                        <div className="col-md-6 col-xl-2 col-12 pr-xl-0">
+                        <div className="col-md-6 col-xl-4 col-12 pr-xl-0">
                             <WidServices />
                         </div>
-                        <div className="col-md-6 col-xl-3 col-12 pl-xl-5">
+                        <div className="col-md-6 col-xl-4 col-12 pl-xl-5">
                             <div className="single-footer-wid ml-15 contact_widget_2">
                                 <div className="wid-title">
                                     <h4>Have any Question?</h4>
@@ -45,9 +45,9 @@ function Footer3() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-xl-4 col-12  pl-xl-5">
+                        {/* <div className="col-md-6 col-xl-4 col-12  pl-xl-5">
                             <WidNewsletter />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -58,8 +58,8 @@ function Footer3() {
                         <div className="col-md-4 col-12 order-2 order-md-1">
                             <div className="copyright-info mt-3 mt-md-0">
                                 <p>
-                                    &copy; Copyright and Design By <Link to="/">modina theme</Link>{' '}
-                                    - 2021
+                                    &copy; Copyright and Design By <Link to="https://recursivesolutions.net/">Recusrive Solutions LLC</Link>{' '}
+                                    - 2024
                                 </p>
                             </div>
                         </div>
@@ -72,16 +72,16 @@ function Footer3() {
                         </div>
                         <div className="col-md-4 col-12 text-md-end order-3 order-md-3">
                             <div className="social_link  mt-3 mt-md-0">
-                                <Link to="/home-3">
+                                <Link to="/">
                                     <FaFacebookF />
                                 </Link>
-                                <Link to="/home-3">
+                                <Link to="/">
                                     <FaTwitter />
                                 </Link>
-                                <Link to="/home-3">
+                                <Link to="/">
                                     <FaInstagram />
                                 </Link>
-                                <Link to="/home-3">
+                                <Link to="/">
                                     <FaYoutube />
                                 </Link>
                             </div>

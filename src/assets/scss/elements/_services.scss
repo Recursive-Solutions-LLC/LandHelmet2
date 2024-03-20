@@ -3,6 +3,7 @@
  ------------------------------------ */
 .services-1 {
     padding-bottom: 147px;
+  
 
     @media (max-width: 991px) {
         padding-bottom: 100px;
@@ -15,14 +16,17 @@
 
 .single-service-item {
     &.service-1 {
+        border-radius: 2%;
         margin-top: 60px;
         text-align: center;
         padding: 60px 35px;
-        border-radius: 10px;
         position: relative;
         z-index: 1;
-        background: #fff;
-
+        background: #005167;
+        h3 {
+            color: #fff;
+        }
+    
         &:hover,
         &.active {
             .service-bg {
@@ -32,7 +36,7 @@
 
             .icon {
                 color: $theme-color;
-                background-color: #fff;
+            
             }
 
             h3 {
@@ -41,7 +45,7 @@
 
             a {
                 background: $theme-color;
-                color: #000;
+                color: #001248;
                 width: 60%;
 
                 @media (max-width: 767px) {
@@ -89,7 +93,7 @@
             border-radius: 50%;
             color: #fff;
             font-size: 48px;
-            background-color: $theme-color;
+            background-color: transparent;
             line-height: 120px;
             transition: all 0.3s ease-in-out;
         }
@@ -107,7 +111,7 @@
         a {
             display: inline;
             border-radius: 10px;
-            background-color: #f6f6f6;
+            background-color: #80BB2A;
             padding: 19px 25px;
             line-height: 1;
             font-weight: 700;

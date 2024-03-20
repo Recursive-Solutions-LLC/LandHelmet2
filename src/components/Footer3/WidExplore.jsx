@@ -13,30 +13,13 @@ function WidExplore() {
                         <Link to="/services">Services</Link>
                     </li>
                     <li>
-                        <Link to="/about">Careers</Link>
+                        <Link to="/about">About us</Link>
                     </li>
                     <li>
-                        <Link to="/team">Our Team</Link>
+                        <Link to="/">R&D</Link>
                     </li>
                     <li>
-                        <Link to="/about">Approach</Link>
-                    </li>
-                    <li>
-                        <Link to="/projects">Case Studies</Link>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <Link to="/contact">Locations</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">Clients</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Help</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact">Contact us</Link>
                     </li>
                 </ul>
             </div>

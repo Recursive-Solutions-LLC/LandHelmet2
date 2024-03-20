@@ -5,7 +5,7 @@ import Header1 from '../components/Header1';
 import PageBanner from '../components/PageBanner';
 import PortfolioDetails from '../components/PortfolioDetails';
 
-function ProjectDetails() {
+function ProjectDetails(data) {
     return (
         <>
             <Header1 />
@@ -14,7 +14,7 @@ function ProjectDetails() {
                 heading="Product Details"
                 currentPage="Product Details"
             />
-            <PortfolioDetails />
+            <PortfolioDetails type={data} />
             <Footer1 />
         </>
     );
