@@ -37,9 +37,14 @@ function App() {
                     <Route exact path="/faq">
                         <Faq />
                     </Route>
-                    <Route exact path="/projects">
+                    {/* entre este */}
+                    <Route exact path="/products">
                         <Projects />
                     </Route>
+                    <Route exact path="/product-details">
+                        <ProjectDetails />
+                    </Route>
+                    {/* y este */}
                     <Route exact path="/services">
                         <Services />
                     </Route>
@@ -54,9 +59,6 @@ function App() {
                     </Route>
                     <Route exact path="/services-details-production">
                         <ServicesDetails type={4} />
-                    </Route>
-                    <Route exact path="/project-details">
-                        <ProjectDetails />
                     </Route>
                     <Route exact path="/news">
                         <News />

@@ -64,22 +64,6 @@ function DetailsContent({ type }) {
                             </ul>
                         </>
                     )}
-
-                    {element.type == 'title+text+list' && (
-                        <>
-                            <h2>{ReactHtmlParser(element.elements.title)}</h2>
-                            <p>
-                                {ReactHtmlParser(element.elements.text)}
-                            </p>
-                            <ul className='mb-4'>
-                                {element.elements.list.map((listElement, listIndex) => (
-                                    <li key={listIndex} className='flex items-center my-2'>
-                                        <FiCheck className="icon" /> <strong>{listElement.title}</strong>  {listElement.text}
-                                    </li>
-                                ))}
-                            </ul>
-                        </>
-                    )}
                 </div>
             ))
 

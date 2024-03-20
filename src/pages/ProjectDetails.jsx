@@ -11,8 +11,8 @@ function ProjectDetails() {
             <Header1 />
             <PageBanner
                 bannerBg={bannerBg}
-                heading="Portfolio Details"
-                currentPage="Portfolio Details"
+                heading="Product Details"
+                currentPage="Product Details"
             />
             <PortfolioDetails />
             <Footer1 />

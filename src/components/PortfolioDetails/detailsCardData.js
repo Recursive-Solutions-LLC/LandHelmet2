@@ -13,7 +13,7 @@ const detailsCardData = [
     {
         id: uuidv4(),
         icon: icon1,
-        num: '03',
+        num: '02',
         heading: 'Sketching',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp',
     },
