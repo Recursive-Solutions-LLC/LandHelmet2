@@ -4,24 +4,44 @@ import { Link } from 'react-router-dom';
 import iconCall from '../../assets/img/icon/call-icon.png';
 import iconMap from '../../assets/img/icon/map-icon.png';
 import logo from '../../assets/img/logo2.svg';
-import WidExplore from './WidExplore';
-import WidNewsletter from './WidNewsletter';
+import FooterWidget from './FooterWidget';
+// import WidNewsletter from './WidNewsletter';
 import WidQuestions from './WidQuestions';
-import WidServices from './WidServices';
 
 function Footer3() {
+
+
+
+    const exploreLinks = [
+        { path: "/services", label: "Services" },
+        { path: "/about", label: "About us" },
+        { path: "/", label: "R&D" },
+        { path: "/contact", label: "Contact us" },
+    ];
+    const serviceLinks = [
+        { path: "/services", label: "Quality Control" },
+        { path: "/services", label: "R&D" },
+        { path: "/services", label: "Global Distributor" },
+        { path: "/services", label: "In House Production" },
+    ];
+    const productsLinks = [
+        { path: "/", label: "Type I" },
+        { path: "/", label: "Type II" },
+        { path: "/", label: "R&D" },
+    ];
+
     return (
         <footer className="footer-3 footer-wrap">
             <div className="footer-widgets">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-xl-4 col-12 pr-90">
-                            <WidExplore />
+                        <div className="col-md-6 col-xl-3 col-12 pr-90">
+                           <FooterWidget title="Explore Other Pages" links={exploreLinks} />
                         </div>
-                        <div className="col-md-6 col-xl-4 col-12 pr-xl-0">
-                            <WidServices />
+                        <div className="col-md-6 col-xl-3 col-12 pr-xl-0">
+                          <FooterWidget title="Services" links={serviceLinks} />
                         </div>
-                        <div className="col-md-6 col-xl-4 col-12 pl-xl-5">
+                        <div className="col-md-6 col-xl-3 col-12 pl-xl-5">
                             <div className="single-footer-wid ml-15 contact_widget_2">
                                 <div className="wid-title">
                                     <h4>Have any Question?</h4>
@@ -45,9 +65,11 @@ function Footer3() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-md-6 col-xl-4 col-12  pl-xl-5">
-                            <WidNewsletter />
-                        </div> */}
+                        <div className="col-md-6 col-xl-3 col-12  pl-xl-5 pl-90">
+                        <FooterWidget title="Services" links={productsLinks} />
+
+                            {/* <WidNewsletter /> */}
+                        </div>
                     </div>
                 </div>
             </div>
