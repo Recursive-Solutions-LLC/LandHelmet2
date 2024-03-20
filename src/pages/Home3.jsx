@@ -22,15 +22,14 @@ function Home3() {
             <Portfolio2 />
           
             <Services1 />
-            <Cta/>
-            <VideoFeatrued />
-            <Services3 />
+            
+         
        
             <Faq2 />
             <Appointment />
           
             <Sponsors2 />
-            <Blog3 />
+      
             <Footer3 />
         </>
     );
