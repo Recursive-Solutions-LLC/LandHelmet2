@@ -10,7 +10,7 @@ function MainMenu3() {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-lg-2 col-5 col-md-4">
                         <div className="logo">
-                            <Link to="/home-3">
+                            <Link to="/">
                                 <img src={logo} alt="logo" />
                             </Link>
                         </div>
