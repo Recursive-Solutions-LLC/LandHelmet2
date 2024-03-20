@@ -27,23 +27,23 @@ function Faq2() {
 
                         <div className="faq-content">
                             <FaqAccordion
-                                question="How Do We Manage Quality Assurance?"
+                                question="Lorem ipsum dolor sit amet"
                                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
                             />
                             <FaqAccordion
-                                question="With Diverse Capabilities And Extensive Manufacturing?"
+                                question="Lorem ipsum dolor sit amet"
                                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
                             />
                             <FaqAccordion
-                                question="You Can Rely On Amwerk As A Critical Part?"
+                                question="Lorem ipsum dolor sit amet"
                                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
                             />
                             <FaqAccordion
-                                question="How Do We Manage Quality Assurance?"
+                                question="Lorem ipsum dolor sit amet"
                                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
                             />
                             <FaqAccordion
-                                question="Appropriately Communicate One-To-One Technology?"
+                                question="Lorem ipsum dolor sit amet"
                                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
                             />
                         </div>
