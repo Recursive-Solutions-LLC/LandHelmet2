@@ -14,14 +14,14 @@ const servicesOneData = [
         bgImg: Bg2,
         icon: Icon1,
         heading: 'Specific Environments',
-        btnText: 'Learn More',
+        btnText: 'Contact Us',
     },
     {
         id: uuidv4(),
         bgImg: Bg1,
         icon: Icon2,
         heading: 'High-Voltage Protection',
-        btnText: 'Learn More',
+        btnText: 'Contact Us',
     },
 
 
@@ -31,7 +31,7 @@ const servicesOneData = [
         bgImg: Bg4,
         icon: Icon3,
         heading: ' Various Environments',
-        btnText: 'Learn More',
+        btnText: 'Contact Us',
     },
 
 

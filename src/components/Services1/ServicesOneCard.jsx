@@ -16,7 +16,7 @@ function ServicesOneCard({ bgImg, icon, heading, btnText }) {
                     <img src={icon} alt="icon" />
                 </div>
                 <h3>{heading}</h3>
-                <Link to="/services-details">
+                <Link to="/contact">
                     <span>{btnText}</span>
                     <BsArrowRight style={{ fontSize: '18px' }} />
                 </Link>

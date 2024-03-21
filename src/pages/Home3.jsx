@@ -19,16 +19,12 @@ function Home3() {
             <Header3 />
             <Hero3 />
             <Process2 />
-            <Portfolio2 />
-          
-            <Services1 />
-            
-         
+            <Portfolio2 />          
+            <Services1 />          
        
             <Faq2 />
             <Sponsors2 />
-            <Appointment />
-          
+            <Appointment />       
            
       
             <Footer3 />
