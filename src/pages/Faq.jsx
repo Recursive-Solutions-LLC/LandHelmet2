@@ -2,8 +2,8 @@ import React from 'react';
 import bannerBg from '../assets/img/page-banner.jpg';
 import ContactForm from '../components/ContactForm';
 import FaqAccordion from '../components/FaqAccordion';
-import Footer1 from '../components/Footer1';
-import Header1 from '../components/Header1';
+import Footer1 from '../components/Footer3';
+import Header1 from '../components/Header3';
 import PageBanner from '../components/PageBanner';
 
 function Faq() {
