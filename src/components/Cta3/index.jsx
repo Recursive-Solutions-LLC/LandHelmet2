@@ -16,11 +16,11 @@ function Cta3() {
                         </div>
                         <div className="col-lg-4 pl-lg-0 mt-4 mt-lg-0">
                             <div className="contact-info">
-                                <div className="icon">
-                                    <AiOutlinePhone style={{ color: '#f86048' }} />
+                                <div  className="icon">
+                                    <AiOutlinePhone  style={{ color: '#80BB2A' }} />
                                 </div>
                                 <div className="contact-number">
-                                    <a href="/home-2">+1 (657) 319-5842</a>
+                                    <a href="tel:+1(657)319-5842">+1 (657) 319-5842</a>
                                     <span>Call Us Now</span>
                                 </div>
                             </div>

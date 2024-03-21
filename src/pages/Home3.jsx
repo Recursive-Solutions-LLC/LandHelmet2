@@ -20,13 +20,14 @@ function Home3() {
             <Header3 />
             <Hero3 />
             <Process2 />
-            <Portfolio2 />          
-            <Services1 />          
+            <Portfolio2 />
+            <Services1 />
+            <Cta/>
             <Faq />
-   
-            <Appointment />       
-           
-      
+          
+            <Appointment />
+
+  
             <Footer3 />
         </>
     );
