@@ -27,7 +27,7 @@ function Footer3() {
     const productsLinks = [
         { path: "/", label: "Type I" },
         { path: "/", label: "Type II" },
-        { path: "/", label: "R&D" },
+     
     ];
 
     return (
@@ -80,8 +80,7 @@ function Footer3() {
                         <div className="col-md-4 col-12 order-2 order-md-1">
                             <div className="copyright-info mt-3 mt-md-0">
                                 <p>
-                                    &copy; Copyright and Design By <Link to="https://recursivesolutions.net/">Recusrive Solutions LLC</Link>{' '}
-                                    - 2024
+                                    &copy; Design By <Link to="https://recursivesolutions.net/">Recusrive Solutions</Link>{' '} - 2024
                                 </p>
                             </div>
                         </div>
