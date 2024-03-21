@@ -366,4 +366,3 @@ const PagesContent = [
 ];
 
 export default PagesContent;
-
