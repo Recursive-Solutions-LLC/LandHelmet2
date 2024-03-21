@@ -4,17 +4,14 @@ import ScrollIndicator from './components/ScrollIndicator';
 import ScrollToTopRoute from './components/ScrollTopRoute';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Faq from './pages/Faq';
-import Home1 from './pages/Home1';
-import Home2 from './pages/Home2';
 import Home3 from './pages/Home3';
-import News from './pages/News';
-import NewsDetails from './pages/NewsDetails';
 import ProjectDetails from './pages/ProjectDetails';
-import Projects from './pages/Projects';
 import Services from './pages/Services';
 import ServicesDetails from './pages/ServicesDetails';
-import Team from './pages/Team';
+import global from "./content/global"
+import inhouse from "./content/inhouse"
+import quality from "./content/quality"
+import rd from "./content/rd"
 
 function App() {
     return (
@@ -41,16 +38,16 @@ function App() {
                         <Services />
                     </Route>
                     <Route exact path="/services-details-quality">
-                        <ServicesDetails type={1} />
+                        <ServicesDetails  content={global} />
                     </Route>
                     <Route exact path="/services-details-rd">
-                        <ServicesDetails type={2} />
+                        <ServicesDetails  content={inhouse} />
                     </Route>
                     <Route exact path="/services-details-distributor">
-                        <ServicesDetails type={3} />
+                        <ServicesDetails  content={quality} />
                     </Route>
                     <Route exact path="/services-details-production">
-                        <ServicesDetails type={4} />
+                        <ServicesDetails  content={rd} />
                     </Route>
                     <Route exact path="/contact">
                         <Contact />

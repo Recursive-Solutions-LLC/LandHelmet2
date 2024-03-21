@@ -1,19 +1,36 @@
 // Import necessary images
-import thumb1 from "../../assets/img/gallery/r&d-01.jpg";
-import rAndDImg1 from "../../assets/img/gallery/5.jpg";
-import rAndDImg2 from "../../assets/img/gallery/r&d-01.jpg";
-import rAndDImg3 from "../../assets/img/gallery/r&d-08.jpg";
+import thumb1 from "../assets/img/gallery/r&d-01.jpg";
+import rAndDImg1 from "../assets/img/gallery/5.jpg";
+import rAndDImg2 from "../assets/img/gallery/r&d-01.jpg";
+import rAndDImg3 from "../assets/img/gallery/r&d-08.jpg";
 
 const rdContent = {
-    section1: {
+    title: "R&D",
+    sections: [{
         title: "R&D",
         img: thumb1,
         text: "At Land Helmets, our Research and Development (R&D) process is designed around collaboration, innovation, and efficiency. We involve you, our partner, at every stage of the process, ensuring that the final product not only meets but exceeds your expectations. Here's how our comprehensive R&D process works:",
     },
-    section2: {
+    {
         img: rAndDImg1,
     },
-    section3: {
+
+    {
+        title: "Continuous Improvement Through Innovation",
+        img: thumb1,
+        text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
+    },
+    {
+        title: "Your Participation: The Key to Success",
+        img: thumb1,
+        text: "Our R&D process is uniquely structured to involve you closely, ensuring that each development phase meets your specifications. This collaboration not only minimizes errors but also saves time and costs, making the development journey as efficient as possible.",
+    },
+    {
+        title: "Let's Innovate Together",
+        img: thumb1,
+        text: "We believe in the power of partnership to create outstanding helmet solutions. By joining forces with Land Helmets, you're not just getting a supplier; you're gaining a dedicated R&D partner committed to bringing your vision to life. We look forward to embarking on this innovative journey with you and developing products that set new standards in safety, design, and comfort.",
+    }],
+    faqs: [{
         title: "Rigorous Testing for Uncompromised Safety",
         text: "At Land Helmets, our Research and Development (R&D) process is designed around collaboration, innovation, and efficiency. We involve you, our partner, at every stage of the process, ensuring that the final product not only meets but exceeds your expectations. Here's how our comprehensive R&D process works:",
         list: [
@@ -72,22 +89,8 @@ const rdContent = {
                 text: "With your final confirmation, we proceed to mass production, translating our collaborative efforts into high-quality helmets ready for the market.",
             },
         ],
-    },
-    section4: {
-        title: "Continuous Improvement Through Innovation",
-        img: thumb1,
-        text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
-    },
-    section5: {
-        title: "Your Participation: The Key to Success",
-        img: thumb1,
-        text: "Our R&D process is uniquely structured to involve you closely, ensuring that each development phase meets your specifications. This collaboration not only minimizes errors but also saves time and costs, making the development journey as efficient as possible.",
-    },
-    section6: {
-        title: "Let's Innovate Together",
-        img: thumb1,
-        text: "We believe in the power of partnership to create outstanding helmet solutions. By joining forces with Land Helmets, you're not just getting a supplier; you're gaining a dedicated R&D partner committed to bringing your vision to life. We look forward to embarking on this innovative journey with you and developing products that set new standards in safety, design, and comfort.",
-    }
+    }]
+
 };
 
 export default rdContent;
