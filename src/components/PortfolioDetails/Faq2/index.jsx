@@ -6,11 +6,10 @@ import portfolioOneData from '../Portfolio1/porfolioOneData';
 
 function Faq2({ type }) {
     const { keyFeatures } = portfolioOneData.filter(element => element.productType === type)[0];
-    console.log(keyFeatures);
 
     return (
         <section
-            className="faq-section faq-2 section-padding bg-contain"
+            className="faq-section faq-2 section-padding bg-contain overflow-hidden"
             style={{ backgroundImage: `url(${faqBg})` }}
         >
             <div className="container">
@@ -29,8 +28,8 @@ function Faq2({ type }) {
                         </div>
 
                         <div className="faq-content">
-                            {keyFeatures.map(feature => (
-                                <FaqAccordion question={feature.title} answer={feature.description} />
+                            {keyFeatures.map((feature, index) => (
+                                <FaqAccordion question={feature.title} answer={feature.description} key={index} />
                             ))}
                         </div>
                     </div>
