@@ -35,7 +35,7 @@ function Faq() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-12 mt-4 mt-xl-0">
+                    <div className="col-xl-6 col-12 mt-6 mt-xl-0">
                         <div className="faq-content">
                             <FaqAccordion
                                 question="How Do We Manage Quality Assurance?"
@@ -49,14 +49,7 @@ function Faq() {
                                 question="You Can Rely On Amwerk As A Critical Part?"
                                 answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
                             />
-                            <FaqAccordion
-                                question="How Do We Manage Quality Assurance?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
-                            />
-                            <FaqAccordion
-                                question="Appropriately Communicate One-To-One Technology?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
-                            />
+                          
                         </div>
                     </div>
                 </div>
