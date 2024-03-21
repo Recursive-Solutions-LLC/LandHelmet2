@@ -7,14 +7,19 @@ const menuItems = [
     { to: '/home-3', label: 'Home' },
     { to: '/about', label: 'About' },
     {
-        to: '/products', label: 'Product', subMenu: [
-            { to: '/team', label: 'team' },
-            { to: '/faq', label: 'faq' },
-            { to: '/product-details-1', label: 'product type 1' },
-            { to: '/product-details-2', label: 'product type 2' },
+        to: '', label: 'Product', subMenu: [
+    
+            { to: '/product-details-1', label: 'product Type 1' },
+            { to: '/product-details-2', label: 'Product Type 2' },
         ]
     },
-    { to: '/services', label: 'Services' },
+    { to: '/services', label: 'Services' , subMenu: [
+    
+        { to: '/services-details-quality', label: 'Quality Control' },
+        { to: '/services-details-rd', label: 'R&D' },
+        { to: '/services-details-distributor', label: 'Global Distributor' },
+        { to: '/services-details-production', label: 'In House Production' },
+    ]},
     { to: '/contact', label: 'Contact' },
 ];
 
