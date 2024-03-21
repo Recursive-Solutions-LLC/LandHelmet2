@@ -13,6 +13,8 @@ import Services1 from '../components/Services1';
 import Sponsors2 from '../components/Sponsors2';
 import VideoFeatrued from '../components/VideoFeatured';
 import Cta from '../components/Cta3';
+import Subscribe from '../components/Subscribe';
+ import Timeline from '../components/Timeline';
 
 function Home3() {
     return (
@@ -24,10 +26,10 @@ function Home3() {
             <Services1 />
             <Cta/>
             <Faq />
-          
+            <Timeline/>
             <Appointment />
 
-  
+    
             <Footer3 />
         </>
     );

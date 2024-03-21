@@ -4,12 +4,12 @@ import servicesOneData from './servicesOneData';
 
 function Services1() {
     return (
-        <section className="services-wrapper services-1 section-bg ">
+        <section className="services-wrapper services-1 section-bg">
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-12">
-                        <div className="section-title text-center">
-                            <span>Design</span>
+                        <div className="section-title-3 text-center">
+                            <p>Design</p>
                          
                             <h1>LandHelmets</h1>
                         </div>

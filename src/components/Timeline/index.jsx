@@ -12,10 +12,10 @@ export default function App() {
             <div className="container">
                 <div className="row mb-30">
                     <div className="col-12 col-lg-12">
-                        <div className="section-title text-center">
-                            <span>Roadmap</span>
-                            <p>goal</p>
-                            <h1>Company Roadmap</h1>
+                        <div className="section-title-3 text-center">
+                       
+                            <p>R&D Process</p>
+                            <h1>From Concept to Market</h1>
                         </div>
                     </div>
                 </div>
