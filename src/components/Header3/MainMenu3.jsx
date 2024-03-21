@@ -10,7 +10,8 @@ const menuItems = [
         to: '/products', label: 'Product', subMenu: [
             { to: '/team', label: 'team' },
             { to: '/faq', label: 'faq' },
-            { to: '/products-details', label: 'projects' },
+            { to: '/product-details-1', label: 'product type 1' },
+            { to: '/product-details-2', label: 'product type 2' },
         ]
     },
     { to: '/services', label: 'Services' },
