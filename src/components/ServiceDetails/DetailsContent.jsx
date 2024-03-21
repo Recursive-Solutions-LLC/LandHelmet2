@@ -31,33 +31,6 @@ function DetailsContent({ type }) {
                         </SRLWrapper>
                     )}
 
-                    {element.type == 'title+text' && (
-                        <>
-                            <section className="portfolio-section section-padding pt-0">
-                                <div className="container">
-                                    <div className="project-wrapper bg-gray-500 ">
-                                    <Swiper className="portfolio-carousel-active owl-carousel ">
-                                        <SwiperSlide>
-                                            <PortfolioOneSlide
-                                                image={element.elements.img}
-                                                imgLink={''}
-                                                link={'/contact'}
-                                                category={''}
-                                                client={''}
-                                                title={element.elements.title}
-                                                desc={element.elements.text}
-                                                btnText={'Contact'}
-                                                type={"service"}
-                                            />
-                                        </SwiperSlide>
-                                    </Swiper>
-                                    </div>
-                                </div>
-                            </section>
-                        </>
-                    )
-                    }
-
                     {
                         element.type == 'title+text+list(textOrImg)' && (
                             <>
@@ -91,9 +64,37 @@ function DetailsContent({ type }) {
                         )
                     }
                 </div >
-            ))
+            ))}
 
-            }
+            < section className="portfolio-section section-padding pt-0">
+                <div className="container">
+                    <div className="project-wrapper">
+                        <Swiper navigation className="portfolio-carousel-active owl-carousel">
+                            {page.map((element, index) => (
+                                <div key={index}>
+                                    {element.type == 'title+text' && (
+                                        <SwiperSlide >
+                                            <PortfolioOneSlide
+                                                style={{heigth:"100%"}}
+                                                 image={element.elements.img}
+                                                 imgLink={''}
+                                                 link={'/contact'}
+                                                 category={''}
+                                                 client={''}
+                                                 title={element.elements.title}
+                                                 desc={element.elements.text}
+                                                 btnText={'Contact'}
+                                            />
+                                        </SwiperSlide>
+                                    )
+                                    }
+                                </div>
+                            ))}
+                        </Swiper>
+                    </div>
+                </div>
+            </section >
+
             <blockquote>
                 Safety, Fashion and comfort combined for your ultimate head protection.
             </blockquote>

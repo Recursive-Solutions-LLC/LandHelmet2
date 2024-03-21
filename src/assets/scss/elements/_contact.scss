@@ -25,6 +25,7 @@
             font-size: 13px;
         }
     }
+
     textarea {
         height: 220px;
 
@@ -32,6 +33,7 @@
             height: 160px;
         }
     }
+
     label {
         color: #202426;
         font-weight: 700;
@@ -71,28 +73,30 @@
 }
 
 .single-contact-card {
-    background-color: $primary-1;
+
+    background-color: #202426;
     padding: 30px;
     margin-bottom: 30px;
     transition: all 0.3s ease-in-out;
     color: $secondary-1;
 
     @media (max-width: 585px) {
-        padding: 30px;
+        padding: 20px;
     }
 
     &:hover {
-        background-color: #202426;
+        background-color: $primary-1;
 
-        .icon {
-            color: #fff !important;
-            background-color: $theme-color !important;
+        .top-part {
+            .icon {
+                background-color: #202426 !important;
+            }
         }
 
         .bottom-part {
             .icon {
                 color: #fff !important;
-                background-color: $theme-color !important;
+                background-color: #202426 !important;
             }
         }
 
@@ -100,6 +104,7 @@
         span {
             color: #c5c7c8;
         }
+
         h4 {
             color: #fff;
         }
@@ -107,45 +112,63 @@
 
     .top-part {
         overflow: hidden;
+
+        p,
+        span,
+        h4 {
+            color: $primary-2;
+        }
+
         .icon {
             width: 70px;
             height: 70px;
             font-size: 20px;
             line-height: 70px;
             border-radius: 50%;
-            background-color: #fff;
             text-align: center;
             float: left;
-            color: $theme-color;
             overflow: hidden;
             margin-right: 20px;
+            color: #fff !important;
+            background-color: $theme-color !important;
         }
+
         .title {
             overflow: hidden;
         }
     }
+
     .bottom-part {
         margin-top: 25px;
         overflow: hidden;
         align-items: center;
+
+        p,
+        span,
+        h4 {
+            color: $primary-2;
+        }
+
         .icon {
             width: 50px;
             height: 50px;
             font-size: 14px;
             line-height: 50px;
             border-radius: 50%;
-            background-color: #fff;
             text-align: center;
             float: right;
             overflow: hidden;
             margin-left: 20px;
-            color: $primary-1 !important;
+            color: #fff !important;
+            background-color: $theme-color !important;
         }
+
         .info {
             display: inline-block;
             overflow: hidden;
         }
-        p{
+
+        p {
             font-size: 15px;
         }
     }
