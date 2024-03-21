@@ -6,14 +6,14 @@ import PageBanner from '../components/PageBanner';
 import ServiceDetails from '../components/ServiceDetails';
 import ServiceSidebar from '../components/ServiceSidebar';
 
-function ServicesDetails({ type }) {
-    const text =[{title: "Quality Control"},{title: "R&D"},{title: "Global Distributor"},{title: "In House production"}]
+function ServicesDetails({content}) {
+    const {title, faqs} = content
     return (
         <>
             <Header3 />
             <PageBanner
                 bannerBg={bannerBg}
-                heading={text[type-1].title}
+                heading={title}
                 currentPage="Service Details"
             />
             <section className="service-details-wrapper section-padding">
@@ -23,7 +23,7 @@ function ServicesDetails({ type }) {
                             <ServiceSidebar />
                         </div>
                         <div className="col-lg-9 col-md-8 col-12 order-1 order-md-2">
-                            <ServiceDetails type={type} />
+                            <ServiceDetails faqs={faqs} />
                         </div>
                     </div>
                 </div>

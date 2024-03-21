@@ -1,12 +1,30 @@
-import thumb1 from "../../assets/img/gallery/r&d-01.jpg";
+import thumb1 from "../assets/img/gallery/r&d-01.jpg";
 
 const qualityContent = {
-    qualityControlIntroduction: {
+    title: "Quality Control",
+    sections: [{
         title: "Quality Control",
         img: thumb1,
         text: "At Land Helmets, our commitment to quality is at the forefront of everything we do. We understand that the safety and satisfaction of your workforce are paramount. That's why we've established a comprehensive quality control process that guarantees each helmet we produce meets the highest standards of safety, durability, and comfort.",
     },
-    rigorousTesting: {
+
+    {
+        title: "Continuous Improvement Through Innovation",
+        img: thumb1,
+        text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
+    },
+
+    {
+        title: "Certified for Your Peace of Mind",
+        img: thumb1,
+        text: "Our manufacturing facilities are ISO certified, and our helmets are certified by recognized standards bodies, providing you with the assurance that our products are manufactured to the highest quality and safety standards.",
+    },
+    {
+        title: "Partner with Us for Quality You Can Trust",
+        img: thumb1,
+        text: "Choosing Land Helmets means partnering with a company that places quality and safety above all. Our meticulous approach to quality control ensures that you can trust our helmets to protect your most valuable asset—your people.",
+    }],
+    faqs: [{
         title: "Rigorous Testing for Uncompromised Safety",
         text: "Our helmets undergo stringent testing to ensure they meet and exceed industry standards, including ANSI Z89.1-2014(R2019) for Type 1 and Type 2 helmets. Our testing protocols include:",
         list: [
@@ -28,12 +46,8 @@ const qualityContent = {
             },
         ],
     },
-    continuousImprovement: {
-        title: "Continuous Improvement Through Innovation",
-        img: thumb1,
-        text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
-    },
-    qualityControlEveryStage: {
+
+    {
         title: "Quality Control at Every Stage",
         text: "From the selection of raw materials to the final product inspection, our quality control process is all-encompassing:",
         list: [
@@ -50,17 +64,8 @@ const qualityContent = {
                 text: "Before shipping, each helmet undergoes a final quality assessment to ensure it is free from defects and meets our safety certifications.",
             },
         ],
-    },
-    certifiedPeaceOfMind: {
-        title: "Certified for Your Peace of Mind",
-        img: thumb1,
-        text: "Our manufacturing facilities are ISO certified, and our helmets are certified by recognized standards bodies, providing you with the assurance that our products are manufactured to the highest quality and safety standards.",
-    },
-    partnerWithUs: {
-        title: "Partner with Us for Quality You Can Trust",
-        img: thumb1,
-        text: "Choosing Land Helmets means partnering with a company that places quality and safety above all. Our meticulous approach to quality control ensures that you can trust our helmets to protect your most valuable asset—your people.",
-    }
+    }],
+
 };
 
 export default qualityContent;
