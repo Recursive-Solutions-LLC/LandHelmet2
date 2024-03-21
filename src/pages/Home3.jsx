@@ -23,7 +23,7 @@ function Home3() {
             <Portfolio2 />          
             <Services1 />          
             <Faq />
-            <Sponsors2 />
+   
             <Appointment />       
            
       

@@ -7,7 +7,7 @@ function AppointmentItem({ day, time }) {
         <div className="appointment-time d-flex justify-content-between">
             <span>{day}</span>
             <span>{time}</span>
-            <Link to="/home-3">
+            <Link to="/contact">
                 <FaClock /> Book
             </Link>
         </div>

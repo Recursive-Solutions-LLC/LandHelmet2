@@ -4,31 +4,31 @@ const appointmentData = [
     {
         id: uuidv4(),
         day: 'Monday',
-        time: '8AM - 8PM',
+        time: '9AM - 6PM',
     },
 
     {
         id: uuidv4(),
         day: 'Tuesday',
-        time: '8AM - 8PM',
+        time: '9AM - 6PM',
     },
 
     {
         id: uuidv4(),
         day: 'Wednesday',
-        time: '8AM - 8PM',
+        time: '9AM - 6PM',
     },
 
     {
         id: uuidv4(),
         day: 'Thrusday',
-        time: '8AM - 8PM',
+        time: '9AM - 6PM',
     },
 
     {
         id: uuidv4(),
         day: 'Friday',
-        time: '8AM - 8PM',
+        time: '9AM - 6PM',
     },
 ];
 
