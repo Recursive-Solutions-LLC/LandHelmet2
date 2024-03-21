@@ -3,12 +3,12 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import Img1 from '../../assets/img/project/project1.jpg';
 
-function PortfolioOneSlide({ image, category, link, client, title, desc, btnText,type }) {
+function PortfolioOneSlide({ image, category, link, client, title, desc, btnText}) {
     return (
-        <div className="single-project" >
+        <div className="single-project">
             <div className="project-contents">
-                <div className="row">
-                    <div className="project-details col-lg-4 offset-lg-1 pl-lg-0 order-2 order-lg-1 col-12" style={{ padding: type ? '50px 0px' : '100px 0px' }}>
+                <div className="row" style={{height:"100%"}}>
+                    <div className="project-details col-lg-4 offset-lg-1 pl-lg-0 order-2 order-lg-1 col-12">
                         <div className="project-meta">
                             {category && (<a href="/" className="project-cat">
                                 {category}

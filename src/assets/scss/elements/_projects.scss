@@ -1,19 +1,27 @@
 .project-wrapper {
     position: relative;
-
+    .swiper-wrapper .swiper-slide{
+        height: auto !important;
+    }
     .portfolio-carousel-active {
         .single-project {
+            height:100%;
             overflow: hidden;
 
             .project-contents {
+                height:100%;
                 background-color: #bebebe;
                 border-radius: 10px;
                 position: relative;
                 margin-top: 60px;
+
+                .row{
+                    height:100%;
+                }
             }
 
             .project-details {
-                
+                padding: 100px 0px;
 
                 @media (max-width: 991px) {
                     padding: 50px;
@@ -59,8 +67,7 @@
                 .read-btn {
                     background-color: $theme-dark;
                     color: white;
-                    margin-top: 15px;
-                    float: right;
+                    margin-top: 35px;
                 }
             }
 

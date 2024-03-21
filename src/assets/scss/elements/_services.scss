@@ -635,7 +635,7 @@
                     position: relative;
                     display: block;
                     background-color: $theme-color;
-                    color: #000;
+                    color: #fff;
                     text-align: center;
                     padding: 15px 20px;
                     text-transform: capitalize;
@@ -644,7 +644,6 @@
 
                     &:hover {
                         background-color: $second-color;
-                        color: #fff;
                     }
                 }
             }
@@ -673,7 +672,7 @@
                 &:nth-child(2) {
                     background-color: $primary-1;
                     border-color: $secondary-3;
-                    color: $secondary-1;
+                    color: $primary-2;
                 }
 
                 &:last-child {
@@ -715,3 +714,4 @@
         }
     }
 }
+
