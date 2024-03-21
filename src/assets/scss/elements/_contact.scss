@@ -71,10 +71,11 @@
 }
 
 .single-contact-card {
-    background-color: #f8f8f8;
-    padding: 40px;
+    background-color: $primary-1;
+    padding: 30px;
     margin-bottom: 30px;
     transition: all 0.3s ease-in-out;
+    color: $secondary-1;
 
     @media (max-width: 585px) {
         padding: 30px;
@@ -90,8 +91,8 @@
 
         .bottom-part {
             .icon {
-                color: $theme-color !important;
-                background-color: #fff !important;
+                color: #fff !important;
+                background-color: $theme-color !important;
             }
         }
 
@@ -126,7 +127,7 @@
     .bottom-part {
         margin-top: 25px;
         overflow: hidden;
-
+        align-items: center;
         .icon {
             width: 50px;
             height: 50px;
@@ -138,10 +139,14 @@
             float: right;
             overflow: hidden;
             margin-left: 20px;
+            color: $primary-1 !important;
         }
         .info {
             display: inline-block;
             overflow: hidden;
+        }
+        p{
+            font-size: 15px;
         }
     }
 }
