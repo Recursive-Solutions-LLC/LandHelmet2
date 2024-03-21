@@ -1,7 +1,7 @@
 import React from 'react';
 import bannerBg from '../assets/img/page-banner.jpg';
-import Footer1 from '../components/Footer1';
-import Header1 from '../components/Header1';
+import Footer3 from '../components/Footer3';
+import Header3 from '../components/Header3';
 import PageBanner from '../components/PageBanner';
 import ServiceDetails from '../components/ServiceDetails';
 import ServiceSidebar from '../components/ServiceSidebar';
@@ -10,7 +10,7 @@ function ServicesDetails({ type }) {
     const text =[{title: "Quality Control"},{title: "R&D"},{title: "Global Distributor"},{title: "In House production"}]
     return (
         <>
-            <Header1 />
+            <Header3 />
             <PageBanner
                 bannerBg={bannerBg}
                 heading={text[type-1].title}
@@ -28,7 +28,7 @@ function ServicesDetails({ type }) {
                     </div>
                 </div>
             </section>
-            <Footer1 />
+            <Footer3 />
         </>
     );
 }

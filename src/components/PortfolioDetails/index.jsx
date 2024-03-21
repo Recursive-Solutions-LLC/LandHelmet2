@@ -6,8 +6,7 @@ import portfolioOneData from './Portfolio1/porfolioOneData';
 import VideoFeatrued from './VideoFeatured';
 
 function PortfolioDetails(data) {
-    const { type } = data.type;
-    const { brand } = portfolioOneData.filter(element => element.productType === type)[0];
+
     return (
         <section className="project-details-wrapper section-padding">
             <div className="container">

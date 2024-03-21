@@ -18,7 +18,7 @@
         font-weight: 700;
         font-size: 160px;
         letter-spacing: -3px;
-        color: #fff;
+        color: $primary-1;
         text-transform: capitalize;
         left: 50%;
         transform: translateX(-50%);
@@ -40,6 +40,7 @@
     }
 
     h1 {
+        color: $secondary-2;
         text-transform: capitalize;
     }
 }

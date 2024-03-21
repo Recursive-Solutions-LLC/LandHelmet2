@@ -22,32 +22,21 @@ function App() {
             <Router>
                 <ScrollToTopRoute />
                 <Switch>
-                    <Route exact path="/home-2">
-                        <Home2 />
-                    </Route>
-                    <Route exact path="/home-3">
-                        <Home3 />
-                    </Route>
                     <Route exact path="/about">
                         <About />
                     </Route>
-                    <Route exact path="/team">
-                        <Team />
-                    </Route>
-                    <Route exact path="/faq">
-                        <Faq />
-                    </Route>
-                    
-                    <Route exact path="/products">
+
+                    {/* Between this */}
+                    {/* <Route exact path="/products">
                         <Projects />
-                    </Route>
+                    </Route> */}
                     <Route exact path="/product-details-1">
                         <ProjectDetails type={1} />
                     </Route>
                     <Route exact path="/product-details-2">
                         <ProjectDetails type={2} />
                     </Route>
-                  
+
                     <Route exact path="/services">
                         <Services />
                     </Route>
@@ -62,12 +51,6 @@ function App() {
                     </Route>
                     <Route exact path="/services-details-production">
                         <ServicesDetails type={4} />
-                    </Route>
-                    <Route exact path="/news">
-                        <News />
-                    </Route>
-                    <Route exact path="/news-details">
-                        <NewsDetails />
                     </Route>
                     <Route exact path="/contact">
                         <Contact />
