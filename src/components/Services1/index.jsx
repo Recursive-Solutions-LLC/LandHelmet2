@@ -9,9 +9,9 @@ function Services1() {
                 <div className="row">
                     <div className="col-12 col-lg-12">
                         <div className="section-title text-center">
-                            <span>Land</span>
+                            <span>Design</span>
                          
-                            <h1>helmets</h1>
+                            <h1>LandHelmets</h1>
                         </div>
                     </div>
                 </div>

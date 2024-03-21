@@ -7,12 +7,12 @@ function PortfolioTwoItem({ name, cost, heading, img }) {
         <div className="single-project-item constructions medical" >
             <div className="project-thumb bg-cover" style={{ backgroundImage: `url(${img})` }} />
             <div className="project-details">
-                <Link to="/project-details" className="icon">
+                <Link to={cost} className="icon">
                     <BsArrowRight />
                 </Link>
               
                 <h3>
-                    <Link to="/project-details">{heading}</Link>
+                    <Link to={cost}>{heading}</Link>
                 </h3>
                 <div className="meta">
                     <span>{name}</span> 

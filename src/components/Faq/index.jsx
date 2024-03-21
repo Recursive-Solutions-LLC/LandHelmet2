@@ -8,10 +8,15 @@ function Faq() {
         <section className="faq-section section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-6 col-12">
+                    <div className="section-title-3 text-center">
+                        <p>Global</p>
+                        <h1>Our Network Spans Continents for Fast Delivery</h1>
+                    </div>
+                    <div className="col-xl-6 col-12 mt-4">
                         <div className="content-block">
-                            <p>Get Answers</p>
-                            <h1>Get every single answers from here.</h1>
+
+
+
                             <div className="bg-img">
                                 <img src={bgImg} alt="" />
                                 <div
@@ -36,27 +41,21 @@ function Faq() {
                         </div>
                     </div>
                     <div className="col-xl-6 col-12 mt-4 mt-xl-0">
+
                         <div className="faq-content">
                             <FaqAccordion
-                                question="How Do We Manage Quality Assurance?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                                question="Uncompromised Quality: Our Assurance to You"
+                                answer="Highlight the rigorous testing and validation process to ensure the highest quality standards"
                             />
                             <FaqAccordion
-                                question="With Diverse Capabilities And Extensive Manufacturing?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                                question="Excellence in Manufacturing: In-House Production"
+                                answer="Discuss the flexibility and efficiency of managing production in-house, from small to large volumes"
                             />
                             <FaqAccordion
-                                question="You Can Rely On Amwerk As A Critical Part?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                                question="Global Reach, Local Service: Our Distribution Network"
+                                answer="Showcase the global distribution capabilities, emphasizing timely delivery and support in key markets (US, Canada, Europe, Latin America)"
                             />
-                            <FaqAccordion
-                                question="How Do We Manage Quality Assurance?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
-                            />
-                            <FaqAccordion
-                                question="Appropriately Communicate One-To-One Technology?"
-                                answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
-                            />
+
                         </div>
                     </div>
                 </div>
