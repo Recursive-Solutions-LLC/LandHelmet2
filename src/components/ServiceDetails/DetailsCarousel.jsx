@@ -19,7 +19,6 @@ function DetailsCarousel({type}) {
                         className="single-service-photo bg-cover"
                         style={{ backgroundImage: `url(${img1})` }}
                     />
-                    hello
                 </SwiperSlide>
                 <SwiperSlide>
                     <div
