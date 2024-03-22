@@ -17,9 +17,11 @@ import Subscribe from '../components/Subscribe';
  import Timeline from '../components/Timeline';
  import BrandCarousel from '../components/BrandCarousel';
  import TeamMembers2 from '../components/TeamMembers2';
+
 function Home3() {
+
     return (
-        <>
+        <> 
             <Header3 />
             <Hero3 />
             <Process2 />
