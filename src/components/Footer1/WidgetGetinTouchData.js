@@ -13,16 +13,9 @@ const WidgetGetinTouchData = [
     {
         id: uuidv4(),
         icon: <AiOutlineMail />,
-        heading: 'Phone Number',
-        text: '+1 (657) 319-5842',
-    },
-
-    {
-        id: uuidv4(),
-        icon: <BiMap />,
-        heading: 'Phone Number',
-        text: '+1 (657) 319-5842',
-    },
+        heading: 'Mail Address',
+        text: 'info@landhelmets.com',
+    }
 ];
 
 export default WidgetGetinTouchData;

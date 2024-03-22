@@ -3,7 +3,7 @@ import Analytics from '../components/Analytics';
 import Blog1 from '../components/Blog1';
 import Cta from '../components/Cta';
 import Faq from '../components/Faq';
-import Footer1 from '../components/Footer3';
+import Footer1 from '../components/Footer1';
 import Header1 from '../components/Header3';
 import Hero1 from '../components/Hero1';
 import Portfolio1 from '../components/Portfolio1';

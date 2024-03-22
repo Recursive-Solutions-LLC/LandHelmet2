@@ -4,7 +4,7 @@ import logo from '../../assets/img/logo2.svg';
 import MobileMenu from '../MobileMenu';
 
 const menuItems = [
-    { to: '/home-3', label: 'Home' },
+    { to: '/', label: 'Home' },
     { to: '/about', label: 'About' },
     {
         to: '', label: 'Product', subMenu: [

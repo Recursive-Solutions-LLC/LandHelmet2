@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaGoogle, FaInstagram, FaLinkedin, FaMailBulk, FaMailchimp, FaPhone, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 function WidgetAbout({ text, fbLink, twitterLink, instaLink, youtubeLink }) {
     return (
@@ -12,17 +12,15 @@ function WidgetAbout({ text, fbLink, twitterLink, instaLink, youtubeLink }) {
                     <p>{text}</p>
                     <div className="social_link">
                         <a href={fbLink}>
-                            <FaFacebookF />
+                            <FaGoogle />
                         </a>
                         <a href={twitterLink}>
-                            <FaTwitter />
+                            <FaLinkedin />
                         </a>
                         <a href={instaLink}>
                             <FaInstagram />
                         </a>
-                        <a href={youtubeLink}>
-                            <FaYoutube />
-                        </a>
+                      
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import WidgetGetinTouch from './WidgetGetinTouch';
 import WidgetGetinTouchData from './WidgetGetinTouchData';
 import WidgetNews from './WidgetNews';
 import WidgetNewsData from './WidgetNewsData';
-
+import FooterWidget from './FooterWidget';
 function Footer1() {
     // STATES
     const [email, setEmail] = useState('');
@@ -19,6 +19,18 @@ function Footer1() {
     const onSubmitHandler = (e) => {
         e.preventDefault();
     };
+    const exploreLinks = [
+        { path: "/services", label: "Services" },
+        { path: "/about", label: "About us" },
+        { path: "/", label: "R&D" },
+        { path: "/contact", label: "Contact us" },
+    ];
+    const serviceLinks = [
+        { path: "/services", label: "Quality Control" },
+        { path: "/services", label: "R&D" },
+        { path: "/services", label: "Global Distributor" },
+        { path: "/services", label: "In House Production" },
+    ];
     return (
         <footer className="footer-1 footer-wrap">
             <div className="footer-widgets dark-bg">
@@ -26,11 +38,12 @@ function Footer1() {
                     <div className="row">
                         {/* ABOUT WIDGET */}
                         <WidgetAbout
-                            text="Use Wix's Advanced Web Page Design Tools to Create Your Professional Site in an Instant! Experience Total Design Freedom and the Ability to Customize Your Site as You Wish! Social media compatible with design."
-                            fbLink="/"
-                            twitterLink="/"
-                            instaLink="/"
-                            youtubeLink="/"
+                            text="Safety, Fashion and comfort combined
+                            for your ultimate head protection."
+                            fbLink="https://maps.app.goo.gl/RP5YftAwkf4wGeNk6"
+                            twitterLink="https://www.linkedin.com/company/landhelmets/"
+                            instaLink="https://www.instagram.com/landhelmetsca/"
+                            youtubeLink="mailto:info@landhelmets.com"
                         />
 
                         {/* NEWS FEED WIDGET */}
@@ -38,19 +51,11 @@ function Footer1() {
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid recent_post_widget">
                                 <div className="wid-title">
-                                    <h4>News Feeds</h4>
+                                    <h4>Services</h4>
                                 </div>
-                                <div className="recent-post-list">
-                                    {WidgetNewsData.map((data) => (
-                                        <WidgetNews
-                                            key={data.id}
-                                            thumbnail={data.thumbnail}
-                                            meta={data.meta}
-                                            heading={data.heading}
-                                            link={data.link}
-                                        />
-                                    ))}
-                                </div>
+                                <div className="col-md-6 col-xl-3 col-12 pr-xl-0">
+                          <FooterWidget title="Services" links={serviceLinks} />
+                        </div>
                             </div>
                         </div>
 
@@ -109,25 +114,19 @@ function Footer1() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-12">
-                            <div className="copyright-info">
-                                <p>
-                                    &copy; Copyright By <a href="index.html">Dustrix</a> - 2021
-                                </p>
-                            </div>
+                            
                         </div>
                         <div className="col-lg-4 col-12 text-center">
-                            <div className="footer-logo">
-                                <a href="#top">
-                                    <img src={logo} alt="Dustrix" />
-                                </a>
+                         
+                            <div className="copyright-info">
+                                <p>
+                                    &copy; Designed By <a href="recursivesolutions.net">Recursive Solutions </a> - 2024
+                                </p>
+                          
                             </div>
                         </div>
                         <div className="col-lg-4 d-none d-lg-block col-12">
-                            <div className="scroll-up-btn text-md-right justify-content-end">
-                                <a href="#top">
-                                    <AiOutlineArrowUp />
-                                </a>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

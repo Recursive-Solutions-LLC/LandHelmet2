@@ -7,11 +7,11 @@ const MenuContent = () => (
         <ul>
             <li className="bottom-item">
                 <AiOutlineMail className="icon" />
-                info@webmail.com
+                info@landhelmets.com
             </li>
             <li className="bottom-item">
                 <AiOutlinePhone className="icon" />
-                987-098-098-09
+                +1 (657) 319-5842
             </li>
         </ul>
         <div className="bottom-btn">

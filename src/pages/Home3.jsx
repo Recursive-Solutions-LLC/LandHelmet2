@@ -2,7 +2,7 @@ import React from 'react';
 import Appointment from '../components/Appointment';
 import Blog3 from '../components/Blog3';
 import Faq from '../components/Faq';
-import Footer3 from '../components/Footer3';
+import Footer3 from '../components/Footer1';
 import Header3 from '../components/Header3';
 import Hero3 from '../components/Hero3';
 import Portfolio2 from '../components/Portfolio2';

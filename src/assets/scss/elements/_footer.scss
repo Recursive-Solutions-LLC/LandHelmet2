@@ -4,6 +4,7 @@
     .footer-widgets {
         position: relative;
         z-index: 1;
+        background-image: url("../../img/footer/footer-bg.png");
     }
 
     .scroll-up-btn {
@@ -85,8 +86,8 @@
 }
 
 .footer-widgets {
-    padding-top: 55px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
     @media (max-width: 991px) {
         padding-bottom: 80px;
@@ -175,8 +176,9 @@
 
         p,
         a {
-            color: $black;
+            color: $white;
         }
+     
 
         a {
             font-weight: 500;

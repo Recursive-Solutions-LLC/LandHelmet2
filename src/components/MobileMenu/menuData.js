@@ -5,24 +5,6 @@ const menuData = [
     {
         title: 'Home',
         path: '/',
-        iconClosed: <CgChevronLeft />,
-        iconOpened: <CgChevronDown />,
-
-        subNav: [
-            {
-                title: 'Home One',
-                path: '/',
-            },
-            {
-                title: 'Home Two',
-                path: '/home-2',
-            },
-
-            {
-                title: 'Home Three',
-                path: '/home-3',
-            },
-        ],
     },
 
     {
@@ -31,39 +13,39 @@ const menuData = [
     },
 
     {
-        title: 'Pages',
+        title: 'Product',
         path: '/',
 
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,
 
         subNav: [
+         
             {
-                title: 'Team',
-                path: '/team',
+                title: 'Product Type I',
+                path: '/product-details-1',
                 cName: 'sub-nav',
             },
             {
-                title: 'Faq',
-                path: '/faq',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Projects',
-                path: '/projects',
+                title: 'Product Type II',
+                path: '/product-details-2',
             },
         ],
     },
 
     {
         title: 'Services',
-        path: '/services',
-    },
+        path: '',
 
-    {
-        title: 'News',
-        path: '/news',
-    },
+        iconClosed: <CgChevronLeft />,
+        iconOpened: <CgChevronDown />,
+        subNav: [
+    
+            { path: '/services-details-quality', title: 'Quality Control' },
+            { path: '/services-details-rd', title: 'R&D' },
+            { path: '/services-details-distributor', title: 'Global Distributor' },
+            { path: '/services-details-production', title: 'In House Production' },
+        ]},
 
     {
         title: 'Contact',
