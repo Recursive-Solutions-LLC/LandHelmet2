@@ -1,7 +1,7 @@
 import React from 'react';
 import bannerBg from '../assets/img/page-banner.jpg';
 import BlogDetails from '../components/BlogDetails';
-import Footer1 from '../components/Footer3';
+import Footer1 from '../components/Footer1';
 import Header1 from '../components/Header3';
 import PageBanner from '../components/PageBanner';
 
