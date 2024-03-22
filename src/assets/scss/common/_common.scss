@@ -185,26 +185,7 @@
   }
 }
 
-.service-details-wrapper {
-  .accordion {
-    &__button {
-      background-color: #ffc54f;
 
-      &::before {
-        color: white;
-      }
-
-      &:hover {
-        color: #fff;
-      }
-    }
-
-    &__item {
-      background-color: #ffc54f;
-      margin-bottom: 10px;
-    }
-  }
-}
 // FAQ 2
 .faq-2 {
   .accordion__button {

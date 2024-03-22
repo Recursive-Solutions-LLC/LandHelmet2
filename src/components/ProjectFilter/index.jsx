@@ -23,8 +23,8 @@ function ProjectFilter() {
                     <div className="col-12 col-lg-12 text-center">
                         <div className="section-title-2">
                             <span>Portfolio</span>
-                            <p>Portfolio</p>
-                            <h1>Our Case Study</h1>
+                            {/*<p>Portfolio</p>
+                            <h1>Our Case Study</h1>*/}
                         </div>
                     </div>
                 </div>

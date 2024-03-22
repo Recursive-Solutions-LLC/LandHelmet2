@@ -1,42 +1,51 @@
 // Import necessary image
-import thumb1 from "../assets/img/gallery/r&d-01.jpg";
-import distributorImg from "../assets/img/gallery/5.jpg";
+import thumb1 from "../assets/img/services/QualityControl/Movil/Movil1.jpg";
+import thumb2 from "../assets/img/services/QualityControl/Movil/Movil2.jpg";
+import thumb3 from "../assets/img/services/QualityControl/Movil/Movil3.jpg";
+import thumb4 from "../assets/img/services/QualityControl/Movil/Movil4.jpg";
+import thumb5 from "../assets/img/services/QualityControl/Movil/Movil5.jpg";
+
+import bannerImg1 from "../assets/img/services/QualityControl/Desktop/Quality2.jpg";
+import bannerImg2 from "../assets/img/services/QualityControl/Desktop/Quality3.jpg";
+import bannerImg3 from "../assets/img/services/QualityControl/Desktop/Quality4.jpg";
+import bannerImg4 from "../assets/img/services/QualityControl/Desktop/Quality5.jpg";
+
+import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality1.jpg";
 
 const globalContent = {
     title: "Global Distributor",
-
-
     Image: distributorImg,
-
-
     sections: [{
         title: "Global Distributor",
         img: thumb1,
         text: "At Land Helmets, our global reach is specifically designed to support our clients and partners in the US, Canada, Europe, and Latin America. Our tailored distribution services in these key regions ensure that our high-quality helmets are always within reach, providing safety and protection to workers across diverse industries.",
     },
-
-
     {
         title: "Seamless Logistics for Every Region",
-        img: thumb1,
+        img: thumb2,
         text: "Our logistics team expertly manages the complexities of international shipping, customs clearance, and regional compliance, ensuring your orders are delivered on time and in perfect condition. We leverage advanced technology and local expertise to optimize shipping routes, reduce delivery times, and minimize costs.",
     },
     {
         title: "Tailored Services for Diverse Needs",
-        img: thumb1,
+        img: thumb3,
         text: "Understanding the specific needs of each region enables us to offer tailored services, including bulk orders, expedited shipping, and specialized packaging, ensuring our helmets meet the local and industry-specific requirements of our clients.",
     },
     {
         title: "Partner with Confidence",
-        img: thumb1,
+        img: thumb4,
         text: "Our commitment to quality and customer satisfaction drives our global distribution strategy. By partnering with Land Helmets, you gain more than a supplier; you gain a partner dedicated to your success, offering unparalleled support, from product selection to after-sales service.",
     },
     {
         title: "Join Our Global Network",
-        img: thumb1,
+        img: thumb5,
         text: "Land Helmets is actively expanding our presence in the US, Canada, Europe, and Latin America. We welcome new partners who share our commitment to providing high-quality, reliable safety equipment. Contact us to explore how we can work together to protect workers and grow your business in these strategic markets.",
     }],
-
+    carouselImg: [
+        {img:bannerImg1},
+        {img:bannerImg2},
+        {img:bannerImg3},
+        {img:bannerImg4},
+    ],
     faqs: [{
         title: "Strategic Presence for Strategic Markets",
         list: [

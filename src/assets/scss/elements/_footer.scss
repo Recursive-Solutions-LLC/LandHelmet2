@@ -303,7 +303,7 @@
                 margin-top: 30px;
             }
             a {
-                background-color: #0f0f0f;
+                background-color: $theme-dark;
                 width: 60px;
                 height: 60px;
                 line-height: 60px;
@@ -556,7 +556,7 @@
                 border-right-width: 0px;
                 border-color: rgb(58, 58, 58);
                 border-radius: 10px 0px 0px 10px;
-                background: #0a0a0a;
+            
                 padding-left: 25px;
                 padding-right: 15px;
                 line-height: 1;

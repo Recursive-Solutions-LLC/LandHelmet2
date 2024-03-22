@@ -10,28 +10,20 @@ SwiperCore.use([Navigation]);
 SwiperCore.use([Pagination]);
 
 
-function DetailsCarousel({type}) {
+function DetailsCarousel({ carouselImg }) {
     return (
         <div>
             <Swiper navigation pagination className="service-gallery">
-                <SwiperSlide>
-                    <div
-                        className="single-service-photo bg-cover"
-                        style={{ backgroundImage: `url(${img1})` }}
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div
-                        className="single-service-photo bg-cover"
-                        style={{ backgroundImage: `url(${img2})` }}
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div
-                        className="single-service-photo bg-cover"
-                        style={{ backgroundImage: `url(${img3})` }}
-                    />
-                </SwiperSlide>
+                {carouselImg.map(image => (
+                    <>
+                        <SwiperSlide>
+                            <div
+                                className="single-service-photo bg-cover"
+                                style={{ backgroundImage: `url(${image.img})` }}
+                            />
+                        </SwiperSlide>
+                    </>
+                ))}
             </Swiper>
         </div>
     );

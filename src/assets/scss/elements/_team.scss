@@ -14,7 +14,11 @@
     .member-img {
         position: relative;
         text-align: center;
-        margin-top: 20px;
+      
+        &:hover {
+            transform: scale(1.2);
+            transition: all 0.4s ease-in-out;
+        }
     }
 
     .social-icons {
@@ -133,3 +137,4 @@
         }
     }
 }
+
