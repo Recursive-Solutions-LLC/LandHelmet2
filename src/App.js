@@ -38,16 +38,16 @@ function App() {
                         <Services />
                     </Route>
                     <Route exact path="/services-details-quality">
-                        <ServicesDetails  content={global} />
-                    </Route>
-                    <Route exact path="/services-details-rd">
-                        <ServicesDetails  content={inhouse} />
-                    </Route>
-                    <Route exact path="/services-details-distributor">
                         <ServicesDetails  content={quality} />
                     </Route>
-                    <Route exact path="/services-details-production">
+                    <Route exact path="/services-details-rd">
                         <ServicesDetails  content={rd} />
+                    </Route>
+                    <Route exact path="/services-details-distributor">
+                        <ServicesDetails  content={global} />
+                    </Route>
+                    <Route exact path="/services-details-production">
+                        <ServicesDetails  content={inhouse} />
                     </Route>
                     <Route exact path="/contact">
                         <Contact />
