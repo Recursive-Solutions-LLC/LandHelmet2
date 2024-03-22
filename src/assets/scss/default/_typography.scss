@@ -5,10 +5,21 @@
 
 // Font Family Variable with Value
 // font-family: 'Poppins', sans-serif;
+@font-face {
+    font-family: 'Antonio-Bold';
+    src:
 
-$heading-font: "Poppins", sans-serif;
-$body-font: "Poppins", sans-serif;
+        url('../../fonts/Antonio-Bold.ttf');
 
+   
+
+}
+@font-face {
+    font-family: "Monserrat-Regular";
+    src: url( '../../fonts/montserrat.regular.ttf');
+}
+$heading-font: "Antonio-Bold";
+$body-font: "Monserrat-Regular";
 //font-family: "Font Awesome 5 Pro";
 $fa: "Font Awesome 5 Pro";
 
