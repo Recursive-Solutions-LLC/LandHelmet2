@@ -18,7 +18,7 @@ function Faq() {
 
 
                             <div className="bg-img">
-                                <img src={bgImg} alt="" />
+                                <img className="bg-map" src={bgImg} alt="" />
                                 <div
                                     className="man bg-cover man-1"
                                     style={{
@@ -52,10 +52,13 @@ function Faq() {
                                 answer="Discuss the flexibility and efficiency of managing production in-house, from small to large volumes"
                             />
                             <FaqAccordion
-                                question="Global Reach, Local Service: Our Distribution Network"
-                                answer="Showcase the global distribution capabilities, emphasizing timely delivery and support in key markets (US, Canada, Europe, Latin America)"
+                                question="Based in the USA: Innovation and Quality Hub"
+                                answer="Our headquarters in the USA are the heart of our innovation and quality, leveraging the nation's advanced infrastructure and skilled workforce. This strategic location enables us to uphold excellence across our operations."
                             />
-
+                            <FaqAccordion
+                                question="Manufacturing Excellence: Made in China"
+                                answer="Our products are crafted in China, combining rich craftsmanship traditions with cutting-edge technology. This ensures every item meets our high standards of quality and innovation, from fabric to finish."
+                            />
                         </div>
                     </div>
                 </div>
