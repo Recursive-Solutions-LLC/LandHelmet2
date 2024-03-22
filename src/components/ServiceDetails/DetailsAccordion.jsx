@@ -1,4 +1,5 @@
 import FaqAccordion from '../FaqAccordion';
+import { motion } from "framer-motion/dist/framer-motion"
 import { SRLWrapper } from 'simple-react-lightbox';
 
 const DetailsAccordion = ({ title, text, list }) => {
