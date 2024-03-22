@@ -9,9 +9,9 @@ function TeamMembers2() {
                     <div className="row">
                         <div className="col-12 col-lg-12 text-center">
                             <div className="section-title-2">
-                                <span>Expertise</span>
-                                <p>Our Expertise</p>
-                                <h1>Our Expert Mates</h1>
+                                <span>Accsessories</span>
+                                <p>SAFETY HELMETS</p>
+                                <h1>LAND HELMET M12</h1>
                             </div>
                         </div>
                     </div>

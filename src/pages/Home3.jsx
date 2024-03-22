@@ -15,18 +15,21 @@ import VideoFeatrued from '../components/VideoFeatured';
 import Cta from '../components/Cta3';
 import Subscribe from '../components/Subscribe';
  import Timeline from '../components/Timeline';
-
+ import BrandCarousel from '../components/BrandCarousel';
+ import TeamMembers2 from '../components/TeamMembers2';
 function Home3() {
     return (
         <>
             <Header3 />
             <Hero3 />
             <Process2 />
+            <Timeline/>
             <Portfolio2 />
             <Services1 />
             <Cta/>
             <Faq />
-            <Timeline/>
+      
+            <TeamMembers2 />
             <Appointment />
 
     

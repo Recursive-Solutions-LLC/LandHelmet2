@@ -12,27 +12,7 @@ function TeamItem({ img, position, name, fbLink, twitterLink, behanceLink, youtu
                     <span>{position}</span>
                     <h3>{name}</h3>
                 </div>
-                <div className="social-icons">
-                    <div className="plus-icon">
-                        <FaPlus />
-                    </div>
-                    <div className="top">
-                        <a href={fbLink}>
-                            <FaFacebookF />
-                        </a>
-                        <a href={twitterLink}>
-                            <FaTwitter />
-                        </a>
-                    </div>
-                    <div className="right">
-                        <a href={behanceLink}>
-                            <FaBehance />
-                        </a>
-                        <a href={youtubeLink}>
-                            <FaYoutube />
-                        </a>
-                    </div>
-                </div>
+              
             </div>
         </div>
     );
