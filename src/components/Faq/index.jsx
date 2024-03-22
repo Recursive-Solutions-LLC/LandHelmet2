@@ -18,7 +18,7 @@ function Faq() {
 
 
                             <div className="bg-img">
-                                <img src={bgImg} alt="" />
+                                <img className="bg-map" src={bgImg} alt="" />
                                 <div
                                     className="man bg-cover man-1"
                                     style={{
