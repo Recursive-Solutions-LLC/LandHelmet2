@@ -3,7 +3,7 @@ import { FaBehance, FaFacebookF, FaPlus, FaTwitter, FaYoutube } from 'react-icon
 
 function TeamItem({ img, position, name, fbLink, twitterLink, behanceLink, youtubeLink }) {
     return (
-        <div className="col-xl-4 col-md-6 col-12">
+        <div className="col-xl-4  col-md-6 col-12">
             <div className="single-team-member">
                 <div className="member-img">
                     <img src={img} alt="member" />
