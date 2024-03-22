@@ -1,4 +1,5 @@
 import FaqAccordion from '../FaqAccordion';
+import { motion } from "framer-motion/dist/framer-motion"
 
 const DetailsAccordion = ({title,text, list})=>  {
 
