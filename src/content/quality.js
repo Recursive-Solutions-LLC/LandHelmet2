@@ -8,7 +8,7 @@ import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
 import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
 
-import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality1.jpg";
+import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality2.jpg";
 
 const qualityContent = {
     title: "Quality Control",
