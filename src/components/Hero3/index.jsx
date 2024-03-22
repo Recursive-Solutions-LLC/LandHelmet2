@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import heroImg from '../../assets/img/home3/hero-3.jpg';
+import heroImg from '../../assets/img/home3/hero-3.png';
 
 function Hero3() {
     return (
