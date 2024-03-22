@@ -17,14 +17,11 @@ import Subscribe from '../components/Subscribe';
  import Timeline from '../components/Timeline';
  import BrandCarousel from '../components/BrandCarousel';
  import TeamMembers2 from '../components/TeamMembers2';
- import { motion, useScroll } from "framer-motion"
+
 function Home3() {
-    const { scrollYProgress } = useScroll()
+
     return (
-        <>  <motion.path
-        d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
-        style={{ pathLength: scrollYProgress }}
-      />
+        <>  
             <Header3 />
             <Hero3 />
             <Process2 />
