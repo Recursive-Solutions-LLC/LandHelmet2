@@ -27,10 +27,10 @@ function Home3() {
         <>  
             <Header3  />
             <Hero3 />
-            <HorizontalScroll/>
+          
             <Process2 />
             <Timeline/>
-        
+            <HorizontalScroll/>
             <Portfolio2 />
             <Services1 />
             <Cta/>
