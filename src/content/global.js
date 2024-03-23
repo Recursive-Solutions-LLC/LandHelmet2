@@ -59,6 +59,10 @@ const globalContent = {
                 title: "Latin America:",
                 text: "Recognizing the diverse and dynamic nature of Latin American markets, our distribution services are designed to navigate the unique challenges and opportunities in the region. From Mexico to Brazil and beyond, we provide customized logistics solutions to ensure our helmets reach our partners and clients efficiently, regardless of local complexities.",
             },
+            {
+                title: "New Zeland:",
+                text: "Our local teams in New Zealand are not just experts in helmet distribution; they are deeply knowledgeable about the unique safety standards and regulations of the region. This ensures that our helmets not only meet but exceed the stringent requirements set forth by New Zealand authorities, providing unparalleled protection to our customers.",
+            },
         ],
     }],
 };

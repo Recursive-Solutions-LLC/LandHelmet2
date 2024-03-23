@@ -8,7 +8,7 @@ import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
 import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
 
-import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality1.jpg";
+import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality5.jpg";
 
 import rAndDImg1 from "../assets/img/gallery/5.jpg";
 import rAndDImg2 from "../assets/img/gallery/r&d-01.jpg";
@@ -51,57 +51,53 @@ const rdContent = {
         text: "At Land Helmets, our Research and Development (R&D) process is designed around collaboration, innovation, and efficiency. We involve you, our partner, at every stage of the process, ensuring that the final product not only meets but exceeds your expectations. Here's how our comprehensive R&D process works:",
         list: [
             {
-                title: "1. Hand Modeling",
-                text: "We start with hand modeling, creating a physical prototype of your helmet concept. This initial model is crucial for visualizing the basic shape and design before moving on to more advanced stages.",
-            },
-            {
-                title: "2. Scanning and 3D Drawing",
-                text: "The hand model undergoes CNC 3D scanning, resulting in detailed digital drawings. These drawings provide a precise base for further development and adjustments.",
+                title: "1. Scanning and 3D Drawing",
+                text: "The client's 3D helmet model or scanned existing one undergoes CNC 3D scanning, yielding detailed digital drawings. These drawings serve as a precise foundation for further development and adjustments.",
             },
             {
                 img: rAndDImg2,
             },
             {
-                title: "3. Customer Confirmation",
+                title: "2. Customer Confirmation",
                 text: "After each significant step, we pause for your feedback. Your confirmation is essential to proceed, ensuring the project aligns with your vision and requirements.",
             },
             {
-                title: "4. CNC Master & Pads",
+                title: "3. CNC Master & Pads",
                 text: "Using the confirmed 3D drawings, we create CNC master molds and pads, laying the groundwork for prototype production.",
             },
             {
-                title: "5. Open EPS Mold",
+                title: "4. Open EPS Mold",
                 text: "An EPS mold is developed for the helmet's inner lining, focusing on impact absorption and comfort.",
             },
             {
-                title: "6. EPS Mold Testing and Improvement",
+                title: "5. EPS Mold Testing and Improvement",
                 text: "We conduct thorough testing on the EPS mold to ensure optimal performance and safety. Based on the results, we make necessary adjustments for improvement.",
             },
             {
-                title: "7. Open PC Mold",
+                title: "6. Open PC Mold",
                 text: "For helmets used in electrical work, ensuring they provide adequate protection against electrical hazards.",
             },
             {
-                title: "8. Mold Testing and Improvement",
+                title: "7. Mold Testing and Improvement",
                 text: "Both the EPS and PC molds undergo rigorous testing. Feedback from these tests leads to refinements, ensuring the highest quality standards are met.",
             },
             {
                 img: rAndDImg3,
             },
             {
-                title: "9. Preliminary Sample Delivery",
+                title: "8. Preliminary Sample Delivery",
                 text: "A preliminary sample, incorporating all improvements, is delivered for your review, marking a significant milestone in the development process.",
             },
             {
-                title: "10. Testing Sample",
+                title: "9. Testing Sample",
                 text: "We produce a testing sample designed to undergo extensive safety and performance evaluations, adhering to industry standards and certifications.",
             },
             {
-                title: "11. Sales Sample",
+                title: "10. Sales Sample",
                 text: "Once the testing sample is approved, we create a sales sample, showcasing the final product design and features for marketing and pre-sales activities.",
             },
             {
-                title: "12. Mass Production",
+                title: "11. Mass Production",
                 text: "With your final confirmation, we proceed to mass production, translating our collaborative efforts into high-quality helmets ready for the market.",
             },
         ],
