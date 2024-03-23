@@ -1,7 +1,7 @@
-import img1 from '../../assets/img/kappa.jpg';
+import quote from '../../assets/img/about-us/quote.jpg';
 
 const aboutTwoData = {
-    img: img1,
+    img: quote,
     heading: 'Land Helmets: Where Quality Leads the Way',
     quote: ' Our commitment to quality and innovation is unparalleled, ensuring that each helmet meets rigorous safety standards and exceeds customer expectations.',
     author: 'Lisa C.',
