@@ -6,6 +6,7 @@ import About2 from '../components/About2';
  import PageBanner from '../components/PageBanner';
  import AboutFeatured from '../components/AboutFeatured';
 import Approch from '../components/Approch';
+import Timeline from '../components/Timeline';
 
 function About() {
     return (
@@ -14,10 +15,10 @@ function About() {
      
             <PageBanner bannerBg={CoverAbout} currentPage="About Us" heading="About Us" />
             <AboutFeatured />
+            <Approch />
             <About2/>
-   
+            <Timeline/>
 
-            {/* <Approch /> */}
 
             <Footer3 />
         </>

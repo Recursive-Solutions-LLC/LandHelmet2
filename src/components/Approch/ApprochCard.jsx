@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 function ApprochCard({ thumbnail, icon, heading, text, btnText, pageLink }) {
@@ -21,9 +20,7 @@ function ApprochCard({ thumbnail, icon, heading, text, btnText, pageLink }) {
                             <Link to={pageLink}>{heading}</Link>
                         </h3>
                         <p>{text}</p>
-                        <Link to={pageLink} className="read-btn">
-                            {btnText} <BsArrowRight />
-                        </Link>
+           
                     </div>
                 </div>
             </div>
