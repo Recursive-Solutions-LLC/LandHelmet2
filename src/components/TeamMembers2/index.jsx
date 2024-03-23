@@ -2,6 +2,7 @@ import React from 'react';
 import TeamMembers from '../TeamMembers';
 
 function TeamMembers2() {
+    
     return (
         <>
             <section className="team-section team-section-2 section-padding">

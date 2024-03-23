@@ -5,8 +5,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import timeLineData from './timeLineData';
 import TimelineItem from './TimelineItem';
+import SwiperCore, { Autoplay } from 'swiper';
+import {  Pagination, Navigation } from "swiper";
 
 export default function App() {
+    SwiperCore.use([Autoplay])
     return (
         <section className="timeline-wrapper section-padding">
             <div className="container">
@@ -26,8 +29,18 @@ export default function App() {
                     slidesPerView="4"
                     spaceBetween={30}
                     centeredSlides
-                    loop
-                    className="timeline-carousel-wrapper"
+                    loop={true}
+                 
+                
+                    autoplay={{
+                        delay: 1500,
+                        disableOnInteraction: false,
+                      }}
+                     
+        modules={[Autoplay, Pagination, Navigation]}
+     
+                
+                    className="mySwiper timeline-carousel-wrapper"
                     breakpoints={{
                         0: {
                             slidesPerView: 1,
