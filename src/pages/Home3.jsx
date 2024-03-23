@@ -22,7 +22,7 @@ function Home3() {
 
     return (
         <>  
-            <Header3 />
+            <Header3  />
             <Hero3 />
             <Process2 />
             <Timeline/>

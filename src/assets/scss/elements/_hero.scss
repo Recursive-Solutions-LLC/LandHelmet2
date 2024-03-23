@@ -227,8 +227,7 @@
 
         .hero-img {
             -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+        
             clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
             filter: brightness(75%) !important;
             height: 500px;

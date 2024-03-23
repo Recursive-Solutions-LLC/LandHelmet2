@@ -316,7 +316,7 @@ header {
 
     .main-menu {
       display: inline-block;
-
+    
       ul {
         line-height: 1;
         > li {
@@ -452,7 +452,12 @@ header {
     background-color: #fff;
     position: relative;
     z-index: 1;
+    box-shadow: 0 8px 6px -6px black;
 
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 0;
+ 
     @media (max-width: 1319px) {
       padding: 10px 0px;
     }
