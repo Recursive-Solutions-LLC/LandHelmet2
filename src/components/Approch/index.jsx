@@ -2,6 +2,8 @@ import React from 'react';
 import ApprochCard from './ApprochCard';
 import approchData from './approchData';
 
+
+
 function Approch() {
     return (
         <section className="our-approch-wrapper section-padding section-bg">

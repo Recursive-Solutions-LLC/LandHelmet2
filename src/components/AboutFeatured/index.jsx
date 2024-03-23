@@ -23,12 +23,12 @@ function AboutFeatured() {
 
     const helmet = [
         {
-            heading: "",
-            text: ""
+            heading: "Unmatched Safety Standards:",
+            text: "Our Type I helmets are ANSI Z89.1-2014 (R2019) certified, ensuring they meet the highest safety requirements for impact protection in the industry."
         },
         {
-            heading: "",
-            text: ""
+            heading: "Certifications for Confidence:",
+            text: "Certified to meet ANSI Z89.1-2014 (R2019) standards, our Type II helmet ensures compliance with stringent safety requirements."
         }
     ]
 
