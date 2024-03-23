@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from '../../assets/img/home3/about-3.jpg';
-import img3 from '../../assets/img/home3/about-4.jpg';
+
 import img2 from '../../assets/img/home3/about-5.jpg';
 import ProcessContent from './ProcessContent';
 import ProcessGrid2 from './ProcessGrid2';
@@ -11,7 +11,7 @@ function Process2() {
             <div className="container">
                 <div className="row align-center">
                     <div className="col-xl-5 col-12 text-center">
-                        <ProcessGrid2 img1={img1} img2={img2} img3={img3} />
+                        <ProcessGrid2 img1={img1} img3={img2} img2="" />
                     </div>
                     <div className="col-xl-7 col-12 mt-5 mt-xl-0">
                         <div className="block-contents ml-xl-5 ml-50">
