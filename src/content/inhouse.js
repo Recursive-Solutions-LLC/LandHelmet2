@@ -1,8 +1,18 @@
-// Import the necessary image
-import thumb1 from "../assets/img/gallery/r&d-01.jpg";
+import thumb1 from "../assets/img/services/QualityControl/Packing1.jpg";
+import thumb2 from "../assets/img/services/QualityControl/Packing3.jpg";
+import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
+import thumb4 from "../assets/img/services/QualityControl/IMG_39311.JPG";
+import thumb5 from "../assets/img/services/QualityControl/IMG_39241.JPG";
+
+import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
+import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
+import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
+
+import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality3.jpg";
 
 const inhouseContent = {
     title: "In House Production",
+    Image: distributorImg,
     sections: [
         {
             title: "Quality Control",
@@ -11,29 +21,34 @@ const inhouseContent = {
         },
         {
             title: "Rigorous Testing for Uncompromised Safety",
-            img: thumb1,
+            img: thumb2,
             text: "Our helmets undergo stringent testing to ensure they meet and exceed industry standards. This includes ANSI Z89.1-2014(R2019) for Type 1 and Type 2 helmets. Our testing protocols cover impact absorption, penetration resistance, flammability, and electrical insulation, among others.",
         },
         {
             title: "Continuous Improvement Through Innovation",
-            img: thumb1,
+            img: thumb3,
             text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
         },
         {
             title: "Quality Control at Every Stage",
-            img: thumb1,
+            img: thumb4,
             text: "From the selection of raw materials to the final product inspection, our quality control process is all-encompassing. It includes raw material inspection, in-process quality checks, and a final inspection to ensure each helmet is free from defects and meets our safety certifications.",
         },
         {
             title: "Certified for Your Peace of Mind",
-            img: thumb1,
+            img: thumb5,
             text: "Our manufacturing facilities are ISO certified, and our helmets are certified by recognized standards bodies, providing you with the assurance that our products are manufactured to the highest quality and safety standards.",
         },
         {
             title: "Partner with Us for Quality You Can Trust",
-            img: thumb1,
+            img: thumb3,
             text: "Choosing Land Helmets means partnering with a company that places quality and safety above all. Our meticulous approach to quality control ensures that you can trust our helmets to protect your most valuable asset—your people.",
         }
+    ],
+    carouselImg: [
+        {img:bannerImg1},
+        {img:bannerImg2},
+        {img:bannerImg3},
     ],
     faqs: [
         {

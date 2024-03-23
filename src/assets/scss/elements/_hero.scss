@@ -155,7 +155,7 @@
             height: 667px;
             bottom: 0;
             left: 0;
-            background-image: url("../../img//home3/hero-pattern.png");
+           // background-image: url("../../img//home3/hero-pattern.png");
             background-repeat: x-repeat;
             background-position: left bottom;
             content: "";
@@ -180,8 +180,8 @@
 
         .hero-contents {
             p {
-                color: #005167;
-                font-weight: 800;
+                color: $theme-dark;
+                font-weight: 700;
             }
 
             h1 {
@@ -227,7 +227,9 @@
 
         .hero-img {
             -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        
             clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            filter: brightness(75%) !important;
             height: 500px;
             width: 130%;
             margin-left: -100px;

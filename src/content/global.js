@@ -1,14 +1,13 @@
 // Import necessary image
-import thumb1 from "../assets/img/services/QualityControl/Movil/Movil1.jpg";
-import thumb2 from "../assets/img/services/QualityControl/Movil/Movil2.jpg";
-import thumb3 from "../assets/img/services/QualityControl/Movil/Movil3.jpg";
-import thumb4 from "../assets/img/services/QualityControl/Movil/Movil4.jpg";
-import thumb5 from "../assets/img/services/QualityControl/Movil/Movil5.jpg";
+import thumb1 from "../assets/img/services/QualityControl/Packing1.jpg";
+import thumb2 from "../assets/img/services/QualityControl/Packing3.jpg";
+import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
+import thumb4 from "../assets/img/services/QualityControl/IMG_39311.JPG";
+import thumb5 from "../assets/img/services/QualityControl/IMG_39241.JPG";
 
-import bannerImg1 from "../assets/img/services/QualityControl/Desktop/Quality2.jpg";
-import bannerImg2 from "../assets/img/services/QualityControl/Desktop/Quality3.jpg";
-import bannerImg3 from "../assets/img/services/QualityControl/Desktop/Quality4.jpg";
-import bannerImg4 from "../assets/img/services/QualityControl/Desktop/Quality5.jpg";
+import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
+import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
+import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
 
 import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality1.jpg";
 
@@ -44,7 +43,6 @@ const globalContent = {
         {img:bannerImg1},
         {img:bannerImg2},
         {img:bannerImg3},
-        {img:bannerImg4},
     ],
     faqs: [{
         title: "Strategic Presence for Strategic Markets",
@@ -60,6 +58,10 @@ const globalContent = {
             {
                 title: "Latin America:",
                 text: "Recognizing the diverse and dynamic nature of Latin American markets, our distribution services are designed to navigate the unique challenges and opportunities in the region. From Mexico to Brazil and beyond, we provide customized logistics solutions to ensure our helmets reach our partners and clients efficiently, regardless of local complexities.",
+            },
+            {
+                title: "New Zeland:",
+                text: "Our local teams in New Zealand are not just experts in helmet distribution; they are deeply knowledgeable about the unique safety standards and regulations of the region. This ensures that our helmets not only meet but exceed the stringent requirements set forth by New Zealand authorities, providing unparalleled protection to our customers.",
             },
         ],
     }],

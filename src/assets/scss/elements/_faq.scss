@@ -2,8 +2,13 @@
     .content-block {
         .bg-img {
             position: relative;
+        
+        }
+        .bg-map{
+            filter: brightness(0%) !important;
         }
         .man {
+          
             border-style: solid;
             border-width: 4px;
             border-color: rgb(255, 255, 255);
