@@ -17,6 +17,7 @@ import Subscribe from '../components/Subscribe';
  import Timeline from '../components/Timeline';
  import BrandCarousel from '../components/BrandCarousel';
  import TeamMembers2 from '../components/TeamMembers2';
+import HorizontalScroll from '../components/HorizontalScrollCarousel';
 
 function Home3() {
 
@@ -24,8 +25,10 @@ function Home3() {
         <>  
             <Header3  />
             <Hero3 />
+            <HorizontalScroll/>
             <Process2 />
             <Timeline/>
+        
             <Portfolio2 />
             <Services1 />
             <Cta/>
@@ -33,7 +36,7 @@ function Home3() {
       
             <TeamMembers2 />
             <Appointment />
-
+        
     
             <Footer3 />
         </>
