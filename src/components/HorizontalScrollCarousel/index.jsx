@@ -94,7 +94,7 @@ const App = () => {
       const w = section.querySelector('.wrapper');
       const [x, xEnd] = index % 2 === 0 
       ? [w.scrollWidth * -1, 0] 
-      : ['100%', (w.scrollWidth - section.offsetWidth) * -1];
+      : ['90%', (w.scrollWidth - section.offsetWidth) * -1];
 
     // Primera animación GSAP
     gsap.fromTo(w, { x }, {
