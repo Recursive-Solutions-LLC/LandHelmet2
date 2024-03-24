@@ -1,14 +1,14 @@
-import thumb1 from "../assets/img/services/QualityControl/Packing1.jpg";
-import thumb2 from "../assets/img/services/QualityControl/Packing3.jpg";
-import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
-import thumb4 from "../assets/img/services/QualityControl/IMG_39311.JPG";
+import thumb1 from "../assets/img/services/QualityControl/quality-control.jpg";
+import thumb2 from "../assets/img/services/QualityControl/innovation.jpg";
+import thumb3 from "../assets/img/services/QualityControl/certified.jpg";
+import thumb4 from "../assets/img/services/QualityControl/partner.jpg";
 import thumb5 from "../assets/img/services/QualityControl/IMG_39241.JPG";
 
 import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
 import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
 
-import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality2.jpg";
+import distributorImg from "../assets/img/services/QualityControl/Desktop/banner-quality.jpg";
 
 const qualityContent = {
     title: "Quality Control",

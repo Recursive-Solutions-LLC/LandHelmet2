@@ -10,7 +10,7 @@ function Cta2() {
                     <div className="col-lg-4 text-white">
                         <div className="fun-fact d-flex align-items-center justify-content-center">
                             <img src={img} alt="" />
-                            <span>50</span>
+                            <span>+25</span>
                             <p>
                                 Years Of <br /> Experience
                             </p>
@@ -19,9 +19,7 @@ function Cta2() {
                     <div className="col-lg-8 p-lg-0">
                         <div className="cta-wrap d-flex justify-content-center justify-content-md-around align-items-center">
                             <h2 className="text-white">Get Your Project Done</h2>
-                            <a href="contact.html" className="">
-                                Get A Quote <BsArrowRight />
-                            </a>
+                            
                         </div>
                     </div>
                 </div>

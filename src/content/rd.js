@@ -8,7 +8,7 @@ import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
 import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
 
-import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality5.jpg";
+import distributorImg from "../assets/img/services/R&D/Banner/a-male-caucasian-technician-working-over-a-problem-2023-11-27-04-51-56-utc.jpg";
 
 import rAndDImg1 from "../assets/img/gallery/5.jpg";
 import rAndDImg2 from "../assets/img/gallery/r&d-01.jpg";

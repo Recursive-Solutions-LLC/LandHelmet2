@@ -11,7 +11,7 @@ import Cta from '../components/Cta3';
  import Timeline from '../components/Timeline';
  import TeamMembers2 from '../components/TeamMembers2';
 import HorizontalScroll from '../components/HorizontalScrollCarousel';
-
+import ShoeAnimation from '../components/ScrollTrigger' 
 function Home3() {
 
 
@@ -20,18 +20,21 @@ function Home3() {
         <>  
             <Header3  />
             <Hero3 />
+         
           
             <Process2 />
             <Timeline/>
             <HorizontalScroll/>
+          
             <Portfolio2 />
             <Services1 />
             <Cta/>
             <Faq />
       
             <TeamMembers2 />
+            <ShoeAnimation/>
             <Appointment />
-        
+     
     
             <Footer3 />
         </>

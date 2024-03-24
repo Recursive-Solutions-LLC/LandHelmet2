@@ -7,6 +7,7 @@ import About2 from '../components/About2';
  import AboutFeatured from '../components/AboutFeatured';
 import Approch from '../components/Approch';
 import Timeline from '../components/Timeline';
+import Cta3 from '../components/Cta2';
 
 function About() {
     return (
@@ -17,6 +18,7 @@ function About() {
             <AboutFeatured />
             <Approch />
             <About2/>
+            <Cta3/>
             <Timeline/>
 
 

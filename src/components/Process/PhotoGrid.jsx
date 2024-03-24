@@ -1,7 +1,7 @@
 import React from 'react';
-import img3 from '../../assets/img/p_bottom_img.jpg';
-import img2 from '../../assets/img/p_main_img.jpg';
-import img1 from '../../assets/img/p_top_img.jpg';
+import img3 from '../../assets/img/services/AE9I5871.jpg';
+import img2 from '../../assets/img/services/IMG_39151.jpg';
+import img1 from '../../assets/img/services/industrial-photo-of-modern-production-line-on-fact-2023-11-27-05-15-18-utc.jpg';
 
 function PhotoGrid() {
     return (

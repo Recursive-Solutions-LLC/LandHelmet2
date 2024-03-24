@@ -206,9 +206,11 @@
 
     .page-heading {
         h1 {
+            width: fit-content;
+            background-color: #27272770;
             font-size: 80px;
             line-height: 110%;
-
+            padding: 5px;
             @media (max-width: 991px) {
                 font-size: 60px;
             }
