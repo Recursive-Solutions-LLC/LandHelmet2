@@ -8,7 +8,7 @@ import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
 import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
 
-import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality3.jpg";
+import distributorImg from "../assets/img/services/InHouse/Desktop/AE9I5612.jpg";
 
 const inhouseContent = {
     title: "In House Production",
@@ -60,8 +60,13 @@ const inhouseContent = {
                     text: "With access to a variety of molds, we can produce helmets that meet specific design requirements and standards, including ANSI Type 1 and Type 2 helmets.",
                 },
                 {
-                    title: "OEM Production",
-                    text: "We specialize in manufacturing high-quality parts and accessories for Original Equipment Manufacturers, seamlessly integrating with your existing products.",
+                    title: "ODM/OEM Differences",
+                    text: "At Land Helmet, understanding the disparities between ODM (Original Design Manufacturer) and OEM (Original Equipment Manufacturer) is crucial. While OEM involves producing goods based on provided specifications, ODM entails designing and manufacturing products branded by another company. These distinctions impact our branding, design responsibilities, and market positioning within the helmet industry.",
+                }
+                ,
+                {
+                    title: "EPS IN-MOLD Helmets",
+                    text: "Discover the ultimate in safety innovation with our EPS IN-MOLD helmets. Designed to provide unmatched protection and comfort, these helmets are crafted with precision to meet the highest industry standards.",
                 },
                 {
                     title: "Customization and Branding",

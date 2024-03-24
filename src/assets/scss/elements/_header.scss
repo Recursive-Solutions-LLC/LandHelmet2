@@ -735,15 +735,16 @@ header {
     li {
       color: $primary-2;
       font-size: 15px;
-      font-weight: 400;
+      font-weight: 300;
       text-transform: capitalize;
-      background-color: #2b2a2a20;
+      background-color: #27272770;
       padding: 5px;
       a {
         color: #fff;
-        font-weight: 900;
+        font-weight: 600;
         &:hover {
-          color: $primary-1;
+          font-weight: 900;
+          font-size: 30px;
         }
       }
     }

@@ -23,7 +23,7 @@ function PageBanner({ bannerBg, currentPage, heading }) {
                         </div>
 
                         <div className="page-heading text-white">
-                            <h1>{heading}</h1>
+                            <h1 className='relative'>{heading}</h1>
                         </div>
                     </div>
                 </div>
