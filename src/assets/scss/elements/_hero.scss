@@ -4,6 +4,7 @@
 
 .hero-1 {
     .single-slide {
+
         padding: 200px 0px 180px;
 
         @media (max-width: 1199px) {
@@ -26,10 +27,12 @@
 
             h1 {
                 color: #fff;
-                font-size: 140px;
+                font-size: 64px;
                 line-height: 90%;
                 letter-spacing: -3px;
 
+  
+                
                 @media (max-width: 1199px) {
                     font-size: 110px;
                 }

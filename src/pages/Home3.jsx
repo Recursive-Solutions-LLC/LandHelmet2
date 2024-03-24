@@ -27,7 +27,7 @@ function Home3() {
             <HorizontalScroll/>
           
             <Portfolio2 />
-            <Services1 />
+            <Services1 hasTitle/>
             <Cta/>
             <Faq />
       
