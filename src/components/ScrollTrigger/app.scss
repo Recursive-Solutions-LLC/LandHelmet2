@@ -1,0 +1,39 @@
+.scroll{
+width: 55%;
+
+padding-top: 1%;
+    body { 
+        background-color: #a62e91;
+        color: white;
+      }
+      
+  
+      .shoe {
+     
+        position: relative;
+        padding: 20px;
+      }
+      .piece:not(.outsole) {
+        position: absolute;
+        bottom: 7vw;
+      }
+      .midsole {
+        width: 95%;
+        left: 5%;
+      }
+      .heel {
+        width: 100%;
+        left: 6%;
+        z-index: 5;
+      }
+      .outsole {
+        width: 95%;
+        position: relative;
+        margin-top: 10% !important;
+
+      }
+      
+      h1, h2, p, li {
+        max-width: none;
+      }
+}

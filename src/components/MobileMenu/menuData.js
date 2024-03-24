@@ -22,12 +22,12 @@ const menuData = [
         subNav: [
          
             {
-                title: 'Product Type I',
+                title: 'Helmet Type I ',
                 path: '/product-details-1',
                 cName: 'sub-nav',
             },
             {
-                title: 'Product Type II',
+                title: 'Helmet Tpe II',
                 path: '/product-details-2',
             },
         ],

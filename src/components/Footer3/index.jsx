@@ -72,9 +72,8 @@ function Footer3() {
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="footer-bottom">
+                <div className="footer-bottom">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-4 col-12 order-2 order-md-1">
@@ -110,6 +109,9 @@ function Footer3() {
                     </div>
                 </div>
             </div>
+            </div>
+
+
         </footer>
     );
 }

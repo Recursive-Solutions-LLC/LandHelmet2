@@ -1,6 +1,6 @@
 import React from 'react';
 import faqImg from '../../assets/img/home3/faq_man.png';
-import faqBg from '../../assets/img/map_faq.png';
+import faqBg from '../../assets/img/map.svg';
 import FaqAccordion from '../FaqAccordion';
 
 function Faq2() {
