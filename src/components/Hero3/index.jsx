@@ -2,15 +2,22 @@ import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import heroImg from '../../assets/img/home3/hero-3.png';
-
+import { gsap } from "gsap";
+import { useRef, useEffect } from "react";
 function Hero3() {
+    const leftAnimation = useRef();
+    const rightAnimation = useRef();
+    useEffect(() => {
+      gsap.fromTo(leftAnimation.current, { x: -100 }, { x: 0, duration: 2 });
+      gsap.fromTo(rightAnimation.current, { x: 100 }, { x: 0, duration: 2 });
+    });
     return (
         <section className="hero-slide-wrapper hero-3">
             <div className="slide-items">
                 <div className="single-slide bg-cover">
                     <div className="container">
                         <div className="row align-items-center text-center text-xl-start">
-                            <div className="col-12 col-lg-8 offset-lg-2 offset-xl-0 col-xl-7">
+                            <div ref={leftAnimation} className="col-12 col-lg-8 offset-lg-2 offset-xl-0 col-xl-7">
                                 <div className="hero-contents">
                                     <p>Create Your Own Brand of Advanced Safety Helmets</p>
                                     <h1>Custom Safety Solutions</h1>
@@ -22,7 +29,7 @@ function Hero3() {
                                     </Link>
                                 </div>
                             </div>
-                            <div className="col-xl-5 d-none d-xl-block">
+                            <div ref={rightAnimation} className="col-xl-5 d-none d-xl-block">
                                 <div
                                     className="hero-img bg-cover"
                                     style={{ backgroundImage: `url(${heroImg})` }}

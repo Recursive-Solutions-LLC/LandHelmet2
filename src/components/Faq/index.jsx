@@ -2,8 +2,58 @@ import React from 'react';
 import man1 from '../../assets/img/man1.png';
 import bgImg from '../../assets/img/map_pattern.png';
 import FaqAccordion from '../FaqAccordion';
-
+import { gsap } from "gsap";
+import { useRef, useEffect } from "react";
+import ScrollTrigger from 'gsap/ScrollTrigger';
 function Faq() {
+    const leftAnimation = useRef();
+    const rightAnimation = useRef();
+    useEffect(() => {
+        // Asegúrate de registrar ScrollTrigger si aún no lo has hecho.
+        gsap.registerPlugin(ScrollTrigger);
+    
+        // Animación para el elemento de la izquierda
+        gsap.fromTo(
+          leftAnimation.current,
+          { x: -100, autoAlpha: 0 }, // Estado inicial
+          {
+            x: 0, // Estado final
+            autoAlpha: 1, // Aparece gradualmente
+            duration: 2,
+            scrollTrigger: {
+                start: "top bottom", // La animación comienza cuando la parte inferior del viewport toca la parte inferior del trigger
+    
+              trigger: leftAnimation.current, // Elemento que dispara la animación
+             // La animación comienza cuando la parte superior del trigger llega al centro de la ventana
+              // Puedes ajustar "start" y "end" según necesites
+              toggleActions: "play none none none", // Define cómo se reproducen o revierten las animaciones
+              // Opciones de toggleActions: play, pause, resume, reset, restart, complete, reverse, none
+            },
+          }
+        );
+    
+        // Animación para el elemento de la derecha
+        gsap.fromTo(
+          rightAnimation.current,
+          { x: 100, autoAlpha: 0 }, // Estado inicial
+          {
+            x: 0, // Estado final
+            autoAlpha: 1, // Aparece gradualmente
+            duration: 2,
+            scrollTrigger: {
+              trigger: rightAnimation.current, // Elemento que dispara la animación
+              start: "top bottom",// La animación comienza cuando la parte superior del trigger llega al centro de la ventana
+              // Ajusta "start" y "end" como sea necesario
+              toggleActions: "play none none none", // Define cómo se reproducen o revierten las animaciones
+            },
+          }
+        );
+    
+        // Opcional: Limpieza en el efecto para evitar duplicaciones o comportamiento inesperado en re-renderizados
+        return () => {
+          ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+        };
+      }, []);
     return (
         <section className="faq-section section-padding">
             <div className="container">
@@ -12,7 +62,7 @@ function Faq() {
                         <p>Global</p>
                         <h1>Our Network Spans Continents for Fast Delivery</h1>
                     </div>
-                    <div className="col-xl-6 col-12 mt-4">
+                    <div ref={leftAnimation}  className="col-xl-6 col-12 mt-4">
                         <div className="content-block">
 
 
@@ -40,7 +90,7 @@ function Faq() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-12 mt-4 mt-xl-0">
+                    <div ref={rightAnimation}  className="col-xl-6 col-12 mt-4 mt-xl-0">
 
                         <div className="faq-content">
                             <FaqAccordion

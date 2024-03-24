@@ -180,7 +180,7 @@
 
         .hero-contents {
             p {
-                color: #2d417d;
+                color: $theme-dark;
                 font-weight: 700;
             }
 
@@ -227,7 +227,9 @@
 
         .hero-img {
             -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        
             clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            filter: brightness(75%) !important;
             height: 500px;
             width: 130%;
             margin-left: -100px;
