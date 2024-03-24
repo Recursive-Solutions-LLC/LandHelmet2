@@ -3,11 +3,11 @@
         height: 556px;
         background-color: #eee;
         position: relative;
-        margin-left: 6%;
+        margin-left: 1%;
         background-size: cover;
         background-position: center;
-        border-radius: 1%;
-        margin-right: 6%;
+        border-radius: 2%;
+        margin-right: 1%;
 
         @media (max-width: 991px) {
             height: 400px;
@@ -29,7 +29,6 @@
         left: -23%;
         top: -40px;
         position: absolute;
-        box-shadow: 0px 16px 32px 0px rgba(52, 52, 52, 0.04);
 
         @media (max-width: 767px) {
             left: -25%;
