@@ -5,10 +5,8 @@ import About2 from '../components/About2';
  import CoverAbout from '../assets/img/about-us/cover.jpg';
  import PageBanner from '../components/PageBanner';
  import AboutFeatured from '../components/AboutFeatured';
-// import Approch from '../components/Approch';
-// import SkillSet from '../components/SkillSet';
-// import Sponsors from '../components/Sponsors';
-// import Timeline from '../components/Timeline';
+import Approch from '../components/Approch';
+import Timeline from '../components/Timeline';
 
 function About() {
     return (
@@ -17,13 +15,11 @@ function About() {
      
             <PageBanner bannerBg={CoverAbout} currentPage="About Us" heading="About Us" />
             <AboutFeatured />
-            <About2/>
-            {/* 
-
             <Approch />
-            <SkillSet />
-            <Sponsors />
-            <Timeline /> */}
+            <About2/>
+            <Timeline/>
+
+
             <Footer3 />
         </>
     );

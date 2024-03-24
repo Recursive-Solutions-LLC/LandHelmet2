@@ -9,7 +9,7 @@ import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
 import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
 
-import distributorImg from "../assets/img/services/QualityControl/Desktop/Quality1.jpg";
+import distributorImg from "../assets/img/services/GlobalDistributor/Banner/view-down-aisles-of-racks-holding-cardboard-boxes-2023-11-27-05-21-17-utc.jpg";
 
 const globalContent = {
     title: "Global Distributor",
