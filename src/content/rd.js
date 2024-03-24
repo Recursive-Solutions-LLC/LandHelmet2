@@ -23,10 +23,6 @@ const rdContent = {
         text: "At Land Helmets, our Research and Development (R&D) process is designed around collaboration, innovation, and efficiency. We involve you, our partner, at every stage of the process, ensuring that the final product not only meets but exceeds your expectations. Here's how our comprehensive R&D process works:",
     },
     {
-        img: rAndDImg1,
-    },
-
-    {
         title: "Continuous Improvement Through Innovation",
         img: thumb2,
         text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",

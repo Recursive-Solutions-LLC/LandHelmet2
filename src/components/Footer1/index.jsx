@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
-import { AiOutlineArrowUp } from 'react-icons/ai';
 import { FaPaperPlane } from 'react-icons/fa';
-import logo from '../../assets/img/logo.png';
 import WidgetAbout from './WidgetAbout';
 import WidgetGetinTouch from './WidgetGetinTouch';
 import WidgetGetinTouchData from './WidgetGetinTouchData';
-import WidgetNews from './WidgetNews';
-import WidgetNewsData from './WidgetNewsData';
 import FooterWidget from './FooterWidget';
 function Footer1() {
     // STATES
@@ -108,8 +104,8 @@ function Footer1() {
                         </div>
                     </div>
                 </div>
-            </div>
-            {/* Footer bottom */}
+
+                            {/* Footer bottom */}
             <div className="footer-bottom">
                 <div className="container">
                     <div className="row align-items-center">
@@ -131,6 +127,8 @@ function Footer1() {
                     </div>
                 </div>
             </div>
+            </div>
+
         </footer>
     );
 }
