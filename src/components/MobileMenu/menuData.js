@@ -14,7 +14,7 @@ const menuData = [
 
     {
         title: 'Product',
-        path: '/',
+        path: '',
 
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,

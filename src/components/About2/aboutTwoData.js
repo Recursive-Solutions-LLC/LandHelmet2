@@ -6,7 +6,7 @@ const aboutTwoData = {
     quote: ' Our commitment to quality and innovation is unparalleled, ensuring that each helmet meets rigorous safety standards and exceeds customer expectations.',
     author: 'Lisa C.',
     position: '- Founder',
-    text: 'With over 25 years of experience, we have established ourselves as a prominent producer of helmets, catering to wholesalers, branded helmet companies, and manufacturers worldwide.',
+    text: 'We have established ourselves as a prominent producer of helmets, catering to wholesalers, branded helmet companies, and manufacturers worldwide.',
 };
 
 export default aboutTwoData;
