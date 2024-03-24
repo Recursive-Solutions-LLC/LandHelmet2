@@ -120,7 +120,7 @@ function Footer1() {
                          
                             <div className="copyright-info">
                                 <p>
-                                    &copy; Designed By <a href="recursivesolutions.net">Recursive Solutions </a> - 2024
+                                    &copy; Design By <a href="recursivesolutions.net">Recursive Solutions </a> - 2024
                                 </p>
                           
                             </div>

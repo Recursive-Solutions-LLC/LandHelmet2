@@ -12,6 +12,7 @@ import Cta from '../components/Cta3';
  import TeamMembers2 from '../components/TeamMembers2';
 import HorizontalScroll from '../components/HorizontalScrollCarousel';
 import ShoeAnimation from '../components/ScrollTrigger' 
+
 function Home3() {
 
 

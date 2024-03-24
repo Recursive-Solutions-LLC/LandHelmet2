@@ -4,6 +4,7 @@
     .footer-widgets {
         position: relative;
         z-index: 1;
+        box-shadow: 0 8px 6px -6px black;
         background-image: url("../../img/footer/footer-bg.png");
     }
 
@@ -172,7 +173,7 @@
 
 .footer-wrap {
     .footer-bottom {
-        padding: 23px 0px;
+        padding: 2px 0px;
 
         p,
         a {
