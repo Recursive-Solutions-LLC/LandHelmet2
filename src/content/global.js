@@ -1,9 +1,9 @@
 // Import necessary image
 import thumb1 from "../assets/img/services/QualityControl/Packing1.jpg";
-import thumb2 from "../assets/img/services/QualityControl/Packing3.jpg";
+import thumb2 from "../assets/img/services/GlobalDistributor/two-engineers-standing-in-a-shipping-yard-discussi-2023-11-27-05-15-10-utc.jpg";
 import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
-import thumb4 from "../assets/img/services/QualityControl/IMG_39311.JPG";
-import thumb5 from "../assets/img/services/QualityControl/IMG_39241.JPG";
+import thumb4 from "../assets/img/services/GlobalDistributor/male-builder-trying-on-helmet-in-hardware-store-2023-11-27-04-51-49-utc.jpg";
+import thumb5 from "../assets/img/services/GlobalDistributor/group-of-man-and-woman-in-cargo-container-area-joi-2023-11-27-05-02-45-utc.jpg";
 
 import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";

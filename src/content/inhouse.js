@@ -1,7 +1,7 @@
-import thumb1 from "../assets/img/services/QualityControl/Packing1.jpg";
-import thumb2 from "../assets/img/services/QualityControl/Packing3.jpg";
+import thumb1 from "../assets/img/services/InHouse/AE9I5943.jpg";
+import thumb2 from "../assets/img/services/InHouse/IMG_39311.jpg";
 import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
-import thumb4 from "../assets/img/services/QualityControl/IMG_39311.JPG";
+import thumb4 from "../assets/img/services/InHouse/group-of-construction-worker-applauding-to-manager-2023-11-27-05-04-23-utc.jpg";
 import thumb5 from "../assets/img/services/QualityControl/IMG_39241.JPG";
 
 import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
@@ -15,35 +15,25 @@ const inhouseContent = {
     Image: distributorImg,
     sections: [
         {
-            title: "Quality Control",
+            title: "Tailored Solutions from Concept to Completion",
             img: thumb1,
-            text: "At Land Helmets, our commitment to quality is at the forefront of everything we do. We understand that the safety and satisfaction of your workforce are paramount. That's why we've established a comprehensive quality control process that guarantees each helmet we produce meets the highest standards of safety, durability, and comfort.",
+            text: "At Land Helmets, our state-of-the-art in-house production facility is the backbone of our operations, enabling us to deliver high-quality, customized helmet solutions. By managing the entire production process under one roof, we ensure that every helmet we produce meets our stringent standards for safety, quality, and performance.",
         },
         {
-            title: "Rigorous Testing for Uncompromised Safety",
+            title: "Quality at the Forefront",
             img: thumb2,
-            text: "Our helmets undergo stringent testing to ensure they meet and exceed industry standards. This includes ANSI Z89.1-2014(R2019) for Type 1 and Type 2 helmets. Our testing protocols cover impact absorption, penetration resistance, flammability, and electrical insulation, among others.",
+            text: "Our in-house production not only facilitates flexibility and customization but also allows us to maintain rigorous quality control at every stage of the manufacturing process. Each helmet is carefully inspected to ensure it meets our high-quality standards and your specific requirements.",
         },
         {
-            title: "Continuous Improvement Through Innovation",
+            title: "Efficient and Scalable Solutions",
             img: thumb3,
-            text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
+            text: "With our entire production process located in one facility, we can offer shorter lead times and more flexible production schedules. This efficiency ensures that we can scale our operations up or down to meet your demands, providing reliable delivery times regardless of order size.",
         },
         {
-            title: "Quality Control at Every Stage",
+            title: "Partner with Us",
             img: thumb4,
-            text: "From the selection of raw materials to the final product inspection, our quality control process is all-encompassing. It includes raw material inspection, in-process quality checks, and a final inspection to ensure each helmet is free from defects and meets our safety certifications.",
+            text: "At Land Helmets, we're more than just a supplier; we're a partner in your success. Contact us today to learn how our in-house production services can provide customized, high-quality helmet solutions for your business.",
         },
-        {
-            title: "Certified for Your Peace of Mind",
-            img: thumb5,
-            text: "Our manufacturing facilities are ISO certified, and our helmets are certified by recognized standards bodies, providing you with the assurance that our products are manufactured to the highest quality and safety standards.",
-        },
-        {
-            title: "Partner with Us for Quality You Can Trust",
-            img: thumb3,
-            text: "Choosing Land Helmets means partnering with a company that places quality and safety above all. Our meticulous approach to quality control ensures that you can trust our helmets to protect your most valuable asset—your people.",
-        }
     ],
     carouselImg: [
         {img:bannerImg1},

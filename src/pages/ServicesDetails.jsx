@@ -6,7 +6,7 @@ import PageBanner from '../components/PageBanner';
 import ServiceDetails from '../components/ServiceDetails';
 import ServiceSidebar from '../components/ServiceSidebar';
 import DetailsCarousel from '../components/ServiceDetails/DetailsCarousel';
-import Timeline from '../components/Timeline';
+import Timeline from '../components/Timeline2';
 
 function ServicesDetails({ content }) {
     const { title, Image, carouselImg } = content;
