@@ -8,7 +8,7 @@ function ProjectDetails(data) {
     return (
         <>
             <Header1 />
-            <Hero1 />I
+            <Hero1 />
             <PortfolioDetails type={data} />
             <Footer1 />
         </>

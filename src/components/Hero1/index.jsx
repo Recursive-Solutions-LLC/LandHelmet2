@@ -3,7 +3,7 @@ import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
-import HeroBg1 from '../../assets/img/home1/hero1.jpg';
+import HeroBg1 from '../../assets/img/products/cover.jpg';
 
 function Hero1() {
     return (
@@ -12,20 +12,19 @@ function Hero1() {
                 <SwiperSlide>
                     <div
                         className="single-slide bg-cover"
-                        style={{ backgroundImage: `url(${HeroBg1})` }}
+                        style={{
+                            position: 'relative',
+                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(${HeroBg1})`
+                        }}
                     >
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 col-lg-8 col-xl-6">
                                     <div className="hero-contents">
-                                        <h1>Global Automotive</h1>
-                                        <Link to="/services" className="theme-btn">
-                                            Our Services{' '}
-                                            <BsArrowRight style={{ marginLeft: '10px' }} />
-                                        </Link>
-                                        <Link to="/about" className="theme-btn black">
-                                            Learn more
-                                        </Link>
+                                        <h1>Refinement & Development</h1>
+                                        <h2 id="hero-subtitle">Chose our models or create your own</h2>
+                                        <Link to="/services" className="theme-btn">Our Services <BsArrowRight style={{ marginLeft: '10px' }} /></Link>
+                                        <Link to="/about" className="theme-btn black">Learn more</Link>
                                     </div>
                                 </div>
                             </div>
@@ -35,7 +34,9 @@ function Hero1() {
                 <SwiperSlide>
                     <div
                         className="single-slide bg-cover"
-                        style={{ backgroundImage: `url(${HeroBg1})` }}
+                        style={{
+                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${HeroBg1})`
+                        }}
                     >
                         <div className="container">
                             <div className="row">

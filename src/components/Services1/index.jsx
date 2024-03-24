@@ -4,7 +4,7 @@ import servicesOneData from './servicesOneData';
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 import ScrollTrigger from 'gsap/ScrollTrigger';
-function Services1() {
+function Services1(hasTitle) {
     const leftAnimation = useRef();
     useEffect(() => {
         // Asegúrate de registrar ScrollTrigger si aún no lo has hecho.
@@ -37,15 +37,19 @@ function Services1() {
           ScrollTrigger.getAll().forEach(trigger => trigger.kill());
         };
       }, []);
-    return (
+
+      const renderTitle = hasTitle === true ? <p>Design</p> : undefined
+
+      const noTitle = hasTitle === true ? undefined :  "pt-5"
+
+      return (
         <section   className="services-wrapper services-1 section-bg">
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-12">
                         <div className="section-title-3 text-center">
-                            <p>Design</p>
-                         
-                            <h1>LandHelmets</h1>
+                        {renderTitle}
+                            <h1 className={noTitle}>Our Classes</h1>
                         </div>
                     </div>
                 </div>
