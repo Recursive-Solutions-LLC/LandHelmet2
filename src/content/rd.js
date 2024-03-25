@@ -1,7 +1,7 @@
-import thumb1 from "../assets/img/services/QualityControl/Packing1.jpg";
-import thumb2 from "../assets/img/services/QualityControl/Packing3.jpg";
-import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
-import thumb4 from "../assets/img/services/QualityControl/IMG_39311.JPG";
+import thumb1 from "../assets/img/services/QualityControl/innovation.jpg";
+import thumb2 from "../assets/img/services/R&D/improvement.jpg";
+import thumb3 from "../assets/img/services/R&D/your-participation.jpg";
+import thumb4 from "../assets/img/services/R&D/together.jpg";
 import thumb5 from "../assets/img/services/QualityControl/IMG_39241.JPG";
 
 import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
@@ -12,7 +12,7 @@ import distributorImg from "../assets/img/services/R&D/Banner/a-male-caucasian-t
 
 import rAndDImg1 from "../assets/img/gallery/5.jpg";
 import rAndDImg2 from "../assets/img/gallery/r&d-01.jpg";
-import rAndDImg3 from "../assets/img/gallery/r&d-08.jpg";
+import rAndDImg3 from "../assets/img/services/R&D/IMG_39311.JPG";
 
 const rdContent = {
     title: "R&D",
@@ -49,8 +49,6 @@ const rdContent = {
             {
                 title: "1. Scanning and 3D Drawing",
                 text: "The client's 3D helmet model or scanned existing one undergoes CNC 3D scanning, yielding detailed digital drawings. These drawings serve as a precise foundation for further development and adjustments.",
-            },
-            {
                 img: rAndDImg2,
             },
             {
@@ -76,8 +74,6 @@ const rdContent = {
             {
                 title: "7. Mold Testing and Improvement",
                 text: "Both the EPS and PC molds undergo rigorous testing. Feedback from these tests leads to refinements, ensuring the highest quality standards are met.",
-            },
-            {
                 img: rAndDImg3,
             },
             {

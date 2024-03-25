@@ -11,18 +11,7 @@ function ServiceDetails({ content }) {
     })
     return (
         <div className="service-details-content-wrapper pl-0 pl-md-4">
-            {/* 
-            
-                
-            {renderDetailsContent}/>
-            
-            const renderDetailsContent = sections.map((section) => {
-        const { title, text, img } = section;
-        <DetailsContent sections={sections} />
-    })
-            */}
             <DetailsContent sections={sections} />
-            {renderDetailsAccordion}
         </div>
     );
 }

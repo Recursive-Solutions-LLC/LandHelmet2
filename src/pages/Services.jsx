@@ -14,7 +14,6 @@ function Services() {
             <PageBanner bannerBg={bannerBg} currentPage="Services" heading="What We Do" />
             <Services2 />
             <Process />
-            
             <Footer3 />
         </>
     );

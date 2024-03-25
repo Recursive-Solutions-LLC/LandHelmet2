@@ -1,17 +1,9 @@
 import React from 'react';
-import { SRLWrapper } from 'simple-react-lightbox';
-import img1 from '../../assets/img/gallery/5.jpg';
-import img2 from '../../assets/img/gallery/6.jpg';
-import { FiCheck } from 'react-icons/fi';
-import ReactHtmlParser from 'react-html-parser'
-import ServicesContent from './ServicesContent';
 import SwiperCore, { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PortfolioOneSlide from '../Portfolio1/PortfolioOneSlide';
 import 'swiper/swiper-bundle.min.css';
-import FaqAccordion from '../FaqAccordion';
-import faqImg from '../../assets/img/home3/faq_man.png';
-import faqBg from '../../assets/img/map_faq.png';
+
 
 SwiperCore.use([Navigation]);
 
