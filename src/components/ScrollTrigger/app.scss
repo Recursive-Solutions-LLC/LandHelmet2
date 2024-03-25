@@ -1,5 +1,18 @@
+
 .scroll{
+  @media (max-width: 768px) {
+    .scroll,
+    .shoe,
+    .piece:not(.outsole),
+    .midsole,
+    .heel,
+    .outsole,
+    h1, h2, p, li {
+      display: none;
+    }
+  }
   padding-top: 1%;
+  padding-bottom: 5px;
       body { 
           background-color: #a62e91;
           color: white;
@@ -34,4 +47,5 @@
         h1, h2, p, li {
           max-width: none;
         }
-  }
+  }  
+ 
