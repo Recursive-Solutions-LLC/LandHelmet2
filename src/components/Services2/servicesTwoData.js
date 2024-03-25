@@ -6,10 +6,10 @@ import {
   FaTruckMoving,
 } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
-import thumb1 from "../../assets/img/service1.jpg";
-import thumb4 from "../../assets/img/service4.jpg";
-import thumb5 from "../../assets/img/service5.jpg";
-import thumb6 from "../../assets/img/service6.jpg";
+import thumb1 from "../../assets/img/services/quality-control.jpg";
+import thumb2 from "../../assets/img/services/r&d.jpg";
+import thumb3 from "../../assets/img/services/global-distributor.jpg";
+import thumb4 from "../../assets/img/services/in-house.jpg";
 
 const servicesTwoData = [
   {
@@ -24,7 +24,7 @@ const servicesTwoData = [
   {
     link:"services-details-rd",
     id: uuidv4(),
-    thumbnail: thumb6,
+    thumbnail: thumb2,
     icon: <FaHardHat />,
     heading: "R&D",
     text: "At Land Helmets, our Research and Development (R&D) process is ....",
@@ -33,7 +33,7 @@ const servicesTwoData = [
   {
     link:"services-details-distributor",
     id: uuidv4(),
-    thumbnail: thumb5,
+    thumbnail: thumb3,
     icon: <FaCity />,
     heading: "Global Distributor",
     text: "At Land Helmets, our global reach is specifically designed to support...",
