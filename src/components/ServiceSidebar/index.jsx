@@ -26,7 +26,7 @@ function ServiceSidebar() {
                 </div>
                 <div className="brochures-download">
                     <ServiceDownload
-                        link="/services-details"
+                        link="https://drive.google.com/file/d/1ZYgv0OIuDK3IAyQwSkFw169_e9bmu3YV/view"
                         text="Download .PDF"
                         icon={<FaFilePdf style={{ marginTop: '-5px', marginRight: '5px' }} />}
                     />
@@ -38,9 +38,7 @@ function ServiceSidebar() {
                     <ServiceDownload
                         link="/services-details"
                         text="Download .PPT"
-                        icon={
-                            <FaFilePowerpoint style={{ marginTop: '-5px', marginRight: '5px' }} />
-                        }
+                        icon={<FaFilePowerpoint style={{ marginTop: '-5px', marginRight: '5px' }} />}
                     />
                 </div>
             </div>

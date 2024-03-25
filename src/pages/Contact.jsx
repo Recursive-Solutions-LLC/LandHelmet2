@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerBg from '../assets/img/page-banner.jpg';
+import bannerBg from '../assets/img/contact-us/professional-architect-woman-standing-outdoors-2023-11-27-05-04-38-utc.jpg';
 import ContactForm from '../components/ContactForm';
 import ContactUs from '../components/ContactUs';
 import Footer3 from '../components/Footer1';
