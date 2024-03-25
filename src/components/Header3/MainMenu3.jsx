@@ -7,10 +7,10 @@ const menuItems = [
     { to: '/', label: 'Home' },
     { to: '/about', label: 'About' },
     {
-        to: '/product-details-1', label: 'Product', subMenu: [
+        to: '/type-I', label: 'Product', subMenu: [
     
-            { to: '/product-details-1', label: 'Helmet Type I' },
-            { to: '/product-details-2', label: 'Helmet Type II' },
+            { to: '/type-I', label: 'Helmet Type I' },
+            { to: '/type-II', label: 'Helmet Type II' },
         ]
     },
     { to: '/services', label: 'Services' , subMenu: [

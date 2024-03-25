@@ -23,12 +23,12 @@ const menuData = [
          
             {
                 title: 'Helmet Type I ',
-                path: '/product-details-1',
+                path: '/type-I',
                 cName: 'sub-nav',
             },
             {
                 title: 'Helmet Tpe II',
-                path: '/product-details-2',
+                path: '/type-II',
             },
         ],
     },

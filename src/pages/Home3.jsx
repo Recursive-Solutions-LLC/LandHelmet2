@@ -12,6 +12,7 @@ import Cta from '../components/Cta3';
  import TeamMembers2 from '../components/TeamMembers2';
 import HorizontalScroll from '../components/HorizontalScrollCarousel';
 import ShoeAnimation from '../components/ScrollTrigger' 
+import servicesOneData from '../content/servicesOneData';
 
 function Home3() {
 
@@ -28,7 +29,7 @@ function Home3() {
             <HorizontalScroll/>
           
             <Portfolio2 />
-            <Services1 hasTitle/>
+            <Services1 hasTitle data={servicesOneData} title="Our Classes"/>
             <Cta/>
             <Faq />
       
