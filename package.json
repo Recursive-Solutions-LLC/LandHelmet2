@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.1.2",
     "gsap": "^3.12.5",
+    "nodemailer": "^6.9.13",
     "react": "^17.0.1",
     "react-accessible-accordion": "^3.0.1",
     "react-animate-on-scroll": "^2.1.5",
