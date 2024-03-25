@@ -665,20 +665,8 @@
                 }
 
                 &:first-child {
-                    background-color: #000;
-                    border-color: #000;
-                    color: $primary-2;
-                }
-
-                &:nth-child(2) {
                     background-color: $primary-1;
                     border-color: $secondary-3;
-                    color: $primary-2;
-                }
-
-                &:last-child {
-                    background-color: $theme-dark;
-                    border-color: $theme-dark;
                     color: $primary-2;
                 }
             }

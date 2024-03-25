@@ -30,16 +30,6 @@ function ServiceSidebar() {
                         text="Download .PDF"
                         icon={<FaFilePdf style={{ marginTop: '-5px', marginRight: '5px' }} />}
                     />
-                    <ServiceDownload
-                        link="/services-details"
-                        text="Download .DOC"
-                        icon={<FaFileWord style={{ marginTop: '-5px', marginRight: '5px' }} />}
-                    />
-                    <ServiceDownload
-                        link="/services-details"
-                        text="Download .PPT"
-                        icon={<FaFilePowerpoint style={{ marginTop: '-5px', marginRight: '5px' }} />}
-                    />
                 </div>
             </div>
             <div className="single-service-sidebar site_info_widget">
