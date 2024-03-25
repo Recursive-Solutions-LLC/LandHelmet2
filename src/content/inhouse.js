@@ -2,7 +2,6 @@ import thumb1 from "../assets/img/services/InHouse/AE9I5943.jpg";
 import thumb2 from "../assets/img/services/InHouse/IMG_39311.jpg";
 import thumb3 from "../assets/img/services/InHouse/IMG_39151.JPG";
 import thumb4 from "../assets/img/services/InHouse/group-of-construction-worker-applauding-to-manager-2023-11-27-05-04-23-utc.jpg";
-import thumb5 from "../assets/img/services/QualityControl/IMG_39241.JPG";
 
 import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
 import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";

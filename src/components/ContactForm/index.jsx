@@ -1,18 +1,48 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
 import FormInput from './FormInput';
+import { sendEmail } from './sendEmail';
 
 function ContactForm({ title, heading }) {
     // STATES
-    const [message, setMessage] = useState('');
+    const [subject, setSubject] = useState('');
+    const [contactName, setContactName] = useState('');
+    const [contactPhoneNumber, setContactPhoneNumber] = useState('');
+    const [contactEmail, setContactEmail] = useState('');
+    const [contactMessage, setContactMessage] = useState('');
 
     // HANDLER
-    const onChangeHandler = (e) => {
-        setMessage(e.target.value);
+    const handleSubjectChange = (e) => {
+        setSubject(e.target.value);
     };
+
+    const handleContactNameChange = (e) => {
+        setContactName(e.target.value);
+    };
+
+    const handleContactPhoneNumberChange = (e) => {
+        setContactPhoneNumber(e.target.value);
+    };
+
+    const handleContactEmailChange = (e) => {
+        setContactEmail(e.target.value);
+    };
+
+    const handleContactMessageChange = (e) => {
+        setContactMessage(e.target.value);
+    };
+
 
     const onSubmitHandler = (e) => {
         e.preventDefault();
+        const emailBody = `
+            Subject: ${subject}
+            Contact Name: ${contactName}
+            Contact Phone Number: ${contactPhoneNumber}
+            Contact Email: ${contactEmail}
+            Message: ${contactMessage}
+        `;
+        sendEmail(subject, emailBody);
     };
 
     return (
@@ -33,6 +63,8 @@ function ContactForm({ title, heading }) {
                                     label="Full Name"
                                     placeholder="Enter Name"
                                     id="fullname"
+                                    value={contactName}
+                                    onChange={handleContactNameChange}
                                 />
                                 <FormInput
                                     type="email"
@@ -40,6 +72,8 @@ function ContactForm({ title, heading }) {
                                     label="Email Address"
                                     placeholder="Enter Email Address"
                                     id="email"
+                                    value={contactEmail}
+                                    onChange={handleContactEmailChange}
                                 />
                                 <FormInput
                                     type="text"
@@ -47,6 +81,8 @@ function ContactForm({ title, heading }) {
                                     label="Phone Number"
                                     placeholder="Enter Number"
                                     id="phone"
+                                    value={contactPhoneNumber}
+                                    onChange={handleContactPhoneNumberChange}
                                 />
 
                                 <FormInput
@@ -55,16 +91,18 @@ function ContactForm({ title, heading }) {
                                     label="Subject"
                                     placeholder="Enter Subject"
                                     id="subject"
+                                    value={subject}
+                                    onChange={handleSubjectChange}
                                 />
 
                                 <div className="col-md-12 col-12">
                                     <div className="single-personal-info">
                                         <label htmlFor="subject">Enter Message</label>
                                         <textarea
-                                            value={message}
-                                            onChange={onChangeHandler}
                                             id="subject"
                                             placeholder="Enter message"
+                                            value={contactMessage}
+                                            onChange={handleContactMessageChange}
                                         />
                                     </div>
                                 </div>
