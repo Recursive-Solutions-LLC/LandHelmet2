@@ -1,7 +1,10 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
 import FormInput from './FormInput';
-import { sendEmail } from './sendEmail';
+import sendMail from '../../pages/api/sendMail/router'
+import parse from 'react-html-parser';
+
+const baseUrl = "http://localhost:3000";
 
 function ContactForm({ title, heading }) {
     // STATES
@@ -11,39 +14,22 @@ function ContactForm({ title, heading }) {
     const [contactEmail, setContactEmail] = useState('');
     const [contactMessage, setContactMessage] = useState('');
 
-    // HANDLER
-    const handleSubjectChange = (e) => {
-        setSubject(e.target.value);
-    };
-
-    const handleContactNameChange = (e) => {
-        setContactName(e.target.value);
-    };
-
-    const handleContactPhoneNumberChange = (e) => {
-        setContactPhoneNumber(e.target.value);
-    };
-
-    const handleContactEmailChange = (e) => {
-        setContactEmail(e.target.value);
-    };
-
-    const handleContactMessageChange = (e) => {
-        setContactMessage(e.target.value);
-    };
-
-
-    const onSubmitHandler = (e) => {
-        e.preventDefault();
-        const emailBody = `
-            Subject: ${subject}
-            Contact Name: ${contactName}
-            Contact Phone Number: ${contactPhoneNumber}
-            Contact Email: ${contactEmail}
-            Message: ${contactMessage}
-        `;
-        sendEmail(subject, emailBody);
-    };
+    const sendMail = async () => {
+        const response = await fetch('/api/sendMail/route',{
+          method:'Post',
+          headers:{
+            'content-type':'application/json'
+          },
+          body:JSON.stringify({
+            subject, 
+            contactName, 
+            contactEmail, 
+            contactMessage,
+            contactPhoneNumber
+          })
+        })
+        console.log(await response.json())
+    }
 
     return (
         <section className="contact-form-wrapper section-padding pt-0">
@@ -56,45 +42,55 @@ function ContactForm({ title, heading }) {
 
                     <div className="col-12 col-lg-12">
                         <div className="contact-form">
-                            <form action="" className="row conact-form">
-                                <FormInput
-                                    type="text"
-                                    labelFor="fullname"
-                                    label="Full Name"
-                                    placeholder="Enter Name"
-                                    id="fullname"
-                                    value={contactName}
-                                    onChange={handleContactNameChange}
-                                />
-                                <FormInput
-                                    type="email"
-                                    labelFor="email"
-                                    label="Email Address"
-                                    placeholder="Enter Email Address"
-                                    id="email"
-                                    value={contactEmail}
-                                    onChange={handleContactEmailChange}
-                                />
-                                <FormInput
-                                    type="text"
-                                    labelFor="phone"
-                                    label="Phone Number"
-                                    placeholder="Enter Number"
-                                    id="phone"
-                                    value={contactPhoneNumber}
-                                    onChange={handleContactPhoneNumberChange}
-                                />
-
-                                <FormInput
-                                    type="text"
-                                    labelFor="subject"
-                                    label="Subject"
-                                    placeholder="Enter Subject"
-                                    id="subject"
-                                    value={subject}
-                                    onChange={handleSubjectChange}
-                                />
-
+                            <form action="" className="row conact-form" onSubmit={sendMail}>
+                                <div className="col-md-6 col-12">
+                                    <div className="single-personal-info">
+                                        <label>Full Name</label>
+                                        <input
+                                            type="text"
+                                            placeholder="Enter Name"
+                                            id="fullname"
+                                            value={contactName}
+                                            onChange={(e) => setContactName(e.target.value)}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-12">
+                                    <div className="single-personal-info">
+                                        <label>Email Address</label>
+                                        <input
+                                            type="email"
+                                            placeholder="Enter Email Address"
+                                            id="email"
+                                            value={contactEmail}
+                                            onChange={(e) => setContactEmail(e.target.value)}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-12">
+                                    <div className="single-personal-info">
+                                        <label>Phone Number</label>
+                                        <input
+                                            type="tel"
+                                            placeholder="Enter Number"
+                                            id="phone"
+                                            value={contactPhoneNumber}
+                                            onChange={(e) => setContactPhoneNumber(e.target.value)}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-12">
+                                    <div className="single-personal-info">
+                                        <label htmlFor="subject">Subject</label>
+                                        <input
+                                            type="text"
+                                            placeholder="Enter Subject"
+                                            id="subject"
+                                            value={subject}
+                                            onChange={(e) => setSubject(e.target.value)}
+                                        />
+                                    </div>
+                                </div>
                                 <div className="col-md-12 col-12">
                                     <div className="single-personal-info">
                                         <label htmlFor="subject">Enter Message</label>
@@ -102,7 +98,7 @@ function ContactForm({ title, heading }) {
                                             id="subject"
                                             placeholder="Enter message"
                                             value={contactMessage}
-                                            onChange={handleContactMessageChange}
+                                            onChange={(e) => setContactMessage(e.target.value)}
                                         />
                                     </div>
                                 </div>
@@ -112,7 +108,6 @@ function ContactForm({ title, heading }) {
                                         className="submit-btn"
                                         type="submit"
                                         value="Get A Quote"
-                                        onSubmit={onSubmitHandler}
                                     />
                                 </div>
                             </form>
