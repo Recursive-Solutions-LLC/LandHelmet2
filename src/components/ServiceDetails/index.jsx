@@ -12,6 +12,7 @@ function ServiceDetails({ content }) {
     return (
         <div className="service-details-content-wrapper pl-0 pl-md-4">
             <DetailsContent sections={sections} />
+            {renderDetailsAccordion}
         </div>
     );
 }
