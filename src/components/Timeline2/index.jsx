@@ -26,12 +26,12 @@ const Timeline2 = () =>  {
 
     // Directly return the JSX of the Timeline
     return (<>
-      <div className="section-title-3 text-center">
+      <div className="section-title-3 text-center ">
                                 <p className="pl-50 pr-50">Bespoke R&D</p>
                                 <h1>Chose one of our models or create your own</h1>
                             </div>
 
-        <div className="timeline-container">
+        <div className="timeline-container section-bg">
            
             {timelineData.length > 0 && timelineData.map((data, index) => (
                 <TimelineItem data={data} key={index} />
