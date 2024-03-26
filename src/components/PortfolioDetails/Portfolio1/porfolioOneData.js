@@ -1,11 +1,12 @@
 import { v4 as uuidv4 } from 'uuid';
-import Img1 from '../../../assets/img/project/project1.jpg';
+import typeI from '../../../assets/img/products/type-I/type-I.jpg';
+import typeII from '../../../assets/img/products/type-II/type-II.jpg';
 import thumb1 from '../../../assets/img/home3/service1.jpg';
 
 const portfolioOneData = [
     {
         id: uuidv4(),
-        image: Img1,
+        image: typeI,
         category: 'Industrial',
         client: 'Rosalina D.',
         heading: 'Type I Helmet: Ultimate Protection for Industrial Excellence',
@@ -58,7 +59,7 @@ const portfolioOneData = [
     },
     {
         id: uuidv4(),
-        image: Img1,
+        image: typeII,
         category: 'Industrial',
         client: 'Rosalina D.',
         heading: 'Type II Helmet: The European Style for Advanced Safety and Comfort',

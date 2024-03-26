@@ -27,10 +27,10 @@ function App() {
                     {/* <Route exact path="/products">
                         <Projects />
                     </Route> */}
-                    <Route exact path="/product-details-1">
+                    <Route exact path="/type-I">
                         <ProjectDetails type={1} />
                     </Route>
-                    <Route exact path="/product-details-2">
+                    <Route exact path="/type-II">
                         <ProjectDetails type={2} />
                     </Route>
 

@@ -1,10 +1,9 @@
 import React from 'react';
 import ServicesOneCard from './ServicesOneCard';
-import servicesOneData from './servicesOneData';
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 import ScrollTrigger from 'gsap/ScrollTrigger';
-function Services1(hasTitle) {
+function Services1({hasTitle, data, title}) {
     const leftAnimation = useRef();
     useEffect(() => {
         // Asegúrate de registrar ScrollTrigger si aún no lo has hecho.
@@ -42,6 +41,17 @@ function Services1(hasTitle) {
 
       const noTitle = hasTitle === true ? undefined :  "pt-5"
 
+      console.log('%csrc/components/Services1/index.jsx:44 data', 'color: white; background-color: #007acc;', data);
+
+      const renderServices = data.map((item) => (
+        <ServicesOneCard
+            key={item.id}
+            bgImg={item.bgImg}
+            icon={item.icon}
+            heading={item.heading}
+            btnText={item.btnText}
+        />
+    ))
       return (
         <section   className="services-wrapper services-1 section-bg">
             <div className="container">
@@ -49,20 +59,12 @@ function Services1(hasTitle) {
                     <div className="col-12 col-lg-12">
                         <div className="section-title-3 text-center">
                         {renderTitle}
-                            <h1 className={noTitle}>Our Classes</h1>
+                            <h1 className={noTitle}>{title}</h1>
                         </div>
                     </div>
                 </div>
                 <div ref={leftAnimation}  className="row">
-                    {servicesOneData.map((item) => (
-                        <ServicesOneCard
-                            key={item.id}
-                            bgImg={item.bgImg}
-                            icon={item.icon}
-                            heading={item.heading}
-                            btnText={item.btnText}
-                        />
-                    ))}
+                    {renderServices}
                 </div>
             </div>
         </section>

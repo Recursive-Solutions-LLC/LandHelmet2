@@ -17,11 +17,9 @@ function About() {
             <PageBanner bannerBg={CoverAbout} currentPage="About Us" heading="About Us" />
             <AboutFeatured />
             <Approch />
+            <Timeline/>
             <About2/>
             <Cta3/>
-            <Timeline/>
-
-
             <Footer3 />
         </>
     );
