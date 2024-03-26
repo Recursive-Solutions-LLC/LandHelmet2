@@ -12,8 +12,8 @@ function BrandCarousel() {
                     <div className="col-12 col-lg-12">
                         <div className="brand-logo-grid">
                             <Swiper slidesPerView="4" loop>
-                                {brandData.map((data) => (
-                                    <SwiperSlide key={data.id}>
+                                {brandData.map((data,index) => (
+                                    <SwiperSlide key={index}>
                                         <BrandItem brandLogo={data.brandLogo} />
                                     </SwiperSlide>
                                 ))}
