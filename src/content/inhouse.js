@@ -3,9 +3,9 @@ import thumb2 from "../assets/img/services/InHouse/IMG_39311.jpg";
 import thumb3 from "../assets/img/services/InHouse/IMG_39151.JPG";
 import thumb4 from "../assets/img/services/InHouse/group-of-construction-worker-applauding-to-manager-2023-11-27-05-04-23-utc.jpg";
 
-import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
-import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
-import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
+import bannerImg1 from "../assets/img/services/InHouse/Carousel/worker-paint-spraying-automotive-parts-in-spray-pa-2023-11-27-05-02-05-utc-min.jpg";
+import bannerImg2 from "../assets/img/services/InHouse/Carousel/mechanic-working-at-factory-2023-11-27-04-56-56-utc-min.JPG";
+import bannerImg3 from "../assets/img/services/InHouse/Carousel/happy-young-woman-working-at-factory-2023-11-27-04-52-18-utc-min.jpg";
 
 import distributorImg from "../assets/img/services/InHouse/Desktop/AE9I5612.jpg";
 

@@ -3,9 +3,9 @@ import thumb2 from "../assets/img/services/R&D/improvement.jpg";
 import thumb3 from "../assets/img/services/R&D/your-participation.jpg";
 import thumb4 from "../assets/img/services/R&D/together.jpg";
 
-import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
-import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
-import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
+import bannerImg1 from "../assets/img/services/R&D/Carousel/businessman-examining-workpieces-in-a-modern-facto-2023-11-27-05-15-34-utc-min.jpg";
+import bannerImg2 from "../assets/img/services/R&D/Carousel/handsome-mature-engineer-working-in-laboratory-in-2023-11-27-04-52-59-utc-min.jpg";
+import bannerImg3 from "../assets/img/services/R&D/Carousel/specialist-male-african-american-engineer-workers-2024-03-15-18-26-39-utc-min.jpg";
 
 import distributorImg from "../assets/img/services/R&D/Banner/a-male-caucasian-technician-working-over-a-problem-2023-11-27-04-51-56-utc.jpg";
 
