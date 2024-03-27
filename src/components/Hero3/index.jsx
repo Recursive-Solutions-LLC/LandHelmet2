@@ -37,7 +37,7 @@ function Hero3() {
         heroImg8,
 
         heroImg10,
-        heroImg11,
+    
   
 
         heroImg14,
@@ -47,6 +47,7 @@ function Hero3() {
         heroImg18,
   
         heroImg22,
+        heroImg11,
       ];
       
       const [currentImage, setCurrentImage] = useState(0);
