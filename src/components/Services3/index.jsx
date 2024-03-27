@@ -5,7 +5,13 @@ import servicesThreeData from './servicesThreeData';
 function Services3() {
     return (
         <section className="services-wrapper services-2 section-padding pt-0">
-            <div className="services-grid">
+              <div className="section-title-3 text-center ">
+                                <p className="pl-50 pr-50">M12 M10 M02</p>
+                                <h1>Helmet Designs </h1>
+                            <h4>We're thrilled to present our unparalleled ODM y OEM capabilities tailored specifically for safety helmets. As a pioneering force in the industry, we understand the critical importance of superior quality, innovative design, and uncompromising safety standards</h4>
+                            </div>
+            <div className="services-grid pt-5">
+          
                 {servicesThreeData.map((data) => (
                     <ServicesThreeCard
                         key={data.id}

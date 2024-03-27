@@ -24,12 +24,12 @@ function Home3() {
         <>  
             <Header3  />
             <Hero3 />
-         
-        
-            <Process2 />
-            <Services3/>
-            <Timeline/>
             <HorizontalScroll/>
+            <Services3/>
+            <Process2 />
+           
+            <Timeline/>
+        
           
             <Portfolio2 />
             <Services1 hasTitle data={servicesOneData} title="Our Classes"/>
