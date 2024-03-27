@@ -7,12 +7,14 @@ import Hero3 from '../components/Hero3';
 import Portfolio2 from '../components/Portfolio2';
 import Process2 from '../components/Process2';
 import Services1 from '../components/Services1';
+import Services3 from '../components/Services3';
 import Cta from '../components/Cta3';
  import Timeline from '../components/Timeline';
  import TeamMembers2 from '../components/TeamMembers2';
 import HorizontalScroll from '../components/HorizontalScrollCarousel';
 import ShoeAnimation from '../components/ScrollTrigger' 
 import servicesOneData from '../content/servicesOneData';
+
 
 function Home3() {
 
@@ -23,8 +25,9 @@ function Home3() {
             <Header3  />
             <Hero3 />
          
-          
+        
             <Process2 />
+            <Services3/>
             <Timeline/>
             <HorizontalScroll/>
           
