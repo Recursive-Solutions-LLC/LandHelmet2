@@ -14,6 +14,7 @@ import Cta from '../components/Cta3';
 import HorizontalScroll from '../components/HorizontalScrollCarousel';
 import ShoeAnimation from '../components/ScrollTrigger' 
 import servicesOneData from '../content/servicesOneData';
+import ProjectFilter2 from '../components/ProjectFilter2';
 
 
 function Home3() {
@@ -29,7 +30,7 @@ function Home3() {
             <Process2 />
            
             <Timeline/>
-        
+           <ProjectFilter2/>
           
             <Portfolio2 />
             <Services1 hasTitle data={servicesOneData} title="Our Classes"/>
