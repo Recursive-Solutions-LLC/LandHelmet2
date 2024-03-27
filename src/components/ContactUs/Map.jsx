@@ -13,6 +13,7 @@ function Map() {
                 }}
                 allowFullScreen=""
                 aria-hidden="false"
+                key={"myKey"}
             />
         </div>
     );

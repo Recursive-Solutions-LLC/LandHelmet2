@@ -22,10 +22,10 @@ function Footer1() {
         { path: "/contact", label: "Contact us" },
     ];
     const serviceLinks = [
-        { path: "/services", label: "Quality Control" },
-        { path: "/services", label: "R&D" },
-        { path: "/services", label: "Global Distributor" },
-        { path: "/services", label: "In House Production" },
+        { path: "/services-details-quality", label: "Quality Control" },
+        { path: "/services-details-rd", label: "R&D" },
+        { path: "/services-details-distributor", label: "Global Distributor" },
+        { path: "/services-details-production", label: "In House Production" },
     ];
     return (
         <footer className="footer-1 footer-wrap">

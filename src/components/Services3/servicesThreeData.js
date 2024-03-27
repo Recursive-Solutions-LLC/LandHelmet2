@@ -8,8 +8,8 @@ const servicesThreeData = [
         id: uuidv4(),
         thumbnail: thumb1,
         index: '01',
-        heading: 'Metal Forming',
-        text: 'Enim ut tellus elementum sagittis vitae et leo id uisu ut. Amet dictum sit amet justo donec eni um diames vulputate. Arcu felis bibendum',
+        heading: ' Advanced ODM Solutions',
+        text: ' From concept to creation, our expert team collaborates closely with you to develop customized safety helmets that reflect your brand identity while adhering to the highest safety standards',
     },
 
     {
@@ -33,14 +33,7 @@ const servicesThreeData = [
         index: '04',
         heading: 'Our History',
         text: 'Enim ut tellus elementum sagittis vitae et leo id uisu ut. Amet dictum sit amet justo donec eni um diames vulputate. Arcu felis bibendum',
-    },
-    {
-        id: uuidv4(),
-        thumbnail: thumb3,
-        index: '05',
-        heading: 'Our History',
-        text: 'Enim ut tellus elementum sagittis vitae et leo id uisu ut. Amet dictum sit amet justo donec eni um diames vulputate. Arcu felis bibendum',
-    },
+    }
 ];
 
 export default servicesThreeData;

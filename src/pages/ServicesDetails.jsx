@@ -21,7 +21,7 @@ function ServicesDetails({ content }) {
             <section className="service-details-wrapper section-padding">
                 {title == 'R&D' && (<Timeline />)}
                 <div className="container">
-                    {title != 'R&D' && (<DetailsCarousel carouselImg={carouselImg} />)}
+                    <DetailsCarousel carouselImg={carouselImg} />
                     <div className="row">
                         <div className="col-lg-3 col-md-4 mt-5 mt-md-0 col-12 order-2 order-md-1">
                             <ServiceSidebar />

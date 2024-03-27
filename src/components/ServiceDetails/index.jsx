@@ -5,13 +5,14 @@ import DetailsAccordion from "./DetailsAccordion"
 
 function ServiceDetails({ content }) {
     const { sections, faqs } = content
-    const renderDetailsAccordion = faqs.map((faq) => {
+    const renderDetailsAccordion = faqs.map((faq ,index) => {
         const { title, text, list } = faq;
-        return (<DetailsAccordion title={title} text={text} list={list} />)
+        return (<DetailsAccordion key={index} title={title} text={text} list={list} />)
     })
     return (
         <div className="service-details-content-wrapper pl-0 pl-md-4">
             <DetailsContent sections={sections} />
+            {renderDetailsAccordion}
         </div>
     );
 }
