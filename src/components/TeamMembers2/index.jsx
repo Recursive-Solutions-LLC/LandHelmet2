@@ -11,7 +11,7 @@ function TeamMembers2() {
                         <div className="col-12 col-lg-12 text-center">
                             <div className="section-title-3">
                               
-                                <p>Accsessories</p>
+                                <p>Accessories</p>
                                 <h1>LAND HELMET M12</h1>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
-import img from '../../assets/img/home2/cup.png';
+import img from '../../assets/img/about-us/years.jpeg';
 
 function Cta2() {
     return (

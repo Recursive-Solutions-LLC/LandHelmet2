@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
-import thumb1 from '../../assets/img/approch1.jpg';
-import thumb2 from '../../assets/img/approch2.jpg';
-import thumb3 from '../../assets/img/approch3.jpg';
+import thumb1 from '../../assets/img/about-us/approach/1.jpg';
+import thumb2 from '../../assets/img/about-us/approach/2.jpg';
+import thumb3 from '../../assets/img/about-us/approach/3.jpeg';
 
 import rd1 from "../../assets/img/icon/r1.svg"
 import rd4 from "../../assets/img/icon/r4.svg"
