@@ -3,9 +3,9 @@ import thumb2 from "../assets/img/services/QualityControl/innovation.jpg";
 import thumb3 from "../assets/img/services/QualityControl/certified.jpg";
 import thumb4 from "../assets/img/services/QualityControl/partner.jpg";
 
-import bannerImg1 from "../assets/img/services/QualityControl/AE9I6285.JPG";
-import bannerImg2 from "../assets/img/services/QualityControl/IMG_39081.JPG";
-import bannerImg3 from "../assets/img/services/QualityControl/IMG_39151.JPG";
+import bannerImg1 from "../assets/img/services/QualityControl/Carousel/middle-aged-businessman-with-digital-tablet-in-fac-2023-11-27-05-30-12-utc-min.jpg";
+import bannerImg2 from "../assets/img/services/QualityControl/Carousel/quality-control-inspector-and-young-workers-commun-2023-11-27-05-09-33-utc-min.jpg";
+import bannerImg3 from "../assets/img/services/QualityControl/Carousel/technician-working-in-factory-and-doing-quality-co-2023-11-27-05-37-01-utc-min.jpg";
 
 import distributorImg from "../assets/img/services/QualityControl/Desktop/banner-quality.jpg";
 
