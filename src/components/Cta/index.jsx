@@ -4,7 +4,7 @@ import BgImg from '../../assets/img/subscribe_bg.jpg';
 
 function Cta() {
     return (
-        <section className="cta-wrapper">
+        <section className="cta-wrapper2">
             <div className="container">
                 <div
                     className="cta-content bg-cover"
@@ -14,7 +14,7 @@ function Cta() {
                 >
                     <div className="row align-items-center">
                         <div className="col-xl-7 pl-xl-3 col-12 text-center text-xl-left">
-                            <h1 className="cta-heading">Get an easy quotation for your industry</h1>
+                            <h1 className="cta-heading">Centered on You: Empowering Every Client's Success</h1>
                         </div>
                         <div className="col-xl-4 pl-xl-0 mt-4 mt-xl-0 col-12 text-center text-xl-left">
                             <div className="contact-info">

@@ -9,6 +9,7 @@ import Process2 from '../components/Process2';
 import Services1 from '../components/Services1';
 import Services3 from '../components/Services3';
 import Cta from '../components/Cta3';
+import Cta1 from '../components/Cta';
  import Timeline from '../components/Timeline';
  import TeamMembers2 from '../components/TeamMembers2';
 import HorizontalScroll from '../components/HorizontalScrollCarousel';
@@ -28,17 +29,19 @@ function Home3() {
             <HorizontalScroll/>
             <Services3/>
             <Process2 />
-           
+            <Cta1/>
+            <ProjectFilter2/>
+         
             <Timeline/>
-           <ProjectFilter2/>
-          
+     
+         
             <Portfolio2 />
             <Services1 hasTitle data={servicesOneData} title="Our Classes"/>
             <Cta/>
             <Faq />
       
             <TeamMembers2 />
-            <ShoeAnimation/>
+      
             <Appointment />
      
     
