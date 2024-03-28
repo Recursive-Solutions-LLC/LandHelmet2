@@ -27,7 +27,7 @@ import { useRef} from "react";
 function Hero3() {
     const images = [
         heroImg,
-        heroImg1,
+   
       
 
         heroImg4,
@@ -38,7 +38,7 @@ function Hero3() {
 
         heroImg10,
     
-  
+        heroImg1,
 
         heroImg14,
         heroImg15,

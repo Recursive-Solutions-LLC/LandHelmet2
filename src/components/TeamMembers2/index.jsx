@@ -7,10 +7,10 @@ function TeamMembers2() {
         <>
             <section className="team-section team-section-2 section-padding">
                 <div className="container">
-                    <div className="row">
+                    <div className="row ">
                         <div className="col-12 col-lg-12 text-center">
                             <div className="section-title-3">
-                              
+                               
                                 <p>Accessories</p>
                                 <h1>LAND HELMET M12</h1>
                             </div>

@@ -429,7 +429,7 @@
 
 .portfolio-wrapper-section {
     position: relative;
-    z-index: 1;
+
     overflow: hidden;
 
     &::before {
@@ -463,7 +463,7 @@
                 background-color: $theme-color-2;
             }
             &::after {
-                background-color: #e24700;
+                background-color: #001248;
             }
 
             .icon {

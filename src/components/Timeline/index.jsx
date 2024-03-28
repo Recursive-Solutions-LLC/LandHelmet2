@@ -11,7 +11,7 @@ import {  Pagination, Navigation } from "swiper";
 export default function App() {
     SwiperCore.use([Autoplay])
     return (
-        <section className="timeline-wrapper section-padding">
+        <section className="timeline-wrapper  timeline-wrapper-2 section-padding">
             <div className="container">
                 <div className="row mb-30">
                     <div className="col-12 col-lg-12">
