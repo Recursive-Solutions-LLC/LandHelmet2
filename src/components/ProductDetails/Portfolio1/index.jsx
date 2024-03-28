@@ -7,11 +7,11 @@ import PortfolioOneSlide from './PortfolioOneSlide';
 
 SwiperCore.use([Navigation]);
 
-function Porfolio1(product) {
+function Product1(product) {
     const { type } = product;
     
     return (
-        <section className="portfolio-section section-padding pt-0">
+        <section className="portfolio-section section-padding pt-5 mt-5">
             <div className="container">
                 <div className="project-wrapper">
                     <Swiper className="portfolio-carousel-active owl-carousel">
@@ -35,4 +35,4 @@ function Porfolio1(product) {
     );
 }
 
-export default Porfolio1;
+export default Product1;

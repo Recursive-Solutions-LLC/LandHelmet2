@@ -1,18 +1,18 @@
 import React from 'react';
 import Footer1 from '../components/Footer1';
 import Header1 from '../components/Header3';
-import PortfolioDetails from '../components/PortfolioDetails';
+import ProductDetailsSection from '../components/ProductDetails';
 import Hero1 from '../components/Hero1';
 
-function ProjectDetails(data) {
+function ProductDetails(data) {
     return (
         <>
             <Header1 />
             <Hero1 />
-            <PortfolioDetails type={data} />
+            <ProductDetailsSection type={data} />
             <Footer1 />
         </>
     );
 }
 
-export default ProjectDetails;
+export default ProductDetails;

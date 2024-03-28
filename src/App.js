@@ -5,7 +5,7 @@ import ScrollToTopRoute from './components/ScrollTopRoute';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home3 from './pages/Home3';
-import ProjectDetails from './pages/ProjectDetails';
+import ProductDetails from './pages/ProductDetails';
 import Services from './pages/Services';
 import ServicesDetails from './pages/ServicesDetails';
 import global from "./content/global"
@@ -28,10 +28,10 @@ function App() {
                         <Projects />
                     </Route> */}
                     <Route exact path="/type-I">
-                        <ProjectDetails type={1} />
+                        <ProductDetails type={1} />
                     </Route>
                     <Route exact path="/type-II">
-                        <ProjectDetails type={2} />
+                        <ProductDetails type={2} />
                     </Route>
 
                     <Route exact path="/services">
