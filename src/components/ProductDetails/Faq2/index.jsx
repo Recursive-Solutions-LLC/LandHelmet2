@@ -2,10 +2,9 @@ import React from 'react';
 import faqImg from '../../../assets/img/home3/faq_man.png';
 import faqBg from '../../../assets/img/map.svg';
 import FaqAccordion from '../../FaqAccordion';
-import portfolioOneData from '../Portfolio1/porfolioOneData';
 
-function Faq2({ type }) {
-    const { keyFeatures } = portfolioOneData.filter(element => element.productType === type)[0];
+function Faq2({ data }) {
+    const { keyFeatures } = data
 
     return (
         <section

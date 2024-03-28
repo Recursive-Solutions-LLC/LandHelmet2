@@ -5,13 +5,24 @@ import ScrollToTopRoute from './components/ScrollTopRoute';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home3 from './pages/Home3';
-import ProductDetails from './pages/ProductDetails';
+import ProductDetails from './pages/ProductDetailsPage';
 import Services from './pages/Services';
 import ServicesDetails from './pages/ServicesDetails';
 import global from "./content/global"
 import inhouse from "./content/inhouse"
 import quality from "./content/quality"
 import rd from "./content/rd"
+
+
+import {productTypeIData} from "./content/ModelsTypeI"
+
+import {productTypeIIData} from "./content/ModelsTypeII"
+
+import ModelsTypeI from './content/ModelsTypeI';
+import ModelsTypeII from './content/ModelsTypeII';
+
+import HeroBg1 from './assets/img/products/cover.png';
+import HeroBg2 from './assets/img/products/cover-II.jpg';
 
 function App() {
     return (
@@ -28,10 +39,10 @@ function App() {
                         <Projects />
                     </Route> */}
                     <Route exact path="/type-I">
-                        <ProductDetails type={1} />
+                        <ProductDetails data={productTypeIData} model={ModelsTypeI} cover ={HeroBg1} />
                     </Route>
                     <Route exact path="/type-II">
-                        <ProductDetails type={2} />
+                        <ProductDetails data={productTypeIIData} model={ModelsTypeII} cover ={HeroBg2} />
                     </Route>
 
                     <Route exact path="/services">

@@ -3,9 +3,8 @@ import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
-import HeroBg1 from '../../assets/img/products/cover.jpg';
 
-function Hero1() {
+function Hero1({cover}) {
     return (
         <section className="hero-slide-wrapper hero-1">
             <Swiper className="hero-slider-active owl-carousel">
@@ -14,7 +13,7 @@ function Hero1() {
                         className="single-slide bg-cover"
                         style={{
                             position: 'relative',
-                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(${HeroBg1})`
+                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(${cover})`
                         }}
                     >
                         <div className="container">
@@ -35,7 +34,7 @@ function Hero1() {
                     <div
                         className="single-slide bg-cover"
                         style={{
-                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${HeroBg1})`
+                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${cover})`
                         }}
                     >
                         <div className="container">
