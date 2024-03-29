@@ -57,7 +57,7 @@ export default function BasicSlider() {
         </Wrapper>
       </Overlay>
 
-      <Slide
+      <Slide  shouldRenderMask
       
 
 
@@ -69,7 +69,7 @@ export default function BasicSlider() {
         }}
       />
 
-      <Slide
+      <Slide  shouldRenderMask
      
    
         label="Teaching the Next Generation"
@@ -80,7 +80,7 @@ export default function BasicSlider() {
         }}
       />
 
-      <Slide
+      <Slide  shouldRenderMask
  
         label="A Watchful Guardian"
         background={{
@@ -90,7 +90,7 @@ export default function BasicSlider() {
         }}
       />
 
-      <Slide
+      <Slide  shouldRenderMask
       
        
         label="Precision and Protection"
