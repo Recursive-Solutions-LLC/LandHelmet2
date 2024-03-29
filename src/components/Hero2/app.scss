@@ -1,0 +1,40 @@
+.Wrapper_Container__3O36u{
+    image-rendering: pixelated;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)) !important;
+}
+.hero-contents {
+  
+    p {
+        color: #fff;
+        font-weight: 700;
+    }
+
+    h1 {
+     
+        line-height: 1.22;
+      
+        color: #fff;
+        font-weight: 700;
+
+     
+
+    }
+
+    a {
+      
+
+    
+
+        &.theme-3 {
+            border-color: #001248;
+            background-color: #001248;
+            color: #fff;
+
+            &:last-child {
+                border-color: #fff;
+                background-color: #fff;
+                color: #001248;
+            }
+        }
+    }
+}

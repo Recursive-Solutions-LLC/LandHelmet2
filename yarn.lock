@@ -6473,6 +6473,13 @@ he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
+hero-slider@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/hero-slider/-/hero-slider-3.2.1.tgz#519495a754b137813bdaadd30d5a4f36a900e24d"
+  integrity sha512-tjL8Pq7A7XIaq70TMktoH4WzNlsIcPTfbLczX/aYdRvGSxjFmTcknwzqacZRWMz+PV4oO2okcBLpnFChuUb7BA==
+  dependencies:
+    react-intersection-observer "9.4.0"
+
 hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
@@ -10675,6 +10682,11 @@ react-image-lightbox@^5.1.1:
   dependencies:
     prop-types "^15.7.2"
     react-modal "^3.11.1"
+
+react-intersection-observer@9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-9.4.0.tgz#f6b6e616e625f9bf255857c5cba9dbf7b1825ec7"
+  integrity sha512-v0403CmomOVlzhqFXlzOxg0ziLcVq8mfbP0AwAcEQWgZmR2OulOT79Ikznw4UlB3N+jlUYqLMe4SDHUOyp0t2A==
 
 react-is@^16.13.1, react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0:
   version "16.13.1"

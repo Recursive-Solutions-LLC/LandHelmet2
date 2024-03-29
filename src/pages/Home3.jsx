@@ -3,7 +3,7 @@ import Appointment from '../components/Appointment';
 import Faq from '../components/Faq';
 import Footer3 from '../components/Footer1';
 import Header3 from '../components/Header3';
-import Hero3 from '../components/Hero3';
+import Hero3 from '../components/Hero2';
 import Portfolio2 from '../components/Portfolio2';
 import Process2 from '../components/Process2';
 
