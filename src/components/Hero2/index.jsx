@@ -72,7 +72,7 @@ export default function BasicSlider() {
 
         label="The Brotherhood of Safety"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+     
           backgroundImageSrc: hero5,
           backgroundAnimation: 'zoom'
         }}
@@ -83,7 +83,7 @@ export default function BasicSlider() {
    
         label="Teaching the Next Generation"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+
           backgroundImageSrc: hero6,
           backgroundAnimation: 'zoom'
         }}
@@ -94,7 +94,7 @@ export default function BasicSlider() {
 
         label="A Watchful Guardian"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+    
           backgroundImageSrc: hero17,
           backgroundAnimation: 'zoom'
         }}
@@ -105,7 +105,7 @@ export default function BasicSlider() {
        
         label="Precision and Protection"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+     
           backgroundImageSrc: hero20,
           backgroundAnimation: 'zoom'
         }}
