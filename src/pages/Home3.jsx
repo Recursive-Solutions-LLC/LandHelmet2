@@ -6,14 +6,15 @@ import Header3 from '../components/Header3';
 import Hero3 from '../components/Hero3';
 import Portfolio2 from '../components/Portfolio2';
 import Process2 from '../components/Process2';
+
 import Services1 from '../components/Services1';
 import Services3 from '../components/Services3';
 import Cta from '../components/Cta3';
 import Cta1 from '../components/Cta';
- import Timeline from '../components/Timeline';
- import TeamMembers2 from '../components/TeamMembers2';
+import Timeline from '../components/Timeline';
+import TeamMembers2 from '../components/TeamMembers2';
 import HorizontalScroll from '../components/HorizontalScrollCarousel';
-import ShoeAnimation from '../components/ScrollTrigger' 
+
 import servicesOneData from '../content/servicesOneData';
 import ProjectFilter2 from '../components/ProjectFilter2';
 
@@ -21,30 +22,32 @@ import ProjectFilter2 from '../components/ProjectFilter2';
 function Home3() {
 
 
-    
+
     return (
-        <>  
-            <Header3  />
+        <>
+            <Header3 />
             <Hero3 />
-            <HorizontalScroll/>
-            <Services3/>
+            <HorizontalScroll />
+            <Services3 />
             <Process2 />
-            <Cta1/>
-            <ProjectFilter2/>
-         
-            <Timeline/>
-     
-         
+            <Cta1 />
+            <ProjectFilter2 />
+
+
+            <Timeline />
+            <Process2 type={2} />
+
+
             <Portfolio2 />
-            <Services1 hasTitle data={servicesOneData} title="Our Classes"/>
-            <Cta/>
+            <Services1 hasTitle data={servicesOneData} title="Our Classes" />
+            <Cta />
             <Faq />
-      
+
             <TeamMembers2 />
-      
+
             <Appointment />
-     
-    
+
+
             <Footer3 />
         </>
     );
