@@ -8,7 +8,7 @@ import 'hero-slider/dist/index.css';
 import "./app.scss";
 
 import hero5 from '../../assets/img/home3/slider5.jpeg';
-import hero6 from '../../assets/img/home3/slider6.jpeg';
+import hero6 from '../../assets/img/home3/hero6.jpeg';
 
 import hero17 from '../../assets/img/home3/slider17.jpeg';
 
@@ -21,7 +21,7 @@ export default function BasicSlider() {
       height={"100vh"}
       slidingAnimation='left_to_right'
       orientation="horizontal"
-      set
+ 
       initialSlide={1}
       autoplay={true}
       settings={{
@@ -94,7 +94,7 @@ export default function BasicSlider() {
 
         label="Precision and Protection"
         background={{
-
+          backgroundImageSrcSet:hero20,
           backgroundImageSrc: hero20,
           backgroundAnimation: 'zoom'
         }}
