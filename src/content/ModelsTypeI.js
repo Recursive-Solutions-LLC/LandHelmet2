@@ -2,9 +2,10 @@ import { v4 as uuidv4 } from 'uuid';
 import Model12 from '../assets/img/about-us/type-I/model-12/m12.png';
 import Model02 from '../assets/img/about-us/type-I/model-02/m02.jpg';
 import typeI from '../assets/img/icon/helmet-types/typeI.svg';
-import thumb1 from '../assets/img/home3/service1.jpg';
+import thumb1 from '../assets/img/products/why_us.png';
 import typeIPic from '../assets/img/products/type-I/type-I.jpg';
 import Model12Bg from "../assets/img/models/m12/m12.jpg";
+import typeI_keys from "../assets/img/products/type-I/typeI_keys.jpg"
 
 import { GiMountainClimbing } from "react-icons/gi";
 import { MdOutlineSportsKabaddi } from "react-icons/md";
@@ -69,32 +70,36 @@ export const productTypeIData =
 
     },
 
-    keyFeatures: [
-        {
-            title: "Detachable Patent Adjustment in the features.",
-            description: "Ultra lightweight shell made with ABS material provides superior protection"
-        },
-        {
-            title: 'Unmatched Safety Standards',
-            description: 'Our type I helmets are ANSI Z89.1-2014 (R2019) certified, ensuring they meet the highest safety requirements for impact protection in the industry. Designed to safeguard against top impacts, these helmets are essential where vertical protection is critical.'
-        },
-        {
-            title: 'Durable Construccion',
-            description: 'Made with ABS Advanced Termo Material Shell and equipped with high-density EPS polystyrene for inner protection, our helmets are built to withstand harsh conditions while providing superiorimpact absorption.'
-        },
-        {
-            title: 'Comfort for All-Day Wear',
-            description: 'With a weight of just 430g and featuring an adjustable ratchet system, our Type I helmet offers a comfortable fit that can be tailored to any head size, ensuring comfort throughout the workday.'
-        },
-        {
-            title: 'Versatile Functionality',
-            description: 'The helmet includes features such as lamp clips for night work, slots for earmuffs, and a range of compatible visors, making it adaptable for a wide variety of job sites and tasks.'
-        },
-        {
-            title: 'Long-Term Investment',
-            description: 'Offering a 10-years lifespan, our Type I helmet represents a long-lasting solution to your safety needs, ensuring reliability and protection for years to come.'
-        }
-    ],
+    keyFeatures: {
+        image: typeI_keys,
+        keys: [
+                {
+                    title: "Detachable Patent Adjustment in the features.",
+                    description: "Ultra lightweight shell made with ABS material provides superior protection"
+                },
+                {
+                    title: 'Unmatched Safety Standards',
+                    description: 'Our type I helmets are ANSI Z89.1-2014 (R2019) certified, ensuring they meet the highest safety requirements for impact protection in the industry. Designed to safeguard against top impacts, these helmets are essential where vertical protection is critical.'
+                },
+                {
+                    title: 'Durable Construccion',
+                    description: 'Made with ABS Advanced Termo Material Shell and equipped with high-density EPS polystyrene for inner protection, our helmets are built to withstand harsh conditions while providing superiorimpact absorption.'
+                },
+                {
+                    title: 'Comfort for All-Day Wear',
+                    description: 'With a weight of just 430g and featuring an adjustable ratchet system, our Type I helmet offers a comfortable fit that can be tailored to any head size, ensuring comfort throughout the workday.'
+                },
+                {
+                    title: 'Versatile Functionality',
+                    description: 'The helmet includes features such as lamp clips for night work, slots for earmuffs, and a range of compatible visors, making it adaptable for a wide variety of job sites and tasks.'
+                },
+                {
+                    title: 'Long-Term Investment',
+                    description: 'Offering a 10-years lifespan, our Type I helmet represents a long-lasting solution to your safety needs, ensuring reliability and protection for years to come.'
+                }
+            ]
+
+    },
     brand: {
         title: 'Customization for Your Brand',
         text: 'Customize your helmets with logos, reflective stickers, and packaging. Our in-house customization services allow you to brand your helmets, making them not just a piece of safety equipment, but also a part of your company\'s identity.'

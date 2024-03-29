@@ -1,4 +1,3 @@
-'use client';
 import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
