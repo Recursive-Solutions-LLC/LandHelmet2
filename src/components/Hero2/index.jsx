@@ -8,12 +8,12 @@ import Wrapper from "../UI/Wrapper/Wrapper";
 import 'hero-slider/dist/index.css';
 import "./app.scss";
 
-import hero5 from '../../assets/img/Hero/slider5.jpeg';
-import hero6 from '../../assets/img/Hero/slider6.jpeg';
+import hero5 from '../../assets/img/hero/slider5.jpeg';
+import hero6 from '../../assets/img/hero/slider6.jpeg';
 
-import hero17 from '../../assets/img/Hero/slider17.jpeg';
+import hero17 from '../../assets/img/hero/slider17.jpeg';
 
-import hero20 from '../../assets/img/Hero/slider20.webp';
+import hero20 from '../../assets/img/hero/slider20.webp';
 
 
 export default function BasicSlider() {
