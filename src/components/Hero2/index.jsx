@@ -3,8 +3,7 @@ import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Wrapper from "../UI/Wrapper/Wrapper";
-import Title from "../UI/Title/Title";
-import Subtitle from "../UI/Subtitle/Subtitle";
+
 
 import 'hero-slider/dist/index.css';
 import "./app.scss";
