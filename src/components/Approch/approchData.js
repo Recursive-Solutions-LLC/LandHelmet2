@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import thumb1 from '../../assets/img/about-us/approach/1.jpg';
 import thumb2 from '../../assets/img/about-us/approach/2.jpg';
-import thumb3 from '../../assets/img/about-us/approach/3.jpeg';
+import thumb3 from '../../assets/img/about-us/approach/3.jpg';
 
 import rd1 from "../../assets/img/icon/r1.svg"
 import rd4 from "../../assets/img/icon/r4.svg"
@@ -27,9 +27,9 @@ const approchData = [
     {
         id: uuidv4(),
         thumb: thumb3,
-        icon: <img src={rd7} alt="competitive rates icon" />,
-        heading: 'Competitive Rates',
-        text: 'High-quality helmets at competitive rates',
+        icon: <img src={rd7} alt="testing facilities" />,
+        heading: 'Testing Facilities',
+        text: ' we don’t compromise your safety, we care about you and your team',
     },
 ];
 
