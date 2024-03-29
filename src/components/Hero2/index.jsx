@@ -59,7 +59,7 @@ export default function BasicSlider() {
 
       <Slide
       
-        shouldRenderMask
+
 
         label="The Brotherhood of Safety"
         background={{
@@ -70,7 +70,7 @@ export default function BasicSlider() {
       />
 
       <Slide
-        shouldRenderMask
+     
    
         label="Teaching the Next Generation"
         background={{
@@ -81,8 +81,7 @@ export default function BasicSlider() {
       />
 
       <Slide
-        shouldRenderMask
-
+ 
         label="A Watchful Guardian"
         background={{
     
@@ -92,7 +91,7 @@ export default function BasicSlider() {
       />
 
       <Slide
-        shouldRenderMask
+      
        
         label="Precision and Protection"
         background={{
