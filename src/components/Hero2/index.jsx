@@ -8,7 +8,7 @@ import 'hero-slider/dist/index.css';
 import "./app.scss";
 
 import hero5 from '../../assets/img/home3/slider5.jpeg';
-import hero6 from '../../assets/img/home3/slider6.jpeg';
+import hero6 from '../../assets/img/home3/hero6.jpeg';
 
 import hero17 from '../../assets/img/home3/slider17.jpeg';
 
@@ -43,7 +43,7 @@ export default function BasicSlider() {
         <Wrapper >
           <div className="">
             <div className="hero-contents text-center">
-              <p>Feel the Future, Embrace the Experience.</p>
+              <p>Feel the Future, Embrace the Experience</p>
               <h1>Passionately User Focused</h1>
               <Link to="/services" className="theme-btn theme-3">
                 Our Services <BsArrowRight />
