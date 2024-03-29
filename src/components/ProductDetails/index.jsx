@@ -17,11 +17,9 @@ function ProductDetails({data, model}) {
                         <Portfolio1 section={section1} />
                         <Portfolio1 section={section2}  left />
                         <Faq2 data={data} />
-                        <section className="portfolio-section section-padding pt-0">
-                            <h3 className='text-center'>{brand.title}</h3>
-                            <p>{brand.text}</p>
-                        </section>
-                        <VideoFeatrued data={data}  />
+                       <div className="mb-5">
+                            <VideoFeatrued data={data}  />
+                       </div>
                     </div>
                 </div>
             </div>

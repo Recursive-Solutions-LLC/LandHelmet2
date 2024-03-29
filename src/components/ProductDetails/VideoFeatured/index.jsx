@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 
 import VideoFeaturedItem from './VideoFeaturedItem';
-import icon1 from '../../../assets/img/icon/factory.png';
 import ServicesThreeCard from '../Services3/ServicesThreeCard';
 
 function VideoFeatrued({  data }) {
@@ -10,7 +9,7 @@ function VideoFeatrued({  data }) {
     
     const { 
         applications, 
-        whyToChoose
+        whyToChoose,
     } = data
     return (
         <>
@@ -21,6 +20,7 @@ function VideoFeatrued({  data }) {
                 videoId="EZ9DrY43wtw"
                 onClose={() => setOpen(false)}
             />
+            <div className="mb-5">
             <section className="video-featured-wrapper section-padding section-bg">
                 <div className="container-fluid pl-xl-5 pl-50">
                     <div className="row align-items-center">
@@ -37,7 +37,7 @@ function VideoFeatrued({  data }) {
                                     {
                                         applications.options.map((element, index) => (
                                             <VideoFeaturedItem key={index}
-                                                icon={icon1}
+                                                Icon={element.icon}
                                                 heading={element.title}
                                                 text={element.text}
                                             />
@@ -50,6 +50,7 @@ function VideoFeatrued({  data }) {
                     </div>
                 </div>
             </section>
+            </div>
             <ServicesThreeCard thumb={whyToChoose.image} 
                 heading={whyToChoose.title}
                 text={whyToChoose.text}

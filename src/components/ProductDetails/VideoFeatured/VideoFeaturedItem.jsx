@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function VideoFeaturedItem({ icon, heading, text }) {
+function VideoFeaturedItem({ Icon, heading, text }) {
     return (
         <div className="col-12 col-md-6">
             <div className="single-feature-item">
                 <div className="icon">
-                    <img src={icon} alt="" />
+                    <Icon className="icon-size" />
                 </div>
                 <div className="content">
                     <h3>

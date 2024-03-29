@@ -1,5 +1,5 @@
 import React from 'react';
-import faqImg from '../../../assets/img/home3/faq_man.png';
+import faqImg from '../../../assets/img/faq/2.png';
 import faqBg from '../../../assets/img/map.svg';
 import FaqAccordion from '../../FaqAccordion';
 

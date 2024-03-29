@@ -199,20 +199,6 @@
         content: "";
         margin-bottom: -120px;
         margin-left: -220px;
-
-        &::before {
-            position: absolute;
-            width: 531px;
-            height: 371px;
-            content: "";
-            background-color: $theme-color-3;
-            top: 25%;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: -1;
-            -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-        }
     }
 
     .accordion {

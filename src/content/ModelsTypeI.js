@@ -5,6 +5,12 @@ import typeI from '../assets/img/icon/helmet-types/typeI.svg';
 import thumb1 from '../assets/img/home3/service1.jpg';
 import typeIPic from '../assets/img/products/type-I/type-I.jpg';
 
+import { GiMountainClimbing } from "react-icons/gi";
+import { MdOutlineSportsKabaddi } from "react-icons/md";
+import { MdConstruction } from "react-icons/md";
+import { FaPersonFalling } from "react-icons/fa6";
+import { FaTree } from "react-icons/fa";
+
 
 const ModelsTypeI = [
     {
@@ -47,6 +53,10 @@ export const productTypeIData =
 
     keyFeatures: [
         {
+            title: "Detachable Patent Adjustment in the features.",
+            description: "Ultra lightweight shell made with ABS material provides superior protection"
+        },
+        {
             title: 'Unmatched Safety Standards',
             description: 'Our type I helmets are ANSI Z89.1-2014 (R2019) certified, ensuring they meet the highest safety requirements for impact protection in the industry. Designed to safeguard against top impacts, these helmets are essential where vertical protection is critical.'
         },
@@ -75,11 +85,11 @@ export const productTypeIData =
         title: 'Ideal for Diverse Industries',
         text: 'The Type I helmet is perfectly suited for a wide array of industries where safety and head protection are paramount:',
         options: [
-            { title: 'Climbing', text: 'Conquer new heights with our cutting-edge climbing helmets.' },
-            { title: 'Outdoor', text: 'Adventure awaits with our durable outdoor helmets.' },
-            { title: 'Construction', text: 'Stay safe on the job site with our reliable construction helmets.' },
-            { title: 'Fall Protection', text: 'Prevent accidents with our trusted fall protection helmets.' },
-            { title: 'Arborist', text: 'Protect yourself while tending to trees with our specialized arborist helmets.' }
+            { icon: GiMountainClimbing, title: 'Climbing', text: 'Conquer new heights with our cutting-edge climbing helmets.' },
+            { icon: MdOutlineSportsKabaddi, title: 'Outdoor', text: 'Adventure awaits with our durable outdoor helmets.' },
+            { icon: MdConstruction, title: 'Construction', text: 'Stay safe on the job site with our reliable construction helmets.' },
+            { icon: FaPersonFalling, title: 'Fall Protection', text: 'Prevent accidents with our trusted fall protection helmets.' },
+            { icon: FaTree, title: 'Arborist', text: 'Protect yourself while tending to trees with our specialized arborist helmets.' }
         ]
     },
     whyToChoose: {
