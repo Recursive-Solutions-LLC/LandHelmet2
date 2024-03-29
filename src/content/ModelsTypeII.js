@@ -3,7 +3,9 @@ import M10 from '../assets/img/about-us/type-II/model-10/m10.jpg';
 import typeII from '../assets/img/icon/helmet-types/typeII.svg';
 import thumb1 from '../assets/img/home3/service1.jpg';
 import typeIIPic from '../assets/img/products/type-II/type-II.jpg';
+
 import FlagRow from '../components/IconRow/FlagsRow';
+import ColorsRow from '../components/IconRow/ColorsRow';
 
 import { GiMountainClimbing } from "react-icons/gi";
 import { MdOutlineSportsKabaddi } from "react-icons/md";
@@ -43,7 +45,7 @@ export const productTypeIIData =
     section2: {
         id: uuidv4(),
         image: typeIIPic,
-        flags: <FlagRow />,
+        flags: <ColorsRow />,
         imgLink: '/contact',
         heading: 'Customization for your Brand',
         desc: 'Customize your Helmet with our logos, reflective stickers, and packaging. Our in-house customization services allow you to brand your helmets, making them not just a piece of safety equipment, but also a part of your company identity',

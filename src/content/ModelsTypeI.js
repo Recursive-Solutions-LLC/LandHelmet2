@@ -13,6 +13,7 @@ import { FaPersonFalling } from "react-icons/fa6";
 import { FaTree } from "react-icons/fa";
 
 import FlagRow from '../components/IconRow/FlagsRow';
+import ColorsRow from '../components/IconRow/ColorsRow';
 
 import m02_front from "../assets/img/helmet-sides/m02/front.jpg"
 import m02_down from "../assets/img/helmet-sides/m02/down.jpg"
@@ -59,7 +60,7 @@ export const productTypeIData =
     section2: {
         id: uuidv4(),
         image: typeIPic,
-        flags: <FlagRow />,
+        flags: <ColorsRow />,
         imgLink: '/contact',
         heading: 'Customization for your Brand',
         desc: 'Customize your Helmet with our logos, reflective stickers, and packaging. Our in-house customization services allow you to brand your helmets, making them not just a piece of safety equipment, but also a part of your company identity',
