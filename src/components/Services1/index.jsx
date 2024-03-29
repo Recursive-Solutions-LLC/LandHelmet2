@@ -32,7 +32,6 @@ function Services1({ hasTitle, data, title }) {
     const renderTitle = hasTitle ? <p>Design</p> : null;
     const noTitle = hasTitle ? "" : "pt-5";
 
-    console.log('data', data);
 
     const renderServices = data.map((item) => (
         <ServicesOneCard

@@ -27,13 +27,13 @@ function PortfolioOneSlide({ image, category, link, client, title, desc, btnText
                         </Link>)}
                     </div>
                     <div className="project-thumbnail col-lg-5 offset-lg-1 p-lg-0 order-1 order-lg-2 col-12 " >
-                        <a
+                        <div
                            
                             className="popup-gallery bg-cover w-full"
                             style={{ backgroundImage: `url(${image})` }}
                         >
                            
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>

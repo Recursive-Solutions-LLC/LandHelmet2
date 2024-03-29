@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-function PortfolioOneSlide({ image, left, title, desc, btnText, imgLink, flags }) {
-console.log('%csrc/components/ProductDetails/Portfolio1/PortfolioOneSlide.jsx:5 flags', 'color: white; background-color: #007acc;', flags);
+import HelmetSides from "../../IconRow/HelmetSides"
+function PortfolioOneSlide({ image, left, title, desc, btnText, imgLink, flags, model }) {
+    
+    console.log('%csrc/components/ProductDetails/Portfolio1/PortfolioOneSlide.jsx:5 model', 'color: white; background-color: #007acc;', model);
     return (
         <div className="single-project">
             <div className="project-contents">
@@ -10,7 +10,7 @@ console.log('%csrc/components/ProductDetails/Portfolio1/PortfolioOneSlide.jsx:5 
                     <div
                         className={`project-details col-lg-4 offset-lg-1 pl-lg-0 ${left ? 'order-2 order-lg-1' : 'order-1 order-lg-2'} col-12`}
                     >
-                        <h2>{title}</h2>
+                        <h2 className='mb-5'>{title}</h2>
                         {flags}
                         <p>{desc}</p>
                         <a href={imgLink} className="read-btn theme-btn">
@@ -18,16 +18,17 @@ console.log('%csrc/components/ProductDetails/Portfolio1/PortfolioOneSlide.jsx:5 
                         </a>
                     </div>
                     <div
-                        className={`project-thumbnail col-lg-5 offset-lg-1 p-lg-0 ${left ? 'order-1 order-lg-2' : 'order-2 order-lg-1'} col-12`}
+                        className={`project-thumbnail py-4 col-lg-5 offset-lg-1 p-lg-0 ${left ? 'order-1 order-lg-2' : 'order-2 order-lg-1'} col-12`}
                     >
-                        <a
-                            href="/"
+                        <div
                             className="popup-gallery bg-cover"
                             style={{ backgroundImage: `url(${image})` }}
-                        >
-                            {null}
-                        </a>
+                        />
+
+                        <HelmetSides model={model}/>
+
                     </div>
+                    
                 </div>
             </div>
         </div>

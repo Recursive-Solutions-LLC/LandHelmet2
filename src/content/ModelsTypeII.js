@@ -5,6 +5,12 @@ import thumb1 from '../assets/img/home3/service1.jpg';
 import typeIIPic from '../assets/img/products/type-II/type-II.jpg';
 import FlagRow from '../components/IconRow/FlagsRow';
 
+import { GiMountainClimbing } from "react-icons/gi";
+import { MdOutlineSportsKabaddi } from "react-icons/md";
+import { MdConstruction } from "react-icons/md";
+import { FaPersonFalling } from "react-icons/fa6";
+import { FaTree } from "react-icons/fa";
+
 
 import m10_front from "../assets/img/helmet-sides/m10/front.jpg"
 import m10_down from "../assets/img/helmet-sides/m10/down.jpg"
@@ -32,14 +38,17 @@ export const productTypeIIData =
         desc: 'At Land Helmets, we are proud to introduce our European Style Type II Helmet, designed with the rigorous demands of industrial and outdoor environments in mind. Our helmet not only meets but exceeds safety standards, ensuring the highest level of protection and comfort for your team.',
         btnText: 'Learn More',
         imgLink: 'https://drive.google.com/file/d/1WW2JLRtFkEo2M7TQbwxWi1ARE8Tfzn6-/view',
+        model: "m10"
     },
     section2: {
         id: uuidv4(),
         image: typeIIPic,
+        flags: <FlagRow />,
         imgLink: '/contact',
         heading: 'Customization for your Brand',
         desc: 'Customize your Helmet with our logos, reflective stickers, and packaging. Our in-house customization services allow you to brand your helmets, making them not just a piece of safety equipment, but also a part of your company identity',
         btnText: 'Get In touch with an expert',
+        model: ""
     },
     keyFeatures: [
         {
@@ -71,11 +80,11 @@ export const productTypeIIData =
         title: 'Applications',
         text: 'Our Type II helmet is designed for a broad range of applications, ensuring safety across different sectors:',
         options: [
-            { title: 'Construction, Mining, Forestry', text: 'Versatile helmets built for tough environments - construction, mining, and forestry.' },
-            { title: 'Oil, Gas, Chemical Industries', text: 'Safety first in hazardous environments - oil, gas, and chemical industries.' },
-            { title: 'Utilities, Telecoms, Rope Access', text: 'Stay secure during utility work, telecom installations, and rope access tasks.' },
-            { title: 'Emergency Services, Rescue Equipment', text: 'Equip yourself for lifesaving missions with our top-quality helmets.' },
-            { title: 'And many more...', text: 'Whatever your profession, we\'ve got you covered with our versatile helmets.' }
+            { icon: GiMountainClimbing, title: 'Climbing', text: 'Conquer new heights with our cutting-edge climbing helmets.' },
+            { icon: MdOutlineSportsKabaddi, title: 'Outdoor', text: 'Adventure awaits with our durable outdoor helmets.' },
+            { icon: MdConstruction, title: 'Construction', text: 'Stay safe on the job site with our reliable construction helmets.' },
+            { icon: FaPersonFalling, title: 'Fall Protection', text: 'Prevent accidents with our trusted fall protection helmets.' },
+            { icon: FaTree, title: 'Arborist', text: 'Protect yourself while tending to trees with our specialized arborist helmets.' }
         ]
     },
     whyToChoose: {
@@ -88,7 +97,7 @@ export const productTypeIIData =
     
 }
 
-export const Model02Sides = [
+export const Model10Sides = [
     m10_front,
     m10_left,
     m10_down,

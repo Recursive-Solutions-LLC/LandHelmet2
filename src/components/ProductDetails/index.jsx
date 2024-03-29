@@ -6,7 +6,7 @@ import VideoFeatrued from './VideoFeatured';
 import Services1 from '../../components/Services1'
 function ProductDetails({data, model}) {
 
-    const { brand, section1, section2 } = data
+    const {  section1, section2 } = data
 
     return (
         <section className="project-details-wrapper section-padding">
