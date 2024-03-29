@@ -2,18 +2,17 @@ import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Wrapper from "../UI/Wrapper/Wrapper";
-import Title from "../UI/Title/Title";
-import Subtitle from "../UI/Subtitle/Subtitle";
+
 
 import 'hero-slider/dist/index.css';
 import "./app.scss";
 
-import hero5 from '../../assets/img/Hero/slider5.jpeg';
-import hero6 from '../../assets/img/Hero/slider6.jpeg';
+import hero5 from '../../assets/img/hero/slider5.jpeg';
+import hero6 from '../../assets/img/hero/slider6.jpeg';
 
-import hero17 from '../../assets/img/Hero/slider17.jpeg';
+import hero17 from '../../assets/img/hero/slider17.jpeg';
 
-import hero20 from '../../assets/img/Hero/slider20.webp';
+import hero20 from '../../assets/img/hero/slider20.webp';
 
 
 export default function BasicSlider() {
@@ -37,16 +36,7 @@ export default function BasicSlider() {
         initialSlide: 1,
         slidingDuration: 500,
         slidingDelay: 100,
-        onSliding: (nextSlide) =>
-          console.debug("onSliding(nextSlide): ", nextSlide),
-        onBeforeSliding: (previousSlide, nextSlide) =>
-          console.debug(
-            "onBeforeSliding(previousSlide, nextSlide): ",
-            previousSlide,
-            nextSlide
-          ),
-        onAfterSliding: (nextSlide) =>
-          console.debug("onAfterSliding(nextSlide): ", nextSlide)
+       
       }}
     >
       <Overlay className="single-slide" >
@@ -66,46 +56,45 @@ export default function BasicSlider() {
         </Wrapper>
       </Overlay>
 
-      <Slide
+      <Slide  shouldRenderMask
       
-        shouldRenderMask
+
 
         label="The Brotherhood of Safety"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+     
           backgroundImageSrc: hero5,
           backgroundAnimation: 'zoom'
         }}
       />
 
-      <Slide
-        shouldRenderMask
+      <Slide  shouldRenderMask
+     
    
         label="Teaching the Next Generation"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+
           backgroundImageSrc: hero6,
           backgroundAnimation: 'zoom'
         }}
       />
 
-      <Slide
-        shouldRenderMask
-
+      <Slide  shouldRenderMask
+ 
         label="A Watchful Guardian"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+    
           backgroundImageSrc: hero17,
           backgroundAnimation: 'zoom'
         }}
       />
 
-      <Slide
-        shouldRenderMask
+      <Slide  shouldRenderMask
+      
        
         label="Precision and Protection"
         background={{
-          maskBackgroundBlendMode: 'luminosity',
+     
           backgroundImageSrc: hero20,
           backgroundAnimation: 'zoom'
         }}
