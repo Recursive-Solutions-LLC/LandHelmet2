@@ -7,7 +7,7 @@
 }
 
 .timeline-container::after {
-    background-color: #0148bc;
+    background-color: #001248;
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -112,7 +112,7 @@
 
 .timeline-item-content .circle {
     background-color: #fff;
-    border: 3px solid #0148bc;
+    border: 3px solid #001248;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 10px);
