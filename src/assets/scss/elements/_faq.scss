@@ -194,8 +194,9 @@
     background-size: 80%;
 
     .faq-left-img {
+        max-width: 450px;
         position: absolute;
-        bottom: 0;
+        right: 60%;
         content: "";
         margin-bottom: -120px;
         margin-left: -220px;

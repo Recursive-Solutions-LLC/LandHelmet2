@@ -1,9 +1,8 @@
 import React from 'react';
 import '../../../node_modules/react-modal-video/scss/modal-video.scss';
-import aboutImg from '../../assets/img/about_us.jpg';
 
 function AboutFeatured({ aboutContent }) {
-    const { title, subtitle, text, right } = aboutContent;
+    const { title, subtitle, text, right, aboutImg } = aboutContent;
 
     // Determine the order of the columns based on the 'right' property
     const imageColumnClass = right ? "order-lg-2" : "";
@@ -17,7 +16,7 @@ function AboutFeatured({ aboutContent }) {
                     <div className={`col-xl-6 col-lg-5 col-12 ${imageColumnClass}`}>
                         <div
                             className="about-promo bg-cover"
-                            style={{ backgroundImage: `url(${aboutImg})` }}
+                            style={{ backgroundImage: `url(${aboutImg})`, backgroundSize: "cover" }}
                         />
                     </div>
 

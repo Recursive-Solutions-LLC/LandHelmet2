@@ -3,7 +3,7 @@ import M10 from '../assets/img/about-us/type-II/model-10/m10.jpg';
 import typeII from '../assets/img/icon/helmet-types/typeII.svg';
 import thumb1 from '../assets/img/home3/service1.jpg';
 import typeIIPic from '../assets/img/products/type-II/type-II.jpg';
-
+import customization from  "../assets/img/products/type-II/customization.png"
 import FlagRow from '../components/IconRow/FlagsRow';
 import ColorsRow from '../components/IconRow/ColorsRow';
 
@@ -12,7 +12,7 @@ import { MdOutlineSportsKabaddi } from "react-icons/md";
 import { MdConstruction } from "react-icons/md";
 import { FaPersonFalling } from "react-icons/fa6";
 import { FaTree } from "react-icons/fa";
-
+import typeII_keys from "../assets/img/products/type-II/typeII_key.png"
 
 import m10_front from "../assets/img/helmet-sides/m10/front.jpg"
 import m10_down from "../assets/img/helmet-sides/m10/down.jpg"
@@ -44,7 +44,7 @@ export const productTypeIIData =
     },
     section2: {
         id: uuidv4(),
-        image: typeIIPic,
+        image: customization,
         flags: <ColorsRow />,
         imgLink: '/contact',
         heading: 'Customization for your Brand',
@@ -52,28 +52,32 @@ export const productTypeIIData =
         btnText: 'Get In touch with an expert',
         model: ""
     },
-    keyFeatures: [
-        {
-            title: 'Certifications for Confidence',
-            description: 'Certified to meet ANSI Z89.1-2014 (R2019) standards, our Type II helmet ensures compliance with stringent safety requirements, making it suitable for a wide range of industries including construction, mining, and utility work.'
-        },
-        {
-            title: 'Advanced Materials for Protection',
-            description: 'Featuring an ABS Advanced Thermo Material Shell and high-density EPS polystyrene interior, our helmets offer superior impact resistance and energy absorption.'
-        },
-        {
-            title: 'Lightweight and Comfortable',
-            description: 'Weighing just 430g, the helmet is designed for all-day comfort, reducing wearer fatigue without compromising on safety.'
-        },
-        {
-            title: 'Versatile Use',
-            description: 'Equiped with features like lamp clips, earmuffs slots , and an adjustable ratchet system, the Type II helmet is adaptable to various job requirements and conditions.'
-        },
-        {
-            title: 'Extended Lifespan',
-            description: 'Built to last, our helmet boasts a 10-year lifespan, offering long-term reliability and safety.'
-        }
-    ],
+    keyFeatures: {
+
+        image: typeII_keys ,
+        keys:[
+            {
+                title: 'Certifications for Confidence',
+                description: 'Certified to meet ANSI Z89.1-2014 (R2019) standards, our Type II helmet ensures compliance with stringent safety requirements, making it suitable for a wide range of industries including construction, mining, and utility work.'
+            },
+            {
+                title: 'Advanced Materials for Protection',
+                description: 'Featuring an ABS Advanced Thermo Material Shell and high-density EPS polystyrene interior, our helmets offer superior impact resistance and energy absorption.'
+            },
+            {
+                title: 'Lightweight and Comfortable',
+                description: 'Weighing just 430g, the helmet is designed for all-day comfort, reducing wearer fatigue without compromising on safety.'
+            },
+            {
+                title: 'Versatile Use',
+                description: 'Equiped with features like lamp clips, earmuffs slots , and an adjustable ratchet system, the Type II helmet is adaptable to various job requirements and conditions.'
+            },
+            {
+                title: 'Extended Lifespan',
+                description: 'Built to last, our helmet boasts a 10-year lifespan, offering long-term reliability and safety.'
+            }
+        ]
+    },
     brand: {
         title: 'Customization for Your Brand',
         text: 'Customize your helmets with logos, reflective stickers, and packaging. Our in-house customization services allow you to brand your helmets, making them not just a piece of safety equipment, but also a part of your company\'s identity.'

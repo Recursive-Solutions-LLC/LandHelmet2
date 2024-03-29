@@ -1,11 +1,11 @@
 import React from 'react';
-import faqImg from '../../../assets/img/faq/2.png';
 import faqBg from '../../../assets/img/map.svg';
 
 
 import FaqAccordion from '../../FaqAccordion';
 
 function Faq2({ data }) {
+    console.log('%csrc/components/ProductDetails/Faq2/index.jsx:8 data', 'color: white; background-color: #007acc;', data);
     const { keyFeatures } = data
 
     return (
@@ -18,7 +18,7 @@ function Faq2({ data }) {
                     <div className="col-xl-6 col-12 d-none d-xl-block">
                         <div className="faq-left-img">
                             <div className="man-img">
-                                <img src={faqImg} alt="man" />
+                                <img src={keyFeatures.image} alt="man" />
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ function Faq2({ data }) {
                         </div>
 
                         <div className="faq-content">
-                            {keyFeatures.map((feature, index) => (
+                            {keyFeatures.keys.map((feature, index) => (
                                 <FaqAccordion question={feature.title} answer={feature.description} key={index} />
                             ))}
                         </div>
