@@ -77,7 +77,6 @@
                 background-color: #dddddd;
                 border-radius: 10px;
                 margin-top: -60px;
-                overflow: hidden;
                 background-size: cover;
 
                 @media (max-width: 991px) {
@@ -648,4 +647,9 @@
 .icon-style {
     width: 25px;
     height: 25px;
+  }
+
+  .icon-style-helmet {
+    width: 120px;
+    height: 120px;
   }

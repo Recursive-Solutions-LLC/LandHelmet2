@@ -7,7 +7,7 @@ import PortfolioOneSlide from './PortfolioOneSlide';
 SwiperCore.use([Navigation]);
 
 function Product1({section, left}) {
-    const {image, imgLink, category, client, heading, desc, btnText, id, flags} = section
+    const {image, imgLink, category, client, heading, desc, btnText, id, flags, model} = section
     return (
         <section className="portfolio-section section-padding pt-5 mt-5">
             <div className="container">
@@ -25,6 +25,7 @@ function Product1({section, left}) {
                                     btnText={btnText}
                                     key={id}
                                     flags={flags}
+                                    model={model}
                                 />
                         }
                     </Swiper>

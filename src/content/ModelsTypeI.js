@@ -4,6 +4,7 @@ import Model02 from '../assets/img/about-us/type-I/model-02/m02.jpg';
 import typeI from '../assets/img/icon/helmet-types/typeI.svg';
 import thumb1 from '../assets/img/home3/service1.jpg';
 import typeIPic from '../assets/img/products/type-I/type-I.jpg';
+import Model12Bg from "../assets/img/models/m12/m12.jpg";
 
 import { GiMountainClimbing } from "react-icons/gi";
 import { MdOutlineSportsKabaddi } from "react-icons/md";
@@ -12,6 +13,7 @@ import { FaPersonFalling } from "react-icons/fa6";
 import { FaTree } from "react-icons/fa";
 
 import FlagRow from '../components/IconRow/FlagsRow';
+import ColorsRow from '../components/IconRow/ColorsRow';
 
 import m02_front from "../assets/img/helmet-sides/m02/front.jpg"
 import m02_down from "../assets/img/helmet-sides/m02/down.jpg"
@@ -46,21 +48,25 @@ export const productTypeIData =
 {
     section1: {
         id: uuidv4(),
-        image: typeIPic,
+        image: Model12Bg,
         flags: <FlagRow />,
         imgLink: 'https://drive.google.com/file/d/1llDh2ZGs2gqHvF_OutfZZ5Mqhv4h7BQe/view',
         heading: 'Type I Helmet: Ultimate Protection for Industrial Excellence',
         desc: 'Land helmet is excited to present our Type I Helmet, specifically engineered to meet the rigorous safety standards required in industrial settings. This helmet combines cutting-edge design with top-grade materials to offer unparalleled protection, comfort, and durability.',
         btnText: 'Learn more',
+        model: "m12"
     },
 
     section2: {
         id: uuidv4(),
         image: typeIPic,
+        flags: <ColorsRow />,
         imgLink: '/contact',
         heading: 'Customization for your Brand',
         desc: 'Customize your Helmet with our logos, reflective stickers, and packaging. Our in-house customization services allow you to brand your helmets, making them not just a piece of safety equipment, but also a part of your company identity',
         btnText: 'Get In touch with an expert',
+        model: "m02"
+
     },
 
     keyFeatures: [

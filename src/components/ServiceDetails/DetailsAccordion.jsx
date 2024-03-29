@@ -1,10 +1,8 @@
 import FaqAccordion from '../FaqAccordion';
-import { motion } from "framer-motion"
 import { SRLWrapper } from 'simple-react-lightbox';
 
 const DetailsAccordion = ({ title, text, list }) => {
 
-    console.log('%csrc/components/ServiceDetails/DetailsAccordion.jsx:5 Object', 'color: white; background-color: #007acc;', Object);
     const renderAccordion = list.map((element) => {
         const { title, text, img } = element
         return (

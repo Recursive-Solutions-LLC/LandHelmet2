@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function VideoFeaturedItem({ Icon, heading, text }) {
+
+
     return (
         <div className="col-12 col-md-6">
             <div className="single-feature-item">

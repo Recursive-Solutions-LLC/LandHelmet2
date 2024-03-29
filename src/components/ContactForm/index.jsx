@@ -28,7 +28,6 @@ function ContactForm({ title, heading }) {
             contactPhoneNumber
           })
         })
-        console.log(await response.json())
     }
 
     return (

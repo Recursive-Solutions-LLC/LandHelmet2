@@ -6,11 +6,13 @@ import ServicesThreeCard from '../Services3/ServicesThreeCard';
 
 function VideoFeatrued({  data }) {
     const [isOpen, setOpen] = useState(false);
-    
     const { 
         applications, 
         whyToChoose,
     } = data
+
+
+
     return (
         <>
             <ModalVideo
