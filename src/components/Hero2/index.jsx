@@ -21,7 +21,7 @@ export default function BasicSlider() {
       height={"100vh"}
       slidingAnimation='left_to_right'
       orientation="horizontal"
-      set
+ 
       initialSlide={1}
       autoplay={true}
       settings={{
@@ -94,7 +94,7 @@ export default function BasicSlider() {
 
         label="Precision and Protection"
         background={{
-
+          backgroundImageSrcSet:hero20,
           backgroundImageSrc: hero20,
           backgroundAnimation: 'zoom'
         }}
