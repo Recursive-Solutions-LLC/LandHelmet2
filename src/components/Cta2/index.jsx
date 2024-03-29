@@ -1,6 +1,5 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
-import img from '../../assets/img/about-us/years.jpeg';
 
 function Cta2() {
     return (
@@ -9,7 +8,6 @@ function Cta2() {
                 <div className="row">
                     <div className="col-lg-4 text-white">
                         <div className="fun-fact d-flex align-items-center justify-content-center">
-                            <img src={img} alt="" />
                             <span>+25</span>
                             <p>
                                 Years Of <br /> Experience
