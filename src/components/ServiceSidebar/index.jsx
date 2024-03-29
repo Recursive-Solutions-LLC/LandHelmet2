@@ -39,7 +39,7 @@ function ServiceSidebar() {
                 <div className="contact-us">
                     <ServiceContact
                         title="Phone Number"
-                        text="+1 (657) 319-5842"
+                        text="+1 (714) 723-0340"
                         icon={<AiOutlinePhone />}
                     />
                     <ServiceContact
@@ -58,7 +58,7 @@ function ServiceSidebar() {
                         </div>
                         <div className="contact-info">
                             <span>Phone Number</span>
-                            <p>+1 (657) 319-5842</p>
+                            <p>+1 (714) 723-0340</p>
                         </div>
                     </div>
                     <div className="single-contact-info">

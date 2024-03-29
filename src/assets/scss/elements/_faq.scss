@@ -209,7 +209,7 @@
         .card-header {
             a {
                 box-shadow: 0px 80px 180px 0px rgba(0, 0, 0, 0.06);
-                color: #001248;
+                color: #0148bc;
 
                 @media (max-width: 485px) {
                     padding-right: 40px !important;
@@ -217,7 +217,7 @@
 
                 &::after {
                     background-color: $theme-color-3;
-                    color: #001248;
+                    color: #0148bc;
                     padding: 5px 20px;
                 }
             }

@@ -1,6 +1,6 @@
 import React from 'react';
 import man1 from '../../assets/img/man1.png';
-import bgImg from '../../assets/img/map.svg';
+import bgImg from '../../assets/img/map2.svg';
 import FaqAccordion from '../FaqAccordion';
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";

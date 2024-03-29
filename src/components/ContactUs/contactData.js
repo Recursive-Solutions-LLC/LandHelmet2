@@ -18,9 +18,9 @@ const contactData = [
         icon: <AiOutlinePhone />,
         heading: 'Phone Number',
         text: 'Call us anytime',
-        item1: '+1 (657) 319-5842',
+        item1: '+1 (714) 723-0340',
         item2: '',
-        action: 'tel:+1 (657) 319-5842'
+        action: 'tel:+1 (714) 723-0340'
     },
 
     {

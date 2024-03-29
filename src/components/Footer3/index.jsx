@@ -50,7 +50,7 @@ function Footer3() {
                                     <WidQuestions
                                         icon={iconCall}
                                         title="Phone"
-                                        text="+1 (657) 319-5842"
+                                        text="+1 (714) 723-0340"
                                     />
                                     <WidQuestions
                                         icon={iconMap}

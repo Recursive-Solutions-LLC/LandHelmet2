@@ -12,7 +12,7 @@ function Topbar3() {
 
     const contactData = [
         { Icon: AiOutlineMail, text: 'info@landhelmets.com' },
-        { Icon: AiOutlinePhone, text: '+1 (657) 319-5842' },
+        { Icon: AiOutlinePhone, text: '+1 (714) 723-0340' },
         { Icon: FaMapMarkerAlt, text: '6101 Ball Rd #201, Cypress, CA 90630' },
     ];
 
