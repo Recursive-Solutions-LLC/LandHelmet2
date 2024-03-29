@@ -8,12 +8,12 @@ import Wrapper from "../UI/Wrapper/Wrapper";
 import 'hero-slider/dist/index.css';
 import "./app.scss";
 
-import hero5 from '../../assets/img/hero/slider5.jpeg';
-import hero6 from '../../assets/img/hero/slider6.jpeg';
+import hero5 from '../../assets/img/home3/slider5.jpeg';
+import hero6 from '../../assets/img/home3/slider6.jpeg';
 
-import hero17 from '../../assets/img/hero/slider17.jpeg';
+import hero17 from '../../assets/img/home3/slider17.jpeg';
 
-import hero20 from '../../assets/img/hero/slider20.webp';
+import hero20 from '../../assets/img/home3/slider20.webp';
 
 
 export default function BasicSlider() {
@@ -37,41 +37,41 @@ export default function BasicSlider() {
         initialSlide: 1,
         slidingDuration: 500,
         slidingDelay: 100,
-       
+
       }}
     >
       <Overlay className="single-slide" >
         <Wrapper >
-        <div  className="">
-                                <div className="hero-contents text-center">
-                                    <p>Feel the Future, Embrace the Experience</p>
-                                    <h1>Passionately User Focused</h1>
-                                    <Link to="/services" className="theme-btn theme-3">
-                                        Our Services <BsArrowRight />
-                                    </Link>
-                                    <Link to="/about" className="theme-btn theme-3">
-                                        learn more
-                                    </Link>
-                                </div>
-                            </div>
+          <div className="">
+            <div className="hero-contents text-center">
+              <p>Feel the Future, Embrace the Experience</p>
+              <h1>Passionately User Focused</h1>
+              <Link to="/services" className="theme-btn theme-3">
+                Our Services <BsArrowRight />
+              </Link>
+              <Link to="/about" className="theme-btn theme-3">
+                learn more
+              </Link>
+            </div>
+          </div>
         </Wrapper>
       </Overlay>
 
-      <Slide  shouldRenderMask
-      
+      <Slide shouldRenderMask
+
 
 
         label="The Brotherhood of Safety"
         background={{
-     
+
           backgroundImageSrc: hero5,
           backgroundAnimation: 'zoom'
         }}
       />
 
-      <Slide  shouldRenderMask
-     
-   
+      <Slide shouldRenderMask
+
+
         label="Teaching the Next Generation"
         background={{
 
@@ -80,29 +80,29 @@ export default function BasicSlider() {
         }}
       />
 
-      <Slide  shouldRenderMask
- 
+      <Slide shouldRenderMask
+
         label="A Watchful Guardian"
         background={{
-    
+
           backgroundImageSrc: hero17,
           backgroundAnimation: 'zoom'
         }}
       />
 
-      <Slide  shouldRenderMask
-      
-       
+      <Slide shouldRenderMask
+
+
         label="Precision and Protection"
         background={{
-     
+
           backgroundImageSrc: hero20,
           backgroundAnimation: 'zoom'
         }}
-        
+
       />
-         
-   
+
+
       <MenuNav />
     </HeroSlider>
   );
