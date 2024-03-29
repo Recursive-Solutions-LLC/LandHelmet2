@@ -11,7 +11,7 @@ const MenuContent = () => (
             </li>
             <li className="bottom-item">
                 <AiOutlinePhone className="icon" />
-                +1 (657) 319-5842
+                +1 (714) 723-0340
             </li>
         </ul>
         <div className="bottom-btn">

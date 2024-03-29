@@ -7,7 +7,7 @@ const WidgetGetinTouchData = [
         id: uuidv4(),
         icon: <AiOutlinePhone />,
         heading: 'Phone Number',
-        text: '+1 (657) 319-5842',
+        text: '+1 (714) 723-0340',
     },
 
     {

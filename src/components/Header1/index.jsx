@@ -36,7 +36,7 @@ function Header1() {
                         <div className="col-12 d-none d-md-block col-lg-9">
                             <div className="header-contact-info text-lg-right">
                                 <div className="single-element">
-                                    <a href="/">+1 (657) 319-5842</a>
+                                    <a href="/">+1 (714) 723-0340</a>
                                     <span>Call Us Now</span>
                                 </div>
                                 <div className="single-element">
