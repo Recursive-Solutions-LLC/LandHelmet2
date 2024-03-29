@@ -3,7 +3,13 @@ import M10 from '../assets/img/about-us/type-II/model-10/m10.jpg';
 import typeII from '../assets/img/icon/helmet-types/typeII.svg';
 import thumb1 from '../assets/img/home3/service1.jpg';
 import typeIIPic from '../assets/img/products/type-II/type-II.jpg';
+import FlagRow from '../components/IconRow/FlagsRow';
 
+
+import m10_front from "../assets/img/helmet-sides/m10/front.jpg"
+import m10_down from "../assets/img/helmet-sides/m10/down.jpg"
+import m10_left from "../assets/img/helmet-sides/m10/left.jpg"
+import m10_right from "../assets/img/helmet-sides/m10/right.jpg"
 
 
 const ModelsTypeI = [
@@ -21,12 +27,11 @@ export const productTypeIIData =
     section1: {
         id: uuidv4(),
         image: typeIIPic,
-        category: 'Industrial',
-        client: 'Rosalina D.',
+        flags: <FlagRow />,
         heading: 'Type II Helmet: The European Style for Advanced Safety and Comfort',
         desc: 'At Land Helmets, we are proud to introduce our European Style Type II Helmet, designed with the rigorous demands of industrial and outdoor environments in mind. Our helmet not only meets but exceeds safety standards, ensuring the highest level of protection and comfort for your team.',
-        btnText: 'Get In touch with an expert',
-        imgLink: '/',
+        btnText: 'Learn More',
+        imgLink: 'https://drive.google.com/file/d/1WW2JLRtFkEo2M7TQbwxWi1ARE8Tfzn6-/view',
     },
     section2: {
         id: uuidv4(),
@@ -78,7 +83,18 @@ export const productTypeIIData =
         text: 'With Land Helmets, you\'re not just purchasing safety equipment; you\'re investing in a partnership that prioritizes your team\'s safety and your brand\'s visibility. Contact us today to learn more about our Type II helmets and how we can assist with your safety needs.',
         image: thumb1
     }
+
+
+    
 }
+
+export const Model02Sides = [
+    m10_front,
+    m10_left,
+    m10_down,
+    m10_right
+]
+
 
 
 export default ModelsTypeI;

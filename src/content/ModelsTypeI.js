@@ -11,6 +11,17 @@ import { MdConstruction } from "react-icons/md";
 import { FaPersonFalling } from "react-icons/fa6";
 import { FaTree } from "react-icons/fa";
 
+import FlagRow from '../components/IconRow/FlagsRow';
+
+import m02_front from "../assets/img/helmet-sides/m02/front.jpg"
+import m02_down from "../assets/img/helmet-sides/m02/down.jpg"
+import m02_left from "../assets/img/helmet-sides/m02/left.jpg"
+import m02_right from "../assets/img/helmet-sides/m02/right.jpg"
+
+import m12_front from "../assets/img/helmet-sides/m12/front.jpg"
+import m12_down from "../assets/img/helmet-sides/m12/down.jpg"
+import m12_left from "../assets/img/helmet-sides/m12/left.jpg"
+import m12_right from "../assets/img/helmet-sides/m12/right.jpg"
 
 const ModelsTypeI = [
     {
@@ -36,10 +47,11 @@ export const productTypeIData =
     section1: {
         id: uuidv4(),
         image: typeIPic,
-        imgLink: '/',
+        flags: <FlagRow />,
+        imgLink: 'https://drive.google.com/file/d/1llDh2ZGs2gqHvF_OutfZZ5Mqhv4h7BQe/view',
         heading: 'Type I Helmet: Ultimate Protection for Industrial Excellence',
         desc: 'Land helmet is excited to present our Type I Helmet, specifically engineered to meet the rigorous safety standards required in industrial settings. This helmet combines cutting-edge design with top-grade materials to offer unparalleled protection, comfort, and durability.',
-        btnText: 'Case Details',
+        btnText: 'Learn more',
     },
 
     section2: {
@@ -97,8 +109,21 @@ export const productTypeIData =
         text: 'Choosing Land Helmets means selecting a partner dedicated to providing top-tier safety solutions. Our Type I helmets embody our commitment to protection, comfort, and innovation. Reach out to us to discover more about our products and how they can enhance safety on your job sites.',
         image: thumb1
     }
-}
-    ;
+};
+
+export const Model02Sides = [
+    m02_front,
+    m02_left,
+    m02_down,
+    m02_right
+]
+
+export const Model12Sides = [
+    m12_front,
+    m12_left,
+    m12_down,
+    m12_right
+]
 
 
 
