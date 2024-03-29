@@ -46,7 +46,7 @@
 
             a {
                 background: $theme-color;
-                color: #0148bc;
+                color: #001248;
                 width: 60%;
 
                 @media (max-width: 767px) {
@@ -266,7 +266,7 @@
             left: 0;
             content: "";
             opacity: 0.6;
-            background-color: #0148bc;
+            background-color: #001248;
             z-index: -1;
         }
 
@@ -317,10 +317,10 @@
                 h1 {
                     font-size: 80px;
                     line-height: 1;
-                    color: #0148bc;
+                    color: #001248;
                     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
                     -webkit-text-stroke-width: 1px;
-                    -webkit-text-stroke-color: #0148bc;
+                    -webkit-text-stroke-color: #001248;
                 }
             }
 
@@ -365,7 +365,7 @@
                 line-height: 30px;
                 height: 30px;
                 background-color: $theme-color-3;
-                color: #0148bc;
+                color: #001248;
                 -webkit-clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
                 clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
 
@@ -697,7 +697,7 @@
 
                     p {
                         font-weight: 600;
-                        color: #0148bc;
+                        color: #001248;
                         font-size: 17px;
                     }
                 }
