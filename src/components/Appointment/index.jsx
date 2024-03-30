@@ -25,9 +25,11 @@ function Apointment() {
                                     />
                                 ))}
                                 <div className="appointment-time d-flex justify-content-between">
-                                    <span>Saturday / Sunday</span>
+                                    <span>Weekend</span>
+                                
                                     <span>Off Day</span>
                                 </div>
+                            
                             </div>
                         </div>
                     </div>
