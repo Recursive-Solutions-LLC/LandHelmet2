@@ -112,18 +112,16 @@ function Footer1() {
                         <div className="col-lg-4 col-12">
                             
                         </div>
-                        <div className="col-lg-4 col-12 text-center">
+                  
                          
                             <div className="copyright-info">
                                 <p>
-                                    &copy; Design By <a href="recursivesolutions.net">Recursive Solutions </a> - 2024
+                                    &copy; Design By <a href="https://www.recursivesolutions.net/">Recursive Solutions </a> - 2024
                                 </p>
                           
                             </div>
-                        </div>
-                        <div className="col-lg-4 d-none d-lg-block col-12">
-                           
-                        </div>
+                      
+                     
                     </div>
                 </div>
             </div>
