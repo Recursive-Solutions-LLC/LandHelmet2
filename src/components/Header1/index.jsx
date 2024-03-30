@@ -45,7 +45,7 @@ function Header1() {
                                 </div>
                                 <div className="header-btn d-inline">
                                     <Link to="/contact" className="theme-btn">
-                                        Get A Quote
+                                        Contact Us
                                     </Link>
                                 </div>
                             </div>

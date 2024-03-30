@@ -22,13 +22,6 @@ function ContactUs() {
                     ))}
                 </div>
 
-                <div className="row">
-                    <div className="col-12 col-lg-12">
-                        <div className="contact-map-wrap">
-                            <Map />
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     );

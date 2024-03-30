@@ -106,7 +106,7 @@ function ContactForm({ title, heading }) {
                                     <input
                                         className="submit-btn"
                                         type="submit"
-                                        value="Get A Quote"
+                                        value="Contact Us"
                                     />
                                 </div>
                             </form>

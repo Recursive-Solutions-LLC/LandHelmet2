@@ -27,11 +27,11 @@ function Home3() {
         <>
             <Header3 />
             <Hero3 />
-           
+            <ProjectFilter2 />
             <Services3 />
          
             <Cta1 />
-            <ProjectFilter2 />
+   
 
             <Process2 />
             <Timeline />
