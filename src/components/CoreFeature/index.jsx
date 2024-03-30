@@ -23,7 +23,7 @@ function CoreFeature() {
                             <div className="section-title">
                                 <p>Core Features</p>
                                 <h1>
-                                    Get a Quote For <br /> Your Project
+                                    Contact Us For <br /> Your Project
                                 </h1>
                             </div>
 
