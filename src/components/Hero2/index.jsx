@@ -7,10 +7,10 @@ import Wrapper from "../UI/Wrapper/Wrapper";
 import 'hero-slider/dist/index.css';
 import "./app.scss";
 
-import hero5 from '../../assets/img/home3/slider5.jpeg';
-import hero6 from '../../assets/img/home3/hero6.jpeg';
+import hero5 from '../../assets/img/home3/slider5.jpg';
+import hero6 from '../../assets/img/home3/hero6.jpg';
 
-import hero17 from '../../assets/img/home3/slider17.jpeg';
+import hero17 from '../../assets/img/home3/slider17.jpg';
 
 import hero20 from '../../assets/img/home3/slider20.webp';
 
