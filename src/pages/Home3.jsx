@@ -29,11 +29,11 @@ function Home3() {
             <Hero3 />
            
             <Services3 />
-            <Process2 />
+         
             <Cta1 />
             <ProjectFilter2 />
 
-
+            <Process2 />
             <Timeline />
             <Process2 type={2} />
 
