@@ -5,7 +5,11 @@ import MobileMenu from '../MobileMenu';
 
 const menuItems = [
     { to: '/', label: 'Home' },
-    { to: '/about', label: 'About' },
+    { to: '/about', label: 'About'  , subMenu: [
+    
+        { to: '/services-details-quality', label: 'Quality Control' },
+        { to: '/services-details-distributor', label: 'Global Distributor' },
+    ]},
     {
         to: '/type-I', label: 'Product', subMenu: [
     
@@ -15,9 +19,7 @@ const menuItems = [
     },
     { to: '/services', label: 'Services' , subMenu: [
     
-        { to: '/services-details-quality', label: 'Quality Control' },
         { to: '/services-details-rd', label: 'R&D' },
-        { to: '/services-details-distributor', label: 'Global Distributor' },
         { to: '/services-details-production', label: 'In House Production' },
     ]},
     { to: '/contact', label: 'Contact' },

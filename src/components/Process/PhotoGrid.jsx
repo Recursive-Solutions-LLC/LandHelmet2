@@ -1,7 +1,6 @@
 import React from 'react';
 import img3 from '../../assets/img/services/AE9I5871.jpg';
-import img2 from '../../assets/img/services/ambitious-professionals-of-contemporary-factory-2023-11-27-05-04-30-utc.jpg';
-import img1 from '../../assets/img/services/industrial-photo-of-modern-production-line-on-fact-2023-11-27-05-15-18-utc.jpg';
+import img2 from '../../assets/img/services/worker_in_factory.jpg';
 
 function PhotoGrid() {
     return (

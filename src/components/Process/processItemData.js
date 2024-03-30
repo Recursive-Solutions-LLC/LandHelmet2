@@ -4,36 +4,29 @@ const processItemData = [
     {
         id: uuidv4(),
         number: '01',
-        heading: 'Enhanced Comfort Control',
-        text: 'Experience unparalleled comfort with our helmets, meticulously designed to provide you with the perfect fit for all your adventures.',
+        heading: 'Service Excellence & Innovation',
+        text: 'Delivers exceptional service with direct communication and strong confidentiality practices, fueled by in-house R&D and a commitment to quality, safety, and innovation.',
     },
 
     {
         id: uuidv4(),
         number: '02',
-        heading: 'Effortless Fit Customization',
-        text: 'Say goodbye to uncomfortable helmets! Our innovative customization options ensure a snug and effortless fit tailored to your unique needs.',
+        heading: 'Manufacturing Expertise & Efficiency',
+        text: 'Employs deep manufacturing expertise for cost reduction and productivity, optimizing processes through lean manufacturing and detailed documentation.',
     },
 
     {
         id: uuidv4(),
         number: '03',
-        heading: 'Extend the Life, Expand Your Options',
-        text: 'Our helmets are built to last, offering durability that extends their lifespan. With Land Helmets, you have endless possibilities for protection and style.',
+        heading: 'Quality Assurance & Confidentiality',
+        text: 'Ensures products meet high standards for quality and durability while strictly protecting business secrets and project confidentiality.',
     },
 
     {
         id: uuidv4(),
         number: '04',
-        heading: 'High-Quality Chinese-Made EPS Line',
-        text: 'Experience the pinnacle of safety with our high-quality EPS line. Designed and crafted with precision in China, our helmets exceed industry standards.',
-    },
-
-    {
-        id: uuidv4(),
-        number: '05',
-        heading: 'Certified for Your Safety',
-        text: 'Rest assured knowing that our helmets are rigorously tested and certified for your safety. Choose Land Helmets for unparalleled protection on every adventure.',
+        heading: 'One-Stop Integrated Solution',
+        text: 'Provides a comprehensive solution from mold opening to assembly, leveraging integrated facilities for seamless and innovative production.',
     },
 ];
 
