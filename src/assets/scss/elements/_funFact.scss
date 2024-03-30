@@ -124,7 +124,8 @@
 
         .icon {
             border-radius: 50%;
-         
+            filter: invert(100%);
+           
             box-shadow: 0px 16px 32px 0px rgba(52, 52, 52, 0.08);
             width: 85px;
             height: 85px;
@@ -136,11 +137,14 @@
 
         .content {
             h4 {
-                color: $theme-dark;
+                color: #fff;
+                -webkit-text-stroke: 0.8px $theme-color-2;
+            
                 margin-bottom: 15px;
             }
 
             p {
+                color: #fff;
                 font-size: 15px;
                 line-height: 28px;
                 
