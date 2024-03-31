@@ -5,7 +5,7 @@ import typeI from '../assets/img/icon/helmet-types/typeI.svg';
 import thumb1 from '../assets/img/products/why_us.png';
 import typeIPic from '../assets/img/products/type-I/type-I.jpg';
 import Model12Bg from "../assets/img/models/m12/m12.jpg";
-import typeI_keys from "../assets/img/products/type-I/typeI_keys.jpg"
+import typeI_keys from "../assets/img/products/type-I/typeI_keys.png"
 
 import { GiMountainClimbing } from "react-icons/gi";
 import { MdOutlineSportsKabaddi } from "react-icons/md";
