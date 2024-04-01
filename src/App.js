@@ -22,7 +22,7 @@ import ModelsTypeI from './content/ModelsTypeI';
 import ModelsTypeII from './content/ModelsTypeII';
 
 import HeroBg1 from './assets/img/products/cover.png';
-import HeroBg2 from './assets/img/products/cover-II.jpg';
+import HeroBg2 from './assets/img/products/cover-II.png';
 
 function App() {
     return (
