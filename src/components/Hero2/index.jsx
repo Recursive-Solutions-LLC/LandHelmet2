@@ -43,7 +43,7 @@ export default function BasicSlider() {
         <Wrapper >
           <div className="">
             <div className="hero-contents text-center">
-              <p>Feel the Future, Embrace the Experience</p>
+              <p>Your Brand Our Expertise</p>
               <h1>Passionately User Focused</h1>
               <Link to="/services" className="theme-btn theme-3">
                 Our Services <BsArrowRight />
