@@ -14,11 +14,11 @@ import { FaPersonFalling } from "react-icons/fa6";
 import { FaTree } from "react-icons/fa";
 import typeII_keys from "../assets/img/products/type-II/typeII_key.png"
 
-import m10_front from "../assets/img/helmet-sides/m10/front.jpg"
-import m10_down from "../assets/img/helmet-sides/m10/down.jpg"
-import m10_left from "../assets/img/helmet-sides/m10/left.jpg"
-import m10_right from "../assets/img/helmet-sides/m10/right.jpg"
 
+import m02_front from "../assets/img/helmet-sides/m02/front.jpg"
+import m02_down from "../assets/img/helmet-sides/m02/down.jpg"
+import m02_left from "../assets/img/helmet-sides/m02/left.jpg"
+import m02_right from "../assets/img/helmet-sides/m02/right.jpg"
 
 const ModelsTypeI = [
     {
@@ -104,10 +104,10 @@ export const productTypeIIData =
 }
 
 export const Model10Sides = [
-    m10_front,
-    m10_left,
-    m10_down,
-    m10_right
+    m02_front,
+    m02_left,
+    m02_down,
+    m02_right
 ]
 
 

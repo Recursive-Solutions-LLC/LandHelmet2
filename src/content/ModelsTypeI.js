@@ -16,10 +16,10 @@ import { FaTree } from "react-icons/fa";
 import FlagRow from '../components/IconRow/FlagsRow';
 import ColorsRow from '../components/IconRow/ColorsRow';
 
-import m02_front from "../assets/img/helmet-sides/m02/front.jpg"
-import m02_down from "../assets/img/helmet-sides/m02/down.jpg"
-import m02_left from "../assets/img/helmet-sides/m02/left.jpg"
-import m02_right from "../assets/img/helmet-sides/m02/right.jpg"
+import m10_front from "../assets/img/helmet-sides/m10/front.jpg"
+import m10_down from "../assets/img/helmet-sides/m10/down.jpg"
+import m10_left from "../assets/img/helmet-sides/m10/left.jpg"
+import m10_right from "../assets/img/helmet-sides/m10/right.jpg"
 
 import m12_front from "../assets/img/helmet-sides/m12/front.jpg"
 import m12_down from "../assets/img/helmet-sides/m12/down.jpg"
@@ -123,10 +123,10 @@ export const productTypeIData =
 };
 
 export const Model02Sides = [
-    m02_front,
-    m02_left,
-    m02_down,
-    m02_right
+    m10_front,
+    m10_left,
+    m10_down,
+    m10_right
 ]
 
 export const Model12Sides = [
