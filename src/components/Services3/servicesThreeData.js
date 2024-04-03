@@ -10,7 +10,7 @@ const servicesThreeData = [
         index: '01',
         heading: 'Craft Unforgettable User Experiences',
         subHeading: 'by Designing Your Own Helmet', 
-        text: 'From concept to creation, our expert team collaborates closely with you to develop customized safety helmets that reflect your brand identity while adhering to the highest safety standards.',
+        text: 'Our Team is dedicated to bringing your helmet concepts to life, ensuring they align seamlessly with your brand identity while prioritizing uncompromising safety standards from inception to execution.  Check our R&D Capabilities',
     },
 
     {
@@ -19,7 +19,7 @@ const servicesThreeData = [
         index: '02',
         heading: 'Empower your Brand',
         subHeading: 'with our Personalized Helmets', 
-        text: 'We offer a diverse range of options to meet your specific requirements.Our flexible OEM solutions ensure seamless integration with your objectives.',
+        text: 'Discover a Diverse Array of Public Molds to Elevate Your Brand: We provide a versatile selection tailored to your needs from Type I to Type II options.With our adaptable OEM solutions, aligning seamlessly with your objectives has never been easier.',
     }
 ];
 

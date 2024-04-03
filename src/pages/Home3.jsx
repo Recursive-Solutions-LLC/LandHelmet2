@@ -27,16 +27,20 @@ function Home3() {
             <Header3 />
             <Hero3 />
             <Services3 />     
+    
+    
+
+          
          
             <Cta1 />
-   
-
-            <Process2 />
-            <Timeline />
             <Process2 type={2} />
 
+    
+            <Timeline />
+         
 
-            <Portfolio2 />
+
+        
             <Services1 hasTitle data={servicesOneData} title="Our Classes" />
             <Cta />
             <Faq />

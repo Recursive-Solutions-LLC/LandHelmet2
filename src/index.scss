@@ -14,3 +14,13 @@
  
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/img/products/cover-II.png") ;
 }
+ul{
+    list-style-type: circle;
+}
+.bullet::before {
+    content: "📌";
+   
+
+    padding-inline: 0.8px;
+   
+  }

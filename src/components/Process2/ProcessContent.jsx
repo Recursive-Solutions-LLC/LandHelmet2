@@ -1,10 +1,17 @@
 import React from 'react';
 
-function ProcessContent({ heading, text }) {
+function ProcessContent({ heading, text , bullets }) {
+    
+        const renderBullets = bullets.map((p,i) =>{
+            return  <li className="bullet" key={i}>{p}</li>         
+        })
+  
+    
     return (
         <>
             <h4>{heading}</h4>
-            <p>{text}</p>
+              <p>{text}</p>
+            <ul >{renderBullets}</ul>
         </>
     );
 }
