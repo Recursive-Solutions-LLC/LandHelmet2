@@ -1,7 +1,7 @@
 import thumb1 from "../assets/img/services/QualityControl/quality-control.jpg";
 import thumb2 from "../assets/img/services/QualityControl/innovation.jpg";
 import thumb3 from "../assets/img/services/QualityControl/certified.jpg";
-import thumb4 from "../assets/img/services/QualityControl/partner.jpg";
+import thumb4 from '../assets/img/products/why_us.png';
 
 import bannerImg1 from "../assets/img/services/QualityControl/Carousel/middle-aged-businessman-with-digital-tablet-in-fac-2023-11-27-05-30-12-utc-min.jpg";
 import bannerImg2 from "../assets/img/services/QualityControl/Carousel/quality-control-inspector-and-young-workers-commun-2023-11-27-05-09-33-utc-min.jpg";

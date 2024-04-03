@@ -5,9 +5,9 @@ import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
 import thumb4 from "../assets/img/services/GlobalDistributor/male-builder-trying-on-helmet-in-hardware-store-2023-11-27-04-51-49-utc.jpg";
 import thumb5 from "../assets/img/services/GlobalDistributor/group-of-man-and-woman-in-cargo-container-area-joi-2023-11-27-05-02-45-utc.jpg";
 
-import bannerImg1 from "../assets/img/services/GlobalDistributor/Carousel/two-workers-preparing-packages-for-shipment-in-a-w-2023-11-27-05-22-08-utc-min.jpg";
-import bannerImg2 from "../assets/img/services/GlobalDistributor/Carousel/logistic-industry-shipment-storage-and-manufact-2023-11-27-05-29-10-utc-min.JPG";
-import bannerImg3 from "../assets/img/services/GlobalDistributor/Carousel/woman-engineer-using-a-communication-radio-and-wo-2023-11-27-05-24-09-utc-min.JPG";
+import bannerImg1 from "../assets/img/services/GlobalDistributor/Carousel/global1.jpg";
+import bannerImg2 from "../assets/img/services/GlobalDistributor/Carousel/global2.jpg";
+import bannerImg3 from "../assets/img/services/GlobalDistributor/Carousel/global3.jpg";
 
 import distributorImg from "../assets/img/services/GlobalDistributor/Banner/view-down-aisles-of-racks-holding-cardboard-boxes-2023-11-27-05-21-17-utc.jpg";
 

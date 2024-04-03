@@ -1,4 +1,4 @@
-import quote from '../../assets/img/about-us/years.jpeg';
+import quote from '../../assets/img/about-us/years.jpg';
 
 const aboutTwoData = {
     img: quote,
