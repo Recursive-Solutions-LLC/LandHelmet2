@@ -3,6 +3,8 @@ import React from 'react'
 function Banner({title, subtitle, image}) {
     const {src, alt} = image
 
+    const renderImage = image && <img src={src} alt={alt} style={{ maxWidth: '100%', height: 'auto' }} />
+
   return (
     <div className="row">
     <div className="col-12 col-md-6 text-md-left align-self-center">
@@ -12,7 +14,7 @@ function Banner({title, subtitle, image}) {
         </div>
     </div>
     <div className="col-12 col-md-6 text-md-right">
-        <img src={src} alt={alt} style={{ maxWidth: '100%', height: 'auto' }} />
+        {renderImage}
     </div>
 </div>
   )

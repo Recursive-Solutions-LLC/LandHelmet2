@@ -6,10 +6,10 @@ import {
   FaTruckMoving,
 } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
-import thumb1 from "../../assets/img/services/quality-control.jpg";
-import thumb2 from "../../assets/img/services/r&d.jpg";
-import thumb3 from "../../assets/img/services/global-distributor.jpg";
-import thumb4 from "../../assets/img/services/in-house.jpg";
+import thumb1 from "../../assets/img/capabilities/quality-control.jpg";
+import thumb2 from "../../assets/img/capabilities/r&d.jpg";
+import thumb3 from "../../assets/img/capabilities/global-distributor.jpg";
+import thumb4 from "../../assets/img/capabilities/in-house.jpg";
 
 const servicesTwoData = [
   {

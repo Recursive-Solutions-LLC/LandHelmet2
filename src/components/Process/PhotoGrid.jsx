@@ -1,6 +1,6 @@
 import React from 'react';
-import img3 from '../../assets/img/services/AE9I5871.jpg';
-import img2 from '../../assets/img/services/worker_in_factory.jpg';
+import img3 from '../../assets/img/capabilities/AE9I5871.jpg';
+import img2 from '../../assets/img/capabilities/worker_in_factory.jpg';
 
 function PhotoGrid() {
     return (

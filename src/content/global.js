@@ -1,15 +1,15 @@
 // Import necessary image
-import thumb1 from "../assets/img/services/QualityControl/Packing1.jpg";
-import thumb2 from "../assets/img/services/GlobalDistributor/two-engineers-standing-in-a-shipping-yard-discussi-2023-11-27-05-15-10-utc.jpg";
-import thumb3 from "../assets/img/services/QualityControl/Packing2.jpg";
-import thumb4 from "../assets/img/services/GlobalDistributor/male-builder-trying-on-helmet-in-hardware-store-2023-11-27-04-51-49-utc.jpg";
-import thumb5 from "../assets/img/services/GlobalDistributor/group-of-man-and-woman-in-cargo-container-area-joi-2023-11-27-05-02-45-utc.jpg";
+import thumb1 from "../assets/img/capabilities/QualityControl/Packing1.jpg";
+import thumb2 from "../assets/img/capabilities/GlobalDistributor/two-engineers-standing-in-a-shipping-yard-discussi-2023-11-27-05-15-10-utc.jpg";
+import thumb3 from "../assets/img/capabilities/QualityControl/Packing2.jpg";
+import thumb4 from "../assets/img/capabilities/GlobalDistributor/male-builder-trying-on-helmet-in-hardware-store-2023-11-27-04-51-49-utc.jpg";
+import thumb5 from "../assets/img/capabilities/GlobalDistributor/group-of-man-and-woman-in-cargo-container-area-joi-2023-11-27-05-02-45-utc.jpg";
 
-import bannerImg1 from "../assets/img/services/GlobalDistributor/Carousel/global1.jpg";
-import bannerImg2 from "../assets/img/services/GlobalDistributor/Carousel/global2.jpg";
-import bannerImg3 from "../assets/img/services/GlobalDistributor/Carousel/global3.jpg";
+import bannerImg1 from "../assets/img/capabilities/GlobalDistributor/Carousel/global1.jpg";
+import bannerImg2 from "../assets/img/capabilities/GlobalDistributor/Carousel/global2.jpg";
+import bannerImg3 from "../assets/img/capabilities/GlobalDistributor/Carousel/global3.jpg";
 
-import distributorImg from "../assets/img/services/GlobalDistributor/Banner/view-down-aisles-of-racks-holding-cardboard-boxes-2023-11-27-05-21-17-utc.jpg";
+import distributorImg from "../assets/img/capabilities/GlobalDistributor/Banner/view-down-aisles-of-racks-holding-cardboard-boxes-2023-11-27-05-21-17-utc.jpg";
 
 const globalContent = {
     title: "Global Distributor",

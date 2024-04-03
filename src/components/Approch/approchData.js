@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
-import thumb1 from '../../assets/img/capabilities/approach/1.jpg';
-import thumb2 from '../../assets/img/capabilities/approach/2.jpg';
-import thumb3 from '../../assets/img/capabilities/approach/3.jpg';
+import thumb1 from '../../assets/img/about/approach/1.jpg';
+import thumb2 from '../../assets/img/about/approach/2.jpg';
+import thumb3 from '../../assets/img/about/approach/3.jpg';
 
 import rd1 from "../../assets/img/icon/r1.svg"
 import rd4 from "../../assets/img/icon/r4.svg"
@@ -14,7 +14,7 @@ const approchData = [
         thumb: thumb1,
         icon: <img src={rd1} alt="One-Stop icon" />,
         heading: 'One-Stop Manufacturing',
-        text: 'Integrated operation from design to production',
+        text: 'Integrated operation from design to mass production',
     },
 
     {

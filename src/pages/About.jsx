@@ -2,17 +2,17 @@ import React from 'react';
 import Footer3 from '../components/Footer1';
 import Header3 from '../components/Header3';
 import About2 from '../components/About2';
- import CoverAbout from '../assets/img/capabilities/cover.jpg';
+ import CoverAbout from '../assets/img/about/cover.jpg';
  import PageBanner from '../components/PageBanner';
  import AboutFeatured from '../components/AboutFeatured';
 import Approch from '../components/Approch';
 import Timeline from '../components/Timeline';
 import Cta3 from '../components/Cta2';
 
-import capabilities_1 from "../assets/img/capabilities/capabilities-1.jpg";
-import capabilities_2 from "../assets/img/capabilities/capabilities-2.png";
+import capabilities_1 from "../assets/img/about/capabilities-1.jpg";
+import capabilities_2 from "../assets/img/about/capabilities-2.png";
 
-import capabilities_3 from "../assets/img/capabilities/capabilities-3.png";
+import capabilities_3 from "../assets/img/about/capabilities-3.png";
 
 const about1 ={
     aboutImg: capabilities_1 ,

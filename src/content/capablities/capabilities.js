@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import img2 from '../../assets/img/portfolio/project2.jpg';
 import img4 from '../../assets/img/portfolio/project4.jpg';
-import capabilities from "../../assets/img/capabilities/capabilities.jpg";
+import capabilities from "../../assets/img/about/capabilities.jpg";
 
 const capabilitiesContent = {
     section1: {
