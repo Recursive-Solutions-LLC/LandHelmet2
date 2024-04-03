@@ -8,10 +8,8 @@ import Home3 from './pages/Home3';
 import ProductDetails from './pages/ProductDetailsPage';
 import Services from './pages/Services';
 import ServicesDetails from './pages/ServicesDetails';
-import global from "./content/global"
-import inhouse from "./content/inhouse"
-import quality from "./content/quality"
-import rd from "./content/rd"
+import inHouseRd from "./content/capablities/inHouseRd"
+import oneStop from "./content/capablities/oneStop"
 
 
 import {productTypeIData} from "./content/ModelsTypeI"
@@ -45,20 +43,15 @@ function App() {
                         <ProductDetails data={productTypeIIData} model={ModelsTypeII} cover ={HeroBg2} />
                     </Route>
 
-                    <Route exact path="/services">
+                    <Route exact path="/capabilities">
                         <Services />
                     </Route>
-                    <Route exact path="/services-details-quality">
-                        <ServicesDetails  content={quality} />
+                    <Route exact path="/in-house-rd">
+                        <ServicesDetails  content={inHouseRd} />
                     </Route>
-                    <Route exact path="/services-details-rd">
-                        <ServicesDetails  content={rd} />
-                    </Route>
-                    <Route exact path="/services-details-distributor">
-                        <ServicesDetails  content={global} />
-                    </Route>
-                    <Route exact path="/services-details-production">
-                        <ServicesDetails  content={inhouse} />
+                    
+                    <Route exact path="/one-stop-manufacturing">
+                        <ServicesDetails  content={oneStop} />
                     </Route>
                     <Route exact path="/contact">
                         <Contact />

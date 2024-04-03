@@ -15,17 +15,10 @@ function Footer1() {
     const onSubmitHandler = (e) => {
         e.preventDefault();
     };
-    const exploreLinks = [
-        { path: "/services", label: "Services" },
-        { path: "/about", label: "About us" },
-        { path: "/", label: "R&D" },
-        { path: "/contact", label: "Contact us" },
-    ];
+
     const serviceLinks = [
-        { path: "/services-details-quality", label: "Quality Control" },
-        { path: "/services-details-rd", label: "R&D" },
-        { path: "/services-details-distributor", label: "Global Distributor" },
-        { path: "/services-details-production", label: "In House Production" },
+        { path: "/in-house-rd", label: "In-House R&D" },
+        { path: "/one-stop-manufacturing", label: "One Stop Manufacturing" },
     ];
     return (
         <footer className="footer-1 footer-wrap">
@@ -47,10 +40,10 @@ function Footer1() {
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid recent_post_widget">
                                 <div className="wid-title">
-                                    <h4>Services</h4>
+                                    <h4>Capabilities</h4>
                                 </div>
                                 <div className="col-md-6 col-xl-3 col-12 pr-xl-0">
-                          <FooterWidget title="Services" links={serviceLinks} />
+                          <FooterWidget title="Capabilities" links={serviceLinks} />
                         </div>
                             </div>
                         </div>

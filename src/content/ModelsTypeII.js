@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import M10 from '../assets/img/about-us/type-II/model-10/m10.jpg';
+import M10 from '../assets/img/capabilities/type-II/model-10/m10.jpg';
 import typeII from '../assets/img/icon/helmet-types/typeII.svg';
 import thumb1 from '../assets/img/products/why_us.png';
 import typeIIPic from '../assets/img/products/type-II/type-II.jpg';
