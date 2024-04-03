@@ -10,10 +10,10 @@ import bannerImg3 from "../../assets/img/services/R&D/Carousel/specialist-male-a
 import TypeII_cover from "../../assets/img/products/cover-II.png"
 
 const rdContent = {
-    title: "R&D",
+    title: "In-House R&D",
     Image: TypeII_cover,
     sections: [{
-        title: "R&D",
+        title: "In-House R&D",
         img: thumb1,
         text: "At Land Helmets, our Research and Development (R&D) process is designed around collaboration, innovation, and efficiency. We involve you, our partner, at every stage of the process, ensuring that the final product not only meets but exceeds your expectations. Here's how our comprehensive R&D process works:",
     },
