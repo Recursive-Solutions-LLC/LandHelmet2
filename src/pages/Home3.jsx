@@ -17,7 +17,8 @@ import TeamMembers2 from '../components/TeamMembers2';
 import servicesOneData from '../content/servicesOneData';
 
 import Approch from '../components/Approch' 
-
+import About2 from '../components/About2';
+import Cta3 from '../components/Cta2';
 
 function Home3() {
 
@@ -32,11 +33,14 @@ function Home3() {
          
             <Cta1 />
             <Process2 type={2} />
-            <Timeline />
-            <Services1 hasTitle data={servicesOneData} title="Our Classes" />
+            <Services1 data={servicesOneData}  />
+            <About2/>
+            <Cta3/>
+
+          
             <Cta />
             <Faq />
-            <TeamMembers2 />
+     
             <Appointment />
             <Footer3 />
         </>

@@ -5,7 +5,7 @@ import capabilitiesData from "../../content/capabilitiesData";
 
 function About2() {
     return (
-        <section className="about-wrapper section-padding pb-0">
+        <section className="about-wrapper pt-5 pb-0">
             <div className="container">
                 <div className="row align-center">
                     <div className="col-lg-4 col-12 d-none d-lg-block">

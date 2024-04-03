@@ -59,8 +59,8 @@ function Faq() {
             <div className="container">
                 <div className="row">
                     <div className="section-title-3 text-center">
-                        <p>Global</p>
-                        <h1>Our Network Spans Continents for Fast Delivery</h1>
+                        <p>Global Quality Assurance</p>
+                        <h1>Our Network Spans Continents for</h1>
                     </div>
                     <div ref={leftAnimation}  className="col-xl-6 col-12 mt-4">
                         <div className="content-block">
