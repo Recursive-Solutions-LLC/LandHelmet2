@@ -1,15 +1,17 @@
-import thumb1 from "../../assets/img/services/QualityControl/innovation.jpg";
-import thumb2 from "../../assets/img/services/R&D/improvement.jpg";
-import thumb3 from "../../assets/img/services/R&D/your-participation.jpg";
-import thumb4 from "../../assets/img/services/R&D/together.jpg";
+import thumb1 from "../../assets/img/capabilities/QualityControl/innovation.jpg";
+import thumb2 from "../../assets/img/capabilities/R&D/improvement.jpg";
+import thumb3 from "../../assets/img/capabilities/R&D/your-participation.jpg";
+import thumb4 from "../../assets/img/capabilities/R&D/together.jpg";
 
-import bannerImg1 from "../../assets/img/services/R&D/Carousel/businessman-examining-workpieces-in-a-modern-facto-2023-11-27-05-15-34-utc-min.jpg";
-import bannerImg2 from "../../assets/img/services/R&D/Carousel/handsome-mature-engineer-working-in-laboratory-in-2023-11-27-04-52-59-utc-min.jpg";
-import bannerImg3 from "../../assets/img/services/R&D/Carousel/specialist-male-african-american-engineer-workers-2024-03-15-18-26-39-utc-min.jpg";
+import bannerImg1 from "../../assets/img/capabilities/R&D/Carousel/businessman-examining-workpieces-in-a-modern-facto-2023-11-27-05-15-34-utc-min.jpg";
+import bannerImg2 from "../../assets/img/capabilities/R&D/Carousel/handsome-mature-engineer-working-in-laboratory-in-2023-11-27-04-52-59-utc-min.jpg";
+import bannerImg3 from "../../assets/img/capabilities/R&D/Carousel/specialist-male-african-american-engineer-workers-2024-03-15-18-26-39-utc-min.jpg";
 
 import TypeII_cover from "../../assets/img/products/cover-II.png"
 
 const rdContent = {
+    titleBanner: "WE ARE DEDICATED TO TRANSFORM IDEAS INTO",
+    subtitleBanner: "PRODUCTS AND EXPERIENCES",
     title: "In-House R&D",
     Image: TypeII_cover,
     sections: [{

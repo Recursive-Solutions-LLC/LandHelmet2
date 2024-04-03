@@ -7,11 +7,11 @@ import Hero1 from '../components/Hero1';
 
 function ProductDetailsPage({data, model, cover}) {
 
-
     return (
         <>
             <Header1 />
             <Hero1 cover={cover} />
+
             <ProductDetailsSection data={data} model={model} />
             <Footer1 />
         </>

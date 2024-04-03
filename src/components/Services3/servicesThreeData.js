@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
-import thumb1 from '../../assets/img/services/odm.jpg';
-import thumb2 from '../../assets/img/services/oem.png';
-import thumb3 from '../../assets/img/services/global-distributor.jpg';
-import thumb4 from '../../assets/img/services/AE9I5943.jpg';
+import thumb1 from '../../assets/img/capabilities/odm.jpg';
+import thumb2 from '../../assets/img/capabilities/oem.png';
+import thumb3 from '../../assets/img/capabilities/global-distributor.jpg';
+import thumb4 from '../../assets/img/capabilities/AE9I5943.jpg';
 const servicesThreeData = [
     {
         id: uuidv4(),
