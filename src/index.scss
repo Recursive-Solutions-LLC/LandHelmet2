@@ -17,8 +17,8 @@
 ul{
     list-style-type: circle;
 }
-li::before {
-    content: "⚫";
+.bullet::before {
+    content: "📌";
    
 
     padding-inline: 0.8px;

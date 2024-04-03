@@ -79,7 +79,7 @@ function Process2(data) {
                             {data.type===2&& <>   <ProcessContent
                                 heading=" Multi-Impact Protection: Exceed ANSI/ISEA Z89.1 – 2014, CSA Z94.1 2015, EN 12492 standards for versatile head protection."
                                 text=""
-                                bullets={["Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin."," Universal accessory slot allows use of existing universal accessories"," Size: Universal adjustable "," 10-year lifespan for enduring protection.","Customization Available: Add your Branded Logo"," Advanced Energy Absorption: Features EPS foam for superior impact absorption."]}
+                                bullets={[" Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin."," Universal accessory slot allows use of existing universal accessories"," Size: Universal adjustable "," 10-year lifespan for enduring protection."," Customization Available: Add your Branded Logo"," Advanced Energy Absorption: Features EPS foam for superior impact absorption."]}
                    
                             />
                             <a href="/services-details-rd" className="theme-btn theme-3">
