@@ -13,7 +13,6 @@ import Cta from '../components/Cta3';
 import Cta1 from '../components/Cta';
 import Timeline from '../components/Timeline';
 import TeamMembers2 from '../components/TeamMembers2';
-import HorizontalScroll from '../components/HorizontalScrollCarousel';
 
 import servicesOneData from '../content/servicesOneData';
 import ProjectFilter2 from '../components/ProjectFilter2';
@@ -27,6 +26,7 @@ function Home3() {
         <>
             <Header3 />
             <Hero3 />
+            <Services3 />     
             <Services3 />
     
             <ProjectFilter2 />
