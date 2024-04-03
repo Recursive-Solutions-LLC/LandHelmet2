@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
-import M10 from '../assets/img/about-us/type-II/model-10/m10.jpg';
+import M10 from '../assets/img/capabilities/type-II/model-10/m10.jpg';
 import typeII from '../assets/img/icon/helmet-types/typeII.svg';
-import thumb1 from '../assets/img/home3/service1.jpg';
+import thumb1 from '../assets/img/products/why_us.png';
 import typeIIPic from '../assets/img/products/type-II/type-II.jpg';
 import customization from  "../assets/img/products/type-II/customization.png"
 import FlagRow from '../components/IconRow/FlagsRow';
@@ -36,9 +36,9 @@ export const productTypeIIData =
         id: uuidv4(),
         image: typeIIPic,
         flags: <FlagRow />,
-        heading: 'Type II Helmet: The European Style for Advanced Safety and Comfort',
-        desc: 'At Land Helmets, we are proud to introduce our European Style Type II Helmet, designed with the rigorous demands of industrial and outdoor environments in mind. Our helmet not only meets but exceeds safety standards, ensuring the highest level of protection and comfort for your team.',
-        btnText: 'Learn More',
+        heading: 'Type II Helmet: Ultimate Protection for Industrial Excellence',
+        desc: 'Land helmet is excited to present our Type II Helmet, specifically engineered to meet the rigorous safety standards required in industrial settings. This helmet combines cutting-edge design with top-grade materials to offer unparalleled protection, comfort, and durability.',
+       btnText: 'Learn More',
         imgLink: 'https://drive.google.com/file/d/1WW2JLRtFkEo2M7TQbwxWi1ARE8Tfzn6-/view',
         model: "m10"
     },

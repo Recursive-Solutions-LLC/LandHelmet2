@@ -5,11 +5,7 @@ import MobileMenu from '../MobileMenu';
 
 const menuItems = [
     { to: '/', label: 'Home' },
-    { to: '/about', label: 'About'  , subMenu: [
-    
-        { to: '/services-details-quality', label: 'Quality Control' },
-        { to: '/services-details-distributor', label: 'Global Distributor' },
-    ]},
+    { to: '/about', label: 'About' },
     {
         to: '/type-I', label: 'Product', subMenu: [
     
@@ -17,10 +13,10 @@ const menuItems = [
             { to: '/type-II', label: 'Helmet Type II' },
         ]
     },
-    { to: '/services', label: 'Services' , subMenu: [
+    { to: '/capabilities', label: 'Capabilities' , subMenu: [
     
-        { to: '/services-details-rd', label: 'R&D' },
-        { to: '/services-details-production', label: 'In House Production' },
+        { to: '/in-house-rd', label: 'In-House R&D' },
+        { to: '/one-stop-manufacturing', label: 'One stop manufacturing' },
     ]},
     { to: '/contact', label: 'Contact' },
 ];

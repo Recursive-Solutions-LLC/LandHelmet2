@@ -2,20 +2,20 @@ import React from 'react';
 import Footer3 from '../components/Footer1';
 import Header3 from '../components/Header3';
 import About2 from '../components/About2';
- import CoverAbout from '../assets/img/about-us/cover.jpg';
+ import CoverAbout from '../assets/img/capabilities/cover.jpg';
  import PageBanner from '../components/PageBanner';
  import AboutFeatured from '../components/AboutFeatured';
 import Approch from '../components/Approch';
 import Timeline from '../components/Timeline';
 import Cta3 from '../components/Cta2';
 
-import about_1 from "../assets/img/about-us/about-1.jpg";
-import about_2 from "../assets/img/about-us/about-2.png";
+import capabilities_1 from "../assets/img/capabilities/capabilities-1.jpg";
+import capabilities_2 from "../assets/img/capabilities/capabilities-2.png";
 
-import about_3 from "../assets/img/about-us/about-3.png";
+import capabilities_3 from "../assets/img/capabilities/capabilities-3.png";
 
 const about1 ={
-    aboutImg: about_1 ,
+    aboutImg: capabilities_1 ,
     right: false,
     title: "Located in Orange County, California.",
     subtitle: "Welcome to GTC LAND SPORTS INC",
@@ -23,7 +23,7 @@ const about1 ={
 }
 
 const about2 ={
-    aboutImg: about_2,
+    aboutImg: capabilities_2,
     right: true,
     title: "At GTC LAND SPORTS INC",
     subtitle: "Our Vision",
@@ -31,7 +31,7 @@ const about2 ={
 }
 
 const about3 ={
-    aboutImg: about_3,
+    aboutImg: capabilities_3,
     right: false,
     title: "The heart of our company lies in our name",
     subtitle: "Our Philosophy",

@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
-import Model12 from '../assets/img/about-us/type-I/model-12/m12.png';
-import Model02 from '../assets/img/about-us/type-I/model-02/m02.jpg';
+import Model12 from '../assets/img/capabilities/type-I/model-12/m12.png';
+import Model02 from '../assets/img/capabilities/type-I/model-02/m02.jpg';
 import typeI from '../assets/img/icon/helmet-types/typeI.svg';
 import thumb1 from '../assets/img/products/why_us.png';
 import typeIPic from '../assets/img/products/type-I/type-I.jpg';
@@ -52,8 +52,8 @@ export const productTypeIData =
         image: Model12Bg,
         flags: <FlagRow />,
         imgLink: 'https://drive.google.com/file/d/1llDh2ZGs2gqHvF_OutfZZ5Mqhv4h7BQe/view',
-        heading: 'Type I Helmet: Ultimate Protection for Industrial Excellence',
-        desc: 'Land helmet is excited to present our Type I Helmet, specifically engineered to meet the rigorous safety standards required in industrial settings. This helmet combines cutting-edge design with top-grade materials to offer unparalleled protection, comfort, and durability.',
+        heading: 'Type I Helmet: The European Style for Advanced Safety and Comfort',
+        desc: 'At Land Helmets, we are proud to introduce our European Style Type I Helmet, designed with the rigorous demands of industrial and outdoor environments in mind. Our helmet not only meets but exceeds safety standards, ensuring the highest level of protection and comfort for your team.',
         btnText: 'Learn more',
         model: "m12"
     },
@@ -118,7 +118,7 @@ export const productTypeIData =
     whyToChoose: {
         title: 'Why Choose Land Helmets?',
         text: 'Choosing Land Helmets means selecting a partner dedicated to providing top-tier safety solutions. Our Type I helmets embody our commitment to protection, comfort, and innovation. Reach out to us to discover more about our products and how they can enhance safety on your job sites.',
-        image: thumb1
+        image: thumb1,
     }
 };
 

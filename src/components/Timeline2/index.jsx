@@ -28,7 +28,7 @@ const Timeline2 = () =>  {
     return (<>
       <div className="section-title-3 text-center ">
                                 <p className="pl-50 pr-50">Bespoke R&D</p>
-                                <h1>Chose one of our models or create your own</h1>
+                                <h1>Create your own model</h1>
                             </div>
 
         <div className="timeline-container section-bg">

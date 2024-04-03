@@ -10,6 +10,8 @@ import Timeline from '../components/Timeline2';
 
 function ServicesDetails({ content }) {
     const { title, Image, carouselImg } = content;
+
+    const isRD = title === 'R&D'  ;
     return (
         <>
             <Header3 />
@@ -19,9 +21,9 @@ function ServicesDetails({ content }) {
                 currentPage="Service Details"
             />
             <section className="service-details-wrapper section-padding">
-                {title == 'R&D' && (<Timeline />)}
+                {isRD && (<Timeline />)}
                 <div className="container">
-                    <DetailsCarousel carouselImg={carouselImg} />
+                   {!isRD && <DetailsCarousel carouselImg={carouselImg} />}
                     <div className="row">
                         <div className="col-lg-3 col-md-4 mt-5 mt-md-0 col-12 order-2 order-md-1">
                             <ServiceSidebar />
