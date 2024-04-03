@@ -1,4 +1,4 @@
-import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
+import HeroSlider, { Overlay, Slide, Nav, AutoplayButton } from "hero-slider";
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Wrapper from "../UI/Wrapper/Wrapper";
@@ -24,31 +24,28 @@ export default function BasicSlider() {
  
       initialSlide={1}
       autoplay={true}
+  
       settings={{
         slidingDuration: 500,
         slidingDelay: 100,
         shouldAutoplay: true,
-        shouldDisplayButtons: true,
+        shouldDisplayButtons: false,
         autoplayDuration: 2000,
-        height: "100vh"
+        height: '100vh'
       }}
-      controller={{
-        initialSlide: 1,
-        slidingDuration: 500,
-        slidingDelay: 100,
 
-      }}
+   set
     >
       <Overlay className="single-slide" >
         <Wrapper >
           <div className="">
             <div className="hero-contents text-center">
-              <p>Your Brand Our Expertise</p>
-              <h1>Passionately User Focused</h1>
+              <p>Feel the Future, Embrace the Experience</p>
+              <h1 className="pb-3">Passionately User Focused</h1>
               <Link to="/services" className="theme-btn theme-3">
                 Our Services <BsArrowRight />
               </Link>
-              <Link to="/about" className="theme-btn theme-3">
+              <Link to="/about" className="theme-btn theme-3 pt-3">
                 learn more
               </Link>
             </div>
@@ -60,7 +57,7 @@ export default function BasicSlider() {
 
 
 
-        label="The Brotherhood of Safety"
+     
         background={{
 
           backgroundImageSrc: hero5,
@@ -71,7 +68,7 @@ export default function BasicSlider() {
       <Slide 
 
 
-        label="Teaching the Next Generation"
+   
         background={{
 
           backgroundImageSrc: hero6,
@@ -81,7 +78,7 @@ export default function BasicSlider() {
 
       <Slide 
 
-        label="A Watchful Guardian"
+  
         background={{
 
           backgroundImageSrc: hero17,
@@ -92,7 +89,7 @@ export default function BasicSlider() {
       <Slide 
 
 
-        label="Precision and Protection"
+
         background={{
           backgroundImageSrcSet:hero20,
           backgroundImageSrc: hero20,
@@ -102,7 +99,7 @@ export default function BasicSlider() {
       />
 
 
-      <MenuNav />
+      <Nav />
     </HeroSlider>
   );
 }

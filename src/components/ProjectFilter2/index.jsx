@@ -24,7 +24,7 @@ function ProjectFilter2() {
                         <div className="section-title-3">
               
                            <p>Our Services</p>
-                           <h1>we are capable for mass production </h1>
+                           <h1>We are capable for mass production </h1>
                             <h4>A comprehensive solution, offering both open mold options and the ability to create custom designs tailored to your needs</h4>
                         </div>
                     </div>
