@@ -71,31 +71,27 @@ function Process2(data) {
                     <div ref={rightAnimation}  className="col-xl-7 col-12 mt-5 mt-xl-0">
                         <div className="block-contents ml-xl-5 ml-50">
                             <div className="section-title-3">
-                                <p className="pl-50 pr-50">Type II Safety Helmet Available</p>
-                                {data.type===2&&      <h1>Discover Other Models</h1>}
+                                <p className="pl-50 pr-50">From Ideas to Impact</p>
+                                {data.type===2&&      <h1>Introducing M10 Type II</h1>}
                                 {data.type!==2&&      <h1>From Concept to Your Branded Product</h1>}
                            
                             </div>
                             {data.type===2&& <>   <ProcessContent
                                 heading=" Multi-Impact Protection: Exceed ANSI/ISEA Z89.1 – 2014, CSA Z94.1 2015, EN 12492 standards for versatile head protection."
-                                text="Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin.
-                                Universal accessory slot allows use of existing universal accessories
-                                Size: Universal adjustable 
-                                10-year lifespan for enduring protection.
-                                Customization Available: Add your Branded Logo
-                                Advanced Energy Absorption: Features EPS foam for superior impact absorption.
-                                "
+                                text=""
+                                bullets={["Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin."," Universal accessory slot allows use of existing universal accessories"," Size: Universal adjustable "," 10-year lifespan for enduring protection.","Customization Available: Add your Branded Logo"," Advanced Energy Absorption: Features EPS foam for superior impact absorption."]}
                    
                             />
                             <a href="/services-details-rd" className="theme-btn theme-3">
-                            Discover Custom R&D Services
+                            More Information
                             </a></>}
                             {data.type!==2&& <>   <ProcessContent
+                                 bullets={[]}
                                 heading=" Empowering brands, our R&D tailors helmets with unique designs and safety at the forefront."
                                 text="Our methodology allows us to beta test concepts in real-world scenarios, ensuring each helmet not only meets stringent safety standards but also adds significant value to our clients. Through this process, we offer the chance to create a helmet line distinctively aligned with the client’s brand, incorporating custom features, designs, and packaging."
                             />
                             <a href="/services-details-rd" className="theme-btn theme-3">
-                            Discover Custom R&D Services
+                            More Information
                             </a></>}
                          
                         </div>

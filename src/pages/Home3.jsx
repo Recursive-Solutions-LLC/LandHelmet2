@@ -28,16 +28,16 @@ function Home3() {
             <Header3 />
             <Hero3 />
             <Services3 />
-            <Portfolio2 />
+    
             <ProjectFilter2 />
           
          
             <Cta1 />
-   
+            <Process2 type={2} />
 
             <Process2 />
             <Timeline />
-            <Process2 type={2} />
+         
 
 
         

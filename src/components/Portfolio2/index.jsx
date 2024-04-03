@@ -47,15 +47,16 @@ function Portfolio2() {
                 <div className="row">
                     <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-3">
-                            <p>Helmet Offerings</p>
-                            <h1>Advanced Helmet Solutions</h1>
+                    
+                            <h1>Unlock The Full Potential Of Your Product</h1>
+                            <h2>and Bring Your Vision To Life with US</h2>
                         </div>
                     </div>
                 </div>
             </div>
 
             <Swiper ref={leftAnimation} 
-                spaceBetween={40}
+                spaceBetween={20}
                 autoplay
                 className="portfolio-carousel-wrapper owl-carousel mx-20"
                 breakpoints={{
