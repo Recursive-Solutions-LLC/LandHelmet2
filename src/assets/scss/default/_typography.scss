@@ -6,19 +6,22 @@
 // Font Family Variable with Value
 // font-family: 'Poppins', sans-serif;
 
-$heading-font: "Antonio-Bold";
+$heading-font: "Cabin", sans-serif;
 $body-font: "Monserrat-Regular";
 //font-family: "Font Awesome 5 Pro";
 $fa: "Font Awesome 5 Pro";
 
 body {
  
-    font-family: $body-font;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     color: #777;
     background-color: #fff;
+
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 #hero-subtitle {
@@ -32,10 +35,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $heading-font;
+
     margin: 0px;
-    font-weight: 600;
+
     color: #000;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:  "wdth" 100;
 }
 
 h1 {
