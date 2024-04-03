@@ -1,9 +1,7 @@
 import React from 'react';
 import FilterItem from '../ProjectFilter/FilterItem';
 
-function ProjectFilter2({title, subtitle, image, items}) {
-    const {src, alt} = image
-    console.log('%csrc/components/ProjectFilter2/index.jsx:6 image', 'color: white; background-color: #007acc;', image);
+function ProjectFilter2({image, items}) {
     const renderItems = items.map((item=>{
         return(        <FilterItem
             callToAction={item.callToAction}
@@ -18,17 +16,7 @@ function ProjectFilter2({title, subtitle, image, items}) {
     return (
         <section className="portfolio-wrapper-section section-padding">
             <div className="container">
-            <div className="row">
-                    <div className="col-12 col-md-6 text-md-left align-self-center">
-                        <div className="section-title-3">
-                            <h1 className="mb-4">{title}</h1>
-                            <h4>{subtitle}</h4>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-6 text-md-right">
-                        <img src={src} alt={alt} style={{ maxWidth: '100%', height: 'auto' }} />
-                    </div>
-                </div>
+
                 <div className="d-flex justify-content-around grid text-center mt-5" >
                  {renderItems}
                 </div>

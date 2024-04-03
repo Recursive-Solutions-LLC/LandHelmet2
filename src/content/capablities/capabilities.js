@@ -17,7 +17,7 @@ const capabilitiesContent = {
                 id: uuidv4(),
                 image: img4,
                 text: 'Our highly capable in-house R&D team is equipped with state-of-art tecnology, including 3D scanning, rapid prototyping, and a top notch testing lab, significantly accelerating innovation and product development.',
-                link: "/contact",
+                link: "/in-house-rd",
                 callToAction: "Bring your ideas to life",
                 heading: 'In-House R&D ',
             },
@@ -26,7 +26,7 @@ const capabilitiesContent = {
                 id: uuidv4(),
                 image: img2,
                 text: 'We specialize in integrating tailored solutions into our manufacturing process, enhancing your brand’s effectiveness through customization, packing, branding, and various accessories to tailor helmets to your requirements',
-                link: "/contact",
+                link: "/one-stop-manufacturing",
                 callToAction: "Make it happend",
                 heading: 'One-Stop Manufacturing',
             }

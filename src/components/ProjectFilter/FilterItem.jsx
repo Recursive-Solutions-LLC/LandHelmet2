@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function FilterItem({ image, text, heading, link, callToAction }) {
-    console.log('%csrc/components/ProjectFilter/FilterItem.jsx:6 link', 'color: white; background-color: #007acc;', link);
     return (
         <div className="col-xl-4 col-md-6 grid-item bedroom">
             <div className="single-cause-item">

@@ -37,9 +37,6 @@ function DetailsContent({ sections }) {
                 </div>
             </section >
 
-            <blockquote>
-                Safety, Fashion and comfort combined for your ultimate head protection.
-            </blockquote>
         </>
     );
 }
