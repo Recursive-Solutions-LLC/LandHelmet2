@@ -11,11 +11,8 @@ function Process() {
                     <PhotoGrid />
                     <div className="col-xl-6 col-12 offset-xl-1">
                         <div className="section-title">
-                        <h1>Safety Helmet Features.</h1>
-                            {/*
-                            <span>process</span>
-                            <p>process</p>
-                            */}
+                        <h2>Discover, more than Designs</h2>
+                        <h1>with Land Helmets</h1>
                         </div>
 
                         <div className="process-setps mt-5 mt-xl-0">
