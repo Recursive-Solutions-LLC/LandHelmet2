@@ -145,6 +145,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
+    white-space: normal;
     font-size: inherit;
     color: inherit;
     font-weight: inherit;
@@ -156,6 +157,7 @@ h3:hover a,
 h4:hover a,
 h5:hover a,
 h6:hover a {
+    white-space: normal;
     font-size: inherit;
     color: inherit;
     font-weight: inherit;

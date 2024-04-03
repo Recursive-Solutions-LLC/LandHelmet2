@@ -50,7 +50,7 @@ function About() {
                 <AboutFeatured aboutContent={about2}/>
                 <AboutFeatured aboutContent={about3}/>
             </section>
-            <Approch />
+            <Approch type={1}/>
             <Timeline/>
             <About2/>
             <Cta3/>

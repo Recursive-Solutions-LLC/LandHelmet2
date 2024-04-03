@@ -13,9 +13,9 @@ function ApprochCard({ thumbnail, icon, heading, text, btnText, pageLink }) {
                         }}
                     />
                     <div className="content">
-                        <div className="case-cat">
+                       {icon&& <div className="case-cat">
                             <Link to="/project-details">{icon}</Link>
-                        </div>
+                        </div>} 
                         <h3>
                             <Link to={pageLink}>{heading}</Link>
                         </h3>

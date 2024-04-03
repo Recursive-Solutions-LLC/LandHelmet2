@@ -16,6 +16,7 @@ import TeamMembers2 from '../components/TeamMembers2';
 
 import servicesOneData from '../content/servicesOneData';
 import ProjectFilter2 from '../components/ProjectFilter2';
+import Approch from '../components/Approch' 
 
 
 function Home3() {
@@ -26,30 +27,17 @@ function Home3() {
         <>
             <Header3 />
             <Hero3 />
-            <Services3 />     
-    
-    
+            <Services3 />
 
-          
-         
+            <Approch type={2}/>
             <Cta1 />
             <Process2 type={2} />
-
-    
             <Timeline />
-         
-
-
-        
             <Services1 hasTitle data={servicesOneData} title="Our Classes" />
             <Cta />
             <Faq />
-
             <TeamMembers2 />
-
             <Appointment />
-
-
             <Footer3 />
         </>
     );
