@@ -7,7 +7,7 @@ import Process from '../components/Process';
 import ProjectFilter2 from "../components/ProjectFilter2"
 import capabilitiesContent from "../content/capablities/capabilities"
 import Cta1 from "../components/Cta"
-
+import Banner from "../components/Banner"
 function Services() {
 
     const {title, subtitle, image, featured} = capabilitiesContent.section1;
@@ -15,8 +15,14 @@ function Services() {
     return (
         <>
             <Header3 />
-            <PageBanner bannerBg={bannerBg} currentPage="Services" heading="What We Do" />
-            <ProjectFilter2 title={title} subtitle={subtitle} image={image} items={featured} />
+            <PageBanner bannerBg={bannerBg} currentPage="Capabilities" heading="What We Do" />
+
+            <section className="section-padding-top">
+                <div className="container">
+                    <Banner title={title} subtitle={subtitle} image={image} />
+                </div>
+            </section>
+            <ProjectFilter2 items={featured} />
             <Cta1 />
             <Process />
             <Footer3 />

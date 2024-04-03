@@ -6,7 +6,6 @@ import PageBanner from '../components/PageBanner';
 import ServiceDetails from '../components/ServiceDetails';
 import ServiceSidebar from '../components/ServiceSidebar';
 import DetailsCarousel from '../components/ServiceDetails/DetailsCarousel';
-import Timeline from '../components/Timeline2';
 
 function ServicesDetails({ content }) {
     const { title, Image, carouselImg } = content;
@@ -20,18 +19,13 @@ function ServicesDetails({ content }) {
                 heading={title}
                 currentPage="Service Details"
             />
-            <section className="service-details-wrapper section-padding">
-                {isRD && (<Timeline />)}
+            <section className="section-padding">
                 <div className="container">
                    {!isRD && <DetailsCarousel carouselImg={carouselImg} />}
-                    <div className="row">
-                        <div className="col-lg-3 col-md-4 mt-5 mt-md-0 col-12 order-2 order-md-1">
-                            <ServiceSidebar />
-                        </div>
-                        <div className="col-lg-9 col-md-8 col-12 order-1 order-md-2">
+                    
+                        <div className="col-12">
                             <ServiceDetails content={content} />
                         </div>
-                    </div>
                 </div>
             </section>
             <Footer3 />

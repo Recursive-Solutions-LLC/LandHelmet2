@@ -5,7 +5,6 @@ import faqBg from '../../../assets/img/map.svg';
 import FaqAccordion from '../../FaqAccordion';
 
 function Faq2({ data }) {
-    console.log('%csrc/components/ProductDetails/Faq2/index.jsx:8 data', 'color: white; background-color: #007acc;', data);
     const { keyFeatures } = data
 
     return (

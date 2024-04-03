@@ -2,7 +2,6 @@ import React from 'react';
 import HelmetSides from "../../IconRow/HelmetSides"
 function PortfolioOneSlide({ image, left, title, desc, btnText, imgLink, flags, model }) {
     
-    console.log('%csrc/components/ProductDetails/Portfolio1/PortfolioOneSlide.jsx:5 model', 'color: white; background-color: #007acc;', model);
     return (
         <div className="single-project">
             <div className="project-contents">

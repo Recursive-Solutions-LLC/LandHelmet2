@@ -8,30 +8,6 @@ import ServiceDownload from './ServiceDownload';
 function ServiceSidebar() {
     return (
         <div className="service-details-sidebar">
-            <div className="single-service-sidebar">
-                <div className="sidebar-title">
-                    <h3>Service Category</h3>
-                </div>
-                <ul>
-                    <ServiceCategory link="/services-details-quality" category="Quality Control" />
-                    <ServiceCategory link="/services-details-rd" category="R&D" />
-                    <ServiceCategory link="/services-details-distributor" category="Global Distributor " />
-                    <ServiceCategory link="/services-details-production" category="In House Production" />
-
-                </ul>
-            </div>
-            <div className="single-service-sidebar">
-                <div className="sidebar-title">
-                    <h3>Download Brochures</h3>
-                </div>
-                <div className="brochures-download">
-                    <ServiceDownload
-                        link="https://drive.google.com/file/d/1ZYgv0OIuDK3IAyQwSkFw169_e9bmu3YV/view"
-                        text="Download .PDF"
-                        icon={<FaFilePdf style={{ marginTop: '-5px', marginRight: '5px' }} />}
-                    />
-                </div>
-            </div>
             <div className="single-service-sidebar site_info_widget">
                 <div className="sidebar-title">
                     <h3>Contact Us</h3>
