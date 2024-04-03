@@ -27,6 +27,8 @@ function Home3() {
             <Header3 />
             <Hero3 />
             <Services3 />
+            <ProjectFilter2 />
+     
          
             <Cta1 />
    
