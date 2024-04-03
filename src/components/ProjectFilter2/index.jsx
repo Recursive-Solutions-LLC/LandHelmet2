@@ -3,6 +3,7 @@ import FilterItem from '../ProjectFilter/FilterItem';
 
 function ProjectFilter2({title, subtitle, image, items}) {
     const {src, alt} = image
+    console.log('%csrc/components/ProjectFilter2/index.jsx:6 image', 'color: white; background-color: #007acc;', image);
     const renderItems = items.map((item=>{
         return(        <FilterItem
             callToAction={item.callToAction}
