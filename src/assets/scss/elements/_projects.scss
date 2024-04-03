@@ -457,6 +457,12 @@
     transition: all 0.3s ease-in-out;
 
     &:hover {
+        .callToAction {
+            a {
+                background-color: $primary-2;
+                color: $primary-1;
+            }
+        }
         .cause-bg {
             &::before {
                 background-color: $theme-color-2;
@@ -560,9 +566,23 @@
         }
 
         h4 {
+            font-size: x-large;
             color: #fff;
         }
     }
+}
+
+.author {
+    text-align: left;
+}
+
+.callToAction {
+  a {
+    background-color: $primary-1;
+    color: $primary-2;
+    padding: 5px 10px;
+  }
+  
 }
 
 .single-approch-card,

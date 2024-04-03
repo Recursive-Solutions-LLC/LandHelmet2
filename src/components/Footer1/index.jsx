@@ -47,7 +47,6 @@ function Footer1() {
                         </div>
                             </div>
                         </div>
-
                         {/* NEWSLETTER WIDGET */}
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid newsletter_widget">
