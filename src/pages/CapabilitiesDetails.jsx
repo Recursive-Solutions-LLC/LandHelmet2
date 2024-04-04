@@ -16,7 +16,6 @@ function CapabilitiesDetails({ content }) {
         return      <AboutFeatured aboutContent={content}/>
 
     })
-    console.log('%csrc/pages/CapabilitiesDetails.jsx:19 banner1', 'color: white; background-color: #007acc;', banner1);
     return (
         <>
             <Header3 />
@@ -25,13 +24,13 @@ function CapabilitiesDetails({ content }) {
                 heading={title}
                 currentPage="Service Details"
             />
-            <section className="section-padding">
+            <section className="">
                 <div className="container">
                      <Banner2 title={titleBanner} subtitle={subtitleBanner} />
                  {renderFeatrued1}
          
 
-                    <section className="section-padding">
+                    <section >
                         <Banner title={banner1.title} subtitle={banner1.subtitle} image={banner1.image} />
                        <div className="mt-5">
                             <Bullets bullets={banner1.bullets}/>

@@ -22,9 +22,9 @@ const renderTexts = texts.map ((text)=>{
     return (
         <section className="about-featured-wrapper pt-5 mt-5">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row ">
                     {/* Adjust the order of this column based on 'right' */}
-                    <div className={`col-xl-6 col-lg-5 col-12 ${imageColumnClass}`}>
+                    <div className={`col-xl-6 col-lg-6 col-12 ${imageColumnClass}`}>
                         <div
                             className="about-promo bg-cover"
                             style={{ backgroundImage: `url(${aboutImg})`, backgroundSize: "cover" }}
@@ -32,10 +32,11 @@ const renderTexts = texts.map ((text)=>{
                     </div>
 
                     {/* Adjust the order of this column based on 'right' */}
-                    <div className={`col-xl-6 col-lg-7 col-12 mt-5 mt-lg-0 ${textColumnClass}`}>
+                    <div className={`col-xl-6 col-lg-6 col-12 mt-5 mt-lg-0 ${textColumnClass}`}>
                         <div className="block-contents ml-lg-5">
+                           <h1>{title}</h1>
                             <span>{subtitle}</span>
-                            <h1>{title}</h1>
+                     
                             {renderTexts}
                             {renderBulletsContainer}
                         </div>
