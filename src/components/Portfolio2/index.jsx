@@ -1,12 +1,11 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
-import portfolioTwoData from './porfolioTwoData';
 import PortfolioTwoItem from './PortfolioTwoItem';
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 import ScrollTrigger from 'gsap/ScrollTrigger';
-function Portfolio2() {
+function Portfolio2({content}) {
     const leftAnimation = useRef();
 
     useEffect(() => {
@@ -69,12 +68,12 @@ function Portfolio2() {
                     },
                 }}
             >
-                {portfolioTwoData.map((data,index) => (
+                {content.map((data,index) => (
                     <SwiperSlide key={index}>
                         <PortfolioTwoItem
                             key={data.id}
                             img={data.image}
-                            name={data.name}
+                            text={data.text}
                             cost={data.cost}
                             heading={data.heading}
                         />

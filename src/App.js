@@ -10,8 +10,6 @@ import Capabilities from './pages/Capabilities';
 import CapabilitiesDetails from './pages/CapabilitiesDetails';
 import CapabilitiesDetails2 from './pages/CapabilitiesDetails2';
 import inHouseRd from "./content/capablities/inHouseRd"
-import oneStop from "./content/capablities/oneStop"
-
 
 import {productTypeIData} from "./content/ModelsTypeI"
 
@@ -22,6 +20,9 @@ import ModelsTypeII from './content/ModelsTypeII';
 
 import HeroBg1 from './assets/img/products/cover.png';
 import HeroBg2 from './assets/img/products/cover-II.png';
+import oneStopContentI from './content/capablities/oneStopI';
+import oneStopContentII from './content/capablities/oneStopII';
+import oneStopContentIII from './content/global';
 
 function App() {
     return (
@@ -52,7 +53,7 @@ function App() {
                     </Route>
                     
                     <Route exact path="/one-stop-manufacturing">
-                        <CapabilitiesDetails2  content={oneStop} />
+                        <CapabilitiesDetails2  content={oneStopContentI} contentII={oneStopContentII} contentIII={oneStopContentIII}/>
                     </Route>
                     <Route exact path="/contact">
                         <Contact />

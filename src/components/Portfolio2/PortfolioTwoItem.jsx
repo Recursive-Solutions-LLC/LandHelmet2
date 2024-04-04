@@ -2,7 +2,7 @@ import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-function PortfolioTwoItem({ name, cost, heading, img }) {
+function PortfolioTwoItem({ text, cost, heading, img }) {
     return (
         <div className="single-project-item constructions medical" >
             <div className="project-thumb bg-cover" style={{ backgroundImage: `url(${img})` }} />
@@ -15,7 +15,7 @@ function PortfolioTwoItem({ name, cost, heading, img }) {
                    {heading}
                 </h2>
                 <div className="meta">
-                    <span>{name}</span> 
+                    <span>{text}</span> 
                 </div>
             </div>
         </div>

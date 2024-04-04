@@ -5,9 +5,9 @@ import thumb3 from "../assets/img/capabilities/QualityControl/Packing2.jpg";
 import thumb4 from "../assets/img/capabilities/GlobalDistributor/male-builder-trying-on-helmet-in-hardware-store-2023-11-27-04-51-49-utc.jpg";
 import thumb5 from "../assets/img/capabilities/GlobalDistributor/group-of-man-and-woman-in-cargo-container-area-joi-2023-11-27-05-02-45-utc.jpg";
 
-import bannerImg1 from "../assets/img/capabilities/GlobalDistributor/Carousel/global1.jpg";
-import bannerImg2 from "../assets/img/capabilities/GlobalDistributor/Carousel/global2.jpg";
-import bannerImg3 from "../assets/img/capabilities/GlobalDistributor/Carousel/global3.jpg";
+// import bannerImg1 from "../assets/img/capabilities/GlobalDistributor/Carousel/global1.jpg";
+// import bannerImg2 from "../assets/img/capabilities/GlobalDistributor/Carousel/global2.jpg";
+// import bannerImg3 from "../assets/img/capabilities/GlobalDistributor/Carousel/global3.jpg";
 
 import distributorImg from "../assets/img/capabilities/GlobalDistributor/Banner/view-down-aisles-of-racks-holding-cardboard-boxes-2023-11-27-05-21-17-utc.jpg";
 
@@ -39,32 +39,32 @@ const globalContent = {
         img: thumb5,
         text: "Land Helmets is actively expanding our presence in the US, Canada, Europe, and Latin America. We welcome new partners who share our commitment to providing high-quality, reliable safety equipment. Contact us to explore how we can work together to protect workers and grow your business in these strategic markets.",
     }],
-    carouselImg: [
-        {img:bannerImg1},
-        {img:bannerImg2},
-        {img:bannerImg3},
-    ],
-    faqs: [{
-        title: "Strategic Presence for Strategic Markets",
-        list: [
-            {
-                title: "United States and Canada:",
-                text: "With distribution centers strategically located across North America, we ensure prompt and efficient delivery of our helmets to meet the demanding safety standards of the US and Canadian markets. Our local teams are well-versed in regional regulations and requirements, ensuring seamless transactions and support.",
-            },
-            {
-                title: "Europe:",
-                text: "Our European distribution network capitalizes on our deep understanding of the varied safety standards across the continent. From the EU to non-EU countries, we guarantee compliance and timely delivery, supported by a robust logistics framework that connects the major industrial centers of Europe.",
-            },
-            {
-                title: "Latin America:",
-                text: "Recognizing the diverse and dynamic nature of Latin American markets, our distribution services are designed to navigate the unique challenges and opportunities in the region. From Mexico to Brazil and beyond, we provide customized logistics solutions to ensure our helmets reach our partners and clients efficiently, regardless of local complexities.",
-            },
-            {
-                title: "New Zeland:",
-                text: "Our local teams in New Zealand are not just experts in helmet distribution; they are deeply knowledgeable about the unique safety standards and regulations of the region. This ensures that our helmets not only meet but exceed the stringent requirements set forth by New Zealand authorities, providing unparalleled protection to our customers.",
-            },
-        ],
-    }],
+    // carouselImg: [
+    //     {img:bannerImg1},
+    //     {img:bannerImg2},
+    //     {img:bannerImg3},
+    // ],
+    // faqs: [{
+    //     title: "Strategic Presence for Strategic Markets",
+    //     list: [
+    //         {
+    //             title: "United States and Canada:",
+    //             text: "With distribution centers strategically located across North America, we ensure prompt and efficient delivery of our helmets to meet the demanding safety standards of the US and Canadian markets. Our local teams are well-versed in regional regulations and requirements, ensuring seamless transactions and support.",
+    //         },
+    //         {
+    //             title: "Europe:",
+    //             text: "Our European distribution network capitalizes on our deep understanding of the varied safety standards across the continent. From the EU to non-EU countries, we guarantee compliance and timely delivery, supported by a robust logistics framework that connects the major industrial centers of Europe.",
+    //         },
+    //         {
+    //             title: "Latin America:",
+    //             text: "Recognizing the diverse and dynamic nature of Latin American markets, our distribution services are designed to navigate the unique challenges and opportunities in the region. From Mexico to Brazil and beyond, we provide customized logistics solutions to ensure our helmets reach our partners and clients efficiently, regardless of local complexities.",
+    //         },
+    //         {
+    //             title: "New Zeland:",
+    //             text: "Our local teams in New Zealand are not just experts in helmet distribution; they are deeply knowledgeable about the unique safety standards and regulations of the region. This ensures that our helmets not only meet but exceed the stringent requirements set forth by New Zealand authorities, providing unparalleled protection to our customers.",
+    //         },
+    //     ],
+    // }],
 };
 
 export default globalContent;

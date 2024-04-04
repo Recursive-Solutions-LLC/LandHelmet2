@@ -13,25 +13,26 @@ import Cta1 from '../components/Cta';
 
 import About2 from '../components/About2';
 import Cta3 from '../components/Cta2';
+import portfolioTwoData from '../content/porfolioTwoData';
 
 function Home3() {
 
 
-
+    const title = "Get an easy quotation for your industry"
     return (
         <>
             <Header3 />
             <Hero3 />
             <Services3 />
             <section className="section-padding-top">
-                <Portfolio2 />
+                <Portfolio2 content={portfolioTwoData}/>
             </section>
             <Cta1 />
             <Process2 type={2} />
             <About2 />
             <Cta3 />
             <section className="section-padding-top">
-                <Cta />
+                <Cta title={title} />
             </section>
             <Faq />
             <Appointment />

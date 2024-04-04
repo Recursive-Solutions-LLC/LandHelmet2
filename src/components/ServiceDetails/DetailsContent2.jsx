@@ -10,7 +10,7 @@ SwiperCore.use([Navigation]);
 function DetailsContent({ sections }) {
 
 
-    const renderSections= sections.map((element, index) => (
+    const renderSections= sections && sections.map((element, index) => (
         <div key={index}>
                 <SwiperSlide >
                     <PortfolioOneSlide
@@ -28,19 +28,18 @@ function DetailsContent({ sections }) {
         </div>
     ))
 
-    return (
-        <>   
-            < section className="portfolio-section pb-24">
-                <div className="container">
-                    <div className="project-wrapper">
-                        <Swiper navigation className="portfolio-carousel-active owl-carousel">
-                            {renderSections}
-                        </Swiper>
-                    </div>
-                </div>
-            </section >
+    const renderSectionsContainer =     sections ?       < section className="portfolio-section pb-24">
+    <div className="container">
+        <div className="project-wrapper">
+            <Swiper navigation className="portfolio-carousel-active owl-carousel">
+                {renderSections}
+            </Swiper>
+        </div>
+    </div>
+</section > : <></>
 
-        </>
+    return (
+    renderSectionsContainer
     );
 }
 
