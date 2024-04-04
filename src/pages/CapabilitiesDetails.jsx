@@ -7,8 +7,9 @@ import ServiceDetails from '../components/ServiceDetails';
 import Banner2 from "../components/Banner/Banner2"
 import Banner from "../components/Banner"
 import Bullets from "../components/Bullets"
+import Process3 from "../components/Process3"
 import AboutFeatured from '../components/AboutFeatured';
-
+import Portfolio2 from '../components/Portfolio2';
 function CapabilitiesDetails({ content }) {
     const { title, Image, titleBanner, subtitleBanner, featured1, banner1 } = content;
  
@@ -31,11 +32,12 @@ function CapabilitiesDetails({ content }) {
          
 
                     <section >
-                        <Banner title={banner1.title} subtitle={banner1.subtitle} image={banner1.image} />
-                       <div className="mt-5">
-                            <Bullets bullets={banner1.bullets}/>
-                       </div>
+                        <Process3/>      
+                                
  
+                    </section>
+                    <section>
+                    <Portfolio2 />
                     </section>
                     <div className="col-12">
                         <ServiceDetails content={content} />
