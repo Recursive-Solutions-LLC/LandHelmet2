@@ -74,7 +74,7 @@ function Process2({ type }) {
   };
 
   return (
-    <section className="promo-featured-wrapper pt-5">
+    <section className="promo-featured-wrapper section-padding">
       <div className="container">
         <div className="row align-center">
           <div ref={leftAnimation} className="col-xl-5 col-12 text-center">

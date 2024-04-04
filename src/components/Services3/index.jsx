@@ -4,10 +4,10 @@ import servicesThreeData from './servicesThreeData';
 
 function Services3() {
     return (
-        <section className="services-wrapper services-2  pt-5">
+        <section className="services-wrapper services-2 ">
             <div className="section-title-5 text-center center-content">
 
-                <h1>Your Best Helmet Solution Provider </h1>
+                <h1 className="mb-2">Your Best Helmet Solution Provider </h1>
                 <h4 >We're thrilled to present our unparalleled ODM y OEM capabilities tailored specifically for safety helmets. As a pioneering force in the industry, we understand the critical importance of superior quality, innovative design, and uncompromising safety standards</h4>
             </div>
             <div className="services-grid pt-5 center-content">

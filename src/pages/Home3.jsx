@@ -22,18 +22,18 @@ function Home3() {
         <>
             <Header3 />
             <Hero3 />
-            <Services3 /> 
-            <Portfolio2/>
-         
+            <Services3 />
+            <section className="section-padding-top">
+                <Portfolio2 />
+            </section>
             <Cta1 />
             <Process2 type={2} />
-            <About2/>
-            <Cta3/>
-
-          
-            <Cta />
+            <About2 />
+            <Cta3 />
+            <section className="section-padding-top">
+                <Cta />
+            </section>
             <Faq />
-     
             <Appointment />
             <Footer3 />
         </>

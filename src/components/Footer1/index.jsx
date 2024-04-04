@@ -71,7 +71,7 @@ function Footer1() {
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid ml-15 site_info_widget">
                                 <div className="wid-title">
-                                    <h4>Get In Touch</h4>
+                                    <h4>Our contact information</h4>
                                 </div>
                                 <div className="contact-us" />
                                 {WidgetGetinTouchData.map((data) => (
