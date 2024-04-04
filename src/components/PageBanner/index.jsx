@@ -1,6 +1,17 @@
 import React from 'react';
 
 function PageBanner({ bannerBg, currentPage, heading }) {
+
+    const renderNav = (currentPage && heading) && <nav>
+    <ol className="breadcrumb">
+        <li className="breadcrumb-item">
+            <a href="index.html">Home</a>
+        </li>
+        <li className="breadcrumb-item active" aria-current="page">
+            {currentPage}
+        </li>
+    </ol>
+</nav>
     return (
         <section
             className="page-banner-wrap bg-cover"
@@ -10,16 +21,7 @@ function PageBanner({ bannerBg, currentPage, heading }) {
                 <div className="row">
                     <div className="col-12 col-lg-12">
                         <div className="breadcrumb-wrap">
-                            <nav>
-                                <ol className="breadcrumb">
-                                    <li className="breadcrumb-item">
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li className="breadcrumb-item active" aria-current="page">
-                                        {currentPage}
-                                    </li>
-                                </ol>
-                            </nav>
+                           {renderNav}
                         </div>
 
                         <div className="page-heading text-white">
