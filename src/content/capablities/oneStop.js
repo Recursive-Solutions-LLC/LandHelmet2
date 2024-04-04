@@ -37,7 +37,26 @@ const qualityContent = {
         {img:bannerImg2},
         {img:bannerImg3},
     ],
-    faqs: [{
+    faqs: [
+        {
+            title: "Quality Control at Every Stage",
+            text: "From the selection of raw materials to the final product inspection, our quality control process is all-encompassing:",
+            list: [
+                {
+                    title: "Raw Material Inspection",
+                    text: "Every batch of materials is thoroughly inspected to ensure it meets our high standards.",
+                },
+                {
+                    title: "In-Process Quality Checks",
+                    text: "During manufacturing, our helmets are subject to ongoing inspections and tests to identify and rectify any deviations from our quality standards immediately.",
+                },
+                {
+                    title: "Final Inspection",
+                    text: "Before shipping, each helmet undergoes a final quality assessment to ensure it is free from defects and meets our safety certifications.",
+                },
+            ],
+        },
+        {
         title: "Rigorous Testing for Uncompromised Safety",
         text: "Our helmets undergo stringent testing to ensure they meet and exceed industry standards, including ANSI Z89.1-2014(R2019) for Type 1 and Type 2 helmets. Our testing protocols include:",
         list: [
@@ -59,24 +78,7 @@ const qualityContent = {
             },
         ],
     },
-    {
-        title: "Quality Control at Every Stage",
-        text: "From the selection of raw materials to the final product inspection, our quality control process is all-encompassing:",
-        list: [
-            {
-                title: "Raw Material Inspection",
-                text: "Every batch of materials is thoroughly inspected to ensure it meets our high standards.",
-            },
-            {
-                title: "In-Process Quality Checks",
-                text: "During manufacturing, our helmets are subject to ongoing inspections and tests to identify and rectify any deviations from our quality standards immediately.",
-            },
-            {
-                title: "Final Inspection",
-                text: "Before shipping, each helmet undergoes a final quality assessment to ensure it is free from defects and meets our safety certifications.",
-            },
-        ],
-    }],
+  ],
 
 };
 

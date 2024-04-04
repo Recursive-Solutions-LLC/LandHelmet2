@@ -8,6 +8,7 @@ import Home3 from './pages/Home3';
 import ProductDetails from './pages/ProductDetailsPage';
 import Capabilities from './pages/Capabilities';
 import CapabilitiesDetails from './pages/CapabilitiesDetails';
+import CapabilitiesDetails2 from './pages/CapabilitiesDetails2';
 import inHouseRd from "./content/capablities/inHouseRd"
 import oneStop from "./content/capablities/oneStop"
 
@@ -51,7 +52,7 @@ function App() {
                     </Route>
                     
                     <Route exact path="/one-stop-manufacturing">
-                        <CapabilitiesDetails  content={oneStop} />
+                        <CapabilitiesDetails2  content={oneStop} />
                     </Route>
                     <Route exact path="/contact">
                         <Contact />

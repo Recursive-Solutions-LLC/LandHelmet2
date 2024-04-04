@@ -4,12 +4,11 @@ import Footer3 from '../components/Footer1';
 import Header3 from '../components/Header3';
 import PageBanner from '../components/PageBanner';
 import ServiceDetails from '../components/ServiceDetails';
-import DetailsCarousel from '../components/ServiceDetails/DetailsCarousel';
 import Banner2 from "../components/Banner/Banner2"
 
-function CapabilitiesDetails({ content }) {
-    const { title, Image, carouselImg, titleBanner, subtitleBanner } = content;
-    const isRD = title === 'R&D'  ;
+function CapabilitiesDetails2({ content }) {
+    const { title, Image } = content;
+
     return (
         <>
             <Header3 />
@@ -19,13 +18,9 @@ function CapabilitiesDetails({ content }) {
                 currentPage="Service Details"
             />
             <section className="section-padding">
-                <div className="container">
-                <div className="container">
-                     <Banner2 title={titleBanner} subtitle={subtitleBanner} />
-                </div>
-                    <div className="col-12">
+                <div className="container">        
+    
                         <ServiceDetails content={content} />
-                    </div>
                 </div>
             </section>
             <Footer3 />
@@ -33,4 +28,4 @@ function CapabilitiesDetails({ content }) {
     );
 }
 
-export default CapabilitiesDetails;
+export default CapabilitiesDetails2;
