@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import {Link} from  'react-router-dom'
 import { FaPaperPlane } from 'react-icons/fa';
+import { BsArrowRight } from 'react-icons/bs';
 import WidgetAbout from './WidgetAbout';
 import WidgetGetinTouch from './WidgetGetinTouch';
 import WidgetGetinTouchData from './WidgetGetinTouchData';
 import FooterWidget from './FooterWidget';
+
 function Footer1() {
     // STATES
     const [email, setEmail] = useState('');
@@ -51,29 +54,16 @@ function Footer1() {
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid newsletter_widget">
                                 <div className="wid-title">
-                                    <h4>Newsletter</h4>
+                                    <h4>Contact Us</h4>
                                 </div>
                                 <div className="newsletter_box">
                                     <p>
-                                        Subscribe our newsletter to get our latest updates &#38;
-                                        news.
+                                    Contact us for the latest updates, news, and inquiries.
                                     </p>
-                                    <form action="#">
-                                        <input
-                                            value={email}
-                                            onChange={onchangeHandler}
-                                            type="email"
-                                            placeholder="Enter email address"
-                                            required
-                                        />
-                                        <button
-                                            className="submit-btn"
-                                            type="submit"
-                                            onSubmit={onSubmitHandler}
-                                        >
-                                            <FaPaperPlane />
-                                        </button>
-                                    </form>
+                                  <div className='pt-5'>  <Link to="/contact" className="theme-btn theme-2  mb-30 mb-lg-0 white">
+                                Get In Touch <BsArrowRight />
+                            </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>

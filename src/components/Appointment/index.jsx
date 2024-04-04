@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImg from '../../assets/img/appointment.jpg';
+import bgImg from '../../assets/img/footer/worker.png';
 import appointmentData from './appointmentData';
 import AppointmentItem from './AppointmentItem';
 
