@@ -27,7 +27,7 @@ const renderTexts = texts.map ((text)=>{
                     <div className={`col-xl-6 col-lg-6 col-12 ${imageColumnClass}`}>
                         <div
                             className="about-promo bg-cover"
-                            style={{ backgroundImage: `url(${aboutImg})`, backgroundSize: "contain" ,backgroundPosition: "center",backgroundRepeat:"no-repeat" }}
+                            style={{ backgroundImage: `url(${aboutImg})`, backgroundSize: "cover" }}
                         />
                     </div>
 

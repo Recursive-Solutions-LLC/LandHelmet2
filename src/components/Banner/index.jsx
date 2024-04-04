@@ -6,7 +6,7 @@ function Banner({title, subtitle, image}) {
 
   return (
     <div className="row">
-    <div className="col-12 col-md-6 text-md-left align-self-start">
+    <div className="col-12 col-md-6 text-md-left align-self-center">
         <div className="section-title-3">
             <h1 className="mb-4">{title}</h1>
             <h4>{subtitle}</h4>
