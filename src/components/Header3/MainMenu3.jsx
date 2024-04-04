@@ -40,7 +40,7 @@ function MainMenu3() {
                                         {item.subMenu && (
                                             <ul className="sub-menu">
                                                 {item.subMenu.map((subItem) => (
-                                                    <li key={subItem.to}><Link to={subItem.to}>{subItem.label}</Link></li>
+                                                    <li className='pl-3' key={subItem.to}><Link to={subItem.to}>{subItem.label}</Link></li>
                                                 ))}
                                             </ul>
                                         )}
