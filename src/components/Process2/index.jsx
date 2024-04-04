@@ -1,105 +1,105 @@
-import React from 'react';
-import img1 from '../../assets/img/home3/about-3.jpg';
-import img4 from '../../assets/img/home3/10.jpg';
-import img2 from '../../assets/img/home3/about-5.jpg';
-import ProcessContent from './ProcessContent';
-import img3 from '../../assets/img/home3/flag.svg';
-import ProcessGrid2 from './ProcessGrid2';
-import { gsap } from "gsap";
-import { useRef, useEffect } from "react";
-import ScrollTrigger from 'gsap/ScrollTrigger';
-function Process2(data) {
-    const leftAnimation = useRef();
-    const rightAnimation = useRef();
-   
+import React, { useRef, useEffect } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import img1 from "../../assets/img/home3/about-3.jpg";
+import img2 from "../../assets/img/home3/about-5.jpg";
+import img3 from "../../assets/img/home3/flag.svg";
+import img4 from "../../assets/img/home3/10.jpg";
+import ProcessContent from "./ProcessContent";
+import ProcessGrid2 from "./ProcessGrid2";
+import IconRow from "../IconRow/index"
+
+import Class1 from '../../assets/img/icon/s1.png';
+import Class2 from '../../assets/img/icon/s2.png';
+import Class3 from '../../assets/img/icon/s3.png';
+
+function Process2({ type }) {
+  const leftAnimation = useRef();
+  const rightAnimation = useRef();
+
+  const classIcons = [Class1, Class2, Class3]
+
   useEffect(() => {
-    // Asegúrate de registrar ScrollTrigger si aún no lo has hecho.
     gsap.registerPlugin(ScrollTrigger);
 
-    // Animación para el elemento de la izquierda
-    gsap.fromTo(
-      leftAnimation.current,
-      { x: -100, autoAlpha: 0 }, // Estado inicial
-      {
-        x: 0, // Estado final
-        autoAlpha: 1, // Aparece gradualmente
-        duration: 2,
-        scrollTrigger: {
-            start: "top bottom", // La animación comienza cuando la parte inferior del viewport toca la parte inferior del trigger
+    const triggers = [
+      { ref: leftAnimation, x: -100 },
+      { ref: rightAnimation, x: 100 },
+    ];
 
-          trigger: leftAnimation.current, // Elemento que dispara la animación
-         // La animación comienza cuando la parte superior del trigger llega al centro de la ventana
-          // Puedes ajustar "start" y "end" según necesites
-          toggleActions: "play none none none", // Define cómo se reproducen o revierten las animaciones
-          // Opciones de toggleActions: play, pause, resume, reset, restart, complete, reverse, none
-        },
-      }
-    );
+    triggers.forEach(({ ref, x }) => {
+      gsap.fromTo(
+        ref.current,
+        { x, autoAlpha: 0 },
+        {
+          x: 0,
+          autoAlpha: 1,
+          duration: 2,
+          scrollTrigger: {
+            trigger: ref.current,
+            start: "top bottom",
+            toggleActions: "play none none none",
+          },
+        }
+      );
+    });
 
-    // Animación para el elemento de la derecha
-    gsap.fromTo(
-      rightAnimation.current,
-      { x: 100, autoAlpha: 0 }, // Estado inicial
-      {
-        x: 0, // Estado final
-        autoAlpha: 1, // Aparece gradualmente
-        duration: 2,
-        scrollTrigger: {
-          trigger: rightAnimation.current, // Elemento que dispara la animación
-          start: "top bottom",// La animación comienza cuando la parte superior del trigger llega al centro de la ventana
-          // Ajusta "start" y "end" como sea necesario
-          toggleActions: "play none none none", // Define cómo se reproducen o revierten las animaciones
-        },
-      }
-    );
-
-    // Opcional: Limpieza en el efecto para evitar duplicaciones o comportamiento inesperado en re-renderizados
-    return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-    };
+    return () => ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
   }, []);
 
-    return (
-        <section className="promo-featured-wrapper pt-5">
-            <div className="container">
-                <div className="row align-center">
-                    <div ref={leftAnimation}  className="col-xl-5 col-12 text-center">
-                      {data.type!==2&& <ProcessGrid2 img1={img1} img3={img2} img2="" />}
-                      {data.type===2&& <ProcessGrid2 img1={img4} img3={img3} img2={true} />}
-                       
-                    </div>
-                    <div ref={rightAnimation}  className="col-xl-7 col-12 mt-5 mt-xl-0">
-                        <div className="block-contents ml-xl-5 ml-50">
-                            <div className="section-title-3">
-                                <p className="pl-50 pr-50">From Ideas to Impact</p>
-                                {data.type===2&&      <h1>Introducing M10 Type II</h1>}
-                                {data.type!==2&&      <h1>From Concept to Your Branded Product</h1>}
-                           
-                            </div>
-                            {data.type===2&& <>   <ProcessContent
-                                heading=" Multi-Impact Protection: Exceed ANSI/ISEA Z89.1 – 2014, CSA Z94.1 2015, EN 12492 standards for versatile head protection."
-                                text=""
-                                bullets={[" Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin."," Universal accessory slot allows use of existing universal accessories"," Size: Universal adjustable "," 10-year lifespan for enduring protection."," Customization Available: Add your Branded Logo"," Advanced Energy Absorption: Features EPS foam for superior impact absorption."]}
-                   
-                            />
-                            <a href="/services-details-rd" className="theme-btn theme-3">
-                            More Information
-                            </a></>}
-                            {data.type!==2&& <>   <ProcessContent
-                                 bullets={[]}
-                                heading=" Empowering brands, our R&D tailors helmets with unique designs and safety at the forefront."
-                                text="Our methodology allows us to beta test concepts in real-world scenarios, ensuring each helmet not only meets stringent safety standards but also adds significant value to our clients. Through this process, we offer the chance to create a helmet line distinctively aligned with the client’s brand, incorporating custom features, designs, and packaging."
-                            />
-                            <a href="/services-details-rd" className="theme-btn theme-3">
-                            More Information
-                            </a></>}
-                         
-                        </div>
-                    </div>
+  // Simplify content based on type
+  const contentProps = type === 2 ? {
+    gridProps: { img1: img4, img3: img3, img2: true },
+    processContentProps: {
+      heading: "Multi-Impact Protection: Exceed ANSI/ISEA Z89.1 – 2014, CSA Z94.1 2015, EN 12492 standards for versatile head protection.",
+      bullets: [
+        "Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin.",
+        "Universal accessory slot allows use of existing universal accessories",
+        "Size: Universal adjustable",
+        "10-year lifespan for enduring protection.",
+        "Customization Available: Add your Branded Logo",
+        "Advanced Energy Absorption: Features EPS foam for superior impact absorption."
+      ],
+      text: "",
+    },
+    sectionTitle: "Introducing M10 Type II",
+  } : {
+    gridProps: { img1: img1, img3: img2, img2: "" },
+    processContentProps: {
+      heading: "Empowering brands, our R&D tailors helmets with unique designs and safety at the forefront.",
+      text: "Our methodology allows us to beta test concepts in real-world scenarios, ensuring each helmet not only meets stringent safety standards but also adds significant value to our clients. Through this process, we offer the chance to create a helmet line distinctively aligned with the client’s brand, incorporating custom features, designs, and packaging.",
+      bullets: [],
+    },
+    sectionTitle: "From Concept to Your Branded Product",
+  };
+
+  return (
+    <section className="promo-featured-wrapper pt-5">
+      <div className="container">
+        <div className="row align-center">
+          <div ref={leftAnimation} className="col-xl-5 col-12 text-center">
+            <ProcessGrid2 {...contentProps.gridProps} />
+          </div>
+          <div ref={rightAnimation} className="col-xl-7 col-12 mt-5 mt-xl-0">
+            <div className="block-contents ml-xl-5 ml-50">
+              <div className="section-title-3">
+                <p className="pl-50 pr-50">From Ideas to Impact</p>
+                <h1>{contentProps.sectionTitle}</h1>
+
+                <div className="helmets-dark">
+                <IconRow icons={classIcons} />
                 </div>
+              </div>
+              <ProcessContent {...contentProps.processContentProps} />
+              <a href="/services-details-rd" className="theme-btn theme-3">
+                More Information
+              </a>
             </div>
-        </section>
-    );
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Process2;

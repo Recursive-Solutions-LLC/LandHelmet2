@@ -20,7 +20,7 @@ ul{
 .bullet{
     color: #000;
 &::before {
-    content: "📌";
+    content: "●";
    
 
     padding-inline: 0.8px;

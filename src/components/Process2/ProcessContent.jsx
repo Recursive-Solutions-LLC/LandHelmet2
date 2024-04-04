@@ -11,7 +11,7 @@ function ProcessContent({ heading, text , bullets }) {
         <>
             <h4>{heading}</h4>
               <p>{text}</p>
-            <ul >{renderBullets}</ul>
+            <ul > {renderBullets}</ul>
         </>
     );
 }

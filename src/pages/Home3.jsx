@@ -7,16 +7,10 @@ import Hero3 from '../components/Hero2';
 import Portfolio2 from '../components/Portfolio2';
 import Process2 from '../components/Process2';
 
-import Services1 from '../components/Services1';
 import Services3 from '../components/Services3';
 import Cta from '../components/Cta3';
 import Cta1 from '../components/Cta';
-import Timeline from '../components/Timeline';
-import TeamMembers2 from '../components/TeamMembers2';
 
-import servicesOneData from '../content/servicesOneData';
-
-import Approch from '../components/Approch' 
 import About2 from '../components/About2';
 import Cta3 from '../components/Cta2';
 
@@ -33,7 +27,6 @@ function Home3() {
          
             <Cta1 />
             <Process2 type={2} />
-            <Services1 data={servicesOneData}  />
             <About2/>
             <Cta3/>
 
