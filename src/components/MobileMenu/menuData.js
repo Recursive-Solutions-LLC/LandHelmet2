@@ -32,19 +32,16 @@ const menuData = [
             },
         ],
     },
-
     {
-        title: 'Services',
-        path: '',
+        title: 'Capabilities',
+        path: '/capabilities',
 
         iconClosed: <CgChevronLeft />,
         iconOpened: <CgChevronDown />,
         subNav: [
     
-            { path: '/services-details-quality', title: 'Quality Control' },
-            { path: '/services-details-rd', title: 'R&D' },
-            { path: '/services-details-distributor', title: 'Global Distributor' },
-            { path: '/services-details-production', title: 'In House Production' },
+            { path: '/in-house-rd', title: 'In-House R&D' },
+            { path: '/one-stop-manufacturing', title: 'One stop manufacturing' }
         ]},
 
     {
