@@ -1,21 +1,21 @@
 import { v4 as uuidv4 } from 'uuid';
-import img2 from '../../assets/img/portfolio/project2.jpg';
-import img4 from '../../assets/img/portfolio/project4.jpg';
-import capabilities from "../../assets/img/about/capabilities.jpg";
+import featured1 from '../../assets/img/capabilities/featured1.png';
+import featured2 from '../../assets/img/capabilities/featured2.png';
+import about from "../../assets/img/about/about.jpg";
 
 const capabilitiesContent = {
     section1: {
         title: "Crafting Successful Products",
         subtitle: "through design at the intersection of technology, aesthetics and purpose.",
         image: {
-            src: capabilities,
+            src: about,
             alt: "people planning together"
         },
 
         featured: [
             {
                 id: uuidv4(),
-                image: img4,
+                image: featured1,
                 text: 'Our highly capable in-house R&D team is equipped with state-of-art tecnology, including 3D scanning, rapid prototyping, and a top notch testing lab, significantly accelerating innovation and product development.',
                 link: "/in-house-rd",
                 callToAction: "Bring your ideas to life",
@@ -24,7 +24,7 @@ const capabilitiesContent = {
 
             {
                 id: uuidv4(),
-                image: img2,
+                image: featured2,
                 text: 'We specialize in integrating tailored solutions into our manufacturing process, enhancing your brand’s effectiveness through customization, packing, branding, and various accessories to tailor helmets to your requirements',
                 link: "/one-stop-manufacturing",
                 callToAction: "Make it happend",

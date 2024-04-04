@@ -1,12 +1,23 @@
 import React from 'react';
 import '../../../node_modules/react-modal-video/scss/modal-video.scss';
-
+import Bullets from "../Bullets"
 function AboutFeatured({ aboutContent }) {
-    const { title, subtitle, text, right, aboutImg } = aboutContent;
+    const { title, subtitle, texts, right, aboutImg, bullets } = aboutContent;
 
     // Determine the order of the columns based on the 'right' property
     const imageColumnClass = right ? "order-lg-2" : "";
     const textColumnClass = right ? "order-lg-1" : "";
+    const isBullets = bullets !== undefined
+
+    const renderBulletsContainer =isBullets && <Bullets bullets={bullets}/>
+
+
+const renderTexts = texts.map ((text)=>{
+    return(   <h4>
+        {text}
+
+    </h4>)
+})
 
     return (
         <section className="about-featured-wrapper pt-5 mt-5">
@@ -25,9 +36,8 @@ function AboutFeatured({ aboutContent }) {
                         <div className="block-contents ml-lg-5">
                             <span>{subtitle}</span>
                             <h1>{title}</h1>
-                            <h4>
-                                {text}
-                            </h4>
+                            {renderTexts}
+                            {renderBulletsContainer}
                         </div>
                     </div>
                 </div>

@@ -7,9 +7,8 @@ import ServiceDetails from '../components/ServiceDetails';
 import DetailsCarousel from '../components/ServiceDetails/DetailsCarousel';
 import Banner2 from "../components/Banner/Banner2"
 
-function ServicesDetails({ content }) {
+function CapabilitiesDetails({ content }) {
     const { title, Image, carouselImg, titleBanner, subtitleBanner } = content;
-    console.log('%csrc/pages/ServicesDetails.jsx:12 content', 'color: white; background-color: #007acc;', content);
     const isRD = title === 'R&D'  ;
     return (
         <>
@@ -34,4 +33,4 @@ function ServicesDetails({ content }) {
     );
 }
 
-export default ServicesDetails;
+export default CapabilitiesDetails;
