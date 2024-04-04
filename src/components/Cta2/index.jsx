@@ -8,7 +8,7 @@ function Cta2() {
                 <div className="row">
                     <div className="col-lg-4 text-white">
                         <div className="fun-fact d-flex align-items-center justify-content-center">
-                            <span>+25</span>
+                            <span>+28</span>
                             <p>
                                 Years Of <br /> Experience
                             </p>
@@ -16,7 +16,7 @@ function Cta2() {
                     </div>
                     <div className="col-lg-8 p-lg-0">
                         <div className="cta-wrap d-flex justify-content-center justify-content-md-around align-items-center">
-                            <h2 className="text-white">Get Your Helmets Done</h2>
+                            <h2 className="text-white">Redefining Industrial Safety Helmets</h2>
                             
                         </div>
                     </div>

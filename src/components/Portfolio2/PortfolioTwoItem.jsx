@@ -11,9 +11,9 @@ function PortfolioTwoItem({ name, cost, heading, img }) {
                     <BsArrowRight />
                 </Link>
               
-                <h3>
-                    <Link to={cost}>{heading}</Link>
-                </h3>
+                <h2>
+                   {heading}
+                </h2>
                 <div className="meta">
                     <span>{name}</span> 
                 </div>

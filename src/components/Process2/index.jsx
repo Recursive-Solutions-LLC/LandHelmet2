@@ -60,7 +60,7 @@ function Process2(data) {
   }, []);
 
     return (
-        <section className="promo-featured-wrapper section-padding">
+        <section className="promo-featured-wrapper pt-5">
             <div className="container">
                 <div className="row align-center">
                     <div ref={leftAnimation}  className="col-xl-5 col-12 text-center">

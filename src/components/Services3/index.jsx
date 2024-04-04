@@ -4,7 +4,7 @@ import servicesThreeData from './servicesThreeData';
 
 function Services3() {
     return (
-        <section className="services-wrapper services-2 section-padding pt-5">
+        <section className="services-wrapper services-2  pt-5">
             <div className="section-title-5 text-center center-content">
 
                 <h1>Your Best Helmet Solution Provider </h1>

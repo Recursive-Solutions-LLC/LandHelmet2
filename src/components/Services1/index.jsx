@@ -30,7 +30,7 @@ function Services1({ hasTitle, data, title }) {
     }, []);
 
     const renderTitle = hasTitle ? <p>Design</p> : null;
-    const noTitle = hasTitle ? "" : "pt-5";
+    const noTitle = hasTitle ? "" : "";
 
 
     const renderServices = data.map((item) => (
