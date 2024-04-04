@@ -37,7 +37,7 @@ function CapabilitiesDetails({ content }) {
  
                     </section>
                     <section>
-                    <Portfolio2 />
+                 
                     </section>
                     <div className="col-12">
                         <ServiceDetails content={content} />
