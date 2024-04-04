@@ -17,10 +17,13 @@
 ul{
     list-style-type: circle;
 }
-.bullet::before {
+.bullet{
+    color: #000;
+&::before {
     content: "📌";
    
 
     padding-inline: 0.8px;
    
   }
+}

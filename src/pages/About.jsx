@@ -9,33 +9,33 @@ import Approch from '../components/Approch';
 import Timeline from '../components/Timeline';
 import Cta3 from '../components/Cta2';
 
-import capabilities_1 from "../assets/img/about/capabilities-1.jpg";
-import capabilities_2 from "../assets/img/about/capabilities-2.png";
+import about_1 from "../assets/img/about/about-1.jpg";
+import about_2 from "../assets/img/about/about-2.png";
 
-import capabilities_3 from "../assets/img/about/capabilities-3.png";
+import about_3 from "../assets/img/about/about-3.png";
 
 const about1 ={
-    aboutImg: capabilities_1 ,
+    aboutImg: about_1 ,
     right: false,
     title: "Located in Orange County, California.",
     subtitle: "Welcome to GTC LAND SPORTS INC",
-    text: "Based in the vibrant community of Cypress, CA, GTC LAND SPORTS INC is a dynamic startup company driven by professionalism, agility, and unwavering customer focus. Our mission is simple yet ambitious: to turn opportunities into tangible realities through a blend of research, evaluation, innovation, and design."
+    texts:[ "Based in the vibrant community of Cypress, CA, GTC LAND SPORTS INC is a dynamic startup company driven by professionalism, agility, and unwavering customer focus. Our mission is simple yet ambitious: to turn opportunities into tangible realities through a blend of research, evaluation, innovation, and design."]
 }
 
 const about2 ={
-    aboutImg: capabilities_2,
+    aboutImg: about_2,
     right: true,
     title: "At GTC LAND SPORTS INC",
     subtitle: "Our Vision",
-    text: "we believe in the power of transformation. By harnessing the principles of impactful branding, user-centric product design, and practical engineering, we strive to create products that not only meet but exceed market expectations."
+    texts:[ "we believe in the power of transformation. By harnessing the principles of impactful branding, user-centric product design, and practical engineering, we strive to create products that not only meet but exceed market expectations."]
 }
 
 const about3 ={
-    aboutImg: capabilities_3,
+    aboutImg: about_3,
     right: false,
     title: "The heart of our company lies in our name",
     subtitle: "Our Philosophy",
-    text: ' GTC LAND. Here, "LAND" stands as our registered trademark, while each letter represents our core values: "G" for Gospelized, "T" for Truthized, and "C" for Churchized. Our ultimate goal is to supply spiritual helmets by providing material helmets, aligning our purpose with the divine mission.'
+    texts:[ ' GTC LAND. Here, "LAND" stands as our registered trademark, while each letter represents our core values: "G" for Gospelized, "T" for Truthized, and "C" for Churchized. Our ultimate goal is to supply spiritual helmets by providing material helmets, aligning our purpose with the divine mission.']
 }
 
 

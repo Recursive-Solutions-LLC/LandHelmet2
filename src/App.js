@@ -6,8 +6,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Home3 from './pages/Home3';
 import ProductDetails from './pages/ProductDetailsPage';
-import Services from './pages/Services';
-import ServicesDetails from './pages/ServicesDetails';
+import Capabilities from './pages/Capabilities';
+import CapabilitiesDetails from './pages/CapabilitiesDetails';
 import inHouseRd from "./content/capablities/inHouseRd"
 import oneStop from "./content/capablities/oneStop"
 
@@ -44,14 +44,14 @@ function App() {
                     </Route>
 
                     <Route exact path="/capabilities">
-                        <Services />
+                        <Capabilities />
                     </Route>
                     <Route exact path="/in-house-rd">
-                        <ServicesDetails  content={inHouseRd} />
+                        <CapabilitiesDetails  content={inHouseRd} />
                     </Route>
                     
                     <Route exact path="/one-stop-manufacturing">
-                        <ServicesDetails  content={oneStop} />
+                        <CapabilitiesDetails  content={oneStop} />
                     </Route>
                     <Route exact path="/contact">
                         <Contact />

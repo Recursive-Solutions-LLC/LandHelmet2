@@ -8,7 +8,7 @@ import ProjectFilter2 from "../components/ProjectFilter2"
 import capabilitiesContent from "../content/capablities/capabilities"
 import Cta1 from "../components/Cta"
 import Banner from "../components/Banner"
-function Services() {
+function Capabilities() {
 
     const {title, subtitle, image, featured} = capabilitiesContent.section1;
 
@@ -30,4 +30,4 @@ function Services() {
     );
 }
 
-export default Services;
+export default Capabilities;

@@ -1,9 +1,8 @@
 import React from 'react'
 
 function Banner({title, subtitle, image}) {
-    const {src, alt} = image
 
-    const renderImage = image && <img src={src} alt={alt} style={{ maxWidth: '100%', height: 'auto' }} />
+    const renderImage = image && <img src={image.src} alt={image.alt} style={{ maxWidth: '100%', height: 'auto' }} />
 
   return (
     <div className="row">
