@@ -671,6 +671,69 @@
             }
         }
     }
+    .content2 {
+    
+    
+        position: relative;
+
+        @media (max-width: 600px) {
+            padding: 30px;
+        }
+
+        .case-cat {
+            position: absolute;
+            right: 0;
+            bottom: 100%;
+
+            a {
+                img {
+                    min-width: 50px;
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+                }
+                display: inline-block;
+                padding: 20px;
+                line-height: 1;
+                font-size: 24px;
+                background-color: $theme-color;
+                position: relative;
+                &:hover {
+                    background: $secondary-1;
+                }
+                svg{
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+                }
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+
+            &:hover {
+                a {
+                    color: $theme-color;
+                }
+            }
+        }
+
+        .read-btn {
+            font-size: 16px;
+            line-height: 1;
+            text-transform: capitalize;
+            margin-top: 20px;
+            display: block;
+
+            &:hover {
+                color: $theme-color-3;
+                padding-left: 5px;
+            }
+
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
 }
 
 .icon-style {

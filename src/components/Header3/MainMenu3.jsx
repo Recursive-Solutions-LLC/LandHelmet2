@@ -7,7 +7,7 @@ const menuItems = [
     { to: '/', label: 'Home' },
     { to: '/about', label: 'About' },
     {
-        to: '/type-I', label: 'Product', subMenu: [
+        to: '/products', label: 'Product', subMenu: [
     
             { to: '/type-I', label: 'Helmet Type I' },
             { to: '/type-II', label: 'Helmet Type II' },
