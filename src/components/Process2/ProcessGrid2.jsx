@@ -1,11 +1,15 @@
 import React from 'react';
+import IconRow from '../IconRow';
 
-function ProcessGrid2({ img1, img2, img3 }) {
+function ProcessGrid2({ img1, icons }) {
 
     return (
-        <div className="featured-img bg-cover" style={{ backgroundImage: `url(${img1})` }}>
-         {img2!==true&&  <div className="bottom-img bg-cover" style={{ backgroundImage: `url(${img3})` }} />}
-         {img2===true&&  <div className="bottom-img2 bg-cover" style={{ backgroundImage: `url(${img3})` }} />}
+        <div className="featured-img bg-cover relative" style={{ backgroundImage: `url(${img1})` }}>
+         {img1 &&  <div className="bottom-img bg-cover" style={{ backgroundImage: `url(${img1})` }} />}
+
+         <div className="absolute">
+         <IconRow icons={icons}/>
+         </div>
         </div>
     );
 }
