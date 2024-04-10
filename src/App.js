@@ -23,6 +23,7 @@ import HeroBg2 from './assets/img/products/cover-II.png';
 import oneStopContentI from './content/capablities/oneStopI';
 import oneStopContentII from './content/capablities/oneStopII';
 import oneStopContentIII from './content/global';
+import Product from './pages/Product';
 
 function App() {
     return (
@@ -35,9 +36,9 @@ function App() {
                     </Route>
 
                     {/* Between this */}
-                    {/* <Route exact path="/products">
-                        <Projects />
-                    </Route> */}
+                   <Route exact path="/products">
+                        <Product />
+                    </Route> 
                     <Route exact path="/type-I">
                         <ProductDetails data={productTypeIData} model={ModelsTypeI} cover ={HeroBg1} />
                     </Route>

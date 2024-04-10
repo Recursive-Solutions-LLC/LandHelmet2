@@ -63,7 +63,31 @@
         padding: 22px 50px;
         color:#fff
     }
+    &.theme-4 {
+        background-color: $theme-color-2;
+        border: 2px solid $theme-color-2;
+        color: #fff;
+        border-radius: 20px;
+        padding: 22px 40px;
 
+        &:hover {
+            background-color: $second-color;
+            border: 2px solid $second-color;
+        }
+
+        &.white {
+            background: #fff;
+            box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+            color: $second-color;
+            border-color: #fff;
+
+            &:hover {
+                background-color: $second-color;
+                color: #fff;
+                border-color: $second-color;
+            }
+        }
+    }
     @media (max-width: 580px) {
         padding: 16px 35px;
     }

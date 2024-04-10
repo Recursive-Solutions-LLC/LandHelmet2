@@ -53,7 +53,7 @@
 
 .section-title-2 {
     position: relative;
-    z-index: 2;
+
     margin-bottom: 40px;
 
     @media (max-width: 767px) {
@@ -158,19 +158,24 @@
 }
 .section-title-5 {
     p {
-        background-color: $theme-color-3;
-        padding: 12px 30px;
+ 
+        padding: 12px 20px;
         line-height: 1;
+        background: #001248;
         color: white;
         text-transform: capitalize;
-        display: inline-block;
-        -webkit-clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
-        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
-        margin-bottom: 15px;
+
+  
+
         font-weight: 500;
     }
 
     h1 {
+        color: #fff;
+        background: #001248;
+        padding: 10px;
+    }
+    h2 {
         color: #fff;
         background: #001248;
         padding: 10px;
@@ -196,6 +201,53 @@
 
     h1 {
         color: #fff;
+    }
+}
+.section-title-6 {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 40px;
+
+    @media (max-width: 767px) {
+        margin-bottom: 20px;
+    }
+
+    span {
+        font-size: 180px;
+        line-height: 1;
+        color: rgba(0, 22, 89, 0);
+        font-weight: 600;
+        -webkit-text-stroke: 1px #efefef;
+        position: absolute;
+        top: -38%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0.9;
+        z-index: -1;
+
+        @media (max-width: 1200px) {
+            font-size: 120px;
+        }
+
+        @media (max-width: 991px) {
+            font-size: 80px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 70px;
+        }
+    }
+
+    p {
+        font-weight: 600; 
+        color: #000;
+    }
+    .collection{
+        font-weight: 100; 
+    }
+
+    h1 {
+        color:  #80BB2A;
     }
 }
 // Section Padding - Change with your need.
@@ -264,6 +316,52 @@
     background-color: $theme-color;
     padding-bottom: 90px;
     padding-top: 120px;
+    position: relative;
+    z-index: 0;
+
+    @media (max-width: 991px) {
+        padding-bottom: 80px;
+        padding-top: 100px;
+    }
+
+    @media (max-width: 767px) {
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    &::before {
+        position: absolute;
+        left: 0;
+        content: "";
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+        z-index: -1;
+    }
+
+    .page-heading {
+        h1 {
+            width: fit-content;
+            background-color: #27272770;
+            font-size: 80px;
+            line-height: 110%;
+            padding: 5px;
+            @media (max-width: 991px) {
+                font-size: 60px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 40px;
+            }
+        }
+    }
+}
+.page-banner-wrap2 {
+    background-color: $theme-color;
+    padding-bottom: 90px;
+    padding-top: 500px;
     position: relative;
     z-index: 0;
 
