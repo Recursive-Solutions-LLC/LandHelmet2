@@ -5,6 +5,7 @@ import Hero3 from '../components/Hero2';
 import Portfolio3 from '../components/Portfolio3';
 import CoverAbout from '../assets/img/products/bg.jpg';
 import PageBanner from '../components/PageBanner2';
+import TeamMembers from '../components/TeamMembers';
 function Product() {
 
     return (
@@ -13,6 +14,7 @@ function Product() {
             <Hero3 />
             <Portfolio3/>
             <PageBanner bannerBg={CoverAbout} currentPage="" heading="" />
+            <TeamMembers/>
             <Footer1 />
         </>
     );

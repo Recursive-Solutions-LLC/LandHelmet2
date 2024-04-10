@@ -1,16 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
-import member1 from '../../assets/img/team/Full-Face-Shield-Mesh.png';
-import member2 from '../../assets/img/team/Eye-Shield-Clear-Anti-Fog-removebg-preview.png';
-import member3 from '../../assets/img/team/Replaceable-Suspension-Kit-removebg-preview.png';
-import member4 from '../../assets/img/team/Full-Face-Shield-Clear-removebg-preview.png';
-import member5 from '../../assets/img/team/Full-Face-Shield-Mesh.png';
-import member6 from '../../assets/img/team/Replaceable-Chin-Strap-removebg-preview.png';
-import member7 from '../../assets/img/team/High-Vis-Reflective-Sticker-removebg-preview.png';
-import member8 from '../../assets/img/team/Winter-Cap-removebg-preview.png';
-import member9 from '../../assets/img/team/Replaceable-Pad-Kit-removebg-preview.png';
-import member10 from '../../assets/img/team/Mounted-Earmuff-removebg-preview.png';
-import member11 from '../../assets/img/team/Replaceable-Wheel-Rachet-removebg-preview.png';
-import member12 from '../../assets/img/team/Universal-Head-Lamp-removebg-preview.png';
+import member1 from '../../assets/img/team/Chin Strap.png';
+import member2 from '../../assets/img/team/9.png';
+import member3 from '../../assets/img/team/10.png';
+import member4 from '../../assets/img/team/11.png';
+import member5 from '../../assets/img/team/12.png';
+import member6 from '../../assets/img/team/13.png';
 
 const teamData = [
     {
@@ -77,67 +71,7 @@ const teamData = [
         twitterLink: '/',
         behanceLink: '/',
         youtubeLink: '/',
-    },
-    {
-        id: uuidv4(),
-        img: member7,
-        name: 'High Vis Reflective Sticker',
-        position: 'M12',
-        fbLink: '/',
-        twitterLink: '/',
-        behanceLink: '/',
-        youtubeLink: '/',
-    },
-    {
-        id: uuidv4(),
-        img: member8,
-        name: 'Winter Cap For Helmet',
-        position: 'M12',
-        fbLink: '/',
-        twitterLink: '/',
-        behanceLink: '/',
-        youtubeLink: '/',
-    },
-    {
-        id: uuidv4(),
-        img: member9,
-        name: 'Replaceable Pad Kit',
-        position: 'M12',
-        fbLink: '/',
-        twitterLink: '/',
-        behanceLink: '/',
-        youtubeLink: '/',
-    },
-    {
-        id: uuidv4(),
-        img: member10,
-        name: 'Mounted Earmuff',
-        position: 'M12',
-        fbLink: '/',
-        twitterLink: '/',
-        behanceLink: '/',
-        youtubeLink: '/',
-    },
-    {
-        id: uuidv4(),
-        img: member11,
-        name: 'Replaceable Wheel Rachet',
-        position: 'M12',
-        fbLink: '/',
-        twitterLink: '/',
-        behanceLink: '/',
-        youtubeLink: '/',
-    },
-    {
-        id: uuidv4(),
-        img: member12,
-        name: 'Universal Head Lamp',
-        position: 'M12',
-        fbLink: '/',
-        twitterLink: '/',
-        behanceLink: '/',
-        youtubeLink: '/',
-    },
+    }
 ];
 
 export default teamData;

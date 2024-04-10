@@ -4,9 +4,10 @@ import TeamItem from './TeamItem';
 
 function TeamMembers() {
     return (
-        <section className="team-section section-padding">
+        <section className="team-section pt-5">
             <div className="container">
-                <div className="row mtm-30">
+                <div className="row ">
+                    <h1>Custom Capability</h1>
                     {teamData.map((data) => (
                         <TeamItem
                             key={data.id}

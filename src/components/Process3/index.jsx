@@ -8,7 +8,7 @@ import img4 from "../../assets/img/home3/10.jpg";
 import ProcessContent from "./ProcessContent";
 import ProcessGrid2 from "./ProcessGrid2";
 import IconRow from "../IconRow/index"
-import Banner1Img from "../../assets/img/capabilities/InHouse/AE9I5943.jpg"
+import Banner1Img from "../../assets/img/capabilities/InHouse/banner1.png"
 import Class1 from '../../assets/img/icon/s1.png';
 import Class2 from '../../assets/img/icon/s2.png';
 import Class3 from '../../assets/img/icon/s3.png';
