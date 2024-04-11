@@ -9,11 +9,11 @@ import {
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
 
-function FaqAccordion({ question, answer }) {
+function FaqAccordion({ question, answer ,isExpanded }) {
     return (
         <>
-            <Accordion allowZeroExpanded>
-                <AccordionItem>
+            <Accordion allowZeroExpanded  allowMultipleExpanded={true} >
+                <AccordionItem dangerouslySetExpanded={isExpanded}>
                     <AccordionItemHeading>
                         <AccordionItemButton>{question}</AccordionItemButton>
                     </AccordionItemHeading>
