@@ -18,9 +18,7 @@ function Capabilities() {
             <PageBanner bannerBg={bannerBg} currentPage="Capabilities" heading="What We Do" />
 
             <section className="section-padding-top">
-                <div className="container">
                     <Banner title={title} subtitle={subtitle} image={image} />
-                </div>
             </section>
             <ProjectFilter2 items={featured} />
             <Cta1 />

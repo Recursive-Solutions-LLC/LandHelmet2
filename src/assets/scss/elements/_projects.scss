@@ -10,7 +10,6 @@
 
             .project-contents {
                 height:100%;
-                background-color:#f7f7f7;
                 border-radius: 10px;
                 position: relative;
                 margin-top: 60px;
@@ -49,6 +48,7 @@
                     font-size: 40px;
                     line-height: 50px;
                     margin-top: 5px;
+                    color: $second-color;
 
                     @media (max-width: 1199px) {
                         font-size: 32px;
@@ -61,6 +61,7 @@
                 }
 
                 p {
+                    color: $second-color;
                     margin-top: 15px;
                 }
 
