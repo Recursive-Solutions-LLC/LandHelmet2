@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import thumb1 from '../../assets/img/products/M10.png';
+import thumb1 from '../../assets/img/products/M02.png';
 import thumb2 from '../../assets/img/products/M12.png';
 import thumb3 from '../../assets/img/products/18.png';
 
