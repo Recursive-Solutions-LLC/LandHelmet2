@@ -5,8 +5,7 @@ import About2 from '../components/About2';
 import CoverAbout from '../assets/img/about/cover.jpg';
 import PageBanner from '../components/PageBanner';
 import AboutFeatured from '../components/AboutFeatured';
-import Approch from '../components/Approch';
-import Timeline from '../components/Timeline';
+
 import Cta3 from '../components/Cta2';
 
 import about_1 from "../assets/img/about/about-1.jpg";

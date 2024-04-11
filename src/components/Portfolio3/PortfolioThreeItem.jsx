@@ -15,6 +15,7 @@ const approchData = [
         icon: <img  src={rd1} alt="One-Stop icon" />,
         heading: 'M02',
         text: 'EN 12492 & EN 397',
+        pageLink: '/model-m02'
     },
 
     {
@@ -23,6 +24,7 @@ const approchData = [
         icon: <img  src={rd4} alt="global icon" />,
         heading: 'M12',
         text: 'ANSI/ CSA Z89.1, EN 12492 EN 397',
+        pageLink: '/model-m12'
     },
     {
         id: uuidv4(),
@@ -30,6 +32,7 @@ const approchData = [
         icon: <img  src={rd7} alt="testing facilities" />,
         heading: 'M10',
         text: ' ANSI/ CSA Z89.1',
+        pageLink: '/model-m10'
     },
 ];
 
