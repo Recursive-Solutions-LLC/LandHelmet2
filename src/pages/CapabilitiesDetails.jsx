@@ -41,8 +41,6 @@ function CapabilitiesDetails({ content }) {
 
                     <section >
                         <Process3 />
-
-
                     </section>
 
                     <section className='pt-port'>

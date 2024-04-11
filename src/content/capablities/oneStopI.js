@@ -14,7 +14,7 @@ import cover from "../../assets/img/capabilities/OneStop/cover.jpg";
 import featured1 from "../../assets/img/capabilities/OneStop/featured1.png"
 import featured2 from "../../assets/img/capabilities/OneStop/featured2.png"
 import featured3 from "../../assets/img/capabilities/OneStop/featured3.png"
-import banner1 from  "../../assets/img/capabilities/OneStop/banner1.png"
+import banner1 from "../../assets/img/capabilities/OneStop/banner1.png"
 
 const oneStopContentI = {
     title: "One stop Manufacturing",
@@ -23,7 +23,7 @@ const oneStopContentI = {
         {
             id: uuidv4(),
             aboutImg: featured1,
-            right: true,
+            right: false,
             title: "Integrated Manufacturing",
             subtitle: "We take great care in designing your product with accessibility in mind to ensure that it is practical for all users.",
             texts: [
@@ -38,8 +38,8 @@ const oneStopContentI = {
             title: "Resource Access | Open Tooling | Mold",
             subtitle: "",
             texts: [
-            "A diverse range of public molds for your helmet production needs, along with access to modular, replaceable accessories available separately.",
-            "EPS IN-MOLD Helmets Discover the ultimate in safety innovation with our EPS IN-MOLD helmets. Designed to provide unmatched protection and comfort, these helmets are crafted with precision to meet the highest industry standards"
+                "A diverse range of public molds for your helmet production needs, along with access to modular, replaceable accessories available separately.",
+                "EPS IN-MOLD Helmets Discover the ultimate in safety innovation with our EPS IN-MOLD helmets. Designed to provide unmatched protection and comfort, these helmets are crafted with precision to meet the highest industry standards"
             ]
         },
 
@@ -50,7 +50,7 @@ const oneStopContentI = {
             title: "Comprehensive Capabilities for Diverse Needs",
             subtitle: "",
             texts: [
-            "We are specialize in integrating tailored solutions into our manufacturing process, enhancing your brand’s effectiveness through branding, packing, and various accessories to tailor helmets to your requirements.",
+                "We are specialize in integrating tailored solutions into our manufacturing process, enhancing your brand’s effectiveness through branding, packing, and various accessories to tailor helmets to your requirements.",
             ]
         },
 
@@ -58,7 +58,12 @@ const oneStopContentI = {
             id: uuidv4(),
             right: false,
             title: "Product Branding",
-            texts:[ "From logos and reflective stickers to specialized packaging, our in-house capabilities allow for extensive customization to meet your branding needs."],
+            subtitle: "Patner with confidence",
+            texts: [
+                "With creativity as our compass, you envision it, And our dedicated team makes that grand vision happen.",
+                "From logos and reflective stickers to specialized packaging, our in-house capabilities allow for extensive customization to meet your branding needs.",
+
+            ],
             aboutImg: banner1,
         }
 
@@ -87,9 +92,9 @@ const oneStopContentI = {
         text: "Choosing Land Helmets means partnering with a company that places quality and safety above all. Our meticulous approach to quality control ensures that you can trust our helmets to protect your most valuable asset—your people.",
     }],
     carouselImg: [
-        {img:bannerImg1},
-        {img:bannerImg2},
-        {img:bannerImg3},
+        { img: bannerImg1 },
+        { img: bannerImg2 },
+        { img: bannerImg3 },
     ],
     faqs: [
         {
@@ -106,7 +111,7 @@ const oneStopContentI = {
                 }
             ],
         },
-  ],
+    ],
 
 };
 

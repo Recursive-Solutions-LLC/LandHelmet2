@@ -20,16 +20,9 @@ const menuData = [
         iconOpened: <CgChevronDown />,
 
         subNav: [
-         
-            {
-                title: 'Helmet Type I ',
-                path: '/type-I',
-                cName: 'sub-nav',
-            },
-            {
-                title: 'Helmet Tpe II',
-                path: '/type-II',
-            },
+            { path: '/model-m10', title: 'Helmet Model M10' },
+            { path: '/model-m12', title: 'Helmet Model M12' },
+            { path: '/model-m02', title: 'Helmet Model M02' },
         ],
     },
     {

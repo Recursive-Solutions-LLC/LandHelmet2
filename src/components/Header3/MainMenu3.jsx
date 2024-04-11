@@ -8,9 +8,10 @@ const menuItems = [
     { to: '/about', label: 'About' },
     {
         to: '/products', label: 'Product', subMenu: [
-    
-            { to: '/type-I', label: 'Helmet Type I' },
-            { to: '/type-II', label: 'Helmet Type II' },
+            { to: '/model-m10', label: 'Helmet Model M10' },
+            { to: '/model-m12', label: 'Helmet Model M12' },
+            { to: '/model-m02', label: 'Helmet Model M02' },
+
         ]
     },
     { to: '/capabilities', label: 'Capabilities' , subMenu: [

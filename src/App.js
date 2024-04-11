@@ -5,15 +5,15 @@ import ScrollToTopRoute from './components/ScrollTopRoute';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home3 from './pages/Home3';
-import ProductDetails from './pages/ProductDetailsPage';
+import Products from './pages/Products';
 import Capabilities from './pages/Capabilities';
 import CapabilitiesDetails from './pages/CapabilitiesDetails';
 import CapabilitiesDetails2 from './pages/CapabilitiesDetails2';
 import inHouseRd from "./content/capablities/inHouseRd"
 
-import {productTypeIData} from "./content/ModelsTypeI"
+import { productTypeIData } from "./content/ModelsTypeI"
 
-import {productTypeIIData} from "./content/ModelsTypeII"
+import { productTypeIIData } from "./content/ModelsTypeII"
 
 import ModelsTypeI from './content/ModelsTypeI';
 import ModelsTypeII from './content/ModelsTypeII';
@@ -36,25 +36,27 @@ function App() {
                     </Route>
 
                     {/* Between this */}
-                   <Route exact path="/products">
+                    <Route exact path="/products">
                         <Product />
-                    </Route> 
-                    <Route exact path="/type-I">
-                        <ProductDetails data={productTypeIData} model={ModelsTypeI} cover ={HeroBg1} />
                     </Route>
-                    <Route exact path="/type-II">
-                        <ProductDetails data={productTypeIIData} model={ModelsTypeII} cover ={HeroBg2} />
+                    <Route exact path="/model-m10">
+                        <Products />
                     </Route>
-
+                    <Route exact path="/model-m12">
+                        <Products />
+                    </Route>
+                    <Route exact path="/model-m02">
+                        <Products />
+                    </Route>
                     <Route exact path="/capabilities">
                         <Capabilities />
                     </Route>
                     <Route exact path="/in-house-rd">
-                        <CapabilitiesDetails  content={inHouseRd} />
+                        <CapabilitiesDetails content={inHouseRd} />
                     </Route>
-                    
+
                     <Route exact path="/one-stop-manufacturing">
-                        <CapabilitiesDetails2  content={oneStopContentI} contentII={oneStopContentII} contentIII={oneStopContentIII}/>
+                        <CapabilitiesDetails2 content={oneStopContentI} contentII={oneStopContentII} contentIII={oneStopContentIII} />
                     </Route>
                     <Route exact path="/contact">
                         <Contact />
