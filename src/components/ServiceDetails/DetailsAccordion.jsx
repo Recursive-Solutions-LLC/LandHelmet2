@@ -12,7 +12,7 @@ const DetailsAccordion = ({ title, text, list }) => {
                         <div className="col-md-6 col-12" >
                             <SRLWrapper>
                                 <div className="">
-                                        <img src={element.img} alt="" />
+                                    <img src={element.img} alt="" />
                                 </div>
                             </SRLWrapper>
                         </div>
@@ -31,9 +31,11 @@ const DetailsAccordion = ({ title, text, list }) => {
 
     return (
         <div className="faq-content pl-0 pl-md-4">
-            <h2>{title}</h2>
+            <h2 className='mb-2'>{title}</h2>
             <p>{text}</p>
-            {renderAccordion}
+            <div className="mt-5">
+                {renderAccordion}
+            </div>
         </div>)
 }
 
