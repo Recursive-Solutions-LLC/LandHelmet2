@@ -31,7 +31,8 @@ function PageBanner2({ bannerBg }) {
                     <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-2  text-center center-content">
                         <h1 className='pt-5'><strong>YOUR LOGO, OUR HELMET - A PERFECT MATCH!</strong></h1>
-                            <div className='row logos-padding '>
+                        <div className='container'>
+                            <div className='row  '>
 
                   
                                 <div className='col-4'>
@@ -43,7 +44,7 @@ function PageBanner2({ bannerBg }) {
                                 <h2 className=''><strong>Land Helmets </strong>exclusively offers the option to add your logo. We do not engage in co-branding. </h2>
                        
                                     </div>
-                                  
+                                    </div>
                         </div>
 
 
