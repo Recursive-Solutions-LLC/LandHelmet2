@@ -4088,8 +4088,8 @@ header.header-3 .mobile-menu-bar {
 }
 
 .hero-3 .single-slide::after {
-  width: 68.5%;
-  height: 400%;
+  width:100%;
+  height: 80%;
   position: absolute;
   content: "";
   right: 0;

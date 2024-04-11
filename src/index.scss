@@ -53,3 +53,19 @@ ul{
    color: 'white'!important;
    background-color: $theme-color !important;
 }
+.hero-3 {
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+    height: auto !important; /* La altura es automática y se extiende según el contenido */
+  }
+  
+  .hero-3 .slide {
+    position: relative; /* Necesario para el posicionamiento de elementos internos */
+    width: 100%;
+    height: 56.25vw; /* Altura basada en el ratio de aspecto 16:9 */
+  }
+  
+  /* Asegura que las imágenes de fondo cubran completamente cada slide */
+  .hero-3 .slide div {
+    background-size: cover;
+    background-position: center;
+  }

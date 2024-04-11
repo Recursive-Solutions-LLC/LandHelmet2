@@ -52,7 +52,7 @@ function Portfolio3() {
     }, []);
     const renderCard = <div></div>
     return (
-        <section className="portfolio-wrapper cases-carousel-wrapper pt-5  ">
+        <section className="portfolio-wrapper cases-carousel-wrapper  ">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-12 text-center">
