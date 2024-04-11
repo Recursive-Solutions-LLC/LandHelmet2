@@ -1,7 +1,6 @@
 import React from 'react';
 // import DetailsCarousel from './DetailsCarousel';
 import DetailsContent from './DetailsContent';
-import DetailsAccordion from "./DetailsAccordion"
 
 function ServiceDetails({ content }) {
     const { sections } = content
