@@ -4,17 +4,6 @@
 .cta-wrapper {
     position: relative;
     z-index: 0;
-
-    &::before {
-        position: absolute;
-        width: 100%;
-        height: 50%;
-        left: 0;
-        top: 0;
-        content: "";
-        z-index: 0;
-        background-color: #f6f6f6;
-    }
 }
 .cta-wrapper2 {
     position: relative;

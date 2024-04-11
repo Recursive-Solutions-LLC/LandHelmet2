@@ -63,8 +63,6 @@ function CapabilitiesDetails2({ content, contentII, contentIII }) {
             <AboutFeatured aboutContent={aboutContent} />
                 <ServiceDetails2 content={contentII} />
             </section>
-
-            <Cta title={ctaTitle} />
             <div className="container">
                 <AboutFeatured aboutContent={aboutContent2} />
             </div>

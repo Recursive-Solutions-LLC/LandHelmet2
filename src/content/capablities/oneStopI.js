@@ -75,21 +75,6 @@ const oneStopContentI = {
         title: "Quality Control",
         img: thumb1,
         text: "At Land Helmets, our commitment to quality is at the forefront of everything we do. We understand that the safety and satisfaction of your workforce are paramount. That's why we've established a comprehensive quality control process that guarantees each helmet we produce meets the highest standards of safety, durability, and comfort.",
-    },
-    {
-        title: "Continuous Improvement Through Innovation",
-        img: thumb2,
-        text: "Our R&D team is continually exploring new materials, designs, and technologies to enhance the safety and comfort of our helmets. We invest in innovation to ensure our products set industry benchmarks for protection and wearability.",
-    },
-    {
-        title: "Certified for Your Peace of Mind",
-        img: thumb3,
-        text: "Our manufacturing facilities are ISO certified, and our helmets are certified by recognized standards bodies, providing you with the assurance that our products are manufactured to the highest quality and safety standards.",
-    },
-    {
-        title: "Partner with Us for Quality You Can Trust",
-        img: thumb4,
-        text: "Choosing Land Helmets means partnering with a company that places quality and safety above all. Our meticulous approach to quality control ensures that you can trust our helmets to protect your most valuable asset—your people.",
     }],
     carouselImg: [
         { img: bannerImg1 },
