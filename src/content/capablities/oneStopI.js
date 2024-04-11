@@ -103,11 +103,7 @@ const oneStopContentI = {
                 {
                     title: "In-Process Quality Checks",
                     text: "During manufacturing, our helmets are subject to ongoing inspections and tests to identify and rectify any deviations from our quality standards immediately.",
-                },
-                {
-                    title: "Final Inspection",
-                    text: "Before shipping, each helmet undergoes a final quality assessment to ensure it is free from defects and meets our safety certifications.",
-                },
+                }
             ],
         },
   ],
