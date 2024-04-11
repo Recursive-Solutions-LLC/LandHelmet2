@@ -4,7 +4,7 @@ import blogOneData from './BlogOneData';
 import thumb1 from '../../assets/img/products/colors.png';
 function Blog1() {
     return (
-        <section className="blog-section section-padding">
+        <section className="blog-section pt-5">
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-12">
