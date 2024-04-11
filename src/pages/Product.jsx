@@ -3,9 +3,10 @@ import Footer1 from '../components/Footer1';
 import Header1 from '../components/Header3';
 import Hero3 from '../components/Hero2';
 import Portfolio3 from '../components/Portfolio3';
-import CoverAbout from '../assets/img/products/bg.jpg';
+import CoverAbout from '../assets/img/products/bg.png';
 import PageBanner from '../components/PageBanner2';
 import TeamMembers from '../components/TeamMembers';
+import SinglePost from '../components/SinglePost' ;
 function Product() {
 
     return (
@@ -15,6 +16,7 @@ function Product() {
             <Portfolio3/>
             <PageBanner bannerBg={CoverAbout} currentPage="" heading="" />
             <TeamMembers/>
+            <SinglePost/>
             <Footer1 />
         </>
     );
