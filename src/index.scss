@@ -6,8 +6,14 @@
     color:black;
 }
 
-.faq-content{
+.faq-content {
     margin-bottom: 1.5rem;
+    h2 {
+        color: $second-color
+    }
+    p {
+        color: $secondary-1;
+    }
 }
 .timeline-wrapper-2 {
     background-size: cover;
