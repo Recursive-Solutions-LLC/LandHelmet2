@@ -5,9 +5,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import timeLineData from './timeLineData';
 import TimelineItem from './TimelineItem';
-import SwiperCore, { Autoplay } from 'swiper';
-import {  Pagination, Navigation } from "swiper";
-
+import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper';
+ 
 export default function App() {
     SwiperCore.use([Autoplay])
     return (

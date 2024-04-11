@@ -1,6 +1,5 @@
 import React from 'react';
-import SwiperCore, { Navigation } from 'swiper';
-import { Swiper } from 'swiper/react';
+import SwiperCore, { Navigation, Swiper } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import PortfolioOneSlide from './PortfolioOneSlide';
 
