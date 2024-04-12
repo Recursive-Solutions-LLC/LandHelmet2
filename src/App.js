@@ -11,21 +11,17 @@ import CapabilitiesDetails from './pages/CapabilitiesDetails';
 import CapabilitiesDetails2 from './pages/CapabilitiesDetails2';
 import inHouseRd from "./content/capablities/inHouseRd"
 
-import { productTypeIData } from "./content/ModelsTypeI"
-
-import { productTypeIIData } from "./content/ModelsTypeII"
-
-import ModelsTypeI from './content/ModelsTypeI';
-import ModelsTypeII from './content/ModelsTypeII';
-
-import HeroBg1 from './assets/img/products/cover.png';
-import HeroBg2 from './assets/img/products/cover-II.png';
 import oneStopContentI from './content/capablities/oneStopI';
 import oneStopContentII from './content/capablities/oneStopII';
 import oneStopContentIII from './content/global';
+import helmetData from "./content/helmetData"
+
+
 import Product from './pages/Product';
 
 function App() {
+
+    const {m02, m10, m12} = helmetData
     return (
         <>
             <Router>
@@ -40,13 +36,13 @@ function App() {
                         <Product />
                     </Route>
                     <Route exact path="/model-m10">
-                        <Products type={"M10"} />
+                        <Products model={m10} type={"M10"} />
                     </Route>
                     <Route exact path="/model-m12">
-                        <Products  type={"M12"}/>
+                        <Products model={m12}  type={"M12"}/>
                     </Route>
                     <Route exact path="/model-m02">
-                        <Products type={"M02"} />
+                        <Products model={m02} type={"M02"} />
                     </Route>
                     <Route exact path="/capabilities">
                         <Capabilities />
