@@ -40,13 +40,13 @@ function App() {
                         <Product />
                     </Route>
                     <Route exact path="/model-m10">
-                        <Products type={"m10"} />
+                        <Products type={"M10"} />
                     </Route>
                     <Route exact path="/model-m12">
-                        <Products  type={"m12"}/>
+                        <Products  type={"M12"}/>
                     </Route>
                     <Route exact path="/model-m02">
-                        <Products type={"m02"} />
+                        <Products type={"M02"} />
                     </Route>
                     <Route exact path="/capabilities">
                         <Capabilities />

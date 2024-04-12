@@ -61,9 +61,9 @@ function Faq() {
                 <div className="row">
                     <div className="section-title-3 text-center">
                    
-                        <h1>TECHNOLOGIES</h1>
+                        <h1 className='pb-5'>TECHNOLOGIES</h1>
                     </div>
-                    <div ref={leftAnimation}  className="col-xl-6 col-12 mt-4">
+                    <div ref={leftAnimation}  className="col-xl-6 col-12 mt-5">
                         <div className="content-block">
 
 

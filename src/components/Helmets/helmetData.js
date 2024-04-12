@@ -30,55 +30,151 @@ const helmetData = [
         id: uuidv4(),
         img: img1,
         heading: 'White',
-        type: 'm02'
+        type: 'M02'
     },
     {
         id: uuidv4(),
         img: img2,
         heading: 'Yellow',
-        type: 'm02'
+        type: 'M02'
     },
     {
         id: uuidv4(),
         img: img3,
         heading: 'Orange',
-        type: 'm02'
+        type: 'M02'
     },
     {
         id: uuidv4(),
         img: img4,
         heading: 'Red',
-        type: 'm02'
+        type: 'M02'
     },
     {
         id: uuidv4(),
         img: img8,
         heading: 'Gray',
-        type: 'm02'
+        type: 'M02'
     },
     {
         id: uuidv4(),
         img: img6,
-        heading: 'Black',
-        type: 'm02'
+        heading: 'Blue',      
+        type: 'M02'
     },
     {
         id: uuidv4(),
         img: img7,
-        heading: 'Blue',
-        type: 'm02'
+        heading: 'Black',
+        type: 'M02'
     },
     {
         id: uuidv4(),
         img: img5,
         heading: 'Green',
-        type: 'm02'
+        type: 'M02'
+    },
+    {
+        id: uuidv4(),
+        img: imga1,
+        heading: 'Orange',
+        type: 'M10'
+    },
+    {
+        id: uuidv4(),
+        img: imga2,
+        heading: 'White',
+        type: 'M10'
+    },
+    {
+        id: uuidv4(),
+        img: imga3,
+        heading: 'Gray',
+        type: 'M10'
+    },
+    {
+        id: uuidv4(),
+        img: imga4,
+        heading: 'Blue',
+        type: 'M10'
+    },
+    {
+        id: uuidv4(),
+        img: imga8,
+        heading: 'Black',
+        type: 'M10'
+    },
+    {
+        id: uuidv4(),
+        img: imga6,
+        heading: 'Red',
+        type: 'M10'
+    },
+    {
+        id: uuidv4(),
+        img: imga7,
+        heading: 'Yellow',
+        type: 'M10'
+    },
+    {
+        id: uuidv4(),
+        img: imga5,
+        heading: 'Green',
+        type: 'M10'
     }, {
         id: uuidv4(),
-        img: img1,
-        heading: 'AU-M02',
-        type: 'm02'
+        img: imga1,
+        heading: 'AU-M10',
+        type: 'M10'
     },
+    {
+        id: uuidv4(),
+        img: imgb1,
+        heading: 'Green',
+        type: 'M12'
+    },
+    {
+        id: uuidv4(),
+        img: imgb2,
+        heading: 'Orange',
+        type: 'M12'
+    },
+    {
+        id: uuidv4(),
+        img: imgb3,
+        heading: 'Red',
+        type: 'M12'
+    },
+    {
+        id: uuidv4(),
+        img: imgb4,
+        heading: 'Roval',
+        type: 'M12'
+    },
+    {
+        id: uuidv4(),
+        img: imgb8,
+        heading: 'Blue',
+        type: 'M12'
+    },
+    {
+        id: uuidv4(),
+        img: imgb6,
+        heading: 'Yellow',
+        type: 'M12'
+    },
+    {
+        id: uuidv4(),
+        img: imgb7,
+        heading: 'Carbon Fiber',
+        type: 'M12'
+    },
+    {
+        id: uuidv4(),
+        img: imgb5,
+        heading: 'White',
+        type: 'M12'
+    }
 ];
 
 export default helmetData;
