@@ -80,5 +80,11 @@ ul{
     cursor: pointer;
     object-fit: cover;
   }
-  
-  
+  @media (min-width: 992px) {
+    .big-image{
+
+        height: 450px;
+      }
+  }
+ 
+

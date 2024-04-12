@@ -61,7 +61,7 @@ function Helmets(data) {
                 </div>
                 <div className="col-4 pt-5"><div className="row">
                     <div className="col-12"> <div className="man-img">
-                                <img src={currentImage} alt="helmet" />
+                                <img className=" big-image" src={currentImage} alt="helmet" />
                             </div>
                            <h3>AU-M02</h3></div>
                 </div></div>
