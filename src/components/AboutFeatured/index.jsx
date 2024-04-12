@@ -4,7 +4,6 @@ import Bullets from "../Bullets"
 function AboutFeatured({ aboutContent }) {
     const { title, subtitle, texts, right, aboutImg, bullets } = aboutContent;
 
-    // Determine the order of the columns based on the 'right' property
     const imageColumnClass = right ? "order-lg-2" : "";
     const textColumnClass = right ? "order-lg-1" : "";
     const isBullets = bullets !== undefined
@@ -13,10 +12,7 @@ function AboutFeatured({ aboutContent }) {
 
 
 const renderTexts = texts.map ((text)=>{
-    return(   <h4>
-        {text}
-
-    </h4>)
+    return(   <p className="block-contents-text"> {text}</p>)
 })
 
     return (

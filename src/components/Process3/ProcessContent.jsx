@@ -9,8 +9,8 @@ function ProcessContent({ heading, text , bullets }) {
     
     return (
         <>
-            <h4>{heading}</h4>
-              <p>{text}</p>
+            <p className="block-contents-text">{heading}</p>
+              {text && <p className="block-contents-text">{text}</p>}
             <ul > {renderBullets}</ul>
         </>
     );

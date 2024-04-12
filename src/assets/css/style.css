@@ -7394,7 +7394,16 @@ header.header-3 .mobile-menu-bar {
 
 .block-contents h4 {
   margin-top: 40px;
-  font-weight: 600;
+  font-weight: 500;
+  padding: 5px 28px;
+  margin-bottom: 30px;
+  border-left: 4px solid #80BB2A;
+}
+
+.block-contents .block-contents-text {
+  text-align: justify;
+  margin-top: 40px;
+  font-weight: 500;
   padding: 5px 28px;
   margin-bottom: 30px;
   border-left: 4px solid #80BB2A;

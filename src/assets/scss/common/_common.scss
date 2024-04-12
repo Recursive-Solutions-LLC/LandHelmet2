@@ -211,3 +211,24 @@
     background-color: transparent;
   }
 }
+
+.block-contents .block-contents-text {
+  text-align: justify;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: medium;
+  color: $secondary-1;
+  padding: 5px 28px;
+  margin-bottom: 30px;
+  border-left: 4px solid #80BB2A;
+}
+
+.block-contents .block-contents-bullets {
+  text-align: justify;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: medium;
+  color: $secondary-1;
+  padding: 5px 28px;
+  margin-bottom: 30px;
+}

@@ -53,12 +53,12 @@ function Process2({ type }) {
     processContentProps: {
       heading: "We'll guide you from concept to a tangible manifestation of your product. Whether you require a mechanical mockup for functional testing or investor presentations, an appearance model to visualize the look and feel of your product precisely, or a rapid 3D print to grasp its real-world scale",
       bullets: [
-        "Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin.",
-        "Universal accessory slot allows use of existing universal accessories",
-        "Size: Universal adjustable",
-        "10-year lifespan for enduring protection.",
-        "Customization Available: Add your Branded Logo",
-        "Advanced Energy Absorption: Features EPS foam for superior impact absorption."
+        " Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin.",
+        " Universal accessory slot allows use of existing universal accessories",
+        " Size: Universal adjustable",
+        " 10-year lifespan for enduring protection.",
+        " Customization Available: Add your Branded Logo",
+        " Advanced Energy Absorption: Features EPS foam for superior impact absorption."
       ],
       text: "",
     },
@@ -68,10 +68,10 @@ function Process2({ type }) {
     processContentProps: {
       heading: "We'll guide you from concept to a tangible manifestation of your product. Whether you require a mechanical mockup for functional testing or investor presentations, an appearance model to visualize the look and feel of your product precisely, or a rapid 3D print to grasp its real-world scale",
       bullets: [
-        "Prototyping serves to diminish development costs by pinpointing and remedying design flaws prior to full-scale production.",
-        "It empowers you to pinpoint and tackle potential quality concerns early on in the development phase.",
-        "Presenting potential investors with a physical prototype enhances your pitch, showcasing a robust concept.",
-        "Prototypes facilitate the evaluation of design functionality in real-world scenarios, allowing for invaluable feedback and the enhancement of user experience."
+        " Prototyping serves to diminish development costs by pinpointing and remedying design flaws prior to full-scale production.",
+        " It empowers you to pinpoint and tackle potential quality concerns early on in the development phase.",
+        " Presenting potential investors with a physical prototype enhances your pitch, showcasing a robust concept.",
+        " Prototypes facilitate the evaluation of design functionality in real-world scenarios, allowing for invaluable feedback and the enhancement of user experience."
       ],
       text: "",
     },

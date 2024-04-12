@@ -7,7 +7,7 @@ function Bullets({bullets}) {
     })
 
   return (
-    <div className="mt-2">{renderBullets}</div>
+    <div className="mt-2 block-contents-bullets">{renderBullets}</div>
   )
 }
 
