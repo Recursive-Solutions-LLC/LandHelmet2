@@ -10,7 +10,7 @@ import Process2 from '../components/Process2';
 import Services3 from '../components/Services3';
 import Cta from '../components/Cta3';
 import Cta1 from '../components/Cta';
-import img4 from "../assets/img/home3/10.jpg";
+import Image from "../assets/img/home3/10.jpg";
 
 import About2 from '../components/About2';
 import Cta3 from '../components/Cta2';
@@ -27,7 +27,7 @@ function Home3() {
     const icons = [ca, usa]
     
     const contentProps = {
-        gridProps: { img1: img4 , icons:icons },
+        gridProps: { img: Image , icons:icons },
         processContentProps: {
           heading: "Multi-Impact Protection: Exceed ANSI/ISEA Z89.1 – 2014, CSA Z94.1 2015, EN 12492 standards for versatile head protection.",
           bullets: [
