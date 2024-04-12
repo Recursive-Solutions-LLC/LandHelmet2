@@ -15,7 +15,7 @@ function Products({model, type}) {
             {/* <PageBanner bannerBg={image} /> */}
             <Faq/>
             <Helmets cover={cover} variants={variants} type={type} />
-            <TeamMembers2  {...data} />
+              <TeamMembers2  type={type} />
             <Footer3 />
         </>
     );
