@@ -5,48 +5,49 @@ import Faq from '../components/Faq3';
 import Helmets from '../components/Helmets';
 import FullBanner from '../components/Banner/FullBanner';
 import TeamMembers2 from '../components/TeamMembers3'
-import data from "../content/brand"
 import PortfolioOneSlide from '../components/Portfolio1/PortfolioOneSlide';
 import VideoFeatrued from '../components/VideoFeatured';
+import ProductDisplay from '../components/ProductDisplay';
 
-function Products({model, type}) {
+function Products({ model, type, brand, helmetDisplay }) {
 
-    const {cover, variants, banner} = model
-    let dataRender = {};
-    switch (type) {
-        case 'M10':
-            dataRender = data.m10;
-            break;
-        case 'M12':
-            dataRender = data.m12;
-            break;
-        default:
-            dataRender = data.m02;
-    }
+    const { cover, variants, banner } = model
+    const { image, imgLink, link, client, heading, desc, btnText, category } = brand
+
+
+    const { title, details, mainImage, sides, detailsTitle } = helmetDisplay
+
+    console.log('%csrc/pages/Products.jsx:20 helmetDisplay', 'color: white; background-color: #007acc;', helmetDisplay);
+
     return (
         <>
             <Header3 />
 
             <FullBanner banner={banner} />
-            <Faq/>
+
+            <ProductDisplay title={title} details={details} mainImage={mainImage} sides={sides} detailsTitle={detailsTitle}  />
             <Faq />
-            <VideoFeatrued/>
+            <VideoFeatrued />
             <section className="portfolio-section  pt-0">
                 <div className="container">
                     <div className="project-wrapper">
                         <div className="portfolio-carousel-active owl-carousel">
 
-                            <PortfolioOneSlide image={dataRender.image}
-                                imgLink={dataRender.imgLink}
-                                link={dataRender.link}
-                                category={dataRender.category}
-                                client={dataRender.client}
-                                title={dataRender.heading}
-                                desc={dataRender.desc}
-                                btnText={dataRender.btnText} /></div></div></div></section>
+                            <PortfolioOneSlide image={image}
+                                imgLink={imgLink}
+                                link={link}
+                                category={category}
+                                client={client}
+                                title={heading}
+                                desc={desc}
+                                btnText={btnText} />
+                        </div>
+                    </div>
+                </div>
+            </section>
             <Helmets cover={cover} variants={variants} type={type} />
             <TeamMembers2 type={type} />
-       
+
             <Footer3 />
         </>
     );

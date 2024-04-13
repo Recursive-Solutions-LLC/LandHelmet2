@@ -25,9 +25,9 @@ import imgb6 from '../assets/img/products/model-m12/6.png';
 import imgb7 from '../assets/img/products/model-m12/7.png';
 import imgb8 from '../assets/img/products/model-m12/8.png';
 
-import BannerM10 from '../assets/img/products/hero1.jpg';
-import BannerM12 from '../assets/img/products/hero2.jpg';
-import BannerM02 from '../assets/img/products/banner-m02.png';
+import BannerM10 from '../assets/img/products/hero2.jpg';
+import BannerM12 from '../assets/img/products/hero1.jpg';
+import BannerM02 from '../assets/img/products/hero5.png';
 
 
 const helmetData = {

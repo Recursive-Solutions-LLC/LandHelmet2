@@ -15,13 +15,15 @@ import oneStopContentI from './content/capablities/oneStopI';
 import oneStopContentII from './content/capablities/oneStopII';
 import oneStopContentIII from './content/global';
 import helmetData from "./content/helmetData"
-
-
+import brandData from "../src/content/brand"
+import helmetDisplay from "../src/content/helmetDisplay"
 import Product from './pages/Product';
 
 function App() {
 
     const {m02, m10, m12} = helmetData
+
+
     return (
         <>
             <Router>
@@ -36,13 +38,13 @@ function App() {
                         <Product />
                     </Route>
                     <Route exact path="/model-m10">
-                        <Products model={m10} type="M10" />
+                        <Products brand={brandData.m10} model={m10} type="M10" helmetDisplay={helmetDisplay.m10} />
                     </Route>
                     <Route exact path="/model-m12">
-                        <Products model={m12}  type="M12"/>
+                        <Products brand={brandData.m12}  model={m12}  type="M12" helmetDisplay={helmetDisplay.m12}/>
                     </Route>
                     <Route exact path="/model-m02">
-                        <Products model={m02} type="M02" />
+                        <Products brand={brandData.m02}  model={m02} type="M02"  helmetDisplay={helmetDisplay.m02} />
                     </Route>
                     <Route exact path="/capabilities">
                         <Capabilities />
