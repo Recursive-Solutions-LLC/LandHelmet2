@@ -6,8 +6,10 @@ import Helmets from '../components/Helmets';
 import TeamMembers2 from '../components/TeamMembers3'
 import data from "../content/brand"
 import PortfolioOneSlide from '../components/Portfolio1/PortfolioOneSlide';
+import VideoFeatrued from '../components/VideoFeatured';
+import {productTypeIIData} from "../content/ModelsTypeII"
 function Products({ model, type }) {
-
+    console.log(productTypeIIData)
     const { cover, variants } = model
     let dataRender = {};
     switch (type) {
@@ -26,7 +28,8 @@ function Products({ model, type }) {
 
             {/* <PageBanner bannerBg={image} /> */}
             <Faq />
-            <section className="portfolio-section section-padding pt-0">
+            <VideoFeatrued/>
+            <section className="portfolio-section  pt-0">
                 <div className="container">
                     <div className="project-wrapper">
                         <div className="portfolio-carousel-active owl-carousel">
@@ -41,7 +44,7 @@ function Products({ model, type }) {
                                 btnText={dataRender.btnText} /></div></div></div></section>
             <Helmets cover={cover} variants={variants} type={type} />
             <TeamMembers2 type={type} />
-
+       
             <Footer3 />
         </>
     );
