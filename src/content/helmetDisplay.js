@@ -25,14 +25,13 @@ import m12_up from "../assets/img/products/display/m12/up.png"
 
 const helmetDisplay = {
     m02: {
-      title: "M02 Safety Helmet",
+      title: "Technical description",
       mainImage: m02,
       sides: [m02_front, m02_side1, m02_side2, m02_under],
-      detailsTitle: "Technical description",
       details: [
         {
           title: "Material",
-          content: ["Polyethylene Properties", "Polyurethane liners", "Webbing"]
+          content: ["• Polyethylene Properties", "• Polyurethane liners", "• Webbing"]
         },
         {
           title: "Weight",
@@ -49,14 +48,13 @@ const helmetDisplay = {
       ]
     },
     m10: {
-      title: "M10 Type II Safety Helmet",
+      title: "Technical description",
       mainImage: m10,
       sides: [m10_front, m10_side1, m10_side2, m10_up],
-      detailsTitle: "Technical description",
       details: [
         {
           title: "Material",
-          content: ["External: ABS Advanced", "Internal: EPS Foam for superior impact absorption"]
+          content: ["• External: ABS Advanced", "• Internal: EPS Foam for superior impact absorption"]
         },
         {
           title: "Weight",
@@ -79,12 +77,11 @@ const helmetDisplay = {
     m12: {
         mainImage: m12,
         sides: [m12_front, m12_side, m12_under, m12_up],
-      title: "M12 TYPE I Safety Helmet",
-      detailsTitle: "Technical description",
+      title: "Technical description",
       details: [
         {
           title: "Material",
-          content: ["External: ABS Advanced", "Internal: EPS Foam for superior impact absorption"]
+          content: ["• External: ABS Advanced", "• Internal: EPS Foam for superior impact absorption"]
         },
         {
           title: "Weight",
