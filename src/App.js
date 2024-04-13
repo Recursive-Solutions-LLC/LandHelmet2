@@ -19,9 +19,13 @@ import brandData from "../src/content/brand"
 import helmetDisplay from "../src/content/helmetDisplay"
 import Product from './pages/Product';
 
+import m10_bg from './assets/img/products/type-II/typeII_key.png';
+import m12_bg from "./assets/img/products/display/m12/M12.png"
+import m02_bg from "./assets/img/products/display/m02/M02.png"
+
 function App() {
 
-    const {m02, m10, m12} = helmetData
+    const { m02, m10, m12 } = helmetData
 
 
     return (
@@ -38,13 +42,29 @@ function App() {
                         <Product />
                     </Route>
                     <Route exact path="/model-m10">
-                        <Products brand={brandData.m10} model={m10} type="M10" helmetDisplay={helmetDisplay.m10} />
+                        <Products
+                            technologyImage={m10_bg}
+                            brand={
+                                brandData.m10} model={m10}
+                            type="M10"
+                            helmetDisplay={helmetDisplay.m10}
+
+                        />
                     </Route>
                     <Route exact path="/model-m12">
-                        <Products brand={brandData.m12}  model={m12}  type="M12" helmetDisplay={helmetDisplay.m12}/>
+                        <Products
+                            technologyImage={m12_bg}
+                            brand={
+                                brandData.m12} model={m12}
+                            type="M12"
+                            helmetDisplay={helmetDisplay.m12} />
                     </Route>
                     <Route exact path="/model-m02">
-                        <Products brand={brandData.m02}  model={m02} type="M02"  helmetDisplay={helmetDisplay.m02} />
+                        <Products
+                            technologyImage={m02_bg}
+                            brand={brandData.m02} model={m02}
+                            type="M02"
+                            helmetDisplay={helmetDisplay.m02} />
                     </Route>
                     <Route exact path="/capabilities">
                         <Capabilities />

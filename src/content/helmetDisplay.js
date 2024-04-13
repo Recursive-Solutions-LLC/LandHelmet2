@@ -1,6 +1,6 @@
 import m02 from "../assets/img/products/display/m02/M02.png"
-import m02_front from "../assets/img/products/display/m02/front.png"
-import m02_side1 from "../assets/img/products/display/m02/side1.png"
+import m02_up from "../assets/img/products/display/m02/up.png"
+// import m02_side1 from "../assets/img/products/display/m02/side1.png"
 import m02_side2 from "../assets/img/products/display/m02/side2.png"
 import m02_under from "../assets/img/products/display/m02/under.png"
 
@@ -16,8 +16,8 @@ import m10_up from "../assets/img/products/display/m10/up.png"
 
 import m12 from "../assets/img/products/display/m12/M12.png"
 import m12_front from "../assets/img/products/display/m12/front.png"
-import m12_side from "../assets/img/products/display/m12/side.png"
-import m12_under from "../assets/img/products/display/m12/under.png"
+import m12_side1 from "../assets/img/products/display/m12/side1.png"
+import m12_side2 from "../assets/img/products/display/m12/side1.png"
 import m12_up from "../assets/img/products/display/m12/up.png"
 
 
@@ -27,7 +27,7 @@ const helmetDisplay = {
     m02: {
       title: "Technical description",
       mainImage: m02,
-      sides: [m02_front, m02_side1, m02_side2, m02_under],
+      sides: [ m02_side2, m02_under, m02_up],
       details: [
         {
           title: "Material",
@@ -76,7 +76,7 @@ const helmetDisplay = {
     },
     m12: {
         mainImage: m12,
-        sides: [m12_front, m12_side, m12_under, m12_up],
+        sides: [m12_front, m12_side1, m12_side2, m12_up],
       title: "Technical description",
       details: [
         {

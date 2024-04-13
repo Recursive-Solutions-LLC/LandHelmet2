@@ -1,56 +1,47 @@
 import React from 'react';
 
-import bgImg from '../../assets/img/products/type-II/typeII_key.png';
 import FaqAccordion from '../FaqAccordion';
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-function Faq() {
+function Faq({bgImg}) {
     const leftAnimation = useRef();
     const rightAnimation = useRef();
     useEffect(() => {
-        // Asegúrate de registrar ScrollTrigger si aún no lo has hecho.
         gsap.registerPlugin(ScrollTrigger);
     
-        // Animación para el elemento de la izquierda
         gsap.fromTo(
           leftAnimation.current,
-          { x: -100, autoAlpha: 0 }, // Estado inicial
+          { x: -100, autoAlpha: 0 },
           {
-            x: 0, // Estado final
-            autoAlpha: 1, // Aparece gradualmente
+            x: 0, 
+            autoAlpha: 1, 
             duration: 2,
             scrollTrigger: {
-                start: "top bottom", // La animación comienza cuando la parte inferior del viewport toca la parte inferior del trigger
+                start: "top bottom", 
     
-              trigger: leftAnimation.current, // Elemento que dispara la animación
-             // La animación comienza cuando la parte superior del trigger llega al centro de la ventana
-              // Puedes ajustar "start" y "end" según necesites
-              toggleActions: "play none none none", // Define cómo se reproducen o revierten las animaciones
-              // Opciones de toggleActions: play, pause, resume, reset, restart, complete, reverse, none
+              trigger: leftAnimation.current, 
+              toggleActions: "play none none none",
             },
           }
         );
     
-        // Animación para el elemento de la derecha
         gsap.fromTo(
           rightAnimation.current,
-          { x: 100, autoAlpha: 0 }, // Estado inicial
+          { x: 100, autoAlpha: 0 },
           {
-            x: 0, // Estado final
-            autoAlpha: 1, // Aparece gradualmente
+            x: 0, 
+            autoAlpha: 1, 
             duration: 2,
             scrollTrigger: {
-              trigger: rightAnimation.current, // Elemento que dispara la animación
-              start: "top bottom",// La animación comienza cuando la parte superior del trigger llega al centro de la ventana
-              // Ajusta "start" y "end" como sea necesario
-              toggleActions: "play none none none", // Define cómo se reproducen o revierten las animaciones
+              trigger: rightAnimation.current, 
+              start: "top bottom",
+              toggleActions: "play none none none", 
             },
           }
         );
     
-        // Opcional: Limpieza en el efecto para evitar duplicaciones o comportamiento inesperado en re-renderizados
         return () => {
           ScrollTrigger.getAll().forEach(trigger => trigger.kill());
         };

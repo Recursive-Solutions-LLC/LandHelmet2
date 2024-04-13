@@ -9,7 +9,7 @@ import PortfolioOneSlide from '../components/Portfolio1/PortfolioOneSlide';
 import VideoFeatrued from '../components/VideoFeatured';
 import ProductDisplay from '../components/ProductDisplay';
 
-function Products({ model, type, brand, helmetDisplay }) {
+function Products({ model, type, brand, helmetDisplay, technologyImage }) {
 
     const { cover, variants, banner } = model
     const { image, imgLink, link, client, heading, desc, btnText, category } = brand
@@ -26,7 +26,7 @@ function Products({ model, type, brand, helmetDisplay }) {
             <FullBanner banner={banner} />
 
             <ProductDisplay title={title} details={details} mainImage={mainImage} sides={sides} detailsTitle={detailsTitle}  />
-            <Faq />
+            <Faq bgImg={technologyImage}/>
             <VideoFeatrued />
             <section className="portfolio-section  pt-0">
                 <div className="container">
