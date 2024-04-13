@@ -3,7 +3,7 @@ import teamData from './teamData';
 import TeamItem from './TeamItem';
 
 function TeamMembers(selected) {
-    console.log(selected)
+
    const  teamDataValue = [...teamData.filter(value => value.position ===selected.type)];
 
     return (

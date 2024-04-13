@@ -120,7 +120,7 @@ const helmetData = {
     }
     ,
     m12: {
-        covers: {
+        cover: {
             id: uuidv4(),
             img: imgb1,
             heading: 'Green',
