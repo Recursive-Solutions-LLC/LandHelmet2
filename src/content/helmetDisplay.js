@@ -31,7 +31,7 @@ const helmetDisplay = {
       details: [
         {
           title: "Material",
-          content: ["• Polyethylene Properties", "• Polyurethane liners", "• Webbing"]
+          content: ["● Polyethylene Properties", "● Polyurethane liners", "● Webbing"]
         },
         {
           title: "Weight",
@@ -54,7 +54,7 @@ const helmetDisplay = {
       details: [
         {
           title: "Material",
-          content: ["• External: ABS Advanced", "• Internal: EPS Foam for superior impact absorption"]
+          content: ["● External: ABS Advanced", "● Internal: EPS Foam for superior impact absorption"]
         },
         {
           title: "Weight",
@@ -81,7 +81,7 @@ const helmetDisplay = {
       details: [
         {
           title: "Material",
-          content: ["• External: ABS Advanced", "• Internal: EPS Foam for superior impact absorption"]
+          content: ["● External: ABS Advanced", "● Internal: EPS Foam for superior impact absorption"]
         },
         {
           title: "Weight",

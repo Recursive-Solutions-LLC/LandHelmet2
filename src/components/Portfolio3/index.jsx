@@ -68,7 +68,7 @@ function Portfolio3() {
             <div className=" bg-dark pt-5 pb-5">
          
                     <div className="col-lg-12 col-12 text-center ">
-                    <h2 className='collection' >COLLECTION</h2>
+                    <h2 className='collection' >OUR COLLECTION</h2>
              
                 </div>
                 <div className='container'>
