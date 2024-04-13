@@ -6,7 +6,7 @@ function HelmetItem({ helmet, onHover }) {
       <div className="man-img">
         <img src={helmet.img} alt="helmet" />
       </div>
-      <p>{helmet.heading}</p>
+      <h3>{helmet.heading}</h3>
     </div>
   );
 }

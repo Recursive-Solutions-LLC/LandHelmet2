@@ -1,6 +1,4 @@
-import HeroSlider, { Overlay, Slide, Nav, AutoplayButton } from "hero-slider";
-import { BsArrowRight } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
+import HeroSlider, { Overlay, Slide } from "hero-slider";
 import Wrapper from "../UI/Wrapper/Wrapper";
 
 

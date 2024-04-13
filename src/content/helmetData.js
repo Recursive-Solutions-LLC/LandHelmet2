@@ -25,6 +25,11 @@ import imgb6 from '../assets/img/products/model-m12/6.png';
 import imgb7 from '../assets/img/products/model-m12/7.png';
 import imgb8 from '../assets/img/products/model-m12/8.png';
 
+import BannerM10 from '../assets/img/products/hero1.jpg';
+import BannerM12 from '../assets/img/products/hero2.jpg';
+import BannerM02 from '../assets/img/products/banner-m02.png';
+
+
 const helmetData = {
     m02: {
         cover: {
@@ -32,6 +37,9 @@ const helmetData = {
             img: img1,
             heading: 'White',
         },
+
+        banner: BannerM02,
+
         variants: [
             {
                 id: uuidv4(),
@@ -71,6 +79,20 @@ const helmetData = {
         ]
     },
     m10: {
+
+        mainDisplay: {
+            cover: "",
+            sides: [],
+            info: [
+                {
+                    title: "",
+                    content: []
+                }
+            ]
+        },
+        banner: BannerM10,
+
+
         cover: {
             id: uuidv4(),
             img: imga1,
@@ -120,11 +142,13 @@ const helmetData = {
     }
     ,
     m12: {
-        covers: {
+        cover: {
             id: uuidv4(),
             img: imgb1,
             heading: 'Green',
         },
+        banner: BannerM12,
+
         variants: [
             {
                 id: uuidv4(),
