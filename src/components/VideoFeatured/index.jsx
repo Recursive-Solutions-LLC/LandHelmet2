@@ -9,30 +9,23 @@ function VideoFeatrued() {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
-            <ModalVideo
-                channel="youtube"
-                autoplay
-                isOpen={isOpen}
-                videoId="EZ9DrY43wtw"
-                onClose={() => setOpen(false)}
-            />
+         
             <section className="video-featured-wrapper section-padding section-bg">
-                <div className="container-fluid pl-xl-5 pl-50">
+                <div className="container-fluid col-12 pl-50">
                     <div className="row align-items-center">
-                        <div className="col-xl-6 col-12 ">
-                            <div className="section-title-3 pr-xl-0 mr-lg-5">
-                                <p>Core Features</p>
-                                <h1>
-                                    Enjoy unlimited access <br /> to the streaming
-                                </h1>
+                        <div className=" ">
+                            <div className="section-title-3 text-center pr-xl-0 mr-lg-5">
+                            <h1>Applications</h1>
+                            <h3>Our Type II helmet is designed for a broad range of applications, ensuring safety across different sectors</h3>
                             </div>
-
-                            <div className="core-features-list pr-xl-5 pr-50">
+                
+       
+                            <div className="core-features-list col-12 pr-50">
                                 <div className="row">
                                     {videoFeaturedData.map((data) => (
                                         <VideoFeaturedItem
                                             key={data.id}
-                                            icon={data.icon}
+                                            Icon={data.icon}
                                             heading={data.heading}
                                             text={data.text}
                                         />
@@ -41,25 +34,9 @@ function VideoFeatrued() {
                             </div>
                         </div>
 
-                        <div className="col-xl-6 col-12 mt-5 mt-xl-0">
-                            <div className="video-wrapper text-center d-flex justify-content-center align-items-center">
-                                <div className="video-play-btn">
-                                    <button
-                                        type="button"
-                                        className="play-video popup-video"
-                                        onClick={() => setOpen(true)}
-                                    >
-                                        <FaPlay />
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div
-                    className="video_bg d-none d-xl-block bg-cover"
-                    style={{ backgroundImage: `url(${videoBg})` }}
-                />
+             
             </section>
         </>
     );
