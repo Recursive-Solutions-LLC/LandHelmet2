@@ -27,7 +27,7 @@ function Helmets({ cover, variants, type }) {
               <div className="section-title-3">
                 <h1>Colors</h1>
               </div>
-              <div className="row">
+              <div className="row pt-5">
                 {renderVariants}
               </div>
             </div>
