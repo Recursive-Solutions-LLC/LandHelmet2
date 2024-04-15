@@ -60,7 +60,7 @@ function Faq() {
                 <div className="row">
                     <div className="section-title-3 text-center">
                         <p>Global Quality Assurance</p>
-                        <h1>Our Network Spans Continents for Global Reach</h1>
+                        <h1>Product Development & Manufacturing seamlessly Delivered</h1>
                     </div>
                     <div ref={leftAnimation}  className="col-xl-6 col-12 mt-4">
                         <div className="content-block">
@@ -94,20 +94,20 @@ function Faq() {
 
                         <div className="faq-content">
                             <FaqAccordion
-                                question="Uncompromised Quality: Our Assurance to You"
-                                answer="Highlight the rigorous testing and validation process to ensure the highest quality standards"
+                                question="Get Started For Less"
+                                answer="Rather than investing in the equipment, training, and staff to manufacture your product, contract manufacturing organizations have the resources and experience to get you going. You can even take advantage of a contract manufacturing services' scalability and industry connections to keep costs down as production of your product increases."
                             />
                             <FaqAccordion
-                                question="Excellence in Manufacturing: In-House Production"
-                                answer="Discuss the flexibility and efficiency of managing production in-house, from small to large volumes"
+                                question="Enhanced Cost Efficiency"
+                                answer="Our established network empowers us to negotiate better deals with our manufacturing partners. Improved lead times, and access to cutting-edge technology and materials, ultimately providing you with a competitive edge in the market and enhancing your product offerings."
                             />
                             <FaqAccordion
-                                question="Based in the USA: Innovation and Quality Hub"
-                                answer="Our headquarters in the USA are the heart of our innovation and quality, leveraging the nation's advanced infrastructure and skilled workforce. This strategic location enables us to uphold excellence across our operations."
+                                question="Exceed Your Quality Expectations"
+                                answer="Clearly communicating and managing quality and performance levels with your selected contract manufacturer can help alleviate costly issues. Our team is here to take care of ongoing quality management with your outsourced manufacturer."
                             />
                             <FaqAccordion
-                                question="Manufacturing Excellence: Made in China"
-                                answer="Our products are crafted in China, combining rich craftsmanship traditions with cutting-edge technology. This ensures every item meets our high standards of quality and innovation, from fabric to finish."
+                                question="Manufacturing Deployment"
+                                answer="Our goal is to quickly get your product into production so it can produce revenue, or meet your company's business objectives"
                             />
                         </div>
                     </div>
