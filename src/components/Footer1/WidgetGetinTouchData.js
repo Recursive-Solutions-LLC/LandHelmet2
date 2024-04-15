@@ -13,7 +13,7 @@ const WidgetGetinTouchData = [
     {
         id: uuidv4(),
         icon: <AiOutlineMail />,
-        heading: 'Mail Address',
+        heading: 'Email Address',
         text: 'info@landhelmets.com',
     }
 ];

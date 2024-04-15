@@ -30,8 +30,7 @@ function Footer1() {
                     <div className="row">
                         {/* ABOUT WIDGET */}
                         <WidgetAbout
-                            text="Safety, Fashion and comfort combined
-                            for your ultimate head protection."
+                            text="Land Helmets is your ideal partner for top-tier product innovation, development, and manufacturing."
                             fbLink="https://maps.app.goo.gl/RP5YftAwkf4wGeNk6"
                             twitterLink="https://www.linkedin.com/company/landhelmets/"
                             instaLink="https://www.instagram.com/landhelmetsca/"
@@ -39,7 +38,22 @@ function Footer1() {
                         />
 
                         {/* NEWS FEED WIDGET */}
-
+                        <div className="col-md-6 col-xl-3 col-12">
+                            <div className="single-footer-wid newsletter_widget">
+                                <div className="wid-title">
+                                    <h4>Let’s Build The Future Together</h4>
+                                </div>
+                                <div className="newsletter_box">
+                                    <p>
+                                    We’re ready to develop and manufacture industry-first innovations that can change the world. Are you?
+                                    </p>
+                                  <div className='pt-5'>  <Link to="/contact" className="theme-btn theme-2  mb-30 mb-lg-0 white">
+                                Get In Touch <BsArrowRight />
+                            </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid recent_post_widget">
                                 <div className="wid-title">
@@ -51,27 +65,12 @@ function Footer1() {
                             </div>
                         </div>
                         {/* NEWSLETTER WIDGET */}
-                        <div className="col-md-6 col-xl-3 col-12">
-                            <div className="single-footer-wid newsletter_widget">
-                                <div className="wid-title">
-                                    <h4>Contact Us</h4>
-                                </div>
-                                <div className="newsletter_box">
-                                    <p>
-                                    Contact us for the latest updates, news, and inquiries.
-                                    </p>
-                                  <div className='pt-5'>  <Link to="/contact" className="theme-btn theme-2  mb-30 mb-lg-0 white">
-                                Get In Touch <BsArrowRight />
-                            </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
 
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid ml-15 site_info_widget">
                                 <div className="wid-title">
-                                    <h4>Our contact information</h4>
+                                    <h4>Contact our Expert Team</h4>
                                 </div>
                                 <div className="contact-us" />
                                 {WidgetGetinTouchData.map((data) => (

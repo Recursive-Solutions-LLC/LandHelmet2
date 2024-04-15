@@ -55,7 +55,7 @@ function Home3() {
             <Process2 content={contentProps}/>
             <About2 />
             <Cta3 />
-            <section className="section-padding-top">
+            <section className="pt-5">
                 <Cta title={title} />
             </section>
             <Faq />
