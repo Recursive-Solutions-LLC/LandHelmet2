@@ -407,10 +407,12 @@
             }
 
             .meta {
-                span {
+                p {
                     &:last-child {
                         color: $secondary-1;
                         font-weight: 500;
+                        font-size: small;
+                        line-height: normal;
                     }
                 }
             }

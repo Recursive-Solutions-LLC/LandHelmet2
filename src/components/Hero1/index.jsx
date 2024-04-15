@@ -22,7 +22,7 @@ function Hero1({cover}) {
                                     <div className="hero-contents">
                                         <h1>Refinement & Development</h1>
                                         <h2 id="hero-subtitle">Chose our models or create your own</h2>
-                                        <Link to="/services" className="theme-btn">Our Services <BsArrowRight style={{ marginLeft: '10px' }} /></Link>
+                                        <Link to="/capabilities" className="theme-btn">Our Services <BsArrowRight style={{ marginLeft: '10px' }} /></Link>
                                         <Link to="/about" className="theme-btn black">Learn more</Link>
                                     </div>
                                 </div>

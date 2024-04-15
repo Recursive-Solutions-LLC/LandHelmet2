@@ -15,7 +15,7 @@ function PortfolioTwoItem({ text, cost, heading, img }) {
                    {heading}
                 </h2>
                 <div className="meta">
-                    <span>{text}</span> 
+                    <p> <strong>{text}</strong></p> 
                 </div>
             </div>
         </div>

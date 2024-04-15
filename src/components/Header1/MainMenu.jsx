@@ -43,7 +43,7 @@ function MainMenu({ hanldeOffset }) {
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link to="/services">Services</Link>
+                                    <Link to="/capabilities">Services</Link>
                                 </li>
                                 <li>
                                     <Link to="/news">News</Link>

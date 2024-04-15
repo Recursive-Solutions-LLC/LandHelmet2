@@ -13,16 +13,16 @@ function Footer3() {
 
 
     const exploreLinks = [
-        { path: "/services", label: "Services" },
+        { path: "/capabilities", label: "Services" },
         { path: "/about", label: "About us" },
         { path: "/", label: "R&D" },
         { path: "/contact", label: "Contact us" },
     ];
     const serviceLinks = [
-        { path: "/services", label: "Quality Control" },
-        { path: "/services", label: "R&D" },
-        { path: "/services", label: "Global Distributor" },
-        { path: "/services", label: "In House Production" },
+        { path: "/capabilities", label: "Quality Control" },
+        { path: "/capabilities", label: "R&D" },
+        { path: "/capabilities", label: "Global Distributor" },
+        { path: "/capabilities", label: "In House Production" },
     ];
     const productsLinks = [
         { path: "/", label: "Type I" },

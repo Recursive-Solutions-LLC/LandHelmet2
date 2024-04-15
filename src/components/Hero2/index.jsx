@@ -42,7 +42,7 @@ export default function BasicSlider() {
             <div className="hero-contents text-center">
               <p>Feel the Future, Embrace the Experience</p>
               <h1 className="pb-3">Passionately User Focused</h1>
-              <Link to="/services" className="theme-btn theme-3">
+              <Link to="/capabilities" className="theme-btn theme-3">
                 Our Services <BsArrowRight />
               </Link>
               <Link to="/about" className="theme-btn theme-3 pt-3">

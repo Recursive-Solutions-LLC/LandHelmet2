@@ -7,17 +7,17 @@ const servicesThreeData = [
     {
         id: uuidv4(),
         thumbnail: thumb1,
-        heading: 'Craft Unforgettable User Experiences',
-        subHeading: 'by Designing Your Own Helmet', 
-        text: 'Our Team is dedicated to bringing your helmet concepts to life, ensuring they align seamlessly with your brand identity while prioritizing uncompromising safety standards from inception to execution.  Check our R&D Capabilities',
+        heading: 'Build your own exclusive Helmet',
+        subHeading: 'with our in-house design and engineering capabilities', 
+        text: `With decades of experience and know how, your design and engineering costs can be drastically reduced and obsolescence risks are eliminated. Let us design, engineer, and produce your company's products smoothly and timely, meeting your deadline and budget requirements.`
     },
 
     {
         id: uuidv4(),
         thumbnail: thumb2,
         heading: 'Empower your Brand',
-        subHeading: 'with our Personalized Helmets', 
-        text: 'Discover a Diverse Array of Public Molds to Elevate Your Brand: We provide a versatile selection tailored to your needs from Type I to Type II options.With our adaptable OEM solutions, aligning seamlessly with your objectives has never been easier.',
+        subHeading: 'with our Wide Range Public Molds Available', 
+        text: 'We also offer existing up-to-date and stylish open mold (of helmets) if customers are lookingfor a faster way to getting their helmets in production . This eliminates the manufacturingprocess by using open molds we have in stock This method is known as private label and it isan effective option to quickly getting helmets onto shelves and eliminating the cost of manufacturing.',
     }
 ];
 
