@@ -22,7 +22,7 @@ m02:{
   client: '',
   heading: 'ELEVATE YOUR BRAND',
   desc: 'M02 Safety Helmet is available in various colors, with additional colors available for orders meeting a MOQ. We use the most advanced technique and quality ink to ensure your logo pops and will not wear off. ',
-  btnText: 'Download Brochure',
+  btnText: 'Get more information',
 
 },
 m12:{
