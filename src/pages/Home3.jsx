@@ -48,7 +48,7 @@ function Home3() {
             <Header3 />
             <Hero3 />
             <Services3 />
-            <section className="section-padding-top">
+            <section className="section-padding">
                 <Portfolio2 content={portfolioTwoData}/>
             </section>
             <Cta1 />
