@@ -51,7 +51,7 @@ function MainMenu3() {
                         </nav>
                     </div>
                     <div className="col-lg-4 col-xl-3 col-6 col-md-5 text-right  align-items-center">
-                        <Link to="/contact" className="theme-btn theme-3">Contact Us</Link>
+                        <Link to="/contact" className="theme-btn theme-3">Get in touch</Link>
                         <div className="mobile-menu-bar">
                             <MobileMenu />
                         </div>

@@ -64,7 +64,7 @@ function CapabilitiesDetails({ content }) {
 
                             <div className="col-12">
                                 <div className="cta-wrap d-flex justify-content-center justify-content-md-around align-items-center">
-                                    <h3 className="text-white text-center h3y">Safe, Fashion and confort combined for your ultimate head protection</h3>
+                                    <h1 className="text-white text-center h3y">Safe, Fashion and confort combined for your ultimate head protection</h1>
 
                                 </div>
                             </div>
