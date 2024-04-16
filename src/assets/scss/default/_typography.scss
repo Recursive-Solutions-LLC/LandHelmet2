@@ -81,21 +81,52 @@
  }
  
  h1 {
-     @include responsive-font-size(2.5rem); // Base size for h1 on smaller screens
- }
- 
- h2 {
-     @include responsive-font-size(1.5rem); // Base size for h2
- }
- 
- h3 {
-     @include responsive-font-size(1.125rem); // Base size for h3
- }
- 
- h4, h5, h6 {
-     @include responsive-font-size(1rem); // Base size for h4, h5, h6
- }
- 
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -3px;
+
+    @media (max-width: 991px) {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    &.fs-lg {
+        font-size: 80px;
+        line-height: 115%;
+        letter-spacing: -4px;
+
+        @media (min-width: 767px) and (max-width: 991px) {
+            font-size: 42px;
+        }
+    }
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 130%;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+    line-height: 1.88rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+
  p, strong, li {
      font-family: $body-font;
      font-size: $base-font-size;
