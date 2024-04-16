@@ -96,7 +96,13 @@ body {
     color: $primary-color !important;
     margin-top: 10px;
 }
-strongsection-padding-top {
+strong {
+    font-family: $body-font;
+    font-size: $base-font-size;
+    font-weight: 400;
+    line-height: $base-line-height;
+}
+p {
     font-family: $body-font;
     font-size: $base-font-size;
     font-weight: 400;
