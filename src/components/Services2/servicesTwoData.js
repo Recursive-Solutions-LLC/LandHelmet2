@@ -22,7 +22,7 @@ const servicesTwoData = [
   }
   ,
   {
-    link:"services-details-rd",
+    link:"model-m10",
     id: uuidv4(),
     thumbnail: thumb2,
     icon: <FaHardHat />,

@@ -53,8 +53,8 @@ function Portfolio3() {
     const renderCard = <div></div>
     return (
         <section className="portfolio-wrapper cases-carousel-wrapper  ">
-            <div className="container fix-container">
-                <div className="row fix-container-inner">
+            <div className="container ">
+                <div className="row">
                     <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-6">
 
