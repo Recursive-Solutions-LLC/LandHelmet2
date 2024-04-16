@@ -91,6 +91,11 @@
         font-size: 18px;
     }
 
+    p {
+        color: $secondary-1;
+        font-size: 18px;
+    }
+
     h1 {
         color: $second-color;
     }
@@ -240,7 +245,7 @@
     }
 
     p {
-        text-align: center;
+        text-align: left;
         font-weight: 500; 
         color: $secondary-1;
     }
