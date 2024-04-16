@@ -1,120 +1,116 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { useState } from 'react';
-import FormInput from './FormInput';
-import sendMail from '../../pages/api/sendMail/router'
-import parse from 'react-html-parser';
+import React, { useState ,useRef} from 'react';
 
-const baseUrl = "http://localhost:3000";
+import emailjs from 'emailjs-com';
+
 
 function ContactForm({ title, heading }) {
     // STATES
-    const [subject, setSubject] = useState('');
-    const [contactName, setContactName] = useState('');
-    const [contactPhoneNumber, setContactPhoneNumber] = useState('');
-    const [contactEmail, setContactEmail] = useState('');
-    const [contactMessage, setContactMessage] = useState('');
 
-    const sendMail = async () => {
-        const response = await fetch('/api/sendMail/route',{
-          method:'Post',
-          headers:{
-            'content-type':'application/json'
-          },
-          body:JSON.stringify({
-            subject, 
-            contactName, 
-            contactEmail, 
-            contactMessage,
-            contactPhoneNumber
-          })
-        })
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+      
+        emailjs.sendForm(  process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            form.current,
+            process.env.REACT_APP_EMAILJS_USER_ID)
+          .then((result) => {
+              console.log(result.text);
+              alert("Email sent successfully!");
+          }, (error) => {
+              console.log(error.text);
+              alert("Error sending email:", error.message);
+          });
     }
+
+ 
 
     return (
         <section className="contact-form-wrapper section-padding pt-0">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 text-center mb-20">
-                        <span>{title}</span>
-                        <h1>{heading}</h1>
-                    </div>
+        <div className="container">
+            <div className="row">
+                <div className="col-12 text-center mb-20">
+                    <span>{title}</span>
+                    <h1>{heading}</h1>
+                </div>
 
-                    <div className="col-12 col-lg-12">
-                        <div className="contact-form">
-                            <form action="" className="row conact-form" onSubmit={sendMail}>
-                                <div className="col-md-6 col-12">
-                                    <div className="single-personal-info">
-                                        <label>Full Name</label>
-                                        <input
-                                            type="text"
-                                            placeholder="Enter Name"
-                                            id="fullname"
-                                            value={contactName}
-                                            onChange={(e) => setContactName(e.target.value)}
-                                        />
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-12">
-                                    <div className="single-personal-info">
-                                        <label>Email Address</label>
-                                        <input
-                                            type="email"
-                                            placeholder="Enter Email Address"
-                                            id="email"
-                                            value={contactEmail}
-                                            onChange={(e) => setContactEmail(e.target.value)}
-                                        />
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-12">
-                                    <div className="single-personal-info">
-                                        <label>Phone Number</label>
-                                        <input
-                                            type="tel"
-                                            placeholder="Enter Number"
-                                            id="phone"
-                                            value={contactPhoneNumber}
-                                            onChange={(e) => setContactPhoneNumber(e.target.value)}
-                                        />
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-12">
-                                    <div className="single-personal-info">
-                                        <label htmlFor="subject">Subject</label>
-                                        <input
-                                            type="text"
-                                            placeholder="Enter Subject"
-                                            id="subject"
-                                            value={subject}
-                                            onChange={(e) => setSubject(e.target.value)}
-                                        />
-                                    </div>
-                                </div>
-                                <div className="col-md-12 col-12">
-                                    <div className="single-personal-info">
-                                        <label htmlFor="subject">Enter Message</label>
-                                        <textarea
-                                            id="subject"
-                                            placeholder="Enter message"
-                                            value={contactMessage}
-                                            onChange={(e) => setContactMessage(e.target.value)}
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className="col-md-12 col-12 text-center">
+                <div className="col-12 col-lg-12">
+                    <div className="contact-form">
+                        <form ref={form} className="row contact-form" onSubmit={sendEmail}>
+                            <div className="col-md-6 col-12">
+                                <div className="single-personal-info">
+                                    <label>Full Name</label>
                                     <input
-                                        className="submit-btn"
-                                        type="submit"
-                                        value="Contact Us"
+                                        type="text"
+                                        name="user_name"  // This should match the variable expected in your EmailJS template
+                                        placeholder="Enter Name"
+                                        id="fullname"
+                                        required
                                     />
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                            <div className="col-md-6 col-12">
+                                <div className="single-personal-info">
+                                    <label>Email Address</label>
+                                    <input
+                                        type="email"
+                                        name="user_email"  // This should match the variable expected in your EmailJS template
+                                        placeholder="Enter Email Address"
+                                        id="email"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-12">
+                                <div className="single-personal-info">
+                                    <label>Phone Number</label>
+                                    <input
+                                        type="tel"
+                                        name="user_phone"  // Adjusted name to match a typical EmailJS variable name
+                                        placeholder="Enter Number"
+                                        id="phone"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-12">
+                                <div className="single-personal-info">
+                                    <label htmlFor="subject">Subject</label>
+                                    <input
+                                        type="text"
+                                        name="user_subject"  // Adjusted name to match a typical EmailJS variable name
+                                        placeholder="Enter Subject"
+                                        id="subject"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-md-12 col-12">
+                                <div className="single-personal-info">
+                                    <label htmlFor="message">Enter Message</label>
+                                    <textarea
+                                        name="message"  // This should match the variable expected in your EmailJS template
+                                        placeholder="Enter message"
+                                        id="message"
+                                        required
+                                    />
+                                </div>
+                            </div>
+
+                            <div className="col-md-12 col-12 text-center">
+                                <input
+                                    className="submit-btn"
+                                    type="submit"
+                                    value="Contact Us"
+                                />
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     );
 }
 
