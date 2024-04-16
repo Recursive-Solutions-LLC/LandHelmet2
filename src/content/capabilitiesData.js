@@ -4,8 +4,8 @@ const aboutTwoData = {
     img: quote,
     heading: 'Land Helmets: Where Quality Leads the Way',
     quote: ' Our commitment to quality and innovation is unparalleled, ensuring that each helmet meets rigorous safety standards and exceeds customer expectations.',
-    author: 'Land Helmets Team',
-    position: '- Founder',
+    author: '',
+    position: '- Land Helmets Team',
     text: 'We have established ourselves as a prominent producer of helmets, catering to wholesalers, branded helmet companies, and manufacturers worldwide.',
 };
 
