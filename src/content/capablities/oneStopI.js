@@ -9,16 +9,17 @@ import bannerImg1 from "../../assets/img/capabilities/QualityControl/Carousel/mi
 import bannerImg2 from "../../assets/img/capabilities/QualityControl/Carousel/quality-control-inspector-and-young-workers-commun-2023-11-27-05-09-33-utc-min.jpg";
 import bannerImg3 from "../../assets/img/capabilities/QualityControl/Carousel/technician-working-in-factory-and-doing-quality-co-2023-11-27-05-37-01-utc-min.jpg";
 
-import cover from "../../assets/img/capabilities/OneStop/cover.jpg";
-
 import featured1 from "../../assets/img/capabilities/OneStop/featured1.png"
 import featured2 from "../../assets/img/capabilities/OneStop/featured2.png"
 import featured3 from "../../assets/img/capabilities/OneStop/featured3.png"
+import featured0 from "../../assets/img/capabilities/OneStop/featured0.jpg"
+
+
 import banner1 from "../../assets/img/capabilities/OneStop/banner1.png"
 
 const oneStopContentI = {
     title: "One stop Manufacturing",
-    Image: cover,
+    Image: featured0,
     featured1: [
         {
             id: uuidv4(),
