@@ -25,7 +25,7 @@ import m12_up from "../assets/img/products/display/m12/up.png"
 
 const helmetDisplay = {
     m02: {
-      title: "Technical description",
+      title: "Technical Description",
       mainImage: m02,
       sides: [ m02_side2, m02_under, m02_up],
       details: [
@@ -48,7 +48,7 @@ const helmetDisplay = {
       ]
     },
     m10: {
-      title: "Technical description",
+      title: "Technical Description",
       mainImage: m10,
       sides: [m10_front, m10_side1, m10_side2, m10_up],
       details: [
@@ -77,7 +77,7 @@ const helmetDisplay = {
     m12: {
         mainImage: m12,
         sides: [m12_front, m12_side1, m12_side2, m12_up],
-      title: "Technical description",
+      title: "Technical Description",
       details: [
         {
           title: "Material",
