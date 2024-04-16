@@ -26,7 +26,7 @@ function Products({ model, type, brand, helmetDisplay, technologyImage }) {
             <FullBanner banner={banner} />
 
             <ProductDisplay title={title} details={details} mainImage={mainImage} sides={sides} detailsTitle={detailsTitle}  />
-            <Faq bgImg={technologyImage}/>
+            <Faq type={type} bgImg={technologyImage}/>
             <VideoFeatrued />
             <section className="portfolio-section  pt-0">
                 <div className="container">
