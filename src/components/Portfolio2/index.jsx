@@ -5,6 +5,11 @@ import PortfolioTwoItem from './PortfolioTwoItem';
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
+import 'swiper/swiper-bundle.min.css';
+// Install Swiper modules
+SwiperCore.use([Autoplay, Pagination, Navigation]);
+
 function Portfolio2({content}) {
     const leftAnimation = useRef();
 
@@ -57,6 +62,12 @@ function Portfolio2({content}) {
             <Swiper ref={leftAnimation} 
                 spaceBetween={20}
                 autoplay
+        
+               
+                pagination={{ clickable: true }}
+              
+             
+              
                 className="portfolio-carousel-wrapper owl-carousel mx-20"
                 breakpoints={{
                     0: {
