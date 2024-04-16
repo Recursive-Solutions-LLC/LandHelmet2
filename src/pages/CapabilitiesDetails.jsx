@@ -35,7 +35,7 @@ function CapabilitiesDetails({ content }) {
             />
             <section className="">
                 <div className="container">
-                    <Banner2 title={titleBanner} subtitle={subtitleBanner} />
+                    <Banner2 isReversed={true} title={titleBanner} subtitle={subtitleBanner} />
                     {renderFeatrued1}
 
 
