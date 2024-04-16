@@ -59,13 +59,13 @@ function Portfolio3() {
                         <div className="section-title-6">
 
                             <h1>Elevate your Safety Standards</h1>
-                            <p>Experience piece of mind and comfort with our cutting-edge safety helmets. Crafted to meet the latest ANSI and EN standards, they offer unparalleled comfort through easy adjustments and superior breathability, ensuring all-day wear without compromise.</p>
+                            <p className='pt-5'>Experience piece of mind and comfort with our cutting-edge safety helmets. Crafted to meet the latest ANSI and EN standards, they offer unparalleled comfort through easy adjustments and superior breathability, ensuring all-day wear without compromise.</p>
                         </div>
                     </div>
                 </div>
             </div>
          
-            <div className=" bg-dark pt-5 pb-5">
+            <div className=" bg-dark pt-5 pb-10b">
          
                     <div className="col-lg-12 col-12 text-center ">
                     <h2 className='collection' >OUR COLLECTION</h2>
