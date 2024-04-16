@@ -20,8 +20,8 @@ function PageBanner2({ bannerBg }) {
                     <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-5 text-center center-content">
 
-                            <h1>EMPOWER YOUR BRAND</h1>
-                            <h2>Personalized Safety Helmets Capabilities where safety meets style and branding excellence, tailored specifically for your business needs!</h2>
+                            <h1 className='pb-0'>Empower Your Brand</h1>
+                            <p className='pt-0 pb-4'>Personalized Safety Helmets Capabilities where safety meets style and branding excellence, tailored specifically for your business needs!</p>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ function PageBanner2({ bannerBg }) {
                 <div className="row">
                     <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-2  text-center center-content">
-                            <h1 className='pt-5'>YOUR LOGO, OUR HELMET - A PERFECT MATCH!</h1>
+                            <h1 className='pt-5'>Your Logo, Our Helmet - A Perfect Match!</h1>
                             <div className='container '>
                                 <div className='row box-padding '>
 
@@ -43,7 +43,7 @@ function PageBanner2({ bannerBg }) {
                                     <div className='col-4'><img src={img3} alt='img1' /></div>
                                    
                                 </div>
-                                <h2 className=''>Land Helmets exclusively offers the option to add your logo. We do not engage in co-branding. </h2>
+                                <p className=''>Land Helmets exclusively offers the option to add your logo. We do not engage in co-branding. </p>
 
                             </div>
                         </div>

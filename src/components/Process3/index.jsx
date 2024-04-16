@@ -54,10 +54,10 @@ function Process2({ type }) {
       heading: "We'll guide you from concept to a tangible manifestation of your product. Whether you require a mechanical mockup for functional testing or investor presentations, an appearance model to visualize the look and feel of your product precisely, or a rapid 3D print to grasp its real-world scale",
       bullets: [
         " Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin.",
-        " Universal accessory slot allows use of existing universal accessories",
-        " Size: Universal adjustable",
+        " Universal accessory slot allows use of existing universal accessories.",
+        " Size: Universal adjustable.",
         " 10-year lifespan for enduring protection.",
-        " Customization Available: Add your Branded Logo",
+        " Customization Available: Add your Branded Logo.",
         " Advanced Energy Absorption: Features EPS foam for superior impact absorption."
       ],
       text: "",

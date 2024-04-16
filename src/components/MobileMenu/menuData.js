@@ -8,7 +8,7 @@ const menuData = [
     },
 
     {
-        title: 'About',
+        title: 'About us',
         path: '/about',
     },
 

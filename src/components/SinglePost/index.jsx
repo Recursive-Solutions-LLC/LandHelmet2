@@ -10,7 +10,7 @@ function Blog1() {
                     <div className="col-12 col-lg-12">
                         <div className="section-title-3 text-center">
                       
-                            <h1>PANTONE COLOR MATCHING</h1>
+                            <h1>Pantone Color Matching</h1>
                         </div>
                     </div>
                 </div>
@@ -27,9 +27,9 @@ function Blog1() {
                     <div className="post-content text-center">
                       
                        
-                        <h3>
+                        <p>
                         Pantone colors are a part of a Color Matching System, or CMS, which is a method used to ensure that colors remain as consistent as possible, regardless of the device/medium displaying the color. Land Helmets offers a number of Pantone stock colors for each imprinting method, selected by which were most commonly ordered. You can select the closest stock color to your customers colors for no additional fee.
-                        </h3>
+                        </p>
                     </div>
                 </div>
             </div>

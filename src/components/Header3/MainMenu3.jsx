@@ -5,7 +5,7 @@ import MobileMenu from '../MobileMenu';
 
 const menuItems = [
     { to: '/', label: 'Home' },
-    { to: '/about', label: 'About' },
+    { to: '/about', label: 'About us' },
     {
         to: '/products', label: 'Product', subMenu: [
             { to: '/model-m10', label: 'Safety Helmet M10' },

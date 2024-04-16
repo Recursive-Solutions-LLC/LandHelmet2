@@ -59,56 +59,58 @@ $body-font: "Open Sans", sans-serif;
 
 //font-family: "Font Awesome 5 Pro";
 $fa: "Font Awesome 5 Pro";
+$base-font-size: 16px; // base font size for the body
+$base-line-height: 28px; // base line height for the body
+$base-color: #777;
+$background-color: #fff;
+$primary-color: $primary-1; // Assume $primary-1 is defined elsewhere
+$heading-font: $heading-font; // Assume $heading-font is defined elsewhere
+
+// Mixin for responsive font sizes
+@mixin responsive-font-size($size, $line-height: 120%, $letter-spacing: normal) {
+    font-size: $size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+
+    @media (min-width: 1920px) {
+        font-size: $size * 1.2;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: $size * 1.4;
+    }
+}
 
 body {
-
     font-family: $body-font;
-    font-size: 16px;
+    font-size: $base-font-size;
     font-weight: 400;
-    line-height: 28px;
-    color: #777;
-    background-color: #fff;
-
+    line-height: $base-line-height;
+    color: $base-color;
+    background-color: $background-color;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
 #hero-subtitle {
-    color: $primary-1 !important;
+    color: $primary-color !important;
     margin-top: 10px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-
-    margin: 0px;
-
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
     color: #000;
     font-family: $heading-font;
     font-optical-sizing: auto;
-
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
 
 h1 {
-    font-size: 60px;
-    line-height: 70px;
-    letter-spacing: -3px;
-
-    @media (max-width: 991px) {
-        font-size: 2.25rem;
-        line-height: 3rem;
-    }
+    @include responsive-font-size(60px, 70px, -3px);
 
     &.fs-lg {
-        font-size: 80px;
-        line-height: 115%;
-        letter-spacing: -4px;
+        @include responsive-font-size(80px, 115%, -4px);
 
         @media (min-width: 767px) and (max-width: 991px) {
             font-size: 42px;
@@ -117,30 +119,24 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    line-height: 130%;
+    @include responsive-font-size(36px, 130%);
 }
 
 h3 {
-    font-size: 18px;
-    line-height: 36px;
+    @include responsive-font-size(18px, 36px);
 }
 
 h4 {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    @include responsive-font-size(1.25rem, 1.875rem);
 }
 
 h5 {
-    font-size: 1.125rem;
-    line-height: 1.88rem;
+    @include responsive-font-size(1.125rem, 1.88rem);
 }
 
 h6 {
-    font-size: 0.875rem;
-    line-height: 1.5rem;
+    @include responsive-font-size(0.875rem, 1.5rem);
 }
-
 a {
     text-decoration: none;
     font-weight: 400;
@@ -156,3 +152,17 @@ p {
     color: #000;
     margin: 0px;
 }
+
+
+
+
+  @media (min-width: 1920px) {
+    h1 {
+      font-size: 72px; // Increased size for larger screens
+    }
+  
+    p {
+      font-size: 20px; // Increased size for larger screens
+    }
+  }
+  

@@ -33,9 +33,9 @@ function Home3() {
           bullets: [
             "Deluxe replaceable Eco-leather chinstrap, nylon, washable chinstrap which is extremely comfortable and helps avoid irritation in the skin.",
             "Universal accessory slot allows use of existing universal accessories",
-            "Size: Universal adjustable",
+            "Size: Universal adjustable.",
             "10-year lifespan for enduring protection.",
-            "Customization Available: Add your Branded Logo",
+            "Customization Available: Add your Branded Logo.",
             "Advanced Energy Absorption: Features EPS foam for superior impact absorption."
           ],
           text: "",

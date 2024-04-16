@@ -87,7 +87,8 @@
     }
 
     p {
-        color: $theme-color-2;
+        color: $secondary-1;
+        font-size: 18px;
     }
 
     h1 {
@@ -157,11 +158,11 @@
     }
 }
 .section-title-5 {
+    background: #001248;
     p {
  
         padding: 12px 20px;
         line-height: 1;
-        background: #001248;
         color: white;
         text-transform: capitalize;
 
@@ -172,12 +173,11 @@
 
     h1 {
         color: #fff;
-        background: #001248;
+
         padding: 10px;
     }
     h2 {
         color: #fff;
-        background: #001248;
         padding: 10px;
     }
     
@@ -240,9 +240,9 @@
     }
 
     p {
-        text-align: left;
+        text-align: center;
         font-weight: 500; 
-        color: #000;
+        color: $secondary-1;
     }
     .collection{
         font-weight: 100; 
