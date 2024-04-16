@@ -22,9 +22,9 @@ function PortfolioOneSlide({ image, category, link, client, title, desc, btnText
                         </div>
                         <h2>{title}</h2>
                         <p>{desc}</p>
-                        {btnText && (<Link to={link} className="read-btn theme-btn">
+                        {btnText && (<a href={link} className="read-btn theme-btn">
                             {btnText}
-                        </Link>)}
+                        </a>)}
                     </div>
                     <div className="project-thumbnail col-lg-5 offset-lg-1 p-lg-0 order-1 order-lg-2 col-12 " >
                         <div

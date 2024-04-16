@@ -30,21 +30,22 @@ function PageBanner2({ bannerBg }) {
                 <div className="row">
                     <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-2  text-center center-content">
-                        <h1 className='pt-5'><strong>YOUR LOGO, OUR HELMET - A PERFECT MATCH!</strong></h1>
-                        <div className='container'>
-                            <div className='row  '>
+                            <h1 className='pt-5'>YOUR LOGO, OUR HELMET - A PERFECT MATCH!</h1>
+                            <div className='container '>
+                                <div className='row box-padding '>
 
-                  
-                                <div className='col-4'>
-                                    <img src={img1} alt='img1' />
+
+                                    <div className='col-4'>
+                                        <img src={img1} alt='img1' />
+                                    </div>
+
+                                    <div className='col-4'> <img src={img2} alt='img1' /></div>
+                                    <div className='col-4'><img src={img3} alt='img1' /></div>
+                                   
                                 </div>
+                                <h2 className=''>Land Helmets exclusively offers the option to add your logo. We do not engage in co-branding. </h2>
 
-                                <div className='col-4'> <img src={img2} alt='img1' /></div>
-                                <div className='col-4'><img src={img3} alt='img1' /></div>
-                                <h2 className=''><strong>Land Helmets </strong>exclusively offers the option to add your logo. We do not engage in co-branding. </h2>
-                       
-                                    </div>
-                                    </div>
+                            </div>
                         </div>
 
 
