@@ -54,7 +54,7 @@ function Portfolio3() {
     return (
         <section className="portfolio-wrapper cases-carousel-wrapper  ">
             <div className="container fix-container">
-                <div className="row fix-contianer-inner">
+                <div className="row fix-container-inner">
                     <div className="col-lg-12 col-12 text-center">
                         <div className="section-title-6">
 

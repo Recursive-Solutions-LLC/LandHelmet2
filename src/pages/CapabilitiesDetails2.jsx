@@ -48,10 +48,6 @@ function CapabilitiesDetails2({ content, contentII, contentIII }) {
                 heading={title}
                 currentPage="Our Capabilities"
             />
-
-            <div className="container">
-                <AboutFeatured aboutContent={aboutContent} />
-            </div>
             {renderFeatrued1}
             <section className="section-padding container">
                 <div className=" mx-5">
