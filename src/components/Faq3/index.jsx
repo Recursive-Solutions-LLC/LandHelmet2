@@ -73,13 +73,17 @@ function Faq({bgImg, type}) {
                                 question="Detachable Patent Adjustment in the features"
                                 answer="Ultra lightweight shell made with ABS material provides superior protection"
                             />
-                            {type !=='M10' &&  < FaqAccordion isExpanded={true}
+                            {type ==='M12' &&  < FaqAccordion isExpanded={true}
                                 question="Unmatched Safety Standards"
                                 answer="Our type I helmets are ANSI Z89.1-2014 (R2019) certified, ensuring they meet the highest safety requirements for impact protection in the industry. Designed to safeguard against top impacts, these helmets are essential where vertical protection is critical"
                             />}
                                {type ==='M10' &&  < FaqAccordion isExpanded={true}
                                 question="Unmatched Safety Standards"
                                 answer="Our safety helmet type II ANSI/CSA Z89.1 meets highest safety requirements for impact protection in the industry. Designed to safeguard against top impacts, these helmets are essential where vertical protection is critical"
+                            />}
+                             {type ==='M02' &&  < FaqAccordion isExpanded={true}
+                                question="Unmatched Safety Standards"
+                                answer="Our climbing M02 helmet meets highest safety standard EN 397, EN 12492, ensuring they meet the highest safety requirements for impact protection in the industry. Designed to safeguard against top impacts, these helmets are essential where vertical protection is critical"
                             />}
                           
                             <FaqAccordion
