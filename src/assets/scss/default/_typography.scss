@@ -1,140 +1,127 @@
 /* --------------------------------------------
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-@font-face {
-    font-family: 'Sofia Pro Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Sofia Pro Regular'), url('../../fonts/Sofia Pro Regular Az.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Sofia Pro ExtraLight';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Sofia Pro ExtraLight'), url('../../fonts/Sofia Pro ExtraLight Az.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Sofia Pro Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Sofia Pro Light'), url('../../fonts/Sofia Pro Light Az.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Sofia Pro Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Sofia Pro Medium'), url('../../fonts/Sofia Pro Medium Az.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Sofia Pro SemiBold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Sofia Pro SemiBold'), url('../../fonts/Sofia Pro Semi Bold Az.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Sofia Pro Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Sofia Pro Bold'), url('../../fonts/Sofia Pro Bold Az.woff') format('woff');
-}
-
-$heading-font: "Sofia Pro SemiBold";
-$body-font: "Open Sans", sans-serif;
-$fa: "Font Awesome 5 Pro";
-$base-font-size: 16px;
-$base-line-height: 28px;
-$base-color: #777;
-$background-color: #fff;
-$primary-color: $primary-1;
-
-// Mixin for responsive font sizes
-@mixin responsive-font-size($size, $line-height: 120%, $letter-spacing: normal) {
-    font-size: $size;
-    line-height: $line-height;
-    letter-spacing: $letter-spacing;
-
-    @media (min-width: 1920px) {
-        font-size: $size * 1.02;
-    }
-
-    @media (min-width: 2560px) {
-        font-size: $size * 1.14;
-    }
-}
-
-body {
-    font-family: $body-font;
-    font-size: $base-font-size;
-    font-weight: 400;
-    line-height: $base-line-height;
-    color: $base-color;
-    background-color: $background-color;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    color: #000;
-    font-family: $heading-font;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-h1 {
-    @include responsive-font-size(60px, 70px, -3px);
-}
-
-h2 {
-    @include responsive-font-size(36px, 130%);
-}
-
-h3 {
-    @include responsive-font-size(18px, 36px);
-}
-
-h4,
-h5,
-h6 {
-    @include responsive-font-size(1.25rem, 1.875rem);
-}
-
-p,
-strong,
-li {
-    font-family: $body-font;
-    font-size: $base-font-size;
-    font-weight: 400;
-    line-height: $base-line-height;
-    color: #000;
-    margin: 0px;
-
-    a {
-        text-decoration: none;
-
-    }
-}
-
-@media (min-width: 1920px) {
-    h1 {
-        font-size: 61.2px;
-    }
-
-    p,
-    strong,
-    li {
-        font-size: 17px;
-    }
-}
+ @font-face {
+     font-family: 'Sofia Pro Regular';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Sofia Pro Regular'), url('../../fonts/Sofia Pro Regular Az.woff') format('woff');
+ }
+ 
+ @font-face {
+     font-family: 'Sofia Pro ExtraLight';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Sofia Pro ExtraLight'), url('../../fonts/Sofia Pro ExtraLight Az.woff') format('woff');
+ }
+ 
+ @font-face {
+     font-family: 'Sofia Pro Light';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Sofia Pro Light'), url('../../fonts/Sofia Pro Light Az.woff') format('woff');
+ }
+ 
+ @font-face {
+     font-family: 'Sofia Pro Medium';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Sofia Pro Medium'), url('../../fonts/Sofia Pro Medium Az.woff') format('woff');
+ }
+ 
+ @font-face {
+     font-family: 'Sofia Pro SemiBold';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Sofia Pro SemiBold'), url('../../fonts/Sofia Pro Semi Bold Az.woff') format('woff');
+ }
+ 
+ @font-face {
+     font-family: 'Sofia Pro Bold';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Sofia Pro Bold'), url('../../fonts/Sofia Pro Bold Az.woff') format('woff');
+ }
+ 
+ $heading-font: "Sofia Pro SemiBold";
+ $body-font: "Open Sans", sans-serif;
+ $fa: "Font Awesome 5 Pro";
+ $base-font-size: 16px; // Base font size for smaller screens
+ $base-line-height: 1.75; // Base line height for the body
+ $base-color: #777;
+ $background-color: #fff;
+ $primary-color: $primary-1;
+ 
+ // Mixin for responsive font sizes
+ @mixin responsive-font-size($size, $line-height: 120%, $letter-spacing: normal) {
+     font-size: $size;
+     line-height: $line-height;
+     letter-spacing: $letter-spacing;
+ }
+ 
+ body {
+     font-family: $body-font;
+     font-size: $base-font-size;
+     font-weight: 400;
+     line-height: $base-line-height;
+     color: $base-color;
+     background-color: $background-color;
+     font-optical-sizing: auto;
+     font-style: normal;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+     color: #000;
+     font-family: $heading-font;
+     font-optical-sizing: auto;
+     font-style: normal;
+ }
+ 
+ h1 {
+     @include responsive-font-size(2.5rem); // Base size for h1 on smaller screens
+ }
+ 
+ h2 {
+     @include responsive-font-size(1.5rem); // Base size for h2
+ }
+ 
+ h3 {
+     @include responsive-font-size(1.125rem); // Base size for h3
+ }
+ 
+ h4, h5, h6 {
+     @include responsive-font-size(1rem); // Base size for h4, h5, h6
+ }
+ 
+ p, strong, li {
+     font-family: $body-font;
+     font-size: $base-font-size;
+     font-weight: 400;
+     line-height: $base-line-height;
+     color: #000;
+     margin: 0px;
+ }
+ 
+ @media (min-width: 768px) {
+     h1 {
+         font-size: 3rem; // Adjusted size for medium screens
+     }
+ 
+     p, strong, li {
+         font-size: 18px; // Adjusted size for medium screens
+     }
+ }
+ 
+ @media (min-width: 1920px) {
+     h1 {
+         font-size: 72px; // Increased size for larger screens
+     }
+ 
+     p, strong, li {
+         font-size: 20px; // Increased size for larger screens
+     }
+ }
+ 

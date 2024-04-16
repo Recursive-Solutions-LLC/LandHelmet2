@@ -7,39 +7,30 @@ import { useRef, useEffect } from "react";
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
-// Install Swiper modules
+
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 function Portfolio2({content}) {
     const leftAnimation = useRef();
 
     useEffect(() => {
-        // Asegúrate de registrar ScrollTrigger si aún no lo has hecho.
         gsap.registerPlugin(ScrollTrigger);
     
-        // Animación para el elemento de la izquierda
         gsap.fromTo(
           leftAnimation.current,
-          { x: -100, autoAlpha: 0 }, // Estado inicial
+          { x: -100, autoAlpha: 0 },
           {
-            x: 0, // Estado final
-            autoAlpha: 1, // Aparece gradualmente
+            x: 0, 
+            autoAlpha: 1, 
             duration: 2,
             scrollTrigger: {
-                start: "top bottom", // La animación comienza cuando la parte inferior del viewport toca la parte inferior del trigger
-    
-              trigger: leftAnimation.current, // Elemento que dispara la animación
-             // La animación comienza cuando la parte superior del trigger llega al centro de la ventana
-              // Puedes ajustar "start" y "end" según necesites
-              toggleActions: "play none none none", // Define cómo se reproducen o revierten las animaciones
-              // Opciones de toggleActions: play, pause, resume, reset, restart, complete, reverse, none
+                start: "top bottom", 
+              trigger: leftAnimation.current, 
+              toggleActions: "play none none none", 
             },
           }
         );
     
-   
-    
-        // Opcional: Limpieza en el efecto para evitar duplicaciones o comportamiento inesperado en re-renderizados
         return () => {
           ScrollTrigger.getAll().forEach(trigger => trigger.kill());
         };
@@ -62,12 +53,7 @@ function Portfolio2({content}) {
             <Swiper ref={leftAnimation} 
                 spaceBetween={20}
                 autoplay
-        
-               
                 pagination={{ clickable: true }}
-              
-             
-              
                 className="portfolio-carousel-wrapper owl-carousel mx-20"
                 breakpoints={{
                     0: {
