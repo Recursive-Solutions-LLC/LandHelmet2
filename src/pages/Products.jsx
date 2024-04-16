@@ -12,12 +12,11 @@ import ProductDisplay from '../components/ProductDisplay';
 function Products({ model, type, brand, helmetDisplay, technologyImage }) {
 
     const { cover, variants, banner } = model
+    
     const { image, imgLink, link, client, heading, desc, btnText, category } = brand
 
 
     const { title, details, mainImage, sides, detailsTitle } = helmetDisplay
-
-    console.log('%csrc/pages/Products.jsx:20 helmetDisplay', 'color: white; background-color: #007acc;', helmetDisplay);
 
     return (
         <>
@@ -47,7 +46,6 @@ function Products({ model, type, brand, helmetDisplay, technologyImage }) {
             </section>
             <Helmets cover={cover} variants={variants} type={type} />
             <TeamMembers2 type={type} />
-
             <Footer3 />
         </>
     );

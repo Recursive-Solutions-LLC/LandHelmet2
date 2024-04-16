@@ -10,7 +10,7 @@ import Cta1 from "../components/Cta"
 import Banner from "../components/Banner"
 function Capabilities() {
 
-    const {title, subtitle, image, featured} = capabilitiesContent.section1;
+    const {title, subtitle, texts, image, featured} = capabilitiesContent.section1;
 
     return (
         <>
@@ -18,7 +18,7 @@ function Capabilities() {
             <PageBanner bannerBg={bannerBg} currentPage="Capabilities" heading="What We Do" />
 
             <section className="section-padding-top">
-                    <Banner title={title} subtitle={subtitle} image={image} />
+                    <Banner title={title} texts={texts} subtitle={subtitle} image={image} />
             </section>
             <ProjectFilter2 items={featured} />
             <Cta1 />

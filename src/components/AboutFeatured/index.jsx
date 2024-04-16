@@ -11,7 +11,7 @@ function AboutFeatured({ aboutContent }) {
     const renderBulletsContainer =isBullets && <Bullets bullets={bullets}/>
 
 
-const renderTexts = texts.map ((text)=>{
+const renderTexts = texts &&  texts.map ((text)=>{
     return(   <p className="block-contents-text"> {text}</p>)
 })
 
@@ -30,8 +30,8 @@ const renderTexts = texts.map ((text)=>{
                     {/* Adjust the order of this column based on 'right' */}
                     <div className={`col-xl-6 col-lg-6 col-12 mt-5 mt-lg-0 ${textColumnClass}`}>
                         <div className="block-contents ml-lg-5">
-                           <h1>{title}</h1>
-                            <span>{subtitle}</span>
+                           {title && <h1>{title}</h1>}
+                            {subtitle && <span>{subtitle}</span>}
                      
                             {renderTexts}
                             {renderBulletsContainer}

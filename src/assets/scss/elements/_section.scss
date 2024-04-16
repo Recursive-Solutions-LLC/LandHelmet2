@@ -240,7 +240,8 @@
     }
 
     p {
-        font-weight: 600; 
+        text-align: left;
+        font-weight: 500; 
         color: #000;
     }
     .collection{
@@ -248,7 +249,7 @@
     }
 
     h1 {
-        color:  #80BB2A;
+        color:  $secondary-2;
     }
 }
 // Section Padding - Change with your need.

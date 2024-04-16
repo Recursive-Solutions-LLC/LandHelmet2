@@ -76,20 +76,15 @@ const helmetData = {
                 img: img5,
                 heading: 'Green',
             },
+             {
+                id: uuidv4(),
+                img: img1,
+                heading: 'White',
+            }
         ]
     },
     m10: {
 
-        mainDisplay: {
-            cover: "",
-            sides: [],
-            info: [
-                {
-                    title: "",
-                    content: []
-                }
-            ]
-        },
         banner: BannerM10,
 
 
@@ -136,7 +131,7 @@ const helmetData = {
             }, {
                 id: uuidv4(),
                 img: imga1,
-                heading: 'AU-M10',
+                heading: 'Orange',
             },
         ]
     }
@@ -144,12 +139,17 @@ const helmetData = {
     m12: {
         cover: {
             id: uuidv4(),
-            img: imgb1,
-            heading: 'Green',
+            img: imgb5,
+            heading: 'White',
         },
         banner: BannerM12,
 
         variants: [
+            {
+                id: uuidv4(),
+                img: imgb1,
+                heading: 'Green',
+            },
             {
                 id: uuidv4(),
                 img: imgb2,
