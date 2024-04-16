@@ -58,9 +58,9 @@ function Faq() {
         <section className="faq-section section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="section-title-3 text-center">
+                    <div className="section-title-3 text-center mb-5">
                         <p>Global Quality Assurance</p>
-                        <h1>Product Development & Manufacturing seamlessly Delivered</h1>
+                        <h1>Product Development & Manufacturing seamlessly Delivered</h1> 
                     </div>
                     <div ref={leftAnimation}  className="col-xl-6 col-12 mt-4">
                         <div className="content-block">

@@ -32,7 +32,7 @@ function ServicesThreeCard({ thumb, heading, text }) {
                                         <a href="#" className="popup-gallery bg-cover" style={{ backgroundImage: `url(${thumb})` }}>{null}</a>
                                     </div>
                                     <div className="project-details col-lg-4 offset-lg-1 pl-lg-0 order-2 order-lg-1 col-12">
-                                        <h2>{heading}</h2>
+                                        <h1>{heading}</h1>
                                         <p>{text}</p>
                                     </div>
                                 </div>

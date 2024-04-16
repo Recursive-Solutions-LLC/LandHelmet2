@@ -47,8 +47,8 @@ const about3 = {
     right: false,
     title: "About Us",
     texts: [' With over 28 years of crafting premium safety helmets and sports, our leadership in manufacturing and product development has established us as one of the most recognized helmet brands in today’s global market. We have consistently delivered industry-leading product innovations that drive growth for both new and established businesses.',
-            'Our approach goes beyond technical problem-solving and manufacturing services. We take a holistic approach to product development, ensuring you address the right challenges in the right market for the right customer with the right product. Let us elevate your business with our comprehensive expertise.'
-]
+        'Our approach goes beyond technical problem-solving and manufacturing services. We take a holistic approach to product development, ensuring you address the right challenges in the right market for the right customer with the right product. Let us elevate your business with our comprehensive expertise.'
+    ]
 }
 
 
@@ -72,7 +72,17 @@ function About() {
             <Header3 />
 
             <PageBanner bannerBg={CoverAbout} currentPage="About Us" heading="About Us" />
-            <section className='section-padding'>
+
+            <div class="container section-padding-top">
+                <div class="row">
+                    <div class="col-lg-12 col-12 text-center">
+                        <div class="section-title-6">
+                            <h1>We are dedicated to transforming ideas into products and experiences</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section className='section-padding-bottom'>
                 <AboutFeatured aboutContent={about1} />
                 <AboutFeatured aboutContent={about2} />
                 <AboutFeatured aboutContent={about3} />
