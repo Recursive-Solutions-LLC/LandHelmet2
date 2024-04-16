@@ -50,7 +50,7 @@ function CapabilitiesDetails({ content }) {
 
                 </div>
                 <div className='pt-5'>
-                    <Timeline />
+                    {/* <Timeline /> */}
                     <Text />
                 </div>
 

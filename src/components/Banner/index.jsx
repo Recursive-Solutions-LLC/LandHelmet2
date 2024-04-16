@@ -7,7 +7,7 @@ function Banner({ title, subtitle, texts, image }) {
   );
 
   const renderSubtitle = subtitle &&<h4>{subtitle}</h4>
-  const renderTexts = texts && texts.map((text)=><p className='mt-2' key={uuidv4()}>{text}</p>)
+  const renderTexts = texts && texts.map((text)=><p className='mt-4' key={uuidv4()}>{text}</p>)
   return (
     <div className="container">
       <div className="row align-items-center justify-content-center">

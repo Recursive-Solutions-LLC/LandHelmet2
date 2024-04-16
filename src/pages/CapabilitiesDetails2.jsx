@@ -11,7 +11,7 @@ import Cta from "../components/Cta3"
 import Banner from "../components/Banner/index"
 
 function CapabilitiesDetails2({ content, contentII, contentIII }) {
-    const { title, Image, featured1 } = content;
+    const { title, Image, cover, featured1 } = content;
 
     const renderFeatrued1 = featured1.map((content, index) => {
         const direction = index % 2 ===0 ? true : false
@@ -44,7 +44,7 @@ function CapabilitiesDetails2({ content, contentII, contentIII }) {
         <>
             <Header3 />
             <PageBanner
-                bannerBg={Image}
+                bannerBg={cover}
                 heading={title}
                 currentPage="Our Capabilities"
             />

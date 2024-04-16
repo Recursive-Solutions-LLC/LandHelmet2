@@ -14,8 +14,8 @@ import featured2 from "../../assets/img/capabilities/InHouse/10.png"
 import TypeII_cover from "../../assets/img/products/cover-II.png"
 
 const rdContent = {
-    titleBanner: "WE ARE DEDICATED IN TRANSFORMING YOUR IDEAS INTO",
-    subtitleBanner: "MARKET-READY PRODUCTS",
+    titleBanner: "MARKET-READY PRODUCTS",
+    subtitleBanner: "WE ARE DEDICATED IN TRANSFORMING YOUR IDEAS INTO",
     title: "In-House R&D",
     Image: TypeII_cover,
 

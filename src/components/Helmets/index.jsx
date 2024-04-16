@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function HelmetItem({ helmet, onHover }) {
   return (
@@ -14,9 +14,13 @@ function HelmetItem({ helmet, onHover }) {
 function Helmets({ cover, variants, type }) {
   const [currentImage, setCurrentImage] = useState(cover.img);
 
+  useEffect(() => {
+    setCurrentImage(cover.img);
+  }, [cover.img]); 
+
   const renderVariants = variants.map((helmet, index) => (
-      <HelmetItem key={index} helmet={helmet} onHover={setCurrentImage} />
-    ));
+    <HelmetItem key={index} helmet={helmet} onHover={setCurrentImage} />
+  ));
 
   return (
     <>
@@ -27,13 +31,13 @@ function Helmets({ cover, variants, type }) {
               <div className="section-title-3">
                 <h1>Colors</h1>
               </div>
-              <div className="row pt-5  text-center">
+              <div className="row pt-5 text-center">
                 {renderVariants}
               </div>
             </div>
           </div>
           <div className="col-12 col-md-4 order-md-2">
-            <div className="row  text-center pt-5 justify-content-center">
+            <div className="row text-center pt-5 justify-content-center">
               <div className="col-12">
                 <div className="man-img">
                   <img className="big-image" src={currentImage} alt="helmet" />

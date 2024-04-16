@@ -13,13 +13,14 @@ import featured1 from "../../assets/img/capabilities/OneStop/featured1.png"
 import featured2 from "../../assets/img/capabilities/OneStop/featured2.png"
 import featured3 from "../../assets/img/capabilities/OneStop/featured3.png"
 import featured0 from "../../assets/img/capabilities/OneStop/featured0.jpg"
-
+import cover from "../../assets/img/capabilities/OneStop/cover.jpg"
 
 import banner1 from "../../assets/img/capabilities/OneStop/banner1.png"
 
 const oneStopContentI = {
     title: "One stop Manufacturing",
-    Image: featured0,
+    cover: cover,
+    Image:featured0,
     featured1: [
         {
             id: uuidv4(),
