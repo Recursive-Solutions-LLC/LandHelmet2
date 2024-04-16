@@ -3,7 +3,7 @@ import Footer3 from '../components/Footer1';
 import Header3 from '../components/Header3';
 import Faq from '../components/Faq3';
 import Helmets from '../components/Helmets';
-import FullBanner from '../components/Banner/FullBanner';
+import FullBanner from '../components/Hero4';
 import TeamMembers2 from '../components/TeamMembers3'
 import PortfolioOneSlide from '../components/Portfolio1/PortfolioOneSlide';
 import VideoFeatrued from '../components/VideoFeatured';
@@ -21,8 +21,8 @@ function Products({ model, type, brand, helmetDisplay, technologyImage }) {
     return (
         <>
             <Header3 />
-
-            <FullBanner banner={banner} />
+       
+            <FullBanner images={[banner]} />
 
             <ProductDisplay title={title} details={details} mainImage={mainImage} sides={sides} detailsTitle={detailsTitle}  />
             <Faq type={type} bgImg={technologyImage}/>
