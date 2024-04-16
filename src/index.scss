@@ -23,16 +23,23 @@
 ul{
     list-style-type: circle;
 }
-.bullet{
-    color: #000;
-&::before {
-    content: "●";
-   
 
-    padding-inline: 0.8px;
-   
+
+.bullet {
+  color: #000;
+  position: relative;
+  padding-left: 20px; // Adjust this value to control the spacing between the bullet and the text
+
+  &::before {
+    content: "●";
+    position: absolute;
+    left: 0; // This positions the bullet at the start of the padding area
+    top: 0; // Aligns the bullet with the top of the text
+    color: inherit; // Ensures the bullet color matches the text color, if needed
   }
 }
+
+
 .collection{
     font-weight: 100 !important;
     color: #fff;

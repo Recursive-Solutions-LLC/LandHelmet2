@@ -17,24 +17,27 @@ import about_4 from "../assets/img/about/about-4.png";
 const about1 = {
     aboutImg: about_1,
     right: false,
-    title: "Located in Orange County, California.",
-    subtitle: "Welcome to Land Helmets",
-    texts: ["With a combined 28+ years of experience, our company has the working knowledge and network of resources to meet the ever changing demand of today's maket.",
-        "Our headquarter is based in Cypress, CA USA where main operations, sales, and design teams are located and our factory and production team in China.",
-        "Our Asia staff allows us to manage customer defined QC measures by being present on-site during production and at the end of final inspection before shipment."]
+    title: "Our Philosophy",
+    subtitle: "The heart of our company lies in our names",
+    texts: ["GTC LAND embodies our registered trademark and core values: ",
+        "Our ultimate goal is to supply spiritual helmets by providing material helmets, aligning our purpose with the divine mission."
+    ],
+    bullets: ["G - Gospelized",
+        "T- Truthized",
+        "C-  Churchized",],
 }
 
 const about2 = {
     aboutImg: about_2,
     right: true,
-    title: "At Land Helmets",
-    subtitle: "Our mission statement:",
-    texts: ["Manufacturing top quality products, through strict QC (quality control) measures and cost-efficient supply channels, is the highest priority at Helmet Solutions",
-        "In today's highly competitive business world, Helmet Solutions realize quality products separate successful businesses from its competition. Therefore, we strive to consistently manufacture top quality products by two means:"
+    title: "Our Mission",
+    subtitle: "Transforming your ideas into market-ready products",
+    texts: ["At Land Helmets, our top priority is delivering superior quality products through rigorous quality control measures and efficient supply channels. In today’s fiercely competitive business landscape, we understand that exceptional products set successful businesses apart from competitors.",
+        "To consistently produce top-tier products, we employ two key strategies:"
     ],
     bullets: [
-        "Implementing strict QC measures by using in-house staff to manage the supply chaines at all ends of the floor",
-        "Using certified factories in China to ensure cost savings is to our customers' advantage."
+        "*Stringent Quality Control:* Our in-house team expertly manages all aspects of the supply chain, ensuring excellence at every production stage.",
+        "*Enhanced Cost Efficiency:* We collaborate with certified factories worldwide, optimizing cost savings and passing those benefits on to our customers."
     ]
 
 }
@@ -42,21 +45,22 @@ const about2 = {
 const about3 = {
     aboutImg: about_3,
     right: false,
-    title: "The heart of our company lies in our name",
-    subtitle: "Our Philosophy",
-    texts: [' GTC LAND. Here, "LAND" stands as our registered trademark, while each letter represents our core values: "G" for Gospelized, "T" for Truthized, and "C" for Churchized. Our ultimate goal is to supply spiritual helmets by providing material helmets, aligning our purpose with the divine mission.']
+    title: "About Us",
+    texts: [' With over 28 years of crafting premium safety helmets and sports, our leadership in manufacturing and product development has established us as one of the most recognized helmet brands in today’s global market. We have consistently delivered industry-leading product innovations that drive growth for both new and established businesses.',
+            'Our approach goes beyond technical problem-solving and manufacturing services. We take a holistic approach to product development, ensuring you address the right challenges in the right market for the right customer with the right product. Let us elevate your business with our comprehensive expertise.'
+]
 }
 
 
 const about4 = {
     aboutImg: about_4,
     right: true,
-    title: "Industry best services at highly factory direct competitive pricing",
-    subtitle: "",
-    texts: [
-        "Total in-house control from design to production to delivery.",
-        "Highly knowledgeable and experienced personnel with confidentiality controls in place.",
-        "Dedicated focus from an account manager based in the United States who is assigned to every client and project from start to finish."
+    title: "What Makes us Different",
+    bullets: [
+        "*Confidentiality and Business Secrets:* Land Helmets uphold strong principles and astrict bottom line to protect business secrets and maintain project confidentiality.",
+        "*One-Stop Solution:* Total In-House control from product development to mass production.",
+        "*Efficient Communication:* Connect directly with our dedicated team of technical experts who actively engage in your product development, serving as your creative problem solvers for efficient collaboration without intermediaries.",
+        "*USA-Based:* Every client and project receives dedicated attention from a U.S.-based account manager who oversees the entire process from start to finish."
     ]
 
 }
