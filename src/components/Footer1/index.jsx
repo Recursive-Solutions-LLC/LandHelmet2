@@ -28,6 +28,23 @@ function Footer1() {
             <div className="footer-widgets dark-bg">
                 <div className="container">
                     <div className="row">
+
+                    <div className="col-md-6 col-xl-3 col-12">
+                            <div className="single-footer-wid ml-15 site_info_widget">
+                                <div className="wid-title">
+                                    <h4>Contact our Expert Team</h4>
+                                </div>
+                                <div className="contact-us" />
+                                {WidgetGetinTouchData.map((data) => (
+                                    <WidgetGetinTouch
+                                        key={data.id}
+                                        icon={data.icon}
+                                        heading={data.heading}
+                                        text={data.text}
+                                    />
+                                ))}
+                            </div>
+                        </div>
                         {/* ABOUT WIDGET */}
                         <WidgetAbout
                             text="Land Helmets is your ideal partner for top-tier product innovation, development, and manufacturing."
@@ -67,22 +84,7 @@ function Footer1() {
                         {/* NEWSLETTER WIDGET */}
                        
 
-                        <div className="col-md-6 col-xl-3 col-12">
-                            <div className="single-footer-wid ml-15 site_info_widget">
-                                <div className="wid-title">
-                                    <h4>Contact our Expert Team</h4>
-                                </div>
-                                <div className="contact-us" />
-                                {WidgetGetinTouchData.map((data) => (
-                                    <WidgetGetinTouch
-                                        key={data.id}
-                                        icon={data.icon}
-                                        heading={data.heading}
-                                        text={data.text}
-                                    />
-                                ))}
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
@@ -95,7 +97,7 @@ function Footer1() {
                         </div>
                   
                          
-                            <div className="copyright-info">
+                            <div className="copyright-info text-end">
                                 <p>
                                     &copy; Design By <a href="https://www.recursivesolutions.net/">Recursive Solutions </a> - 2024
                                 </p>
