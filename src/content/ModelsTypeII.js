@@ -66,7 +66,7 @@ export const productTypeIIData =
             },
             {
                 title: 'Lightweight and Comfortable',
-                description: 'Weighing just 430g, the helmet is designed for all-day comfort, reducing wearer fatigue without compromising on safety.'
+                description: 'Weighing just 510g, the helmet is designed for all-day comfort, reducing wearer fatigue without compromising on safety.'
             },
             {
                 title: 'Versatile Use',
