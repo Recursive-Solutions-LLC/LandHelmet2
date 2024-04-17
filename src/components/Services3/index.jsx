@@ -5,7 +5,7 @@ import servicesThreeData from './servicesThreeData';
 function Services3() {
     return (
         <>
-            <section className="services-wrapper services-2 ">
+            <section className="section-padding-top services-wrapper services-2 ">
                 <div className="section-title-5 text-center center-content pt-4 pb-4">
 
                     <h1 className="">Your Best Helmet Solution Provider </h1>
@@ -14,7 +14,7 @@ function Services3() {
 
             </section>
             <section className="section-padding">
-                <div className="services-grid pt-5 center-content">
+                <div className="services-grid center-content">
 
                     {servicesThreeData.map((data) => (
                         <ServicesThreeCard

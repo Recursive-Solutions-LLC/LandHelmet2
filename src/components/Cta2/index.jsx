@@ -3,7 +3,7 @@ import { BsArrowRight } from 'react-icons/bs';
 
 function Cta2() {
     return (
-        <div className="cta-funfact-wrap mb-5">
+        <div className="cta-funfact-wrap">
             <div className="container mx-auto">
                 <div className="row">
                     <div className="col-lg-4 text-white">

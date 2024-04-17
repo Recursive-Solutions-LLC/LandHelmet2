@@ -48,14 +48,13 @@ function Home3() {
             <Header3 />
             <Hero3 />
             <Services3 />
-            <section className="pb-5">
+      
                 <Portfolio2 content={portfolioTwoData}/>
-            </section>
             <Cta1 />
             <Process2 content={contentProps}/>
             <About2 />
             <Cta3 />
-            <section className="pt-5">
+            <section className="section-padding-top">
                 <Cta title={title} />
             </section>
             <Faq />

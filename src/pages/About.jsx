@@ -91,7 +91,9 @@ function About() {
 
             </section>
             <About2 />
-            <Cta3 />
+            <section className="section-padding-bottom">
+                <Cta3 />
+            </section>
             <Footer3 />
         </>
     );
