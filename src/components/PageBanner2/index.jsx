@@ -21,7 +21,7 @@ function PageBanner2({ bannerBg }) {
                         <div className="col-lg-12 col-12 text-center">
                             <div className="section-title-5 text-center center-content">
 
-                                <h1 className='pb-4 pt-4'>Empower Your Brand</h1>
+                                <h1 className=' pt-4'>Empower Your Brand</h1>
                                 <p className='pt-4 pb-4'>Personalized Safety Helmets Capabilities where safety meets style and branding excellence, tailored specifically for your business needs!</p>
                             </div>
                         </div>
