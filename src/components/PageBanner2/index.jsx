@@ -38,7 +38,7 @@ function PageBanner2({ bannerBg }) {
 
 
                                     <div className='col-4'>
-                                        <img src={img1} alt='img1' />
+                                        <img src={img1}  className='size-img' alt='img1' />
                                     </div>
 
                                     <div className='col-4'> <img src={img2} alt='img1' /></div>
