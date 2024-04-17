@@ -17,7 +17,7 @@ const servicesThreeData = [
         thumbnail: thumb2,
         heading: 'Empower your Brand',
         subHeading: 'with our Wide Range Public Molds Available', 
-        text: 'We also offer existing up-to-date and stylish open mold (of helmets) if customers are lookingfor a faster way to getting their helmets in production . This eliminates the manufacturingprocess by using open molds we have in stock This method is known as private label and it isan effective option to quickly getting helmets onto shelves and eliminating the cost of manufacturing.',
+        text: 'We also offer existing up-to-date and stylish open mold (of helmets) if customers are looking for a faster way to getting their helmets in production. This eliminates the manufacturing process by using open molds we have in stock. This method is known as private label and it is an effective option to quickly getting helmets onto shelves and eliminating the cost of manufacturing.',
     }
 ];
 
