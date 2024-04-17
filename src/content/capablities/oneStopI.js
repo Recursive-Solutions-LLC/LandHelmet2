@@ -11,7 +11,7 @@ import bannerImg3 from "../../assets/img/capabilities/QualityControl/Carousel/te
 
 import featured1 from "../../assets/img/capabilities/OneStop/featured1.png"
 import featured2 from "../../assets/img/capabilities/OneStop/featured2.png"
-import featured3 from "../../assets/img/capabilities/OneStop/featured3.png"
+import featured3 from "../../assets/img/capabilities/OneStop/featured3.jpg"
 import featured0 from "../../assets/img/capabilities/OneStop/featured0.jpg"
 import cover from "../../assets/img/capabilities/OneStop/cover.jpg"
 
