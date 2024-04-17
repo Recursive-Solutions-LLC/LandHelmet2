@@ -37,7 +37,7 @@ function Portfolio2({content}) {
       }, []);
     
     return (
-        <section className="section-padding portfolio-wrapper cases-carousel-wrapper pt-4  ">
+        <section className="section-padding-bottom portfolio-wrapper cases-carousel-wrapper">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-12 text-center">
