@@ -36,11 +36,11 @@ function PageBanner2({ bannerBg }) {
 
 
                                     <div className='col-4'>
-                                        <img src={img1} alt='img1' />
+                                        <img src={img1}  className='size-img' alt='img1' />
                                     </div>
 
-                                    <div className='col-4'> <img src={img2} alt='img1' /></div>
-                                    <div className='col-4'><img src={img3} alt='img1' /></div>
+                                    <div className='col-4'> <img src={img2} className='size-img' alt='img1' /></div>
+                                    <div className='col-4'><img src={img3} className='size-img' alt='img1' /></div>
                                    
                                 </div>
                                 <p className=''>Land Helmets exclusively offers the option to add your logo. We do not engage in co-branding. </p>
