@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Link} from  'react-router-dom'
+import { Link } from 'react-router-dom'
 import { FaPaperPlane } from 'react-icons/fa';
 import { BsArrowRight } from 'react-icons/bs';
 import WidgetAbout from './WidgetAbout';
@@ -29,7 +29,7 @@ function Footer1() {
                 <div className="container">
                     <div className="row">
 
-                    <div className="col-md-6 col-xl-3 col-12">
+                        <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid ml-15 site_info_widget">
                                 <div className="wid-title">
                                     <h4>Contact our Expert Team</h4>
@@ -53,7 +53,16 @@ function Footer1() {
                             instaLink="https://www.instagram.com/landhelmetsca/"
                             youtubeLink="mailto:info@landhelmets.com"
                         />
-
+                        <div className="col-md-6 col-xl-3 col-12">
+                            <div className="single-footer-wid recent_post_widget">
+                                <div className="wid-title">
+                                    <h4>Capabilities</h4>
+                                </div>
+                                <div className="col-md-6 col-xl-3 col-12 pr-xl-0">
+                                    <FooterWidget title="Capabilities" links={serviceLinks} />
+                                </div>
+                            </div>
+                        </div>
                         {/* NEWS FEED WIDGET */}
                         <div className="col-md-6 col-xl-3 col-12">
                             <div className="single-footer-wid newsletter_widget">
@@ -62,52 +71,43 @@ function Footer1() {
                                 </div>
                                 <div className="newsletter_box">
                                     <p>
-                                    We’re ready to develop and manufacture industry-first innovations that can change the world. Are you?
+                                        We’re ready to develop and manufacture industry-first innovations that can change the world. Are you?
                                     </p>
-                                  <div className='pt-5'>  <Link to="/contact" className="theme-btn theme-2  mb-30 mb-lg-0 white">
-                                Get In Touch <BsArrowRight />
-                            </Link>
+                                    <div className='pt-5'>  <Link to="/contact" className="theme-btn theme-2  mb-30 mb-lg-0 white">
+                                        Get In Touch <BsArrowRight />
+                                    </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-xl-3 col-12">
-                            <div className="single-footer-wid recent_post_widget">
-                                <div className="wid-title">
-                                    <h4>Capabilities</h4>
-                                </div>
-                                <div className="col-md-6 col-xl-3 col-12 pr-xl-0">
-                          <FooterWidget title="Capabilities" links={serviceLinks} />
-                        </div>
-                            </div>
-                        </div>
+
                         {/* NEWSLETTER WIDGET */}
-                       
+
 
 
                     </div>
                 </div>
 
-                            {/* Footer bottom */}
-            <div className="footer-bottom">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-4 col-12">
-                            
-                        </div>
-                  
-                         
-                            <div className="copyright-info text-end">
+                {/* Footer bottom */}
+                <div className="footer-bottom">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-4 col-12">
+
+                            </div>
+
+
+                            <div className="copyright-info ">
                                 <p>
                                     &copy; Design By <a href="https://www.recursivesolutions.net/">Recursive Solutions </a> - 2024
                                 </p>
-                          
+
                             </div>
-                      
-                     
+
+
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
 
         </footer>
