@@ -7,8 +7,7 @@ import ServiceDetails2 from '../components/ServiceDetails/ServiceDetails2';
 import ServiceDetails from '../components/ServiceDetails/index';
 import featured4 from "../assets/img/capabilities/OneStop/featured4.png"
 import AboutFeatured from '../components/AboutFeatured';
-import Cta from "../components/Cta3"
-import Banner from "../components/Banner/index"
+
 
 function CapabilitiesDetails2({ content, contentII, contentIII }) {
     const { title, Image, cover, featured1 } = content;
