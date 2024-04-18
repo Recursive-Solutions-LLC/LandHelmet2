@@ -46,7 +46,7 @@ function App() {
                             technologyImage={m10_bg}
                             brand={
                                 brandData.m10} model={m10}
-                            type="M10"
+                            type="m10"
                             helmetDisplay={helmetDisplay.m10}
 
                         />
@@ -56,14 +56,14 @@ function App() {
                             technologyImage={m12_bg}
                             brand={
                                 brandData.m12} model={m12}
-                            type="M12"
+                            type="m12"
                             helmetDisplay={helmetDisplay.m12} />
                     </Route>
                     <Route exact path="/model-m02">
                         <Products
                             technologyImage={m02_bg}
                             brand={brandData.m02} model={m02}
-                            type="M02"
+                            type="m02"
                             helmetDisplay={helmetDisplay.m02} />
                     </Route>
                     <Route exact path="/capabilities">
