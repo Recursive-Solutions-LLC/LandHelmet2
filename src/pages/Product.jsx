@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer1 from '../components/Footer1';
 import Header1 from '../components/Header3';
-import Hero3 from '../components/Hero3';
+
 import Hero4 from '../components/Hero4';
 import Portfolio3 from '../components/Portfolio3';
 import CoverAbout from '../assets/img/products/bg.png';

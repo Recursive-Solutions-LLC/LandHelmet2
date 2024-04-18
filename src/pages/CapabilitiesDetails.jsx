@@ -11,7 +11,7 @@ import Portfolio2 from '../components/Portfolio2';
 import portfolioTwo from '../content/porfolioThreeData';
 import inHouseRd from "../content/capablities/inHouseRd2"
 import Footer3 from '../components/Footer1';
-import Timeline from '../components/Timeline';
+
 import Text from '../components/Text';
 function CapabilitiesDetails({ content }) {
     const { title, Image, titleBanner, subtitleBanner, featured1 } = content;
