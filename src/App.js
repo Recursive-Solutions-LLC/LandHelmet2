@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollIndicator from './components/ScrollIndicator';
 import ScrollToTopRoute from './components/ScrollTopRoute';
@@ -23,9 +23,24 @@ import m10_bg from './assets/img/products/type-II/typeII_key.png';
 import m12_bg from "./assets/img/products/display/m12/M12.png"
 import m02_bg from "./assets/img/products/display/m02/M02.png"
 
-function App() {
+function  App() {
 
     const { m02, m10, m12 } = helmetData
+
+    const [pages, setPages] = useState(null);
+
+
+    useEffect(()=>{
+         fetch('http://34.227.89.169:1337/api/single-pages')
+        .then(response => response.json())
+        .then((data) => {
+            setPages(data[0]);
+            console.log(pages);
+          })
+        .catch(error => console.error(error));
+    },[])
+
+
 
 
     return (

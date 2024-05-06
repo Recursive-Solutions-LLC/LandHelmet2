@@ -1,7 +1,10 @@
 import React from 'react';
 import '../../../node_modules/react-modal-video/scss/modal-video.scss';
 import Bullets from "../Bullets"
+
+
 function AboutFeatured({ aboutContent }) {
+
     const { title, subtitle, texts, right, aboutImg, bullets } = aboutContent;
 
     const imageColumnClass = right ? "order-lg-2" : "";
@@ -32,7 +35,6 @@ const renderTexts = texts &&  texts.map ((text)=>{
                         <div className="block-contents ml-lg-5">
                            {title && <h1>{title}</h1>}
                             {subtitle && <span>{subtitle}</span>}
-                     
                             {renderTexts}
                             {renderBulletsContainer}
                         </div>

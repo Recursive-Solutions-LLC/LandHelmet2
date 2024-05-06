@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
-import { FaPaperPlane } from 'react-icons/fa';
 import { BsArrowRight } from 'react-icons/bs';
 import WidgetAbout from './WidgetAbout';
 import WidgetGetinTouch from './WidgetGetinTouch';
